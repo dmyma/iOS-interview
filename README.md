@@ -347,6 +347,8 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 
 ## Podcasts
 
+https://www.youtube.com/user/SiliconValleyVoice/playlists
+
 ## General
 
 <details> 
@@ -369,6 +371,8 @@ The frame of an UIView is the rectangle, expressed as a location (x,y) and size 
 ## Job websites
 
 ## Companies
+
+## Stories
 
 ## Credits
 https://github.com/ochococo/Design-Patterns-In-Swift#creational
