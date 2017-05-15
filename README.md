@@ -10,6 +10,7 @@
 
 * [Patterns(4)](#patterns)
 * [Multithreading](#multithreading)
+* [Maps](#maps)
 * [Algorithms](#algorithms)
 * [Logical](#logical)
 * [Code Puzzels](#code-puzzels)
@@ -331,6 +332,8 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 ```
 
 ## Multithreading
+
+## Maps
 
 ## Testing
 
