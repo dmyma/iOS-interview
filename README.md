@@ -7,28 +7,48 @@
 
 * [Cocoa touch](#cocoa-touch)
 * [Memory Management](#memory-management)
+* [Networking](#networking)
+* [Code persistance](#code-persistance)
+* [CoreAnimation, CoreGraphics](#coreanimation-coregraphics)
+
+* [Patterns](#patterns)
+* [Multithreading](#multithreading)
+* [Algorithms](#algorithms)
+* [Logical](#logical)
+* [Code Puzzels](#code-puzzels)
+* [Additional](#additional)
+* [Podcasts](#podcasts)
+* [General](#general)
 * [Swift](#swift)
+* [Objective-C](#objective-c)
+* [Code](#code)
+* [HomeWork](#homework)
+* [Job websites](#jobwebsites)
+* [Companies](#companies)
 
 
-## Cocoa touch:
 
-## Memory Management:
 
-## Networking:
+## Cocoa touch
 
-## Code persistance(CoreData):
+## Memory Management
 
-## CoreAnimation, CoreGraphics:
+## Networking
 
-## Patterns:
+## Code persistance
+### (CoreData)
 
-## Multithreading:
+## CoreAnimation CoreGraphics
 
-## Algorithms:
+## Patterns
 
-## Logical:
+## Multithreading
 
-## Code Puzzels:
+## Algorithms
+
+## Logical
+
+## Code Puzzels
 
 ## Additional:
 
