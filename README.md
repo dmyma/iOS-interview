@@ -1,9 +1,5 @@
 # iOS-interview
 
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: Swift 
-</details>
 ## <a name='contents'>Table of Contents</a>
 
 * [Cocoa touch](#cocoa-touch)
@@ -350,6 +346,15 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 
 ## General
 
+<details> 
+  <summary> What’s the difference between the frame and the bounds? </summary>
+   The bounds of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0). 
+The frame of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
+</details>
+
+
+
+
 ## Swift
 
 ## Objective-C
@@ -367,6 +372,7 @@ https://github.com/ochococo/Design-Patterns-In-Swift#creational
 https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
 https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
 https://github.com/durul/My-Medium-Articles
+https://github.com/5uper0/ios-science
 github.com
 
 
