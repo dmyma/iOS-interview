@@ -4,6 +4,7 @@
   <summary>Q1: What is the best Language in the World? </summary>
    A1: Swift 
 </details>
+## <a name='contents'>Table of Contents</a>
 
 * [Cocoa touch](#cocoa-touch)
 * [Memory Management](#memory-management)
@@ -27,9 +28,8 @@
 * [Companies](#companies)
 
 
-
-
-## Cocoa touch
+## Cocoa touch 
+[[⬆]](#contents) <a name='general'></a>
 
 ## Memory Management
 
@@ -336,6 +336,8 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 
 ## Multithreading
 
+## Testing
+
 ## Algorithms
 
 ## Logical
@@ -362,4 +364,9 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 
 ## Credits
 https://github.com/ochococo/Design-Patterns-In-Swift#creational
+https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
+https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
+https://github.com/durul/My-Medium-Articles
+github.com
+
 
