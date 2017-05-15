@@ -5,28 +5,32 @@
    A1: Swift 
 </details>
 
+* [Cocoa touch](#cocoa-touch)
+* [Memory Management](#memory-management)
+* [Swift](#swift)
+
+
 ## Cocoa touch:
 
+## Memory Management:
 
-## Memory Management:**
+## Networking:
 
-## Networking:**
+## Code persistance(CoreData):
 
-## Code persistance(CoreData):**
+## CoreAnimation, CoreGraphics:
 
-## CoreAnimation, CoreGraphics:**
+## Patterns:
 
-## Patterns:**
+## Multithreading:
 
-## Multithreading:**
+## Algorithms:
 
-## Algorithms:**
+## Logical:
 
-## Logical:**
+## Code Puzzels:
 
-## Code Puzzels:**
-
-## Additional:**
+## Additional:
 
 ## Podcasts:
 
@@ -39,4 +43,8 @@
 ## Code
 
 ## HomeWork
+
+## Job websites
+
+## Companies
 
