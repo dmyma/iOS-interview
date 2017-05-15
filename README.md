@@ -31,7 +31,11 @@
 ## Memory Management
 
 ## Networking
+<details> 
+  <summary> Which JSON framework is supported by iOS?  </summary>
+A. SBJson framework is supported by iOS.  It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.
 
+</details>
 ## Code persistance
 ### (CoreData)
 
@@ -332,6 +336,12 @@ print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients(
 ```
 
 ## Multithreading
+<details> 
+  <summary> Does iOS support multitasking? </summary>
+iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
+</details>
+
+
 
 ## Maps
 
