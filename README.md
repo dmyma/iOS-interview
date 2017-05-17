@@ -59,6 +59,10 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 <details> <summary>What is MVVM and why you will use it?</summary></details>
 <details> <summary>What is dependency injection, how it is good?</summary></details>
 
+
+https://www.youtube.com/watch?v=vNHpsC5ng_E&list=WL
+
+
 * [Behavioral](#behavioral)
 * [Creational](#creational)
 * [Structural](#structural)
@@ -424,6 +428,8 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 ## Podcasts
 
 https://www.youtube.com/user/SiliconValleyVoice/playlists
+
+
 
 ## General
 
@@ -819,6 +825,10 @@ Only one instance of that class is created in the application.
 
 ## Stories
 
+https://habrahabr.ru/post/285680/
+https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
+https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
+
 ## Process
 
 <details> 
@@ -854,6 +864,10 @@ Only one instance of that class is created in the application.
 
 <details> 
   <summary>Step 4: Home work </summary>
+  https://www.interviewbit.com/
+  https://www.hackerrank.com/
+  https://www.topcoder.com/
+  www.codingame.com
 </details> 
 
 <details> 
@@ -861,6 +875,14 @@ Only one instance of that class is created in the application.
 </details> 
 
 ## Credits
+http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_236
+http://www.globalguideline.com/interview_questions/Questions.php?sc=Mobile_Application_Development_Interview_Questions_Answers
+http://www.geekinterview.com/Interview-Questions/iOS
+http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
+https://www.linkedin.com/groups/121874/121874-6146133293344579586
+http://www.jobfluent.com/interview-questions-for-mobile-app-developers/
+https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
+
 https://github.com/ochococo/Design-Patterns-In-Swift#creational
 https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
 https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
