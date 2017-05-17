@@ -412,8 +412,9 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 
 ## Algorithms
 
-<details><summary>Given two linked lists, find the node at which they merge. </summary></details> 
+<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
 <details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
+
 ## Logical
 
 ## Code Puzzels
@@ -481,9 +482,10 @@ The frame of an UIView is the rectangle, expressed as a location (x,y) and size 
 The frame of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within. The bounds of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
 </details>
 
-Name the framework that is used to construct application’s user interface for iOS
-In addition to the core app behaviors, UIKit provides support for the following features:
-
+<details> 
+  <summary> Name the framework that is used to construct application’s user interface for iOS</summary>
+In addition to the core app behaviors, UIKit provides support for the following features
+</details>
  <details> 
   <summary>Whats a struct? </summary>
 A struct is a special C data type that encapsulates other pieces of data into a single cohesive unit. Like an object, but built into C. </details>
@@ -493,15 +495,21 @@ A struct is a special C data type that encapsulates other pieces of data into a 
 What are the different ways to specify layout of elements in UIView?</summary>
 Here are a few common ways to specify the layout of elements in UIView:
 • Using InterfaceBuilder, you can add a XIB file to your project, layout elements within it, and then load the XIB in your application code (either automatically, based on naming conventions, or manually). Also, using InterfaceBuilder you can create a storyboard for your application.
+</details>
 
-Can outlet be static?
+<details> 
+  <summary>Can outlet be static?</summary>
+  </details>
 
-How would you implement static blur effect to the UIView subclass to make it work fast (as of iOS 6-7 it was a problem)  
+<details> 
+  <summary>How would you implement static blur effect to the UIView subclass to make it work fast (as of iOS 6-7 it was a problem)  </summary>
+  </details>
 
-Describe managed object context and is function.
-The key functions of managed object context include
 
-What is the difference between atomic and non-atomic properties? Which is the default for synthesized properties? When would you use one over the other?</details>
+
+<details> 
+  <summary>What is the difference between atomic and non-atomic properties? Which is the default for synthesized properties? When would you use one over the other?</summary>
+  </details>
 
 <details> 
   <summary>Does Objective-C contain private methods?</summary>
@@ -513,7 +521,13 @@ If you really want a private method then you need to add a local category/ unnam
 Plist refers to Property lists that organize data into named values and lists of values using several object types. These types provide you the means to produce data that is meaningfully structured, transportable, storable, and accessible, but still as efficient as possible. Property lists are frequently used by applications running on both Mac OS X and iOS. The property-list programming interfaces for Cocoa and Core Foundation allow you to convert hierarchically structured combinations of these basic types of objects to and from standard XML. You can save the XML data to disk and later use it to reconstruct the original objects.
 The user defaults system, which you programmatically access through the NSUserDefaults class, uses property lists to store objects representing user preferences. This limitation would seem to exclude many kinds of objects like as NSColor and NSFont objects, from the user default system. But if objects conform to the NSCoding protocol they can be archived to NSData objects, which are property list–compatible objects</details>
 
-What is the purpose of reuseIdentifier? What is the benefit of setting it to a non-nil value?
+<details> 
+  <summary>What is the purpose of reuseIdentifier? </summary>
+  </details>
+  
+ <details> 
+  <summary> What is the benefit of setting it to a non-nil value?</summary>
+  </details>
 
 <details> 
   <summary>What is the difference between an “app ID” and a “bundle ID” and what is each used for?</summary>
@@ -712,6 +726,7 @@ Which object manage the presentation of apps content on the screen?
 </summary>
 View controller objects takes care of the presentation of app's content on the screen. A view controller is used to manage a single view along with the collection of subviews. It makes its views visible by installing them in the app's window.</details>
 
+<details> 
   <summary>
 How to change the content of your app in order to change the views displayed in the corresponding window?
 </summary>
