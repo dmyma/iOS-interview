@@ -23,6 +23,8 @@
 * [HomeWork](#homework)
 * [Job websites](#jobwebsites)
 * [Companies](#companies)
+* [Stories](#stories)
+* [Proccess](#proccess)
 
 
 ## Cocoa touch 
@@ -46,16 +48,16 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 ## Patterns
 
-<details> What is OOP?</details>
-<details> What are the pros and cons of inheritance?</details>
-<details> What is polymorphism?</details>
-<details> What is tight coupling?</details>
-<details> What are design patterns and how they are good?</details>
-<details> Tell me some important design patterns used in iOS?</details>
-<details> What is singleton?</details>
-<details> What challenges you have encounter implementing MVC?</details>
-<details> What is MVVM and why you will use it?</details>
-<details> What is dependency injection, how it is good?</details>
+<details> <summary>What is OOP?</summary></details>
+<details> <summary>What are the pros and cons of inheritance?</summary></details>
+<details> <summary>What is polymorphism?</summary></details>
+<details> <summary>What is tight coupling?</summary></details>
+<details> <summary>What are design patterns and how they are good?</summary></details>
+<details> <summary>Tell me some important design patterns used in iOS?</summary></details>
+<details> <summary>What is singleton?</summary></details>
+<details> <summary>What challenges you have encounter implementing MVC?</summary></details>
+<details> <summary>What is MVVM and why you will use it?</summary></details>
+<details> <summary>What is dependency injection, how it is good?</summary></details>
 
 * [Behavioral](#behavioral)
 * [Creational](#creational)
@@ -401,17 +403,17 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 ## Testing
 
 
-<details> Do you write unit tests? how you write in iOS?</details>
-<details> What is TDD?</details>
-<details> How TDD is good, and What problem does it solve?</details>
-<details> What is Mocking, when you will use mocking?</details>
-<details> What is UI testing?</details>
+<details><summary> Do you write unit tests? how you write in iOS?</summary></details>
+<details><summary> What is TDD?</summary></details>
+<details><summary> How TDD is good, and What problem does it solve?</summary></details>
+<details><summary> What is Mocking, when you will use mocking?</summary></summary></details>
+<details><summary> What is UI testing?</summary></details>
 
 
 ## Algorithms
 
-<details>Given two linked lists, find the node at which they merge. </details> 
-<details>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </details>
+<details><summary>Given two linked lists, find the node at which they merge. </summary></details> 
+<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
 ## Logical
 
 ## Code Puzzels
@@ -437,38 +439,38 @@ The frame of an UIView is the rectangle, expressed as a location (x,y) and size 
 
 ## Objective-C
 
-<details>What is the difference between underscore and self (i.e self.xx and _xx) ?</details>
-<details>What is property?</details>
-<details>What is the difference between weak and strong?</details>
-<details>What is Retain Cycle? And how we can avoid it?</details>
-<details>What does copy means while declaring a property?</details>
-<details>What is synthesize and when we need to use it?</details>
-<details>What is a category?</details>
-<details>What is an extension?</details>
-<details>How we can add a property in a category?</details>
-<details>What is method swizzling and when we should use it?</details>
-<details>How we can layout subviews in a view?</details></details>
-<details>What are the size classes?</details>
-<details>What is ARC?</details>
-<details>What is @autorelease and when we should use it?</details>
-<details>How to animate view with constraint?</details>
-<details>What is core data?</details>
-<details>What is core data stack?</details>
-<details>What is managed object context?</details>
-<details>How we can do multithreading with core data?</details>
-<details>How to transfer manage object from one thread to another thread?</details>
-<details>How to merge changes from one moc to another?</details>
-<details>Difference between bounds and frame?</details>
-<details>What does dispatch_once do?</details>
-<details>What is delegate?</details>
-<details>How we can do multithreading in iOS?</details>
-<details>When you will use NSOperations over GCDs and vice versa?</details>
-<details>What does alloc do?</details>
-<details>How we can create a class in objective c which don’t inherit from NSObject?</details>
-<details>What are the different application states in iOS?</details>
-<details>How we can execute some code when app is in background?</details>
-<details>How we can wait for some thread to finish before starting another?</details>
-<details>How you will store user info (username, password or token) securely in iOS?</details>
+<details><summary> What is the difference between underscore and self (i.e self.xx and _xx) ?</summary></details>
+<details><summary> What is property?</summary></details>
+<details><summary> What is the difference between weak and strong?</summary></details>
+<details><summary> What is Retain Cycle? And how we can avoid it?</summary></details>
+<details><summary> What does copy means while declaring a property?</summary></details>
+<details><summary> What is synthesize and when we need to use it?</summary></details>
+<details><summary> What is a category?</summary></details>
+<details><summary> What is an extension?</summary></details>
+<details><summary> How we can add a property in a category?</summary></details>
+<details><summary> What is method swizzling and when we should use it?</summary></details>
+<details><summary> How we can layout subviews in a view?</summary></details>
+<details><summary> What are the size classes?</summary></details>
+<details><summary> What is ARC?</summary></details>
+<details><summary> What is @autorelease and when we should use it?</summary></details>
+<details><summary> How to animate view with constraint?</summary></details>
+<details><summary> What is core data?</summary></details>
+<details><summary> What is core data stack?</summary></details>
+<details><summary> What is managed object context?</summary></details>
+<details><summary> How we can do multithreading with core data?</summary></details>
+<details><summary> How to transfer manage object from one thread to another thread?</summary></details>
+<details><summary> How to merge changes from one moc to another?</summary></details>
+<details><summary> Difference between bounds and frame?</summary></details>
+<details><summary> What does dispatch_once do?</summary></details>
+<details><summary> What is delegate?</summary></details>
+<details><summary> How we can do multithreading in iOS?</summary></details>
+<details><summary> When you will use NSOperations over GCDs and vice versa?</summary></details>
+<details><summary> What does alloc do?</summary></details>
+<details><summary> How we can create a class in objective c which don’t inherit from NSObject?</summary></details>
+<details><summary> What are the different application states in iOS?</summary></details>
+<details><summary> How we can execute some code when app is in background?</summary></details>
+<details><summary> How we can wait for some thread to finish before starting another?</summary></details>
+<details><summary> How you will store user info (username, password or token) securely in iOS?</summary></details>
 
 
 
@@ -801,6 +803,8 @@ Only one instance of that class is created in the application.
 ## Companies
 
 ## Stories
+
+## Process
 
 ## Credits
 https://github.com/ochococo/Design-Patterns-In-Swift#creational
