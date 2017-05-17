@@ -37,6 +37,8 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 </details>
 
+
+
 ## Data persistance
 ### (CoreData)
 
@@ -44,16 +46,16 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 ## Patterns
 
-What is OOP?
-What are the pros and cons of inheritance?
-What is polymorphism?
-What is tight coupling?
-What are design patterns and how they are good?
-Tell me some important design patterns used in iOS?
-What is singleton?
-What challenges you have encounter implementing MVC?
-What is MVVM and why you will use it?
-What is dependency injection, how it is good?
+<details> What is OOP?</details>
+<details> What are the pros and cons of inheritance?</details>
+<details> What is polymorphism?</details>
+<details> What is tight coupling?</details>
+<details> What are design patterns and how they are good?</details>
+<details> Tell me some important design patterns used in iOS?</details>
+<details> What is singleton?</details>
+<details> What challenges you have encounter implementing MVC?</details>
+<details> What is MVVM and why you will use it?</details>
+<details> What is dependency injection, how it is good?</details>
 
 * [Behavioral](#behavioral)
 * [Creational](#creational)
@@ -156,7 +158,9 @@ Protocols
 
 ```swift
 
-protocol Decimal {
+protocol 
+
+imal {
     func stringValue() -> String
     // factory
     static func make(string : String) -> Decimal
@@ -348,6 +352,40 @@ someCoffee = WhipCoffee(decoratedCoffee: someCoffee)
 print("Cost : \(someCoffee.getCost()); Ingredients: \(someCoffee.getIngredients())")
 ```
 
+🎁 Façade
+---------
+
+The facade pattern is used to define a simplified interface to a more complex subsystem.
+(REST api)
+
+### Example
+
+```swift
+
+enum Eternal {
+
+    static func set(_ object: Any, forKey defaultName: String) {
+        let defaults: UserDefaults = UserDefaults.standard
+        defaults.set(object, forKey:defaultName)
+        defaults.synchronize()
+    }
+
+    static func object(forKey key: String) -> AnyObject! {
+        let defaults: UserDefaults = UserDefaults.standard
+        return defaults.object(forKey: key) as AnyObject!
+    }
+
+}
+```
+
+### Usage
+
+```swift
+
+Eternal.set("Disconnect me. I’d rather be nothing", forKey:"Bishop")
+Eternal.object(forKey: "Bishop")
+```
+
 ## Multithreading
 <details> 
   <summary> Does iOS support multitasking? </summary>
@@ -356,20 +394,24 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 
 
 
+
+
 ## Maps
 
 ## Testing
 
 
-Do you write unit tests? how you write in iOS?
-What is TDD?
-How TDD is good, and What problem does it solve?
-What is Mocking, when you will use mocking?
-What is UI testing?
+<details> Do you write unit tests? how you write in iOS?</details>
+<details> What is TDD?</details>
+<details> How TDD is good, and What problem does it solve?</details>
+<details> What is Mocking, when you will use mocking?</details>
+<details> What is UI testing?</details>
 
 
 ## Algorithms
 
+<details>Given two linked lists, find the node at which they merge. </details> 
+<details>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </details>
 ## Logical
 
 ## Code Puzzels
@@ -395,38 +437,38 @@ The frame of an UIView is the rectangle, expressed as a location (x,y) and size 
 
 ## Objective-C
 
-What is the difference between underscore and self (i.e self.xx and _xx) ?
-What is property?
-What is the difference between weak and strong?
-What is Retain Cycle? And how we can avoid it?
-What does copy means while declaring a property?
-What is synthesize and when we need to use it?
-What is a category?
-What is an extension?
-How we can add a property in a category?
-What is method swizzling and when we should use it?
-How we can layout subviews in a view?
-What are the size classes?
-What is ARC?
-What is @autorelease and when we should use it?
-How to animate view with constraint?
-What is core data?
-What is core data stack?
-What is managed object context?
-How we can do multithreading with core data?
-How to transfer manage object from one thread to another thread?
-How to merge changes from one moc to another?
-Difference between bounds and frame?
-What does dispatch_once do?
-What is delegate?
-How we can do multithreading in iOS?
-When you will use NSOperations over GCDs and vice versa?
-What does alloc do?
-How we can create a class in objective c which don’t inherit from NSObject?
-What are the different application states in iOS?
-How we can execute some code when app is in background?
-How we can wait for some thread to finish before starting another?
-How you will store user info (username, password or token) securely in iOS?
+<details>What is the difference between underscore and self (i.e self.xx and _xx) ?</details>
+<details>What is property?</details>
+<details>What is the difference between weak and strong?</details>
+<details>What is Retain Cycle? And how we can avoid it?</details>
+<details>What does copy means while declaring a property?</details>
+<details>What is synthesize and when we need to use it?</details>
+<details>What is a category?</details>
+<details>What is an extension?</details>
+<details>How we can add a property in a category?</details>
+<details>What is method swizzling and when we should use it?</details>
+<details>How we can layout subviews in a view?</details></details>
+<details>What are the size classes?</details>
+<details>What is ARC?</details>
+<details>What is @autorelease and when we should use it?</details>
+<details>How to animate view with constraint?</details>
+<details>What is core data?</details>
+<details>What is core data stack?</details>
+<details>What is managed object context?</details>
+<details>How we can do multithreading with core data?</details>
+<details>How to transfer manage object from one thread to another thread?</details>
+<details>How to merge changes from one moc to another?</details>
+<details>Difference between bounds and frame?</details>
+<details>What does dispatch_once do?</details>
+<details>What is delegate?</details>
+<details>How we can do multithreading in iOS?</details>
+<details>When you will use NSOperations over GCDs and vice versa?</details>
+<details>What does alloc do?</details>
+<details>How we can create a class in objective c which don’t inherit from NSObject?</details>
+<details>What are the different application states in iOS?</details>
+<details>How we can execute some code when app is in background?</details>
+<details>How we can wait for some thread to finish before starting another?</details>
+<details>How you will store user info (username, password or token) securely in iOS?</details>
 
 
 
@@ -659,11 +701,7 @@ What are sensors in iphone?
 The proximity sensor immediately turns off the display when the iPhone is lifted to ear. With this sensor the power is saved and accidental dialing is prevented.
 The display is automatically brightens the iPhone by the ambient light sensor when the sunlight or bright rooms and dims in darker places.</details>
 
-<details> 
-  <summary>
-Does iOS support multitasking?
-</summary>
-iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.</details>
+
 
 
 <details> 
@@ -671,13 +709,7 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 Which object manage the presentation of apps content on the screen?
 </summary>
 View controller objects takes care of the presentation of app's content on the screen. A view controller is used to manage a single view along with the collection of subviews. It makes its views visible by installing them in the app's window.</details>
-<details> 
-  <summary>
-Which JSON framework is supported by iOS?</summary>
 
-SBJson framework is supported by iOS. It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.</details>
-
-<details> 
   <summary>
 How to change the content of your app in order to change the views displayed in the corresponding window?
 </summary>
