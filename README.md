@@ -24,7 +24,7 @@
 * [Job websites](#jobwebsites)
 * [Companies](#companies)
 * [Stories](#stories)
-* [Proccess](#proccess)
+* [Process](#process)
 
 
 ## Cocoa touch 
@@ -820,23 +820,26 @@ Only one instance of that class is created in the application.
 ## Stories
 
 ## Process
+
 <details> 
   <summary>Explain Singleton class.</summary>
+</details> 
+
 <details> 
   <summary>Step 1: send CV</summary>
-<details> 
+</details> 
   
 <details> 
   <summary>Step 2: phone screening</summary>
   Go on site for sreening and if it is good you can get HW
   - Background, experience - typical recruiter call. 
 
-<details> 
+</details> 
 
 
 <details> 
   <summary>Step 2.5: technical phone screen.</summary>
-<details> 
+</details> 
 
 <details> 
   <summary>Step 3: Technical interview</summary>
@@ -847,15 +850,15 @@ Only one instance of that class is created in the application.
   -technical 
   -Think of a product - it could be anything. What features do you like about it? What would you improve, and how?  
 
-<details> 
+</details> 
 
 <details> 
   <summary>Step 4: Home work </summary>
-<details> 
+</details> 
 
 <details> 
   <summary>Step 5: on site 4-8 hours with 4-8 people</summary>
-<details> 
+</details> 
 
 ## Credits
 https://github.com/ochococo/Design-Patterns-In-Swift#creational
