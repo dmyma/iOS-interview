@@ -32,6 +32,10 @@
 
 ## Memory Management
 
+<details><summary>what is 'golden rule of memory management'? </summary></details> 
+<details><summary>what is Arc?</summary></details>
+<details><summary>what is Auto release pool?</summary></details>
+
 ## Networking
 <details> 
   <summary> Which JSON framework is supported by iOS?  </summary>
@@ -443,6 +447,18 @@ The frame of an UIView is the rectangle, expressed as a location (x,y) and size 
 
 
 ## Swift
+<details><summary>what is  Deadlock? </summary></details>
+<details><summary>what is Weak? </summary></details>
+<details><summary>what is Strong? </summary></details>
+<details><summary>what is Unowned? </summary></details>
+<details><summary>what is Leaking, dangling? </summary></details>
+
+<details><summary>what is Class, struck, enam? </summary>three flavors of object type</details>
+<details><summary>what is Oop? </summary></details>
+<details><summary>what is Mvp? </summary></details>
+<details><summary>what is reserved word?</summary></details>
+<details><summary>what is Inout? </summary></details></summary></details>
+<details><summary>what is Anonymous function(omission)? </summary></details>
 
 ## Objective-C
 
