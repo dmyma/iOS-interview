@@ -30,6 +30,10 @@
 ## Cocoa touch 
 [[⬆]](#contents) <a name='general'></a>
 
+<details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
+The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
+</details>
+
 ## Memory Management
 
 <details><summary>what is 'golden rule of memory management'? </summary></details> 
