@@ -407,7 +407,20 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 </details>
 
 
+<details> 
+  <summary> Why an app on iOS device behaves differently when running in foreground than in background? </summary>
+An application behaves differently when running in foreground than in background because of the limitation of resources on iOS devices.
+</details>
 
+<details> 
+  <summary> How can an operating system improve battery life while running an app? </summary>
+An app is notified whenever the operating system moves the apps between foreground and background.  The operating system improves battery life while it bounds what your app can do in the background. This also improves the user experience with foreground app.
+</details>
+
+<details> 
+  <summary> Which framework delivers event to custom object when app is in foreground? </summary>
+The UIKit infrastructure takes care of delivering events to custom objects. As an app developer, you have to override methods in the appropriate objects to process those events.
+</details>
 
 
 ## Maps
