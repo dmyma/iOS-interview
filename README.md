@@ -8,7 +8,7 @@
 * [Code persistance](#code-persistance)
 * [CoreAnimation, CoreGraphics, CoreText](#coreanimation-coregraphics-coretext)
 
-* [Patterns(4)](#patterns)
+* [Patterns(5)](#patterns)
 * [Multithreading](#multithreading)
 * [Maps](#maps)
 * [Algorithms](#algorithms)
@@ -460,6 +460,71 @@ https://www.youtube.com/user/SiliconValleyVoice/playlists
 The frame of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
 </details>
 
+
+<details> 
+  <summary> What is the use of controller object UIApplication?</summary>
+Controller object UIApplication is used without subclassing to manage the application event loop.
+It coordinates other high-level app behaviors. 
+It works along with the app delegate object which contains app-level logic.
+</details>
+
+<details> 
+  <summary> Which object is create by UIApplicationMain function at app launch time?</summary>
+The app delegate object is created by UIApplicationMain function at app launch time. The app delegate object's main job is to handle state transitions within the app.
+</details>
+
+<details> 
+  <summary> How is the app delegate is declared by Xcode project templates?</summary>
+App delegate is declared as a subclass of UIResponder by Xcode project templates.
+</details>
+
+<details> 
+  <summary> What happens if IApplication object does not handle an event?</summary>
+In such case the event will be dispatched to your app delegate for processing.
+</details>
+
+<details> 
+  <summary> Which app specific objects store the app's content?</summary>
+Data model objects are app specific objects and store app’s content. Apps can also use document objects to manage some or all of their data model objects.
+</details>
+
+<details> 
+  <summary> Are document objects required for an application? What does they offer?</summary>
+Document objects are not required but are very useful in grouping data that belongs in a single file or file package.
+</details>
+
+<details> 
+  <summary>  Which object manage the presentation of app's content on the screen?</summary>
+View controller objects takes care of the presentation of app's content on the screen. A view controller is used to manage a single view along with the collection of subviews. It makes its views visible by installing them in the app’s window.
+</details>
+
+<details> 
+  <summary> Which is the super class of all view controller objects?</summary>
+UIViewController class. The functionality for loading views, presenting them, rotating them in response to device rotations, and several other standard system behaviors are provided by UIViewController class.
+</details>
+
+<details> 
+  <summary> What is the purpose of UIWindow object?</summary>
+The presentation of one or more views on a screen is coordinated by UIWindow object.
+</details>
+
+
+
+<details> 
+  <summary> Define view object.</summary>
+Views along with controls are used to provide visual representation of the app content. View is an object that draws content in a designated rectangular area and it responds to events within that area.
+</details>
+
+
+<details> 
+  <summary> Apart from incorporating views and controls, what else an app can incorporate?</summary>
+Apart from incorporating views and controls, an app can also incorporate Core Animation layers into its view and control hierarchies.
+</details>
+
+<details> 
+  <summary> What are layer objects and what do they represent?</summary>
+Layer objects are data objects which represent visual content. Layer objects are used by views to render their content. Custom layer objects can also be added to the interface to implement complex animations and other types of sophisticated visual effects.
+</details>
 
 
 
@@ -921,6 +986,7 @@ https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
 https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
 https://github.com/durul/My-Medium-Articles
 https://github.com/5uper0/ios-science
+
 http://www.geekinterview.com/Interview-Questions/iOS
 github.com
 
