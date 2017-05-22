@@ -938,12 +938,34 @@ Where can you test Apple iPhone apps if you don't have the device?
 </summary>
 iOS Simulator can be used to test mobile applications. Xcode tool that comes along with iOS SDK includes Xcode IDE as well as the iOS Simulator. Xcode also includes all required tools and frameworks for building iOS apps. However, it is strongly recommended to test the app on the real device before publishing it.</details>
 
+
+<details> 
+  <summary>What are the features added in iOS 5?</summary>
+  </details>
+  
+  <details> 
+  <summary>What are the features added in iOS 6?</summary>
+  </details>
+  
+  <details> 
+  <summary>What are the features added in iOS 7?</summary>
+  </details>
+  
+  <details> 
+  <summary>What are the features added in iOS 8?</summary>
+  </details>
+  
 <details> 
   <summary>What are the features added in iOS 9?</summary>
 • Intelligent Search and Siri- Intelligent Search is an excellent mechanism to learn user habits and act on that information- open apps before we need them, make recommendations on places we might like and guide us through our daily lives to make sure we’re where we need to be at the right time.
 Siri is a personal assistant to the users, able to create contextual reminders and search through photos and videos in new ways. Swiping right from the home screen also brings up a new screen that houses “Siri Suggestions,” putting favorite contacts and apps right on your fingertips, along with nearby restaurant and location information and important news.
 </details>
 
+<details> 
+  <summary>What are the features added in iOS 10?</summary>
+  
+  
+</details>
 
 <details> 
   <summary>Explain Singleton class.</summary>
