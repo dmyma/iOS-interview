@@ -509,6 +509,69 @@ The presentation of one or more views on a screen is coordinated by UIWindow obj
 </details>
 
 
+<details> 
+  <summary>When an app is said to be in not running state? </summary>
+An app is said to be in 'not running' state when: 
+- it is not launched. 
+- it gets terminated by the system during running.
+</details>
+
+<details> 
+  <summary>Assume that your app is running in the foreground but is currently not receiving events. In which sate it would be in? </summary>
+An app will be in InActive state if it is running in the foreground but is currently not receiving events. An app stays in InActive state only briefly as it transitions to a different state.
+</details>
+
+<details> 
+  <summary>Give example scenarios when an application goes into InActive state? </summary>
+An app can get into InActive state when the user locks the screen or the system prompts the user to respond to some event e.g. SMS message, incoming call etc.
+</details>
+
+<details> 
+  <summary>When an app is said to be in active state? </summary>
+An app is said to be in active state when it is running in foreground and is receiving events.
+</details>
+
+<details> 
+  <summary> Name the app sate which it reaches briefly on its way to being suspended. </summary>
+An app enters background state briefly on its way to being suspended.
+</details>
+
+<details> 
+  <summary> Assume that an app is not in foreground but is still executing code. In which state will it be in? </summary>
+A. Background state.
+
+<details> 
+  <summary>An app is loaded into memory but is not executing any code. In which state will it be in? </summary>
+An app is said to be in suspended state when it is still in memory but is not executing any code.
+</details>
+
+<details> 
+  <summary>Assume that system is running low on memory. What can system do for suspended apps? </summary>
+In case system is running low on memory, the system may purge suspended apps without notice.
+</details>
+
+<details> 
+  <summary>How can you respond to state transitions on your app? </summary>
+On state transitions can be responded to state changes in an appropriate way by calling corresponding methods on app's delegate object.
+
+applicationDidBecomeActive method can be used to prepare to run as the foreground app. 
+applicationDidEnterBackground method can be used to execute some code when app is running in the background and may be suspended at any time. 
+applicationWillEnterForeground method can be used to execute some code when your app is moving out of the background 
+applicationWillTerminate method is called when your app is being terminated.
+</details>
+
+<details> 
+  <summary>List down app's state transitions when it gets launched. </summary>
+Before the launch of an app, it is said to be in not running state.
+When an app is launched, it moves to the active or background state, after transitioning briefly through the inactive state.
+</details>
+
+<details> 
+  <summary>Who calls the main function of you app during the app launch cycle? </summary>
+During app launching, the system creates a main thread for the app and calls the app’s main function on that main thread. The Xcode project's default main function hands over control to the UIKit framework, which takes care of initializing the app before it is run.
+</details>
+
+
 
 <details> 
   <summary> Define view object.</summary>
@@ -580,11 +643,6 @@ Layer objects are data objects which represent visual content. Layer objects are
 
 
 
-<details> 
-  <summary> Whats the difference between frame and bounds? </summary>
-
-The frame of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within. The bounds of a view is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
-</details>
 
 <details> 
   <summary> Name the framework that is used to construct application’s user interface for iOS</summary>
