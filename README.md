@@ -604,6 +604,7 @@ Layer objects are data objects which represent visual content. Layer objects are
 <details><summary>what is reserved word?</summary></details>
 <details><summary>what is Inout? </summary></details></summary></details>
 <details><summary>what is Anonymous function(omission)? </summary></details>
+<details><summary>what is the difference between category, extension and protocol? </summary></details>
 
 ## Objective-C
 
