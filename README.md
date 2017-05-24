@@ -452,7 +452,21 @@ https://www.youtube.com/user/SiliconValleyVoice/playlists
 
 
 
-## General
+
+## Swift
+<details><summary>what is  Deadlock? </summary></details>
+<details><summary>what is Weak? </summary></details>
+<details><summary>what is Strong? </summary></details>
+<details><summary>what is Unowned? </summary></details>
+<details><summary>what is Leaking, dangling? </summary></details>
+
+<details><summary>what is Class, struck, enam? </summary>three flavors of object type</details>
+<details><summary>what is Oop? </summary></details>
+<details><summary>what is Mvp? </summary></details>
+<details><summary>what is reserved word?</summary></details>
+<details><summary>what is Inout? </summary></details></summary></details>
+<details><summary>what is Anonymous function(omission)? </summary></details>
+<details><summary>what is the difference between category, extension and protocol? </summary></details>
 
 <details> 
   <summary> What’s the difference between the frame and the bounds? </summary>
@@ -538,7 +552,7 @@ An app enters background state briefly on its way to being suspended.
 
 <details> 
   <summary> Assume that an app is not in foreground but is still executing code. In which state will it be in? </summary>
-A. Background state.
+Background state.
 
 <details> 
   <summary>An app is loaded into memory but is not executing any code. In which state will it be in? </summary>
@@ -590,21 +604,6 @@ Layer objects are data objects which represent visual content. Layer objects are
 </details>
 
 
-
-## Swift
-<details><summary>what is  Deadlock? </summary></details>
-<details><summary>what is Weak? </summary></details>
-<details><summary>what is Strong? </summary></details>
-<details><summary>what is Unowned? </summary></details>
-<details><summary>what is Leaking, dangling? </summary></details>
-
-<details><summary>what is Class, struck, enam? </summary>three flavors of object type</details>
-<details><summary>what is Oop? </summary></details>
-<details><summary>what is Mvp? </summary></details>
-<details><summary>what is reserved word?</summary></details>
-<details><summary>what is Inout? </summary></details></summary></details>
-<details><summary>what is Anonymous function(omission)? </summary></details>
-<details><summary>what is the difference between category, extension and protocol? </summary></details>
 
 ## Objective-C
 
@@ -993,6 +992,15 @@ Only one instance of that class is created in the application.
         sharedMyManager = [[self alloc] init];
     });
     return sharedMyManager;</details>
+    
+    
+## General
+
+
+<details> 
+  <summary>
+Why do we should hire you?</summary>
+life way</details>
 
 ## Code
 
