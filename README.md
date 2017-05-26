@@ -1014,8 +1014,26 @@ Only one instance of that class is created in the application.
 
 <details> 
   <summary>
-Why do we should hire you?</summary>
+Why should we hire you?</summary>
 life way</details>
+
+<details> 
+  <summary>Tell me about company from cv?</summary></details>
+<details> 
+  <summary>tell me what did you do there and about app?</summary></details>
+<details> 
+  <summary>your responsibilities?</summary></details>
+<details> 
+  <summary>How did you do “patterns of design”?</summary></details>
+<details> 
+  <summary>How did you write your code?</summary></details>
+<details> 
+  <summary>How did you write tests?</summary></details>
+<details> 
+  <summary>Give an example of your work situation?</summary>
+examples from work “Long loading, where did I implement creativity”
+</details>
+
 
 ## Code
 
