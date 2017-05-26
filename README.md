@@ -270,6 +270,9 @@ let laser = DeathStarSuperlaser.sharedInstance
  Structural
 ```
 
+!!!!Builder
+!!!!Factory Method
+
 Structural
 ==========
 
@@ -442,7 +445,12 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 
 ## Logical
 
-## Code Puzzels
+## Puzzels
+
+<details><summary>
+“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”
+
+</summary></details>
 
 ## Additional
 
