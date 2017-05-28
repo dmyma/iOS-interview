@@ -1050,7 +1050,8 @@ https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silico
 https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
 
 ## Process
-
+192-17-5-6-3-1(6 weeks)0.52%
+2500h-70p-1500c-20000l
 <details> 
   <summary>Explain Singleton class.</summary>
 </details> 
