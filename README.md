@@ -1034,6 +1034,17 @@ life way</details>
 examples from work “Long loading, where did I implement creativity”
 </details>
 
+<details> 
+  <summary>Tell about yourself?</summary></details>
+<details> 
+  <summary>What is your biggest achievement?</summary></details>
+<details> 
+  <summary>why should we hire you?</summary></details>
+<details> 
+  <summary>What value you can bring?</summary></details>
+<details> 
+  <summary>How would you rank your knowledge in points from 0 to 10?</summary></details>
+
 
 ## Code
 
