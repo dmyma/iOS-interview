@@ -439,11 +439,16 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 
 
 ## Algorithms
+### Whiteboard
+https://www.hackerrank.com/
+https://leetcode.com/
+https://coderpad.io/
 
-<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
-<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
+
 
 ## Logical
+<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
+<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
 
 ## Puzzels
 
@@ -462,6 +467,27 @@ https://www.youtube.com/user/SiliconValleyVoice/playlists
 
 
 ## Swift
+
+<details><summary>What is Class?</summary></details>
+<details><summary>What is Object?</summary></details>
+<details><summary>What is Interface?</summary></details>
+<details><summary>What is Struct? What differs from an Object Type?</summary></details>
+<details><summary>Communication ways between classes?</summary></details>
+<details><summary>Delegate, Notification, KVO?</summary></details>
+<details><summary>When do you use each one of these?</summary></details>
+<details><summary>Working with Threads?</summary></details>
+<details><summary>NSOperationBlock, Grand Central Dispatcher, Thread</summary></details>
+<details><summary>Explain strong, assign, retain, weak ?</summary></details>
+<details><summary>Garbage Collector on iOS? How it works on iOS?</summary></details>
+<details><summary>What is Container View Controller?</summary>
+UITabBarController, UINavigationController, UISplitViewController, Child view controllers and siblings.</details>
+
+<details><summary>What is UIStackView?</summary></details>
+<details><summary>What are the states of an iOS App?</summary>
+There are five : Not Running, Inactive, Active, Background, Suspended </details>
+<details><summary>What does code signing do?</summary></details>
+<details><summary>What is the difference between property and  instance variable?</summary>
+Simply, property is public, instance variable is private.</details>
 <details><summary>what is  Deadlock? </summary></details>
 <details><summary>what is Weak? </summary></details>
 <details><summary>what is Strong? </summary></details>
@@ -1044,6 +1070,24 @@ examples from work “Long loading, where did I implement creativity”
   <summary>What value you can bring?</summary></details>
 <details> 
   <summary>How would you rank your knowledge in points from 0 to 10?</summary></details>
+  
+<details> 
+  <summary>  Why are you interested in this field?</summary></details>
+<details> 
+  <summary>Why are you interested in this company?</summary></details>
+<details> 
+  <summary>Why are you interested in this position?</summary></details>
+
+<details> 
+  <summary>What is your greatest weakness?</summary></details>
+<details> 
+  <summary>What is your lack of related experience?</summary></details>
+<details> 
+  <summary>Why your GPA is so low?</summary></details>
+<details> 
+  <summary>Do you have lack of leadership experiences?</summary></details>
+<details> 
+  <summary>What is your record of job-hopping?</summary></details>
 
 
 ## Code
@@ -1084,7 +1128,7 @@ https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke
 </details> 
 
 <details> 
-  <summary>Step 3: Technical interview</summary>
+  <summary>Step 3: Technical interview/whiteboard</summary>
   -whiteboard code
   -iOS frameworks OOP DesignP DataStrcu Algorithm
   -patterns
