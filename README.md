@@ -56,6 +56,17 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 ## Patterns
 
+1. Singleton
+2. Factory
+3. Decorator
+4. Builder
+5. Proxy
+6. Template
+7. Adapter
+8. Chain of Responsibility
+9. Strategy
+10. Flyweight
+
 <details> <summary>What is OOP?</summary></details>
 <details> <summary>What are the pros and cons of inheritance?</summary></details>
 <details> <summary>What is polymorphism?</summary></details>
