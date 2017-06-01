@@ -56,6 +56,9 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 ## Patterns
 
+<img src="designpatterns1.jpg" width="300" height="400">
+<img src="designpatterns2.jpg" width="300" height="400">
+
 1. Singleton
 2. Factory
 3. Decorator
