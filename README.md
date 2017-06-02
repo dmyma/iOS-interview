@@ -442,6 +442,9 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 
 ## Maps
 
+<details> 
+  <summary>How to implement uimapkit in the app?</summary></details>
+
 ## Testing
 
 
