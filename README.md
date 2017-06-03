@@ -618,6 +618,7 @@ An app enters background state briefly on its way to being suspended.
 <details> 
   <summary> Assume that an app is not in foreground but is still executing code. In which state will it be in? </summary>
 Background state.
+</details>
 
 <details> 
   <summary>An app is loaded into memory but is not executing any code. In which state will it be in? </summary>
