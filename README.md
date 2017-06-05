@@ -57,7 +57,7 @@ Value Types and Reference Types A major difference between enums and structs, on
 
 <details> 
   <summary> Which JSON framework is supported by iOS?  </summary>
-A. SBJson framework is supported by iOS.  It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.
+SBJson framework is supported by iOS.  It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.
 
 </details>
 
@@ -65,6 +65,11 @@ A. SBJson framework is supported by iOS.  It is a JSON parser and generator for 
 
 ## Data persistance
 ### (CoreData)
+<details> 
+  <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
+
+
+</details>
 
 ## CoreAnimation CoreGraphics CoreText
 
