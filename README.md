@@ -496,9 +496,18 @@ www.codingame.com
 
 ## Additional
 
+
 ## Podcasts
 
-https://www.youtube.com/user/SiliconValleyVoice/playlists
+1. https://www.youtube.com/user/SiliconValleyVoice/playlists
+
+2. https://itunes.apple.com/hk/podcast/sharedinstance/id967705766?mt=2
+3. https://itunes.apple.com/hk/podcast/more-than-just-code-podcast-podcast-about-ios-os-x/id906987516?mt=2
+4. https://itunes.apple.com/hk/podcast/consult/id1018251429?mt=2
+5. https://itunes.apple.com/hk/podcast/fatal-error/id1139051496?mt=2
+6. https://itunes.apple.com/hk/podcast/free-agents/id1138055739?mt=2
+7. https://itunes.apple.com/hk/podcast/swift-unwrapped/id1209817203?mt=2
+8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
 
 
 
@@ -1138,9 +1147,9 @@ examples from work “Long loading, where did I implement creativity”
 
 ## Stories
 
-https://habrahabr.ru/post/285680/
-https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
-https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
+1. https://habrahabr.ru/post/285680/
+2. https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
+3. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
 
 ## Process
 192-17-5-6-3-1(6 weeks)0.52%
@@ -1178,10 +1187,10 @@ https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke
 
 <details> 
   <summary>Step 4: Home work </summary>
-  https://www.interviewbit.com/
-  https://www.hackerrank.com/
-  https://www.topcoder.com/
-  www.codingame.com
+  1. https://www.interviewbit.com/
+  2. https://www.hackerrank.com/
+  3. https://www.topcoder.com/
+  4. www.codingame.com
 </details> 
 
 <details> 
@@ -1189,21 +1198,21 @@ https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke
 </details> 
 
 ## Credits
-http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_236
-http://www.globalguideline.com/interview_questions/Questions.php?sc=Mobile_Application_Development_Interview_Questions_Answers
-http://www.geekinterview.com/Interview-Questions/iOS
-http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
-https://www.linkedin.com/groups/121874/121874-6146133293344579586
-http://www.jobfluent.com/interview-questions-for-mobile-app-developers/
-https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
+1. http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_236
+2. http://www.globalguideline.com/interview_questions/Questions.php?sc=Mobile_Application_Development_Interview_Questions_Answers
+3. http://www.geekinterview.com/Interview-Questions/iOS
+4. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
+5. https://www.linkedin.com/groups/121874/121874-6146133293344579586
+6. http://www.jobfluent.com/interview-questions-for-mobile-app-developers/
+7. https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
 
-https://github.com/ochococo/Design-Patterns-In-Swift#creational
-https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
-https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
-https://github.com/durul/My-Medium-Articles
-https://github.com/5uper0/ios-science
+8. https://github.com/ochococo/Design-Patterns-In-Swift#creational
+9. https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
+10. https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
+11. https://github.com/durul/My-Medium-Articles
+12. https://github.com/5uper0/ios-science
 
-http://www.geekinterview.com/Interview-Questions/iOS
-github.com
+13. http://www.geekinterview.com/Interview-Questions/iOS
+14. github.com
 
 
