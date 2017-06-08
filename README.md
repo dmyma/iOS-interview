@@ -88,6 +88,9 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 8. Chain of Responsibility
 9. Strategy
 10. Flyweight
+<details> 
+  <summary>Explain Singleton class.</summary>
+</details> 
 
 <details> <summary>What is OOP?</summary></details>
 <details> <summary>What are the pros and cons of inheritance?</summary></details>
@@ -1141,9 +1144,19 @@ examples from work “Long loading, where did I implement creativity”
 
 ## HomeWork
 
+https://github.com/dmyma/UnifyID_MalashenkoDmytro
+
 ## Job websites
 
+1. www.dice.com
+2. www.glassdoor.com
+3. angel.co 
+4. upwork.com
+
 ## Companies
+
+italki.com
+
 
 ## Stories
 
@@ -1154,9 +1167,7 @@ examples from work “Long loading, where did I implement creativity”
 ## Process
 192-17-5-6-3-1(6 weeks)0.52%
 2500h-70p-1500c-20000l
-<details> 
-  <summary>Explain Singleton class.</summary>
-</details> 
+2h-2ti
 
 <details> 
   <summary>Step 1: send CV</summary>
