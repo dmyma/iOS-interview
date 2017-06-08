@@ -52,6 +52,10 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>what is 'golden rule of memory management'? </summary></details> 
 <details><summary>what is Arc?</summary></details>
 <details><summary>what is Auto release pool?</summary></details>
+<details><summary>Weak vs assign, strong vs copy?</summary></details>
+<details><summary>Atomic vs nonatomic. What is the difference? How to change atomic/nonatomic setter in non ARC environment?</summary></details>
+<details><summary>Why all properties reference to strong/retain?</summary></details>
+<details><summary>What is NSCoder?</summary></details>
 
 ## Networking
 
