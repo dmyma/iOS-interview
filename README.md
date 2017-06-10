@@ -477,7 +477,7 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 <details><summary> Do you write unit tests? how you write in iOS?</summary></details>
 <details><summary> What is TDD?</summary></details>
 <details><summary> How TDD is good, and What problem does it solve?</summary></details>
-<details><summary> What is Mocking, when you will use mocking?</summary></summary></details>
+<details><summary> What is Mocking, when you will use mocking?</summary></details>
 <details><summary> What is UI testing?</summary></details>
 
 
@@ -494,12 +494,12 @@ www.codingame.com
 <details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
 <details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
 
+
+
 ## Puzzels
 
 <details><summary>
-“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”
-
-</summary></details>
+“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
 
 ## Additional
 
@@ -1145,6 +1145,9 @@ examples from work “Long loading, where did I implement creativity”
 
 
 ## Code
+
+<details> 
+  <summary>UIPanGestureRegogniser</summary></details>
 
 ## HomeWork
 
