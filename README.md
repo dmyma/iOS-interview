@@ -3,28 +3,31 @@
 ## <a name='contents'>Table of Contents</a>
 
 * [Cocoa touch](#cocoa-touch)
+
 * [Memory Management](#memory-management)
 * [Networking](#networking)
-* [Code persistance](#code-persistance)
-* [CoreAnimation, CoreGraphics, CoreText](#coreanimation-coregraphics-coretext)
-
-* [Patterns(5)](#patterns)
 * [Multithreading](#multithreading)
+* [Data persistance](#data-persistance)
+* [Testing](#testing)
+* [CoreAnimation, CoreGraphics, CoreText](#coreanimation-coregraphics-coretext)
+* [Patterns(5)](#patterns)
 * [Maps](#maps)
-* [Algorithms](#algorithms)
-* [Logical](#logical)
-* [Code Puzzels](#code-puzzels)
-* [Additional](#additional)
-* [Podcasts](#podcasts)
-* [General](#general)
 * [Swift](#swift)
 * [Objective-C](#objective-c)
-* [Code](#code)
+
+* [Code Puzzels](#code-puzzels)
+* [Code](#code) 
+
+* [General](#general)
+
 * [HomeWork](#homework)
+* [Podcasts](#podcasts)
+* [Books](#books)
 * [Job websites](#jobwebsites)
 * [Companies](#companies)
 * [Stories](#stories)
 * [Process](#process)
+* [Credits](#credits)
 
 
 ## Cocoa touch 
@@ -65,6 +68,27 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 
 </details>
 
+## Multithreading
+<details> 
+  <summary> Does iOS support multitasking? </summary>
+iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
+</details>
+
+
+<details> 
+  <summary> Why an app on iOS device behaves differently when running in foreground than in background? </summary>
+An application behaves differently when running in foreground than in background because of the limitation of resources on iOS devices.
+</details>
+
+<details> 
+  <summary> How can an operating system improve battery life while running an app? </summary>
+An app is notified whenever the operating system moves the apps between foreground and background.  The operating system improves battery life while it bounds what your app can do in the background. This also improves the user experience with foreground app.
+</details>
+
+<details> 
+  <summary> Which framework delivers event to custom object when app is in foreground? </summary>
+The UIKit infrastructure takes care of delivering events to custom objects. As an app developer, you have to override methods in the appropriate objects to process those events.
+</details>
 
 
 ## Data persistance
@@ -74,6 +98,15 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 
 
 </details>
+
+## Testing
+
+
+<details><summary> Do you write unit tests? how you write in iOS?</summary></details>
+<details><summary> What is TDD?</summary></details>
+<details><summary> How TDD is good, and What problem does it solve?</summary></details>
+<details><summary> What is Mocking, when you will use mocking?</summary></details>
+<details><summary> What is UI testing?</summary></details>
 
 ## CoreAnimation CoreGraphics CoreText
 
@@ -443,78 +476,13 @@ Eternal.set("Disconnect me. I’d rather be nothing", forKey:"Bishop")
 Eternal.object(forKey: "Bishop")
 ```
 
-## Multithreading
-<details> 
-  <summary> Does iOS support multitasking? </summary>
-iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
-</details>
-
-
-<details> 
-  <summary> Why an app on iOS device behaves differently when running in foreground than in background? </summary>
-An application behaves differently when running in foreground than in background because of the limitation of resources on iOS devices.
-</details>
-
-<details> 
-  <summary> How can an operating system improve battery life while running an app? </summary>
-An app is notified whenever the operating system moves the apps between foreground and background.  The operating system improves battery life while it bounds what your app can do in the background. This also improves the user experience with foreground app.
-</details>
-
-<details> 
-  <summary> Which framework delivers event to custom object when app is in foreground? </summary>
-The UIKit infrastructure takes care of delivering events to custom objects. As an app developer, you have to override methods in the appropriate objects to process those events.
-</details>
-
 
 ## Maps
 
 <details> 
   <summary>How to implement uimapkit in the app?</summary></details>
 
-## Testing
 
-
-<details><summary> Do you write unit tests? how you write in iOS?</summary></details>
-<details><summary> What is TDD?</summary></details>
-<details><summary> How TDD is good, and What problem does it solve?</summary></details>
-<details><summary> What is Mocking, when you will use mocking?</summary></details>
-<details><summary> What is UI testing?</summary></details>
-
-
-## Algorithms
-### Whiteboard
-https://www.hackerrank.com/
-https://leetcode.com/
-https://coderpad.io/
-www.codingame.com
-
-
-
-## Logical
-<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
-<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
-
-
-
-## Puzzels
-
-<details><summary>
-“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
-
-## Additional
-
-
-## Podcasts
-
-1. https://www.youtube.com/user/SiliconValleyVoice/playlists
-
-2. https://itunes.apple.com/hk/podcast/sharedinstance/id967705766?mt=2
-3. https://itunes.apple.com/hk/podcast/more-than-just-code-podcast-podcast-about-ios-os-x/id906987516?mt=2
-4. https://itunes.apple.com/hk/podcast/consult/id1018251429?mt=2
-5. https://itunes.apple.com/hk/podcast/fatal-error/id1139051496?mt=2
-6. https://itunes.apple.com/hk/podcast/free-agents/id1138055739?mt=2
-7. https://itunes.apple.com/hk/podcast/swift-unwrapped/id1209817203?mt=2
-8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
 
 
 
@@ -1089,6 +1057,30 @@ Only one instance of that class is created in the application.
     return sharedMyManager;</details>
     
     
+
+
+## Code Puzzels
+### Whiteboard
+1. https://www.hackerrank.com/
+2. https://leetcode.com/
+3. https://coderpad.io/
+4. www.codingame.com
+
+### Trees and Graphs 
+
+<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
+<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
+
+### Logical
+<details><summary>
+“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
+
+## Code
+
+<details> 
+  <summary>UIPanGestureRegogniser</summary></details>
+
+
 ## General
 
 
@@ -1143,15 +1135,23 @@ examples from work “Long loading, where did I implement creativity”
 <details> 
   <summary>What is your record of job-hopping?</summary></details>
 
-
-## Code
-
-<details> 
-  <summary>UIPanGestureRegogniser</summary></details>
-
 ## HomeWork
 
 https://github.com/dmyma/UnifyID_MalashenkoDmytro
+
+## Podcasts
+
+1. https://www.youtube.com/user/SiliconValleyVoice/playlists
+
+2. https://itunes.apple.com/hk/podcast/sharedinstance/id967705766?mt=2
+3. https://itunes.apple.com/hk/podcast/more-than-just-code-podcast-podcast-about-ios-os-x/id906987516?mt=2
+4. https://itunes.apple.com/hk/podcast/consult/id1018251429?mt=2
+5. https://itunes.apple.com/hk/podcast/fatal-error/id1139051496?mt=2
+6. https://itunes.apple.com/hk/podcast/free-agents/id1138055739?mt=2
+7. https://itunes.apple.com/hk/podcast/swift-unwrapped/id1209817203?mt=2
+8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
+
+## Books
 
 ## Job websites
 
@@ -1164,6 +1164,7 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
 italki.com
 EPAM.com
+amazon.com
 
 ## Stories
 
