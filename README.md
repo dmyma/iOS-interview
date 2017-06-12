@@ -3,7 +3,7 @@
 ## <a name='contents'>Table of Contents</a>
 
 * [Cocoa touch](#cocoa-touch)
-
+-----------
 * [Memory Management](#memory-management)
 * [Networking](#networking)
 * [Multithreading](#multithreading)
@@ -14,12 +14,12 @@
 * [Maps](#maps)
 * [Swift](#swift)
 * [Objective-C](#objective-c)
-
+-----------
 * [Code Puzzels](#code-puzzels)
 * [Code](#code) 
-
+-----------
 * [General](#general)
-
+-----------
 * [HomeWork](#homework)
 * [Podcasts](#podcasts)
 * [Books](#books)
@@ -30,8 +30,7 @@
 * [Credits](#credits)
 
 
-## Cocoa touch 
-[[⬆]](#contents) <a name='general'></a>
+## Cocoa touch [[⬆]](#contents)
 
 <details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
 The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
@@ -50,7 +49,7 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 
 
-## Memory Management
+## Memory Management [[⬆]](#contents)
 
 <details><summary>what is 'golden rule of memory management'? </summary></details> 
 <details><summary>what is Arc?</summary></details>
@@ -60,7 +59,7 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>Why all properties reference to strong/retain?</summary></details>
 <details><summary>What is NSCoder?</summary></details>
 
-## Networking
+## Networking [[⬆]](#contents)
 
 <details> 
   <summary> Which JSON framework is supported by iOS?  </summary>
@@ -68,7 +67,7 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 
 </details>
 
-## Multithreading
+## Multithreading [[⬆]](#contents)
 <details> 
   <summary> Does iOS support multitasking? </summary>
 iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
@@ -91,7 +90,7 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 </details>
 
 
-## Data persistance
+## Data persistance [[⬆]](#contents)
 ### (CoreData)
 <details> 
   <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
@@ -99,7 +98,7 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 
 </details>
 
-## Testing
+## Testing [[⬆]](#contents)
 
 
 <details><summary> Do you write unit tests? how you write in iOS?</summary></details>
@@ -108,9 +107,9 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 <details><summary> What is Mocking, when you will use mocking?</summary></details>
 <details><summary> What is UI testing?</summary></details>
 
-## CoreAnimation CoreGraphics CoreText
+## CoreAnimation CoreGraphics CoreText [[⬆]](#contents)
 
-## Patterns
+## Patterns [[⬆]](#contents)
 
 <img src="designpatterns1.jpg" width="301" height="400">
 <img src="designpatterns2.jpg" width="301" height="400">
@@ -477,7 +476,7 @@ Eternal.object(forKey: "Bishop")
 ```
 
 
-## Maps
+## Maps [[⬆]](#contents)
 
 <details> 
   <summary>How to implement uimapkit in the app?</summary></details>
@@ -487,7 +486,7 @@ Eternal.object(forKey: "Bishop")
 
 
 
-## Swift
+## Swift [[⬆]](#contents)
 
 <details><summary>What is Class?</summary></details>
 <details><summary>What is Object?</summary></details>
@@ -668,7 +667,7 @@ Swift 3 has five levels of privacy: internal The default rule is that declaratio
 </details>
 
 
-## Objective-C
+## Objective-C [[⬆]](#contents)
 
 <details><summary> What is the difference between underscore and self (i.e self.xx and _xx) ?</summary></details>
 <details><summary> What is property?</summary></details>
@@ -1059,7 +1058,7 @@ Only one instance of that class is created in the application.
     
 
 
-## Code Puzzels
+## Code Puzzels [[⬆]](#contents)
 ### Whiteboard
 1. https://www.hackerrank.com/
 2. https://leetcode.com/
@@ -1075,13 +1074,13 @@ Only one instance of that class is created in the application.
 <details><summary>
 “Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
 
-## Code
+## Code [[⬆]](#contents)
 
 <details> 
   <summary>UIPanGestureRegogniser</summary></details>
 
 
-## General
+## General [[⬆]](#contents)
 
 
 <details> 
@@ -1135,11 +1134,11 @@ examples from work “Long loading, where did I implement creativity”
 <details> 
   <summary>What is your record of job-hopping?</summary></details>
 
-## HomeWork
+## HomeWork [[⬆]](#contents)
 
 https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
-## Podcasts
+## Podcasts [[⬆]](#contents)
 
 1. https://www.youtube.com/user/SiliconValleyVoice/playlists
 
@@ -1151,28 +1150,28 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 7. https://itunes.apple.com/hk/podcast/swift-unwrapped/id1209817203?mt=2
 8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
 
-## Books
+## Books [[⬆]](#contents)
 
-## Job websites
+## Job websites [[⬆]](#contents)
 
 1. www.dice.com
 2. www.glassdoor.com
 3. angel.co 
 4. upwork.com
 
-## Companies
+## Companies [[⬆]](#contents)
 
 italki.com
 EPAM.com
 amazon.com
 
-## Stories
+## Stories [[⬆]](#contents)
 
 1. https://habrahabr.ru/post/285680/
 2. https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 3. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
 
-## Process
+## Process [[⬆]](#contents)
 192-17-5-6-3-1(6 weeks)0.52%
 2500h-70p-1500c-20000l
 2h-2ti
@@ -1216,7 +1215,7 @@ amazon.com
   <summary>Step 5: on site 4-8 hours with 4-8 people</summary>
 </details> 
 
-## Credits
+## Credits [[⬆]](#contents)
 1. http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_236
 2. http://www.globalguideline.com/interview_questions/Questions.php?sc=Mobile_Application_Development_Interview_Questions_Answers
 3. http://www.geekinterview.com/Interview-Questions/iOS
