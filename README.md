@@ -1204,6 +1204,9 @@ italki.com
 EPAM.com
 amazon.com
 
+apple.com
+google.com
+
 ## Stories 
 [[⬆]](#contents)
 
