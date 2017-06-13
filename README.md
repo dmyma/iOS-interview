@@ -1077,14 +1077,34 @@ Only one instance of that class is created in the application.
 3. https://coderpad.io/
 4. www.codingame.com
 
-### Trees and Graphs 
 
+### Data structures
+1. Linked Lists
+2. Trees, Tries, Graphs
 <details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
 <details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
-
-### Logical
+3. Stacks & Queues 
+4. Heaps
+5. Vectors / ArrayLists
+6. Hash Tables 
+7. LOGICAL
 <details><summary>
 “Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
+
+
+### Algorythms
+1. Breadth-First Search
+2. Depth-First Search
+3. Binary Search
+4. Merge Sort
+5. Quick Sort
+
+### Concepts
+1. Bit Manipulation
+2. Memory(Steack vs Heap)
+
+
+
 
 ## Code 
 [[⬆]](#contents)
