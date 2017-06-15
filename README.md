@@ -1175,9 +1175,11 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
 ## Podcasts 
 [[⬆]](#contents)
-
+### Youtube
 1. https://www.youtube.com/user/SiliconValleyVoice/playlists
-
+2. https://www.youtube.com/user/letsbuildthatapp
+3. https://www.youtube.com/user/SeanAllan
+### iTunes
 2. https://itunes.apple.com/hk/podcast/sharedinstance/id967705766?mt=2
 3. https://itunes.apple.com/hk/podcast/more-than-just-code-podcast-podcast-about-ios-os-x/id906987516?mt=2
 4. https://itunes.apple.com/hk/podcast/consult/id1018251429?mt=2
@@ -1188,6 +1190,11 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
 ## Books
 [[⬆]](#contents)
+1. Objective-C
+2. Swift from apple
+3. Design Patterns
+4. Algorithms
+5. Cracking Code interview
 
 ## Job websites 
 [[⬆]](#contents)
