@@ -1187,6 +1187,10 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 6. https://itunes.apple.com/hk/podcast/free-agents/id1138055739?mt=2
 7. https://itunes.apple.com/hk/podcast/swift-unwrapped/id1209817203?mt=2
 8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
+### APPS
+1.  iOS Interview
+### SITES
+1. raywanderlich.com
 
 ## Books
 [[⬆]](#contents)
@@ -1226,6 +1230,7 @@ google.com
 192-17-5-6-3-1(6 weeks)0.52%
 2500h-70p-1500c-20000l
 2h-2ti
+d, Mac, app, sf
 
 <details> 
   <summary>Step 1: send CV</summary>
