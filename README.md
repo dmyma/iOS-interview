@@ -1191,7 +1191,11 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 1.  iOS Interview
 ### SITES
 1. raywanderlich.com
-
+2. Indie iOS Focus Weekly
+3. iosGoodies
+4. ios Cookies
+5. CocoaControl
+6. appcode
 ## Books
 [[⬆]](#contents)
 1. Objective-C
