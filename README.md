@@ -1232,6 +1232,7 @@ google.com
 ## Process 
 [[⬆]](#contents)
 192-17-5-6-3-1(6 weeks)0.52%
+26-15-6-5-2-  (8 weeks)
 2500h-70p-1500c-20000l
 2h-2ti
 d, Mac, app, sf
