@@ -1190,7 +1190,7 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 ### APPS
 1.  iOS Interview
 ### SITES
-1. raywanderlich.com
+1. raywenderlich.com
 2. Indie iOS Focus Weekly
 3. iosGoodies
 4. ios Cookies
