@@ -1098,6 +1098,8 @@ Only one instance of that class is created in the application.
 3. Binary Search
 4. Merge Sort
 5. Quick Sort
+6. Insert Search
+7. 
 
 ### Concepts
 1. Bit Manipulation
