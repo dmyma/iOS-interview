@@ -70,6 +70,19 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 
 </details>
 
+<details> 
+  <summary> Advantages and disadvantages of synchronous and asynchronous communication?</summary></details>
+<details> 
+  <summary> What does HTTP mean, TCP?</summary></details>
+<details> 
+  <summary> What are the differences between head, GET, post, put?</summary></details>
+<details> 
+  <summary> How do I download something from the Internet? What is the difference between synchronous and asynchronous requests? A little assignment. Describe how to download an image from the web and display it in imageview.g.h-all of this should happen after you click the button.</summary></details>
+<details> 
+  <summary> What is rest (restful)?</summary></details>
+  <details> 
+  <summary> What is json</summary></details>
+
 ## Multithreading 
 [[⬆]](#contents)
 <details> 
@@ -1169,6 +1182,27 @@ examples from work “Long loading, where did I implement creativity”
   <summary>Do you have lack of leadership experiences?</summary></details>
 <details> 
   <summary>What is your record of job-hopping?</summary></details>
+  
+<details> 
+  <summary> Name 3 of your favorite mobile apps</summary>
+
+If you’ve chosen App Developing as a career, chances are you’re always in the know of the latest apps. The recruiting manager will expect you are always trying out and testing different apps and you have a solid criteria about what’s well done and what should improve. Be sure you take some of your favorite apps on your smartphone, be prepared to talk about them from functionality and developing context.
+</details>
+
+<details> 
+  <summary>How do you handle security issues?</summary>
+
+Security is always a very delicate subject especially when talking about mobile devices.  Show your knowledge about security and expose your ideas about how to minimize security issues in the app they are creating. Get informed, was there a recent attack to a specific type of software? Mention it and be prepared to explain how you would have solved it.</details>
+
+<details> 
+  <summary>What’s the importance of user interface/user experience (UI/UX) in mobile application development?</summary>
+
+User interface and user experience are key to successful mobile applications, so expect a lot of UI/UX questions. State your opinions and tips on getting the most out of the mobile’s interface. You may point out which apps you think have a great UI and which ones don’t. Also, some recruiters may ask you to quickly draw a scheme of an interface –be prepared to do it.</details>
+
+<details> 
+  <summary>Do you have any experience migrating an app from one platform to another?</summary>
+
+Most apps must be available on more than one OS, so experience reconfiguring or migrating an app from one platform to another is a very valuable treat. Tell about your experience in this field and detail the apps you have reconfigured and the solutions you have found to do it. If you don’t have any experience, expose the reasons why you think you are technically prepared to do it.</details>
 
 ## HomeWork 
 [[⬆]](#contents)
@@ -1280,21 +1314,17 @@ d, Mac, app, sf
 
 ## Credits 
 [[⬆]](#contents)
-1. http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_236
-2. http://www.globalguideline.com/interview_questions/Questions.php?sc=Mobile_Application_Development_Interview_Questions_Answers
-3. http://www.geekinterview.com/Interview-Questions/iOS
-4. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
-5. https://www.linkedin.com/groups/121874/121874-6146133293344579586
-6. http://www.jobfluent.com/interview-questions-for-mobile-app-developers/
-7. https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
 
-8. https://github.com/ochococo/Design-Patterns-In-Swift#creational
-9. https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
-10. https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
-11. https://github.com/durul/My-Medium-Articles
-12. https://github.com/5uper0/ios-science
-
-13. http://www.geekinterview.com/Interview-Questions/iOS
-14. github.com
+1. http://www.geekinterview.com/Interview-Questions/iOS
+2. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
+3. https://www.linkedin.com/groups/121874/121874-6146133293344579586
+4. https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
+5. https://github.com/ochococo/Design-Patterns-In-Swift#creational
+6. https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
+7. https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
+8. https://github.com/durul/My-Medium-Articles
+9. https://github.com/5uper0/ios-science
+10. http://www.geekinterview.com/Interview-Questions/iOS
+11. github.com
 
 
