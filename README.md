@@ -81,7 +81,58 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
 <details> 
   <summary> What is rest (restful)?</summary></details>
   <details> 
-  <summary> What is json</summary></details>
+  <summary> What is json?</summary></details>
+  
+   <details> 
+  <summary> What is NSCOder class used for? </summary>
+  NSCoder is an abstractClass which represents a stream of data. They are used in Archiving and Unarchiving objects. NSCoder objects are usually used in a method that is being implemented so that the class conforms to the protocol. (which has something like encodeObject and decodeObject methods in them).</details>
+  
+   <details> 
+  <summary>What's the difference between synchronous and asynchronous connections?</summary>
+  Do not freeze the app, canceletion, authentication, it's impossible to parse data on the fly</details>
+  
+   <details> 
+  <summary> Explain NSURLSession?</summary>
+  The NSURLSession class and related classes provide an API for downloading content via HTTP. This API provides a rich set of delegate methods for supporting authentication and gives your app the ability to perform background downloads when your app is not running or, in iOS, while your app is suspended.
+
+To use the NSURLSession API, your app creates a series of sessions, each of which coordinates a group of related data transfer tasks. For example, if you are writing a web browser, your app might create one session per tab or window. Within each session, your app adds a series of tasks, each of which represents a request for a specific URL (and for any follow-on URLs if the original URL returned an HTTP redirect).
+
+Like most networking APIs, the NSURLSession API is highly asynchronous. If you use the default, system-provided delegate, you must provide a completion handler block that returns data to your app when a transfer finishes successfully or with an error. Alternatively, if you provide your own custom delegate objects, the task objects call those delegates' methods with data as it is received from the server (or, for file downloads, when the transfer is complete).
+
+Note: Completion callbacks are primarily intended as an alternative to using a custom delegate. If you create a task using a method that takes a completion callback, the delegate methods for response and data delivery are not called.
+The NSURLSession API provides status and progress properties, in addition to delivering this information to delegates. It supports canceling, restarting (resuming), and suspending tasks, and it provides the ability to resume suspended, canceled, or failed downloads where they left off.</details>
+  
+  <details> 
+  <summary> Explain types of NSURLSession?</summary>
+  The NSURLSession API supports three types of sessions, as determined by the type of configuration object used to create the session:
+
+- Default sessions : behave similarly to other Foundation methods for downloading URLs. They use a persistent disk-based cache and store credentials in the user's keychain.
+
+- Ephemeral sessions : do not store any data to disk; all caches, credential stores, and so on are kept in RAM and tied to the session. Thus, when your app invalidates the session, they are purged automatically.
+
+- Background sessions : are similar to default sessions, except that a separate process handles all data transfers. Background sessions have some additional limitations.
+</details>
+  
+  <details> 
+  <summary> Explain life cecle of URL Session?</summary>
+  You can use the NSURLSession API in two ways: with a system-provided delegate or with your own delegate. In general, you must use your own delegate if your app does any of the following:
+
+- Uses background sessions to download or upload content while your app is not running.
+- Performs custom authentication.
+- Performs custom SSL certificate verification.
+- Decides whether a transfer should be downloaded to disk or displayed based on the MIME type returned by the server or other similar criteria.
+- Uploads data from a body stream (as opposed to an NSData object).
+- Limits caching programmatically.
+- Limits HTTP redirects programmatically.
+
+If your app does not need to do any of these things, your app can use the system-provided delegates. Depending on which technique you choose, you should read one of the following sections:
+
+- Life Cycle of a URL Session with System-Provided Delegates : provides a lightweight view of how your code creates and uses a URL session. You should read this section even if you intend to write your own delegate, because it gives you a complete picture of what your code must do to configure the object and use it.
+
+- Life Cycle of a URL Session with Custom Delegates : provides a complete view of every step in the operation of a URL session. You should refer to this section to help you understand how the session interacts with its delegate. In particular, this explains when each of the delegate methods is called.
+
+
+</details>
 
 ## Multithreading 
 [[⬆]](#contents)
