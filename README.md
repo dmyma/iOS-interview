@@ -1256,6 +1256,23 @@ User interface and user experience are key to successful mobile applications, so
 
 Most apps must be available on more than one OS, so experience reconfiguring or migrating an app from one platform to another is a very valuable treat. Tell about your experience in this field and detail the apps you have reconfigured and the solutions you have found to do it. If you don’t have any experience, expose the reasons why you think you are technically prepared to do it.</details>
 
+
+<details> 
+  <summary>What is you main disadvantage?</summary>
+There are two types of disadvantages
+one we can controll, there is one and we are aware about it
+the other one, there is a disadv, but we are not aware about it
+Help me to find faults
+And very grateful
+
+I have a shortage
+but! We are fighting
+Preodalival in the past and what are the disadvantages of today, when I know that there is a defect I'm working on
+Details and says no and priorities and took it to the end</details>
+
+<details> 
+  <summary>How would you describe your perfect day</summary></details>
+
 ## HomeWork 
 [[⬆]](#contents)
 
