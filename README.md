@@ -1164,7 +1164,11 @@ Domino's 64-2 </summary></details>
 4. Merge Sort
 5. Quick Sort
 6. Insert Search
-7. 
+7. Bucket Sort
+8. Selection Sort
+9. Bubble Sort
+10. Radix Sort
+11. Sparse Search
 
 ### Concepts
 1. Bit Manipulation
