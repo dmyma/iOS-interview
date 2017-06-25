@@ -1276,6 +1276,20 @@ Details and says no and priorities and took it to the end</details>
 
 <details> 
   <summary>How would you describe your perfect day</summary></details>
+<details> 
+<summary>What is good code practices?</summary>
+Good code practices
+Variables names
+Long method 
+Cellid rav value create constant 
+Less print statements 
+
+Apple convention
+Braces and names camelCase
+
+The Routine is the enemy of time it is flying by
+</details>
+
 
 ## HomeWork 
 [[⬆]](#contents)
