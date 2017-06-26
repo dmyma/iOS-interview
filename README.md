@@ -51,8 +51,7 @@ Value Types and Reference Types A major difference between enums and structs, on
 
 
 
-<img src="Lifecycle.jpg" width="301" height="400">
-<img src="PushNotifications.jpg" width="301" height="400">
+<img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
 ## Memory Management 
 [[⬆]](#contents)
 
