@@ -50,6 +50,9 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 
 
+
+<img src="Lifecycle.jpg" width="301" height="400">
+<img src="PushNotifications.jpg" width="301" height="400">
 ## Memory Management 
 [[⬆]](#contents)
 
