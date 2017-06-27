@@ -179,6 +179,12 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 <details><summary> What is Mocking, when you will use mocking?</summary></details>
 <details><summary> What is UI testing?</summary></details>
 
+<details><summary>Black or white box?</summary></details>
+<details><summary>Who will use it and why?</summary></details>
+<details><summary>What are the use cases?</summary></details>
+<details><summary>What are the the bounds of use?</</summary></details>summary></details>
+<details><summary>What are the failure conditions?
+
 ## CoreAnimation CoreGraphics CoreText 
 [[⬆]](#contents)
 
