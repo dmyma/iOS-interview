@@ -1184,6 +1184,8 @@ Domino's 64-2 </summary></details>
 9. Bubble Sort
 10. Radix Sort
 11. Sparse Search
+12. Topologic Sort
+13. Dijkstra's algorithms
 
 ### Concepts
 1. Bit Manipulation
