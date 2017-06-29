@@ -219,6 +219,10 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 <details> <summary>What is MVVM and why you will use it?</summary></details>
 <details> <summary>What is dependency injection, how it is good?</summary></details>
 
+1. MVC
+2. Vapor
+3. MVP
+4. MVVC
 
 https://www.youtube.com/watch?v=vNHpsC5ng_E&list=WL
 
