@@ -158,7 +158,7 @@ An app is notified whenever the operating system moves the apps between foregrou
   <summary> Which framework delivers event to custom object when app is in foreground? </summary>
 The UIKit infrastructure takes care of delivering events to custom objects. As an app developer, you have to override methods in the appropriate objects to process those events.
 </details>
-
+LOOK
 
 ## Data persistance 
 [[⬆]](#contents)
