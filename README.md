@@ -29,6 +29,64 @@
 * [Process](#process)
 * [Credits](#credits)
 
+# Topics
+1. Algorightms
+
+1. Logical
+2. Linked list
+3. Arrays
+4. Trees
+5. Stacks
+6. Recursion and dynamic programming
+7. Bit manipulation
+8. OoD
+9. System design and scalability
+10. Searching and Sorting
+11. Testing
+12. Threads
+13. Databases
+-leetcode, 2 alg books
+-interview 
+
+2. iOS code
+
+Login system
+Multithreading
+CoreData
+
+FizzBuzz
+BinarySearch
+ReverseLinkedList
+
+-homeworks
+
+3. iOS theory
+-Class vs Struct
+
+-networking
+-testing
+-arc, memory leaks, retain cycles
+-Delegation and Observer/Notification
+-view lifecycle
+-filter, map, reduce
+-Testing
+-3D party libraries
+-Gesture recogniser
+-networking
+-debugging
+-modulo 
+-take home
+-kvo 
+-nsoperation vs multithreading
+-Gcd 
+-autolayout
+-nsnotification center
+-UiView
+-patterns of design
+-github
+-swiftbook
+-optional biding 
+
 
 ## Cocoa touch 
 [[⬆]](#contents)
