@@ -72,7 +72,7 @@ ReverseLinkedList
 -Testing
 -3D party libraries
 -Gesture recogniser
--networking
+-networking(Rest, Oauth2)
 -debugging
 -modulo 
 -take home
