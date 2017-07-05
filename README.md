@@ -1432,6 +1432,7 @@ google.com
 3. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
 
 ## Process 
+meate project - OS -Freelance
 [[⬆]](#contents)
 192-17-5-6-3-1(6 weeks)0.52%
 26-15-6-5-2-  (8 weeks)
