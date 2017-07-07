@@ -79,13 +79,15 @@ ReverseLinkedList
 -kvo 
 -nsoperation vs multithreading
 -Gcd 
--autolayout
+-autolayout/sizeclasses
 -nsnotification center
 -UiView
 -patterns of design
 -github
 -swiftbook
 -optional biding 
+-general expression
+
 
 
 ## Cocoa touch 
