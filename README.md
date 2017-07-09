@@ -1251,6 +1251,14 @@ Domino's 64-2 </summary></details>
 11. Sparse Search
 12. Topologic Sort
 13. Dijkstra's algorithms
+14. Red black trees LogN
+15. In order Traversal
+16. Hashtable collision(LL/Binary search tree/open addressing with probing/quadratic probing and double hashing
+17. Rabin-Karp substring search 
+18. AVL trees 
+19. In-order traversal
+20. Pre-order traversal 
+21. Strassen's Algorithms 
 
 ### Concepts
 1. Bit Manipulation
@@ -1424,8 +1432,8 @@ italki.com
 EPAM.com
 amazon.com
 
-apple.com
 google.com
+apple.com
 
 ## Stories 
 [[⬆]](#contents)
