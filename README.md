@@ -1424,6 +1424,7 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 2. www.glassdoor.com
 3. angel.co 
 4. upwork.com
+5. international hr
 
 ## Companies
 [[⬆]](#contents)
