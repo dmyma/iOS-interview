@@ -10,7 +10,7 @@
 * [Data persistance](#data-persistance)
 * [Testing](#testing)
 * [CoreAnimation, CoreGraphics, CoreText](#coreanimation-coregraphics-coretext)
-* [Patterns(5)](#patterns)
+* [Patterns(2,5,10)](#patterns)
 * [Maps](#maps)
 * [Swift](#swift)
 * [Objective-C](#objective-c)
