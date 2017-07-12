@@ -110,7 +110,47 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 
+What is let and var in Swift?
+What is Optional in Swift and nil in Swift and Objective-C?
+What are properties and instance variables in Objective-C and Swift?
+What is a protocol (both Obj-C and Swift)? When and how is it used?
+What is a category/extension? When is it used?
+What are closures/blocks and how are they used?
+What is MVC?
+What are Singletons? What are they used for?
+What is Delegate pattern in iOS?
+What is KVO (Key-Value Observation)?
+What does iOS application lifecycle consist of?
+What is View Controller? What is its lifecycle?
 
+What are the challenges in working with UI on iOS?
+What do you use to lay out your views correctly on iOS?
+What are CGRect Frames? When and where would you use them?
+What is AutoLayout? When and where would you use it?
+What are compression resistance and content hugging priorities for?
+How does AutoLayout work with multi-threading?
+What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?
+How do you work with storyboards in a large team?
+How do you mix AutoLayout with Frames?
+What options do you have with animation on iOS?
+How do you do animation with Frames and AutoLayout?
+How do you work with UITableView?
+How do you optimize table views performance for smooth, fast scrolling?
+How do you work with UICollectionView?
+How do you work with UIScrollView?
+What is UIStackView? When would you use it and why?
+What alternative ways of working with UI do you know?
+How do you make a pixel-perfect UI according to a designer’s specs?
+How do you unit and integration test UI?
+Step Seven: Beyond MVC. Design Pattens, Architecture, FRP, and Dependencies Management.
+What design patterns are commonly used in iOS apps?
+What is MVC?
+What is MVVM?
+What are the common layers of responsibility that an iOS application has?
+What are SOLID principles? Can you give an example of each in iOS/Swift?
+How do you manage dependencies in iOS applications?
+What is Functional Programming and Functional Reactive Programming?
+What are the design patterns besides common Cocoa patterns that you know of?
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
 ## Memory Management 
@@ -197,6 +237,24 @@ If your app does not need to do any of these things, your app can use the system
 
 </details>
 
+What is HTTP?
+What is REST?
+How do you typically implement networking on iOS?
+What are the concerns and limitations of networking on iOS?
+What should go into the networking/service layer?
+What is NSURLSession? How is it used?
+What is AFNetworking/Alamofire? How do you use it?
+How do you handle multi-threading with networking on iOS?
+How do you serialize and map JSON data coming from the backend?
+How do you download images on iOS?
+How would you cache images?
+How do you download files on iOS?
+Have you used sockets and/or pubsub systems?
+What is RestKit? What is it used for? What are the advantages and disadvantages?
+What could you use instead of RestKit?
+How do you test network requests?
+
+
 ## Multithreading 
 [[⬆]](#contents)
 <details> 
@@ -229,6 +287,16 @@ LOOK
 
 
 </details>
+
+What is the storage layer for in iOS applications?
+What can you use to store data on iOS?
+What is NSCoding?
+What is NSUserDefaults?
+What is Keychain and when do you need it?
+How do you save data to a disk on iOS?
+What database options are there for iOS applications?
+How is data mapping important when you store data?
+How would you approach major database/storage migration in your application?
 
 ## Testing
 [[⬆]](#contents)
