@@ -1454,6 +1454,10 @@ The Routine is the enemy of time it is flying by
 
 https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
+MiniProjects
+url - https://www.youtube.com/watch?v=aTj0ZLha1zE&list=WL&index=2
+tap - 
+
 ## Podcasts 
 [[⬆]](#contents)
 ### Youtube
