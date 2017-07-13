@@ -237,22 +237,38 @@ If your app does not need to do any of these things, your app can use the system
 
 </details>
 
-What is HTTP?
-What is REST?
-How do you typically implement networking on iOS?
-What are the concerns and limitations of networking on iOS?
-What should go into the networking/service layer?
-What is NSURLSession? How is it used?
-What is AFNetworking/Alamofire? How do you use it?
-How do you handle multi-threading with networking on iOS?
-How do you serialize and map JSON data coming from the backend?
-How do you download images on iOS?
-How would you cache images?
-How do you download files on iOS?
-Have you used sockets and/or pubsub systems?
-What is RestKit? What is it used for? What are the advantages and disadvantages?
-What could you use instead of RestKit?
-How do you test network requests?
+  <details> 
+  <summary>What is HTTP?
+  <details> 
+  <summary>What is REST?
+  <details> 
+  <summary>How do you typically implement networking on iOS?
+  <details> 
+  <summary>What are the concerns and limitations of networking on iOS?
+  <details> 
+  <summary>What should go into the networking/service layer?
+  <details> 
+  <summary>What is NSURLSession? How is it used?
+  <details> 
+  <summary>What is AFNetworking/Alamofire? How do you use it?
+  <details> 
+  <summary>How do you handle multi-threading with networking on iOS?
+  <details> 
+  <summary>How do you serialize and map JSON data coming from the backend?
+  <details> 
+  <summary>How do you download images on iOS?
+  <details> 
+  <summary>How would you cache images?
+  <details> 
+  <summary>How do you download files on iOS?
+  <details> 
+  <summary>Have you used sockets and/or pubsub systems?
+  <details> 
+  <summary>What is RestKit? What is it used for? What are the advantages and disadvantages?
+  <details> 
+  <summary>What could you use instead of RestKit?
+  <details> 
+  <summary>How do you test network requests?
 
 
 ## Multithreading 
