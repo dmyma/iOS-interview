@@ -1524,6 +1524,19 @@ amazon.com
 google.com
 apple.com
 
+## Cities
+1. San Francisco 14
+2. Boston
+3. San Diego
+4. Minneapolis
+5. LA
+6. NY
+7. Seattle
+8. Austin/Phoenix -8
+9. Sacramento
+9.1 Orlando/Porttland
+10. Cleveland -22
+
 ## Stories 
 [[⬆]](#contents)
 
