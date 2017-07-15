@@ -1464,6 +1464,10 @@ Braces and names camelCase
 The Routine is the enemy of time it is flying by
 </details>
 
+### Question(my)
+What is normal day look like?
+Why did you choose this company?
+
 
 ## HomeWork 
 [[⬆]](#contents)
