@@ -1464,6 +1464,12 @@ Braces and names camelCase
 The Routine is the enemy of time it is flying by
 </details>
 
+Tell me about your previous Job?
+STAR technique
+What was the main advanteges
+problem
+how did you solve it
+
 ### Question(my)
 What is normal day look like?
 Why did you choose this company?
