@@ -47,6 +47,7 @@
 13. Databases
 -leetcode, 2 alg books
 -interview 
+- code/algorythms/knowledge
 
 2. iOS code
 
