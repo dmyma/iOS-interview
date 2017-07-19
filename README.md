@@ -1377,6 +1377,10 @@ Domino's 64-2 </summary></details>
   <summary>
 Why should we hire you?</summary>
 life way</details>
+How is success in this position measured and rewarded?
+How are the goals for this job set?
+What would I be expected to accomplish in the first 6 months?
+How long have you been with the company?
 
 <details> 
   <summary>Tell me about company from cv?</summary></details>
