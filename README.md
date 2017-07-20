@@ -46,7 +46,8 @@
 12. Threads
 13. Databases
 -leetcode, 2 alg books
--interview 
+-inter
+
 - code/algorythms/knowledge
 
 2. iOS code
@@ -162,6 +163,22 @@ What is Functional Programming and Functional Reactive Programming?
 What are the design patterns besides common Cocoa patterns that you know of?
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
+
+viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
+viewWillApear - changing over display, geometry set, optimise performance,
+viewDidApear - 
+viewWillDisapear - remember whats going on and clean up, no time consuming
+viewDidDisapear
+
+viewWillLAyoutSubviews - called when frames changed
+viewDidAyoutSubviews
+viewWillTransition
+didRecieveMemoryWarning
+awakeFromNib
+
+strong, weak, unowned
+
+Closures
 ## Memory Management 
 [[⬆]](#contents)
 
