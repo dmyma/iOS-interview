@@ -323,6 +323,24 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 </details>
 LOOK
 
+Queues
+Main Queue
+Global Queues 
+DispatchQueue.global/main
+queue.sync(async)
+
+ a: if let url = URL(string: “http://stanford.edu/...”) {
+ }
+let task = session.dataTask(with: url) { (data: Data?, response, error) in // do something with the data
+DispatchQueue.main.async {
+// do UI stuff here
+}
+    print(“did some stuff with the data, but UI part hasn’t happened yet”)
+b: c: d: e:
+f:
+g:
+h: print(“done firing off the request for the url’s contents”)
+
 ## Data persistance 
 [[⬆]](#contents)
 ### (CoreData)
