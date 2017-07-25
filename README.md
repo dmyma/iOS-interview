@@ -1416,7 +1416,7 @@ Domino's 64-2 </summary></details>
 ## General
 [[⬆]](#contents)
 
-
+<img src="interview.png" width="301" height="100">
 <details> 
   <summary>
 Why should we hire you?</summary>
