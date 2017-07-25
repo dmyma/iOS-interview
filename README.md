@@ -367,6 +367,48 @@ What database options are there for iOS applications?
 How is data mapping important when you store data?
 How would you approach major database/storage migration in your application?
 
+How do access coredata?
+NSManagedObjectContext
+
+How do I you get contex?
+NSPersistentContainer
+(UIApplication.shared.delegate as! AppDelegate).persistentContainer
+
+let container = (UIApplication.shared.delegate as! AppDelegate).persistentContainer let context: NSManagedObjectContext = container.viewContext
+
+Every NSManagedObject knows the managedObjectContext it is in.
+
+How do you access entities?
+let context = AppDelegate.viewContext
+  if let tweet = Tweet(context: context) {
+tweet.text = “140 characters of pure joy”
+tweet.created = Date() as NSDate
+     let joe = TwitterUser(context: tweet.managedObjectContext)
+     tweet.tweeter = joe
+tweet.tweeter.name = “Joe Schmo” }
+
+-Thread safety?
+NSManagedObjectContext is not thread safe
+Luckily, Core Data access is usually very fast, so multithreading is only rarely needed.
+NSManagedObjectContexts are created using a queue-based concurrency model.
+This means that you can only touch a context and its NSMO’s in the queue it was created on. Often we use only the main queue and its AppDelegate.viewContext, so it’s not an issue.
+Thread-Safe Access to an NSManagedObjectContext context.performBlock { // or performBlockAndWait until it finishes
+// do stuff with context (this will happen in its safe Q (the Q it was created on)) }
+Note that the Q might well be the main Q, so you’re not necessarily getting “multithreaded.” It’s generally a good idea to wrap all your Core Data code using this.
+Although if you have no multithreaded code at all in your app, you can probably skip it.
+It won’t cost anything if it’s not in a multithreaded situation.
+
+Convenient way to do database stuff in the background
+The persistentContainer has a simple method for doing database stuff in the background AppDelegate.persistentContainer.performBackgroundTask { context in
+// do some CoreData stuff using the passed-in context
+// this closure is not the main queue, so don’t do UI stuff here (dispatch back if needed) // and don’t use AppDelegate.viewContext here, use the passed context
+// you don’t have to use NSManagedObjectContext’s perform method here either
+// since you’re implicitly doing this block on that passed context’s thread
+try? context.save() // don’t forget this (and catch errors if needed)
+}
+This would generally only be needed if you’re doing a big update.
+You’d want to see that some Core Data update is a performance problem in Instruments first. For small queries and small updates, doing it on the main queue is fine.
+
 ## Testing
 [[⬆]](#contents)
 
@@ -1528,6 +1570,13 @@ STAR technique
 What was the main advanteges
 problem
 how did you solve it
+
+Tell me about the time when you failed/succeeded?
+Tell me something what is not on your CV?
+What do you do for fun?
+Tell me about your leadership example?
+Tell me about the time you worked on a team?
+Tell me about your favourite project?
 
 ### Question(my)
 What is normal day look like?
