@@ -1549,6 +1549,8 @@ but! We are fighting
 Preodalival in the past and what are the disadvantages of today, when I know that there is a defect I'm working on
 Details and says no and priorities and took it to the end</details>
 
+ -Sometimes, I do not have a very good attention to detail. While that's good because it lets me execute quickly, it also means that I sometimes make careless mistakes. Because of that, I make sure to always have someone else double check my work.
+ 
 <details> 
   <summary>How would you describe your perfect day</summary></details>
 <details> 
