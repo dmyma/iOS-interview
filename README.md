@@ -101,6 +101,7 @@ anotation
 reverse geocoding
 Location Manager
 Algorithm design
+singleton, MvC, VAPOR, abc, fm
 
 
 
