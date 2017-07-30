@@ -1582,6 +1582,11 @@ Tell me about your leadership example?
 Tell me about the time you worked on a team?
 Tell me about your favourite project?
 
+-If you know the team/project. What do you like about it? What would you improve? 
+-Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
+
+-Code, Knowledge, Algorythms, Code style
+
 ### Question(my)
 What is normal day look like?
 Why did you choose this company?
