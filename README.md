@@ -1588,7 +1588,11 @@ Tell me about your favourite project?
 Build app fast(Entr, team lead, same field)
 -smart and can code
 
--Code, Knowledge, Algorythms, Code style
+-Code, Knowledge, Algorythms, Code style, behavioral/experience, design/architecture
+-teamwork/leadership 
+-prioritization
+-communication 
+-getting things done
 
 ### Question(my)
 What is normal day look like?
