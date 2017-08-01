@@ -1585,7 +1585,8 @@ Tell me about your favourite project?
 -If you know the team/project. What do you like about it? What would you improve? 
 -Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
 -Ninja: Algorithms
-Build app fast(Entr, team lead)
+Build app fast(Entr, team lead, same field)
+-smart and can code
 
 -Code, Knowledge, Algorythms, Code style
 
