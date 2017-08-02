@@ -1418,6 +1418,10 @@ Only one instance of that class is created in the application.
 Domino's 64-2 </summary></details>
 <details><summary>
 5 boxes and a black cat</summary></details>
+how many gas station are there in the usa
+- three switches 
+-five philosophers 
+- heavy marble
 
 ### Algorythms
 1. Breadth-First Search
