@@ -203,6 +203,9 @@ Closures
 ## Networking
 [[⬆]](#contents)
 
+Latency - time takes a given bit of information to get from one point to another on the network.
+Bandwidth - to the rate at which data moves through the network once communication is established.
+Bandwidth - 
 <details> 
   <summary> Which JSON framework is supported by iOS?  </summary>
 SBJson framework is supported by iOS.  It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.
@@ -450,6 +453,9 @@ You’d want to see that some Core Data update is a performance problem in Instr
 </details> 
 
 <details> <summary>What is OOP?</summary></details>
+Inheritance - allowas a class to be definde as a modified or more specialized version of another class
+Polymorphism - 
+interface, abstract class class/protocol
 <details> <summary>What are the pros and cons of inheritance?</summary></details>
 <details> <summary>What is polymorphism?</summary></details>
 <details> <summary>What is tight coupling?</summary></details>
@@ -1422,6 +1428,8 @@ how many gas station are there in the usa
 - three switches 
 -five philosophers 
 - heavy marble
+- to draw a 8th of ht circle
+- 2 rec overlap
 
 ### Algorythms
 1. Breadth-First Search
@@ -1585,6 +1593,10 @@ What do you do for fun?
 Tell me about your leadership example?
 Tell me about the time you worked on a team?
 Tell me about your favourite project?
+Tell me about a time you had to persuade a group of people to make a big change?
+-Story-Nugget-Situation-Action-Result-What is says
+-by examing the common user behavior and applying the Rabin-Karp alg, I designed a new algorithm to reduca search from O(n) to O(logN) in 90% of cases. I can go into more details if you'd like
+
 
 -If you know the team/project. What do you like about it? What would you improve? 
 -Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
