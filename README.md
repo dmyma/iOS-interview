@@ -108,7 +108,7 @@ singleton, MvC, VAPOR, abc, fm
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
-
+-
 <details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
 The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
 </details>
