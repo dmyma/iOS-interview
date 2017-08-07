@@ -1597,7 +1597,7 @@ Tell me about your favourite project?
 Tell me about a time you had to persuade a group of people to make a big change?
 -Story-Nugget-Situation-Action-Result-What is says
 -by examing the common user behavior and applying the Rabin-Karp alg, I designed a new algorithm to reduca search from O(n) to O(logN) in 90% of cases. I can go into more details if you'd like
-
+-what interview might cover and get feedback politely
 
 -If you know the team/project. What do you like about it? What would you improve? 
 -Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
