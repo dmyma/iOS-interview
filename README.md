@@ -94,6 +94,10 @@ ReverseLinkedList
 -notification center
 -gcd, queues, operations
 
+- Decorator vs Inheritance
+- alg hash table
+- ood/scalability
+
 Networking rest
 test
 Google map kit
@@ -1602,6 +1606,7 @@ Tell me about a time you had to persuade a group of people to make a big change?
 What has been most challenging for you?
 I'm very interesting in scalability, and would like to learn more about it. What opportunities are there at this company to learn about this?
 I'm not familiar with technology ..., but it sounds like very interesting solution. Could you tell me a bit more about how it works?
+
 
 -If you know the team/project. What do you like about it? What would you improve? 
 -Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
