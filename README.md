@@ -107,6 +107,10 @@ Location Manager
 Algorithm design
 singleton, MvC, VAPOR, abc, fm
 
+- e,2,
+-What is collection?
+-what is Protocol?
+
 
 
 ## Cocoa touch 
