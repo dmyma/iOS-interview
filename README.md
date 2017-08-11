@@ -92,7 +92,7 @@ ReverseLinkedList
 -question E, A, B, 50
 -UIViewController
 -notification center
--gcd, queues, operations
+-gcd, queues, operations, threades
 
 - Decorator vs Inheritance
 - alg hash table
