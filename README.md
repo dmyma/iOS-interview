@@ -1610,7 +1610,7 @@ Tell me about a time you had to persuade a group of people to make a big change?
 What has been most challenging for you?
 I'm very interesting in scalability, and would like to learn more about it. What opportunities are there at this company to learn about this?
 I'm not familiar with technology ..., but it sounds like very interesting solution. Could you tell me a bit more about how it works?
-
+-tell me about challenging interaction with a temmate S_A_R
 
 -If you know the team/project. What do you like about it? What would you improve? 
 -Jedi: Would you fit well? What are you excited about? How do you tackle chalenges?
