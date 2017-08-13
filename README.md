@@ -1438,6 +1438,9 @@ how many gas station are there in the usa
 - heavy marble
 - to draw a 8th of ht circle
 - 2 rec overlap
+- unordered binary tree to heap (balanced binary tree)
+- binary search tee find a common ancestor, swift alg, leetcode
+- preorder traversal on a binary search tree
 
 ### Algorythms
 1. Breadth-First Search
