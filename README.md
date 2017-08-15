@@ -448,14 +448,19 @@ You’d want to see that some Core Data update is a performance problem in Instr
 
 1. Singleton
 2. Factory
+2.1 ABF
 3. Decorator
 4. Builder
+4.1 Observer, Iterator
 5. Proxy
 6. Template
 7. Adapter
 8. Chain of Responsibility
 9. Strategy
 10. Flyweight
+
+
+
 <details> 
   <summary>Explain Singleton class.</summary>
 </details> 
@@ -1441,6 +1446,8 @@ how many gas station are there in the usa
 - unordered binary tree to heap (balanced binary tree)
 - binary search tee find a common ancestor, swift alg, leetcode
 - preorder traversal on a binary search tree
+-inserting data in a big data, algorithm?
+
 
 ### Algorythms
 1. Breadth-First Search
@@ -1626,6 +1633,13 @@ Build app fast(Entr, team lead, same field)
 -prioritization
 -communication 
 -getting things done
+
+What can you tell me about your experience?
+-achievements-fails-struggle-solution-learn-what would do better-1 min
+What are your career goals?
+Why do you want to change your job?
+-Change
+-being a part of a great team
 
 ### Question(my)
 What is normal day look like?
