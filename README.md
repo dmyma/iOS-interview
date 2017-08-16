@@ -1020,6 +1020,88 @@ So you only need init when a value can’t be set in any of these ways</details>
 
 
 
+------
+
+Weak and Unowned References in Anonymous Functions
+
+
+Delegation Delegation  is an object-oriented design pattern, a relationship between two objects, in which a primary object’s behavior is customized or assisted by a secondary object. The secondary object is the primary object’s  delegate.  No subclassing is involved, and indeed the primary object is agnostic about the delegate’s class.
+
+Notifications Cocoa provides your app with a single NotificationCenter instance (Objective-C NSNotificationCenter), informally called the  notification  center.  This instance, available as  NotificationCenter.default, is the basis of a mechanism for sending messages called  notifications. A notification is a Notification instance (Objective-C NSNotification). The idea is that any object can be registered with the notification center to receive certain notifications. Another object can hand the notification center a notification to send out (this is called  posting  the notification). The notification center will then send that notification to all objects that are registered to receive it.
+
+Data Sources A  data source  is like a delegate, except that its methods supply the data for another object to display. The chief Cocoa classes with data sources are UITableView, UICollectionView, UIPickerView, and UIPageViewController. In each case, the data source must formally adopt a data source protocol with required methods.
+
+Key–Value Observing Key–value observing, or  KVO, is a notification mechanism that doesn’t use the NotificationCenter. It allows one object to be registered  directly with a second object  so as to be notified when a value in the second object changes. Moreover, the second object — the observed object — doesn’t actually have to  do  anything; it needn’t even be conscious of the fact that this registration has taken place. When the value in the observed object changes, the registered object — the observer — is automatically notified. (Perhaps a better architectural analogy would be with the target–action mechanism; this is a target–action mechanism that works between  any  two objects.)
+
+Memory Management of Protocol-Typed References Only a reference to an instance of a class type can be declared  weak  or  unowned. A reference to an instance of a struct or enum type cannot be so declared, because its memory management doesn’t work the same way (and is not subject to retain cycles). A reference that is declared as a protocol type, therefore, has a problem. A protocol might be adopted by a struct or an enum. Therefore you cannot wantonly declare such a reference  weak  or  unowned. You can only declare a protocol-typed reference weak  or  unowned  if it is a class protocol — that is, if it is marked with  @objc  or  class. In this code, SecondViewControllerDelegate is a protocol that I’ve declared. This code won’t compile unless SecondViewControllerDelegate is declared as a class protocol: class SecondViewController : UIViewController {     weak var delegate : SecondViewControllerDelegate?     // ... } Here’s the actual declaration of SecondViewControllerDelegate; it  is  declared as a class protocol, and that’s why the preceding code is legal: protocol SecondViewControllerDelegate : class {     func accept(data:Any!) } A protocol declared in Objective-C is implicitly marked as  @objc  and is a class protocol. Thus, this declaration from my real-life code is legal: weak var delegate : WKScriptMessageHandler? WKScriptMessageHandler is a protocol declared by Cocoa (in particular, by the Web Kit framework). Thus, it is implicitly marked  @objc; only a class can adopt WKScriptMessageHandler, and so the compiler is satisfied that the  delegate  variable will be an instance of a class, and thus the reference can be treated as  weak.
+
+What is delegate 
+Protocol, extension, category 
+Informal protocol
+
+Nsstring 
+Nsarray 
+Nsdictionary
+Nsset +
+Nsdate 
+Nsdata urlsession, stroring 
+Nsnumber 
+Nsvalue 
+Nsnull 
+NSMeasurement and Friends New in iOS 10, the Measurement type (Objective-C NSMeasurement) embodies the notion of a measurement by some unit (Unit, Objective-C NSUnit). A unit may be along some dimension that may be expressible in different units convertible to one another; by reducing values in different units of the same dimension to a base unit, a Measurement permits you to perform arithmetic operations and conversions. The dimensions, which are all subclasses of the (abstract) Dimension class (Objective-C NSDimension, an NSUnit subclass), have names like UnitAngle and UnitLength (Objective-C NSUnitAngle, NSUnitLength), and have class properties vending an instance corresponding to a particular unit type; for example, UnitAngle has class properties  degrees  and  radians  and others, and UnitLength has class properties  miles  and  kilometers  and others. To illustrate, I’ll add 5 miles to 
+
+What is KVC?
+
+
+The Secret Life of NSObject Because every Objective-C class inherits from NSObject, it’s worth taking some time to explore NSObject. NSObject is constructed in a rather elaborate way: • It defines some native class methods and instance methods having mostly to do with the basics of instantiation and of method sending and resolution. • It adopts the NSObject protocol. This protocol declares instance methods having mostly to do with memory management, the relationship between an instance and its class, and introspection. Because all the NSObject protocol methods are required, the NSObject class implements them all. In Swift, the NSObject protocol is called NSObjectProtocol, to avoid name clash. • It implements convenience methods related to the NSCopying, NSMutableCopying, and NSCoding protocols, without formally adopting those protocols. NSObject intentionally doesn’t adopt these protocols because this would cause all other classes to adopt them, which would be wrong. But thanks to this architecture, if a class  does  adopt one of these protocols, you can call the corresponding convenience method. For example, NSObject implements the  copy  instance method, so you can call  copy  on any instance, but you’ll crash unless the instance’s class also adopts the NSCopying protocol and implements  copy(with:). • A large number of methods are injected into NSObject by more than two dozen categories on NSObject, scattered among various header files. For example, awakeFromNib  (see  Chapter 7) comes from the UINibLoadingAdditions category on NSObject, declared in  UINibLoading.h. • A class object is an object. Therefore all Objective-C classes, which are objects of type Class, inherit from NSObject. Therefore,  any instance method of NSObject can be called on a class object as a class method!  For example,  responds(to:)  is defined as an instance method by the NSObject protocol, but it can (therefore) be treated also as a class method and sent to a class object.
+
+Creation, destruction, and memory management Methods for creating an instance, such as  alloc  and  copy, along with methods for learning when something is happening in the lifetime of an object, such as initialize  and  dealloc, plus methods that manage memory. Class relationships Methods for learning an object’s class and inheritance, such as  superclass, isKind(of:), and  isMember(of:). Object introspection and comparison Methods for asking what would happen if an object were sent a certain message, such as  responds(to:), for representing an object as a string (description), and for comparing objects (isEqual(_:)). Message response Methods for meddling with what does happen when an object is sent a certain message, such as  doesNotRecognizeSelector(_:). If you’re curious, see the Objective-C Runtime Programming Guide. Message sending Methods for sending a message dynamically. For example,  perform(_:)  takes a selector as parameter, and sending it to an object tells that object to perform that selector. This might seem identical to just sending that message to that object, but what if you don’t know what message to send until runtime? Moreover, variants on  perform  allow you to send a message on a specified thread, or send a message after a certain amount of time has passed (perform(_:with:afterDelay:)  and similar).
+
+
+
+
+
+
+
+An  enum  is an object type whose instances represent  distinct  predefined  alternative values. Think of it as a list of known possibilities. An enum is the Swift way to express a set of constants that are alternatives to one another. An enum declaration includes case statements. Each case is the name of one of the alternatives. An instance of an enum will represent exactly one alternative — one case.
+
+Methods A  method  is a function — one that happens to be declared at the top level of an object type declaration. This means that everything said about functions in  Chapter 2 applies. By default, a metho
+
+Properties A  property  is a variable — one that happens to be declared at the top level of an object type declaration. This means that everything said about variables in  Chapter 3 applies. A property has a fixed type; it can be declared with  var  or  let; it can be stored or computed; it can have setter observers. An instance property can also be declared  lazy.
+
+Structs A  struct  is the Swift object type  par excellence. An enum, with its fixed set of cases, is a reduced, specialized kind of object. A class, at the other extreme, will often turn out to be overkill; it has some features that a struct lacks, but if you don’t need those features, a struct may be preferable.
+
+Classes A  class  is similar to a struct, with the following key differences: Reference type Classes are reference types. This means, among other things, that a class instance has two remarkable features that are not true of struct instances or enum instances: Mutability A class instance is mutable in place. Even if your reference to an instance of a class is a constant (let), you can change the value of an instance property through that reference. An instance method of a class never has to be marked  mutating  (and cannot be). Multiple references When a given instance of a class is assigned to multiple variables or passed as argument to a function, you get multiple references to  one and the same object. Inheritance A class can have a superclass. A class that has a superclass is a  subclass  of that superclass. Class types can thus form a hierarchical tree. In Objective-C, classes are the only object type. Some built-in Swift struct types are magically bridged to Objective-C class types, but your custom struct types don’t have that magic. Thus, when programming iOS with Swift, a primary reason for declaring a class, rather than a struct, is as a form of interchange with Objective-C and Cocoa.
+
+Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
+
+
+
+
+
+
+Functions are Reference Types The  countAdded  and  greet  example, earlier (“Closure Preserving Its Captured Environment”  on page  59), demonstrates that functions are reference types. To show what I mean, I’ll start with a contrasting situation. Two  separate  calls to a function factory method produce two  different  functions, as you would expect: let countedGreet = countAdder(greet) let countedGreet2 = countAdder(greet) countedGreet() // count is 1 countedGreet2() // count is 1 The two functions  countedGreet  and  countedGreet2, in that code, are maintaining their counts separately. But simple assignment or parameter passing results in a new reference to the  same  function, maintaining the  same  count: let countedGreet = countAdder(greet) let countedGreet2 = countedGreet countedGreet() // count is 1 countedGreet2() // count is 2
+
+Class Properties and Methods A subclass can override its inherited properties. The override must have the same name and type as the inherited property, and must be marked with  override. (A property cannot have the same name as an inherited property but a different type, as there is no way to distinguish them.) The chief restriction here is that an  override  property  cannot be a stored property. More specifically: • If the superclass property is writable (a stored property or a computed property with a setter), the subclass’s override may consist of adding setter observers to this property. • Alternatively, the subclass’s override may be a computed property. In that case: ■ If the superclass property is stored, the subclass’s computed property override must have both a getter and a setter. ■ If the superclass property is computed, the subclass’s computed property override must reimplement all the accessors that the superclass implements. If the
+
+Polymorphism When a computer language has a hierarchy of types and subtypes, it must resolve the question of what such a hierarchy means for the relationship between the type of an object  and the declared type of a  reference  to that object. Swift obeys the principles of polymorphism. In my view, it is polymorphism that turns an object-based language into a full-fledged object-oriented language. We may summarize Swift’s polymorphism principles as follows:
+
+Casting The Swift compiler, with its strict typing, imposes severe restrictions on what messages can be sent to an object reference. The messages that the compiler will permit to be sent to an object reference depend upon the reference’s  declared  type. But the internal identity principle of polymorphism says that, under the hood, an object may have a  real  type that is different from its reference’s declared type. Such an object may be capable of receiving messages that the compiler won’t permit us to send.
+
+Type Reference It can be useful for an instance to refer to its own type — for example, to send a message to that type. In an earlier example, a Dog instance method fetched a Dog class property by sending a message to the Dog type explicitly — by using the word  Dog:
+
+Protocols A  protocol  is a way of expressing commonalities between otherwise unrelated types. For example, a Bee object and a Bird object might need to have certain features in common by virtue of the fact that both a bee and a bird can fly. Thus, it might be useful to define a Flier type. The question is: In what sense can both Bee and Bird be Fliers? One possibility, of course, is class inheritance. If Bee and Bird are both classes, there’s a class hierarchy of superclasses and subclasses. So Flier could be the superclass of both Bee and Bird. The problem is that there may be other reasons why Flier  can’t  be the superclass of both Bee and Bird. A Bee is an Insect; a Bird isn’t. Yet they both have the power of flight — independently. We need a type that cuts across the class hierarchy somehow, tying remote classes together. Moreover, what if Bee and Bird are  not  both classes? In Swift, that’s a very real possibility. Important and powerful objects can be structs instead of classes. But there is no struct hierarchy of superstructs and substructs! That, after all, is one of the major differences between structs and classes. Yet structs need the ability to possess and express formal commonalities every bit as much as classes do. How can a Bee struct and a Bird struct both be Fliers?
+
+Generics A  generic  is a sort of placeholder for a type, into which an actual type will be slotted later. This is useful because of Swift’s strict typing. Without sacrificing that strict typing, there are situations where you can’t or don’t want to specify too precisely in a certain region of your code what the exact type of something is going to be.
+
+Type Constraints All our examples so far have permitted any type to be substituted for the placeholder. Alternatively, you can limit the types that are eligible to be used for resolving a particular placeholder. This is called a  type constraint. The simplest form of type constraint is to put a colon and a type name after the placeholder’s name when it first appears. The type name after the colon can be a class name or a protocol name. For example, let’s return to our Flier and its  flockTogetherWith  function. Sup
+
+Extensions An  extension  is a way of injecting your own code into an object type that has already been declared elsewhere; you are  extending  an existing object type. You can extend your own object types; you can also extend one of Swift’s object types or one of Cocoa’s object types, in which case you are  adding functionality  to a type that doesn’t belong to you! Extension declaration can take 
+
+
+
+------
+
 ## Objective-C 
 [[⬆]](#contents)
 
@@ -1448,6 +1530,12 @@ how many gas station are there in the usa
 - preorder traversal on a binary search tree
 -inserting data in a big data, algorithm?
 
+binary search on an array
+
+combination of the string
+123 - 1 2 3 12 13 23
+
+
 
 ### Algorythms
 1. Breadth-First Search
@@ -1640,6 +1728,14 @@ What are your career goals?
 Why do you want to change your job?
 -Change
 -being a part of a great team
+
+what is your salary history?
+I expect compensation appropriate for the new job and responsibilities and that the compensation that i received for a different set of tasks is not relevant
+Why should we hire you?
+the job is good match fro my skills
+Why do you want to work in this company?
+What is your favorite programming language?
+What is your style?
 
 ### Question(my)
 What is normal day look like?
