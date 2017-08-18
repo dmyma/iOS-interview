@@ -1022,7 +1022,8 @@ So you only need init when a value can’t be set in any of these ways</details>
 
 ------
 
-Weak and Unowned References in Anonymous Functions
+<details> 
+  <summary>Weak and Unowned References in Anonymous Functions
 
 
 Delegation Delegation  is an object-oriented design pattern, a relationship between two objects, in which a primary object’s behavior is customized or assisted by a secondary object. The secondary object is the primary object’s  delegate.  No subclassing is involved, and indeed the primary object is agnostic about the delegate’s class.
