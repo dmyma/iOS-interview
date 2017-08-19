@@ -1738,6 +1738,13 @@ Why do you want to work in this company?
 What is your favorite programming language?
 What is your style?
 
+What is the ratio of testers to developers to program managers? What us the interaction like? HOw does project planning happen on the team?
+
+Why do you want to work...?
+I've been usigng... software for ... years, and I'm really impresed at how .. manages to create  aproduct that is universally excellent. For example, I 've been usign VS recently to learn game programming, and its API' are excellent.
+
+
+
 ### Question(my)
 What is normal day look like?
 Why did you choose this company?
