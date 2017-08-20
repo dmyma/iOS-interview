@@ -1560,6 +1560,10 @@ combination of the string
 19. In-order traversal
 20. Pre-order traversal 
 21. Strassen's Algorithms 
+22. Graph search
+
+Tries(Prefix trees)
+
 
 ### Concepts
 1. Bit Manipulation
