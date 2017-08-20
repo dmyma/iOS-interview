@@ -1743,7 +1743,12 @@ What is the ratio of testers to developers to program managers? What us the inte
 Why do you want to work...?
 I've been usigng... software for ... years, and I'm really impresed at how .. manages to create  aproduct that is universally excellent. For example, I 've been usign VS recently to learn game programming, and its API' are excellent.
 
+Provide situations where you had to get something done in a tight deadline?
 
+
+
+
+glassdoor interview tips
 
 ### Question(my)
 What is normal day look like?
