@@ -29,6 +29,12 @@
 * [Process](#process)
 * [Credits](#credits)
 
+
+QUESTIONS
+C
+A
+W
+
 # Topics
 1. Algorightms
 
