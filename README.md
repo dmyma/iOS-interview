@@ -1542,6 +1542,23 @@ binary search on an array
 combination of the string
 123 - 1 2 3 12 13 23
 
+Find the top K elements of a list that is J long, simple parsing. 
+	
+Two strings are given. And a dictionary of similar words. The task is to have a function that compares two strings and gives you an answer if they're similar or not. They are similar if the words are identical or have the same meaning based on the given array.
+
+func compareString(st1: String, st2: String, s: [String: String]) -> Bool 
+{ let st1Array = st1.components(separatedBy: " “)
+ let st2Array = st2.components(separatedBy: " ") 
+if st1Array.count != st2Array.count { return false } 
+var i = 0 
+var similar = false 
+outer: for word in st1Array { guard i <= st1Array.count else { break } 
+
+if word == st2Array[i] { similar = true i += 1 continue outer } 
+else { for (key, value) in s { if value == word || key == word { if st2Array[i] == value || st2Array[i] == key { i += 1 continue outer } 
+else { return false } } } } similar = false break } 
+return similar }
+
 
 
 ### Algorythms
