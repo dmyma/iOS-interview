@@ -35,6 +35,13 @@ C
 A
 W
 
+Stitch Fix
+Github/Slack/Screen HEro/ Blue Jeans
+pull requests, one-pagers, screencasts
+Quick to test, CircleCL to run, Fastlane to build 
+RabbitMQ and ElasticSearch
+
+
 # Topics
 1. Algorightms
 
