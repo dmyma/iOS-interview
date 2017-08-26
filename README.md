@@ -1634,6 +1634,14 @@ Tries(Prefix trees)
 
 <details> 
   <summary>UIPanGestureRegogniser</summary></details>
+  
+work with console:
+
+- fr v frame variable
+- ty loo type lookup
+- p expression
+- po print object
+
 
 
 ## General
