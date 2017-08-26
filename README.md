@@ -516,6 +516,15 @@ interface, abstract class class/protocol
 
 https://www.youtube.com/watch?v=vNHpsC5ng_E&list=WL
 
+Singleton 
+-how to implement logging facility using the Singleton pattern
+-you are not allways uses singelton and it is expensive to inialize how can you improve it?
+
+Observer
+what strategy to efficiently update its observer?
+Observer updates to often, instead update multiply properties one by one, it is better to turn off observer and then run single update notifications to all interested objexts
+-another, O determines what have changed, it is better update the part of the information that chaged on the screen then redraw all screen, so O needs to know what part of the model has changed
+
 
 * [Behavioral](#behavioral)
 * [Creational](#creational)
