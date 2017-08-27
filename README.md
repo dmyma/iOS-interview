@@ -1138,7 +1138,16 @@ Type Constraints All our examples so far have permitted any type to be substitut
 
 Extensions An  extension  is a way of injecting your own code into an object type that has already been declared elsewhere; you are  extending  an existing object type. You can extend your own object types; you can also extend one of Swift’s object types or one of Cocoa’s object types, in which case you are  adding functionality  to a type that doesn’t belong to you! Extension declaration can take 
 
-
+<details> 
+  <summary>delegation<summary> 
+  
+create a delegation protocol
+create a delegate property in the V
+use the delegate property in the V
+Controller declares that it implenets
+Controller sets self as the delegate
+IMplent the protocol in the Controller
+</details>
 
 ------
 
