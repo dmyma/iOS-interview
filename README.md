@@ -509,6 +509,11 @@ interface, abstract class class/protocol
 <details> <summary>What is MVVM and why you will use it?</summary></details>
 <details> <summary>What is dependency injection, how it is good?</summary></details>
 
+Decorator vs Inheritance
+
+D wraps ano object with another object to change original behavior.
+Iheritance allows modification of the parent class only at compile time, while decorations are applied dynamically at run time
+
 1. MVC
 2. Vapor
 3. MVP
@@ -1166,6 +1171,37 @@ IMplent the protocol in the Controller
         }
     }
 </details>
+
+
+Arrays and linkedlists
+	Tuples
+Array set Dictionary
+	Struct vs Class? oth class and structure can do:
+	•	Define properties to store values
+	•	Define methods to provide functionality
+	•	Be extended
+	•	Conform to protocols
+	•	Define intialisers
+	•	Define Subscripts to provide access to their variables
+Only class can do:
+	•	Inheritance
+	•	Type casting
+	•	Define deinitialisers
+	•	Allow reference counting for multiple references.
+
+	
+	Tuple 
+Closure 
+Implocite 
+Explocite 
+Conditional biding 
+Conditional evaluation
+Enam
+Do try catch 
+Defer 
+Guard 
+
+
 ------
 
 ## Objective-C 
@@ -1618,7 +1654,20 @@ else { for (key, value) in s { if value == word || key == word { if st2Array[i] 
 else { return false } } } } similar = false break } 
 return similar }
 
+find first none repeated character algor
 
+Linked List - list traversal, sorting, inserting and reovind 
+BFS - queue
+Bidirectional Search
+
+reverse work problem
+
+binary heaps min/max pre/post/in order traversal
+balanced not balanced not binary search
+binary trees traversal
+binary tree
+ternary tree
+binaries trees vs binary search trees
 
 ### Algorythms
 1. Breadth-First Search
