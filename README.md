@@ -497,7 +497,8 @@ You’d want to see that some Core Data update is a performance problem in Instr
 
 <details> <summary>What is OOP?</summary></details>
 Inheritance - allowas a class to be definde as a modified or more specialized version of another class
-Polymorphism - 
+Polymorphism - the capability to provide multiple implementations of an action and to select the correct implementation based on the surrounding context.override
+
 interface, abstract class class/protocol
 <details> <summary>What are the pros and cons of inheritance?</summary></details>
 <details> <summary>What is polymorphism?</summary></details>
@@ -1200,6 +1201,25 @@ Enam
 Do try catch 
 Defer 
 Guard 
+
+
+HttpURLConnection Example
+
+URL url = new URl(Service_URL)
+HttpURLConnection con = (HttpUrlConnection) url.openConection();
+StringBuilder sb = new StringBuilder();
+BufferReadr reader =new BufferReader(
+	new InputStremReader(con,getInputStream()));
+String line = “”;
+while ((line = reader.readLine()) != null) {
+sb.append(line + “/n”);
+}
+reader.close();
+
+It's important to remember that closures are reference types in Swift and can cause retain cycles just as easily, if not more easily, as classes. In order for a closure to execute later, it needs to retain any variables that it needs for it to run. Similarly to classes, a closure captures references as strong by default. 
+In this case, the SomeObject class has a strong reference to aClosure and aClosure has captured self (the SomeObject instance) strongly as well. This is why Swift always makes you add self. explicitly while in a closure to help prevent programmers from accidentally capturing self without realizing it, and therefore most likely causing a retain cycle.
+To have a closure capture variables as weak or unowned, you can give the closure instructions on how to capture certain variables.
+
 
 
 ------
@@ -2041,5 +2061,9 @@ d, Mac, app, sf
 11. github.com
 12. google
 13. raywanderlich
+14. https://www.glassdoor.com/Interview/san-francisco-ios-developer-interview-questions-SRCH_IL.0,13_IM759_KO14,27_SDRD.htm
+15. https://www.codementor.io/hajderrabiee/basic-swift-interview-questions-job-junior-developer-omuqax3ab
+16. http://martiancraft.com/blog/2016/10/interview-tips/
+
 
 
