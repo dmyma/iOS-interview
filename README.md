@@ -390,6 +390,14 @@ f:
 g:
 h: print(“done firing off the request for the url’s contents”)
 
+
+Deadlock - two threads are waiting for each other
+Monitor - 
+Semaphore - protects a shared resource
+
+process vs thread swift Concurrency and Threading
+
+
 ## Data persistance 
 [[⬆]](#contents)
 ### (CoreData)
