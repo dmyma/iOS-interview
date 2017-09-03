@@ -50,7 +50,7 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 QUESTIONS
 Code
 Algorithms
-W
+White board
 
 Stitch Fix
 Github/Slack/Screen HEro/ Blue Jeans
