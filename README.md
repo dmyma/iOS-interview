@@ -1229,6 +1229,9 @@ In this case, the SomeObject class has a strong reference to aClosure and aClosu
 To have a closure capture variables as weak or unowned, you can give the closure instructions on how to capture certain variables.
 
 
+!
+What kind of collections do you know?
+
 
 ------
 
