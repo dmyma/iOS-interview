@@ -1250,7 +1250,19 @@ https://developer.apple.com/documentation/dispatch/dispatchgroup
 https://developer.apple.com/documentation/foundation/operationqueue
 https://developer.apple.com/documentation/foundation/operation
 
-
+-Multithreading async vs sync?CGD
+-How to lock an object?
+-What should beginners know?
+-NS operation?
+-How to call a task only after certain task?
+-MVC, Vapir, MVVP?
+-3rd parties libraries?
+-Delegate vs Notification Center?
+-CoreData contex?
+-Storyboard(View, cell, prepareForRelease)?
+-NSConstraite, priority?
+-Gesture recogniser?(under the hood)
+-UIResponderChain?
 
 
 ------
