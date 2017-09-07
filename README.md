@@ -1263,7 +1263,7 @@ https://developer.apple.com/documentation/foundation/operation
 -NSConstraite, priority?
 -Gesture recogniser?(under the hood)
 -UIResponderChain?
-
+-to draw, just create UIView subclass and override drawRect never call drawrect if you need to be redrawn setNeedsDisplay
 
 ------
 
