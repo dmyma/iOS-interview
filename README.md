@@ -1262,6 +1262,13 @@ https://developer.apple.com/documentation/foundation/operation
 -Storyboard(View, cell, prepareForRelease)?
 -NSConstraite, priority?
 -Gesture recogniser?(under the hood)
+The window will send touch E to GR
+The gesture recognizer will enter the Possible state 
+-For discrete gestures
+G is recognized-> consumes the gesture or failed-> forwards back touch event to responder chain
+-For continues gestures
+G is began->consume(calls the delegate method specified) and changed until Ended/if not match Canceled or failed->Responder chain
+
 -UIResponderChain?
 -to draw, just create UIView subclass and override drawRect never call drawrect if you need to be redrawn setNeedsDisplay
 
