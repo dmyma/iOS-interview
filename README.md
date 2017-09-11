@@ -47,12 +47,15 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 
 2.4.1 This interview for the most part was very iOS specific. How will you implement a particular view which has lots of elements for various screen sizes. imagine a view has lots of elements where it scrolls for pages and pages. How will you retrieve the data? Will you retrieve it all at once or not? If not then how will you retrieve it? imagine a view has a UIImageView as it's subview. How will you query the server to send the image in a particular size? since you will have millions of requests going to the server and if each of the requests asks for the same size, then how will you make sure that the resizing on the server happens just once? imagine we had a view with lots of images and each image below it had name of the image. How will you implement it? How and when will you retrieve the images? What would you do if you had to make sure that at any given time, there are at max 4 requests that goes out? NP-complete "Partition Problem". Given an array of positive integers, divide it into two arrays A1 and A2 such that the sum of elements of A1 is equal to sum to elements of A2.
 
+Senior/Architect/Lead
 QUESTIONS
 -arc?
 Code
 -gesture recogniser
 -jp
 -cd
+-t
+-p
 Algorithms/White board
 -string
 
@@ -1275,6 +1278,12 @@ G is began->consume(calls the delegate method specified) and changed until Ended
 
 -UIResponderChain?
 -to draw, just create UIView subclass and override drawRect never call drawrect if you need to be redrawn setNeedsDisplay
+
+-What is polymorphism?
+-What is Protocol
+-class vs struck?
+-What blog/3rd party/Library/Framework do you like? and why?
+
 
 ------
 
