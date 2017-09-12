@@ -213,11 +213,13 @@ What is Functional Programming and Functional Reactive Programming?
 What are the design patterns besides common Cocoa patterns that you know of?
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
+
 -UIApplicationDidFinishLaunching
 -UIApplicationWillResignActive
 -UIApplicationDidBecomeActive
 -UIApplicationWillEnterForeground
 -UIApplicationDidEnterBackground
+-UIApplicationwillterminate
 
 viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
 viewWillApear - changing over display, geometry set, optimise performance,
