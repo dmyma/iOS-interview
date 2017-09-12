@@ -1295,6 +1295,8 @@ GCD is a lightweight way to represent units of work that are going to be execute
 NSOperation adds a little extra overhead compared to GCD, but you can add dependency among various operations and re-use, cancel or suspend them.
 
 
+
+
 ------
 
 ## Objective-C 
@@ -1785,6 +1787,8 @@ binaries trees vs binary search trees
 20. Pre-order traversal 
 21. Strassen's Algorithms 
 22. Graph search
+23. Counting Sort
+24. Binary merge sort
 
 Tries(Prefix trees)
 
