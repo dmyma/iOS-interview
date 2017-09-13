@@ -59,6 +59,7 @@ Code
 -multithreading
 Algorithms/White board
 -string
+Software design
 
 Stitch Fix
 Github/Slack/Screen HEro/ Blue Jeans
