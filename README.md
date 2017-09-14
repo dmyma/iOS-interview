@@ -1273,12 +1273,21 @@ https://developer.apple.com/documentation/foundation/operation
 -MVC, Vapir, MVVP?
 -3rd parties libraries?
 -Delegate vs Notification Center?
+NSNotificationCenter posts all notifications synchronously
+Also, if you prefer, you can use NSNotificationQueue to post notifications asynchronously
+
 -CoreData contex?
 -Storyboard(View, cell, prepareForRelease)?
 -NSConstraite, priority?
 -Gesture recogniser?(under the hood)
 The window will send touch E to GR
 The gesture recognizer will enter the Possible state 
+Regular notification centers deliver notifications on the thread in which the notification was posted. Distributed notification centers deliver notifications on the main thread. At times, you may require notifications to be delivered on a particular thread that is determined by you instead of the notification center. For example, if an object running in a background thread is listening for notifications from the user interface, such as a window closing, you would like to receive the notifications in the background thread instead of the main thread. In these cases, you must capture the notifications as they are delivered on the default thread and redirect them to the appropriate thread.
+
+One way to redirect notifications is to use a custom notification queue (not an NSNotificationQueue object) to hold any notifications that are received on incorrect threads and then process them on the correct thread. This technique works as follows. You register for a notification normally. When a notification arrives, you test whether the current thread is the thread that should handle the notification. If it is the wrong thread, you store the notification in a queue and then send a signal to the correct thread, indicating that a notification needs processing. The other thread receives the signal, removes the notification from the queue, and processes the notification.
+
+To implement this technique, your observer object needs to have instance variables for the following values: a mutable array to hold the notifications, a communication port for signaling the correct thread (a Mach port), a lock to prevent multithreading conflicts with the notification array, and a value that identifies the correct thread (an NSThread object). You also need methods to setup the variables, to process the notifications, and to receive the Mach messages. Here are the necessary definitions to add to the class of your observer object.
+
 -For discrete gestures
 G is recognized-> consumes the gesture or failed-> forwards back touch event to responder chain
 -For continues gestures
