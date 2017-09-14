@@ -50,6 +50,10 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 Senior/Architect/Lead
 QUESTIONS
 -arc?
+-NSNotificationCenter vs delegate: have not answered
+-in which thread observers receive notification
+-nsoperation and nsoperation queue
+-core data
 Code
 -gesture recogniser
 -jp
