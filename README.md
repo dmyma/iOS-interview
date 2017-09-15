@@ -2002,7 +2002,7 @@ I've been usigng... software for ... years, and I'm really impresed at how .. ma
 
 Provide situations where you had to get something done in a tight deadline?
 
-
+How would you improve our product? Why us? Why you?  Hr  1. Challenges 2. Mistakes 3. Enjoyed 4. Leadership 5. Conflicts 6. What would you do differently
 
 
 glassdoor interview tips
@@ -2010,6 +2010,14 @@ glassdoor interview tips
 ### Question(my)
 What is normal day look like?
 Why did you choose this company?
+
+
+###Good code practices
+Variables names Long method  
+Cellid rav value create constant  
+Less print statements   
+Apple convention 
+Braces and names camelCase  
 
 
 ## HomeWork 
