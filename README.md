@@ -155,7 +155,7 @@ singleton, MvC, VAPOR, abc, fm
 - e,2,
 -What is collection?
 -what is Protocol?
-
+- what is ard, GCD?
 
 
 ## Cocoa touch 
