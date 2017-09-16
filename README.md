@@ -64,6 +64,8 @@ Code
 Algorithms/White board
 -string
 Software design
+-design google docs
+-online shop
 
 Stitch Fix
 Github/Slack/Screen HEro/ Blue Jeans
