@@ -157,6 +157,7 @@ singleton, MvC, VAPOR, abc, fm
 -what is Protocol?
 - what is ard, GCD?
 
+4. SYSTEM DESIGN, OOD
 
 ## Cocoa touch 
 [[⬆]](#contents)
