@@ -179,18 +179,18 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 
-What is let and var in Swift?
-What is Optional in Swift and nil in Swift and Objective-C?
-What are properties and instance variables in Objective-C and Swift?
-What is a protocol (both Obj-C and Swift)? When and how is it used?
-What is a category/extension? When is it used?
-What are closures/blocks and how are they used?
-What is MVC?
-What are Singletons? What are they used for?
-What is Delegate pattern in iOS?
-What is KVO (Key-Value Observation)?
-What does iOS application lifecycle consist of?
-What is View Controller? What is its lifecycle?
+<details><summary>What is let and var in Swift?</summary></details>
+<details><summary>What is Optional in Swift and nil in Swift and Objective-C?</summary></details>
+<details><summary>What are properties and instance variables in Objective-C and Swift?</summary></details>
+<details><summary>What is a protocol (both Obj-C and Swift)? When and how is it used?</summary></details>
+<details><summary>What is a category/extension? When is it used?</summary></details>
+<details><summary>What are closures/blocks and how are they used?</summary></details>
+<details><summary>What is MVC?</summary></details>
+<details><summary>What are Singletons? What are they used for?</summary></details>
+<details><summary>What is Delegate pattern in iOS?</summary></details>
+<details><summary>What is KVO (Key-Value Observation)?</summary></details>
+<details><summary>What does iOS application lifecycle consist of?</summary></details>
+<details><summary>What is View Controller? What is its lifecycle?</summary></details>
 
 What are the challenges in working with UI on iOS?
 What do you use to lay out your views correctly on iOS?
