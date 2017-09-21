@@ -425,6 +425,9 @@ process vs thread swift Concurrency and Threading
 
 </details>
 
+Application-(Managed Object Contex(Manage Object))- Persistance storage Coordinator(PS Model) - PS
+<img src="CoreData.jpg" width="301" height="400">
+
 What is the storage layer for in iOS applications?
 What can you use to store data on iOS?
 What is NSCoding?
