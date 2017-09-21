@@ -421,8 +421,17 @@ process vs thread swift Concurrency and Threading
 ### (CoreData)
 <details> 
   <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
-
-
+Step 1  —  Describes which entity we are working with. LEts say Person.
+Step 2  —  Create the our Class(PErson) NSManagedObject. The NSManagedObject will be inserted into our managed object context later when saving.
+Step 3  —  Now that we have specified our entity and created a new class(person), we need to save the person’s name. In this case, we use key value coding to set the value for our key, which is specified as “name”.
+Step 4  —  At this point, it’s time to save our managedObjectContext, which persists the data to the store. If an error should occur, we catch it at this point.
+- Fetch
+Step 1  —  Create a fetch request. A fetch request is what we use to fetch data from our Core Data store. A fetch request can be customizable to include only the results or attributes that you need. In our case, we want to fetch all objects from the Person entity.
+Step 2  —  We now try to fetch data from our Core Data store and store it in our managed object context, whose job it is to create a scratchpad of sorts when dealing with managed objects.
+Step 3  —  We have a simple for loop that loops through each result in our fetched items array. At this point, we print out the name of each saved object into the console.
+	
+https://www.codementor.io/codementorteam/core-data-tutorial-saving-and-fetching-pdphdmh50
+https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/CreatingObjects.html
 </details>
 
 Application-(Managed Object Contex(Manage Object))- Persistance storage Coordinator(PS Model) - PS
