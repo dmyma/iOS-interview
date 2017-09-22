@@ -419,6 +419,7 @@ process vs thread swift Concurrency and Threading
 ## Data persistance 
 [[⬆]](#contents)
 ### (CoreData)
+core data and different threads
 <details> 
   <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
 Step 1  —  Describes which entity we are working with. LEts say Person.
