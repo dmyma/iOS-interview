@@ -419,7 +419,22 @@ process vs thread swift Concurrency and Threading
 ## Data persistance 
 [[⬆]](#contents)
 ### (CoreData)
-core data and different threads
+<details> 
+  <summary>core data and different threads</summary>
+
+Basic rules are:
+
+Use one NSPersistentStoreCoordinator per program not per thread.
+Create one NSManagedObjectContext per thread.
+Never pass an NSManagedObject on a thread to the other thread.
+Instead, get the object IDs via -objectID and pass it to the other thread.
+More rules:
+
+Make sure you save the object into the store before getting the object ID. Until saved, they're temporary, and you can't access them from another thread.
+And beware of the merge policies if you make changes to the managed objects from more than one thread.
+NSManagedObjectContext's -mergeChangesFromContextDidSaveNotification: is helpful.
+Documentation
+</details>
 <details> 
   <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
 Step 1  —  Describes which entity we are working with. LEts say Person.
