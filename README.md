@@ -434,6 +434,8 @@ Make sure you save the object into the store before getting the object ID. Until
 And beware of the merge policies if you make changes to the managed objects from more than one thread.
 NSManagedObjectContext's -mergeChangesFromContextDidSaveNotification: is helpful.
 Documentation
+https://cocoacasts.com/core-data-and-concurrency/
+https://www.raywenderlich.com/145877/core-data-tutorial-multiple-managed-object-contexts-2
 </details>
 <details> 
   <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
