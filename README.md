@@ -68,10 +68,9 @@ Software design
 -online shop
 
 Stitch Fix
-Github/Slack/Screen HEro/ Blue Jeans
-pull requests, one-pagers, screencasts
-Quick to test, CircleCL to run, Fastlane to build 
-RabbitMQ and ElasticSearch
+Continues Integration
+Quick to test, Jenkis, Fastlane
+
 
 ANDROID-JS
 # Topics
