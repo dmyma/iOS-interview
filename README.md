@@ -66,6 +66,7 @@ Algorithms/White board
 Software design
 -design google docs
 -online shop
+-lead/architect/manager
 
 Stitch Fix
 Continues Integration
