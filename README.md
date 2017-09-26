@@ -2007,8 +2007,9 @@ Tell me about a time you had to persuade a group of people to make a big change?
 -by examing the common user behavior and applying the Rabin-Karp alg, I designed a new algorithm to reduca search from O(n) to O(logN) in 90% of cases. I can go into more details if you'd like
 -what interview might cover and get feedback politely
 
-What has been most challenging for you?
+<details><summary>What has been most challenging for you?</details>
 I'm very interesting in scalability, and would like to learn more about it. What opportunities are there at this company to learn about this?
+	</summary>
 I'm not familiar with technology ..., but it sounds like very interesting solution. Could you tell me a bit more about how it works?
 -tell me about challenging interaction with a temmate S_A_R
 
