@@ -1356,7 +1356,9 @@ GCD is a lightweight way to represent units of work that are going to be execute
 NSOperation adds a little extra overhead compared to GCD, but you can add dependency among various operations and re-use, cancel or suspend them.
 
 
-what third party libraries did you work?
+what third party libraries did you work with?
+golden rule arc?
+
 
 ------
 
@@ -1957,6 +1959,7 @@ User interface and user experience are key to successful mobile applications, so
 
 Most apps must be available on more than one OS, so experience reconfiguring or migrating an app from one platform to another is a very valuable treat. Tell about your experience in this field and detail the apps you have reconfigured and the solutions you have found to do it. If you don’t have any experience, expose the reasons why you think you are technically prepared to do it.</details>
 
+tell me about your last projects?
 
 <details> 
   <summary>What is you main disadvantage?</summary>
