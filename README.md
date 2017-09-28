@@ -168,7 +168,7 @@ autolayout
 <details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
 The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
 </details>
-What is the diference between struct and class?
+<details><summary>What is the diference between struct and class?</summary></details>
 An  enum  is an object type whose instances represent  distinct  predefined  alternative values. Think of it as a list of known possibilities. An enum is the Swift way to express a set of constants that are alternatives to one another. An enum declaration includes case statements. Each case is the name of one of the alternatives. An instance of an enum will represent exactly one alternative — one case.
 
 Methods A  method  is a function — one that happens to be declared at the top level of an object type declaration. This means that everything said about functions in  Chapter 2 applies. By default, a metho
