@@ -2035,22 +2035,47 @@ Why do you want to change your job?
 -Change
 -being a part of a great team
 
-what is your salary history?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details> 
+	<summary>what is your salary history? </summary>
 I expect compensation appropriate for the new job and responsibilities and that the compensation that i received for a different set of tasks is not relevant
-Why should we hire you?
+</details> 
+<details> 
+  <summary>Why should we hire you?</summary>
 the job is good match fro my skills
-Why do you want to work in this company?
-What is your favorite programming language?
-What is your style?
+</details> 
+<details> 
+  <summary>Why do you want to work in this company?</summary></details> 
+<details> 
+  <summary>What is your favorite programming language?</summary></details> 
+<details> 
+  <summary>What is your style?</summary></details> 
 
-What is the ratio of testers to developers to program managers? What us the interaction like? HOw does project planning happen on the team?
+<details> 
+  <summary>What is the ratio of testers to developers to program managers? What us the interaction like? HOw does project planning happen on the team?</summary></details> 
 
-Why do you want to work...?
+<details> 
+  <summary>Why do you want to work...?</summary>
 I've been usigng... software for ... years, and I'm really impresed at how .. manages to create  aproduct that is universally excellent. For example, I 've been usign VS recently to learn game programming, and its API' are excellent.
+</details> 
+<details> 
+  <summary>Provide situations where you had to get something done in a tight deadline?</summary></details> 
 
-Provide situations where you had to get something done in a tight deadline?
-
-How would you improve our product? Why us? Why you?  Hr  1. Challenges 2. Mistakes 3. Enjoyed 4. Leadership 5. Conflicts 6. What would you do differently
+<details> 
+  <summary>How would you improve our product? Why us? Why you?</summary>  Hr  1. Challenges 2. Mistakes 3. Enjoyed 4. Leadership 5. Conflicts 6. What would you do differently</details> 
 
 
 glassdoor interview tips
@@ -2075,7 +2100,7 @@ https://github.com/dmyma/UnifyID_MalashenkoDmytro
 
 MiniProjects
 url - https://www.youtube.com/watch?v=aTj0ZLha1zE&list=WL&index=2
-tap - 
+tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA&index=8
 
 ## Podcasts 
 [[⬆]](#contents)
@@ -2123,6 +2148,7 @@ tap -
 italki.com
 EPAM.com
 amazon.com
+lyft.com
 
 google.com
 apple.com
