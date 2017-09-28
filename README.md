@@ -67,7 +67,9 @@ Software design
 -design google docs
 -online shop
 -lead/architect/manager
-
+Design
+https://www.hiredintech.com/courses/system-design
+http://highscalability.com/
 Stitch Fix
 Continues Integration
 Quick to test, Jenkis, Fastlane
