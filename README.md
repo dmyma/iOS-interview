@@ -70,6 +70,7 @@ Software design
 Design
 https://www.hiredintech.com/courses/system-design
 http://highscalability.com/
+
 Stitch Fix
 Continues Integration
 Quick to test, Jenkis, Fastlane
@@ -2174,6 +2175,8 @@ apple.com
 1. https://habrahabr.ru/post/285680/
 2. https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 3. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
+
+1.1 https://www.youtube.com/watch?v=mk827ZWrby0&list=WL&t=16s&index=14
 
 ## Process 
 meate project - OS -Freelance
