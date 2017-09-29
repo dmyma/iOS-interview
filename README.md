@@ -29,6 +29,26 @@
 * [Process](#process)
 * [Credits](#credits)
 
+--Core:
+-DS
+arrayList
+Hash Table
+Trees(Tries)
+Graphs
+Stacks/Queues
+Hepas
+-Algorithms
+Merge Sort
+Quick Sort
+BFS
+DFS
+Binary Search
+-Concepts
+Big O Time
+Big O Space
+Recursion
+Memoization/Dynamic Programming
+
 Interview:
 1. Difference between frame and bounds
 gcd v/s NSThread
