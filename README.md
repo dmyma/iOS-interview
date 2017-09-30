@@ -48,6 +48,8 @@ Big O Time
 Big O Space
 Recursion
 Memoization/Dynamic Programming
+-SD/OOP
+-Testing/Analyzing
 
 Interview:
 1. Difference between frame and bounds
