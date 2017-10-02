@@ -2131,6 +2131,8 @@ Braces and names camelCase
 - General - https://www.youtube.com/watch?v=56ZO6Gg68tw&index=10&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA
 - MVVM+(ReactiveKIt+Bond)+(Alamofire+ObjectMapper)+Quick,Nimble, Mockingjay+CD+CA ?? POP
 
+arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-in-closures-48207214cba
+
 ## HomeWork 
 [[⬆]](#contents)
 
