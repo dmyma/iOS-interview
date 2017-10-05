@@ -41,7 +41,7 @@ Hepas
 -Algorithms
 Merge Sort
 Quick Sort
-BFS
+BFS, DIJKSTAR
 DFS
 Binary Search
 -Concepts
