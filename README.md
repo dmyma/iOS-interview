@@ -34,16 +34,21 @@
 -DS
 arrayList
 Hash Table
-Trees(Tries)
+Trees(Tries)/rb AVL
 Graphs
 Stacks/Queues
 Hepas
+LINKED LIST
 -Algorithms
 Merge Sort
 Quick Sort
-BFS, DIJKSTAR, Bellman-Ford
-DFS
-Binary Search
+Binary search
+BFS, DIJKSTAR, Bellman-Ford(Q)
+DFS(s)
+Astar
+FLOYD-Warshall
+FF
+JOHNSON
 -Concepts
 Big O Time
 Big O Space
