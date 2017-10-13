@@ -185,7 +185,7 @@ anotation
 reverse geocoding
 Location Manager
 Algorithm design
-singleton, MvC, VAPOR, abc, fm
+singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 
 - e,2,
 -What is collection?
