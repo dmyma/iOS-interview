@@ -54,7 +54,11 @@ Big O Time
 Big O Space
 Recursion
 Memoization/Dynamic Programming
+probability, combinatorica 
+process, thread, concurancy
 -SD/OOP
+patterns
+
 -Testing/Analyzing
 
 Interview:
