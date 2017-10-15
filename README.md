@@ -2195,6 +2195,7 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 3. angel.co 
 4. upwork.com
 5. international hr
+6. quip list
 
 ## Companies
 [[⬆]](#contents)
