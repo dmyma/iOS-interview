@@ -21,6 +21,7 @@
 * [General](#general)
 -----------
 * [LearningSomethingNew](#learningsomethingnew)
+* [Pods&libraries](#pods&libraries)
 * [HomeWork](#homework)
 * [Podcasts](#podcasts)
 * [Books](#books)
@@ -2146,6 +2147,12 @@ Braces and names camelCase
 - Analytics
 - CA, CG
 arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-in-closures-48207214cba
+
+## Pods&libraries
+[[⬆]](#contents)
+
+1. Alamofire
+2. HUD
 
 ## HomeWork 
 [[⬆]](#contents)
