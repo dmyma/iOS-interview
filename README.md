@@ -2361,6 +2361,6 @@ d, Mac, app, sf
 14. https://www.glassdoor.com/Interview/san-francisco-ios-developer-interview-questions-SRCH_IL.0,13_IM759_KO14,27_SDRD.htm
 15. https://www.codementor.io/hajderrabiee/basic-swift-interview-questions-job-junior-developer-omuqax3ab
 16. http://martiancraft.com/blog/2016/10/interview-tips/
-
+17. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
 
 
