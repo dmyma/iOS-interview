@@ -348,6 +348,8 @@ Closures
 <details><summary>Why all properties reference to strong/retain?</summary></details>
 <details><summary>What is NSCoder?</summary></details>
 
+http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
+
 ## Networking
 [[⬆]](#contents)
 
