@@ -1854,9 +1854,10 @@ Only one instance of that class is created in the application.
 ### Whiteboard
 1. https://www.hackerrank.com/
 2. https://leetcode.com/
-3. https://coderpad.io/
-4. www.codingame.com
-
+3. https://mathfights.com/
+4. https://coderpad.io/
+5. www.codingame.com
+6. https://www.topcoder.com/
 
 ### Data structures
 1. Linked Lists
@@ -1932,6 +1933,8 @@ binaries trees vs binary search trees
 7. Bucket Sort
 8. Selection Sort
 9. Bubble Sort
+
+- 1
 10. Radix Sort
 11. Sparse Search
 12. Topologic Sort
