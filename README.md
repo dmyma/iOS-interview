@@ -347,6 +347,7 @@ Closures
 <details><summary>Atomic vs nonatomic. What is the difference? How to change atomic/nonatomic setter in non ARC environment?</summary></details>
 <details><summary>Why all properties reference to strong/retain?</summary></details>
 <details><summary>What is NSCoder?</summary></details>
+Concurancy, Thread, Task, queue
 
 http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
 
