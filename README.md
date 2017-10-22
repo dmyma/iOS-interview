@@ -349,6 +349,10 @@ Closures
 <details><summary>What is NSCoder?</summary></details>
 Concurancy, Thread, Task, queue
 examples
+GCD
+MULTIthreading 
+GENERICS
+
 
 http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
 
