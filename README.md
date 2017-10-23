@@ -2224,7 +2224,9 @@ arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-
 ## HomeWork 
 [[⬆]](#contents)
 
-https://github.com/dmyma/UnifyID_MalashenkoDmytro
+- https://github.com/dmyma/UnifyID_MalashenkoDmytro
+- VA - https://github.com/dmyma/React , https://github.com/dmyma/Structure , https://github.com/dmyma/Views
+- LittleGram
 
 MiniProjects
 url - https://www.youtube.com/watch?v=aTj0ZLha1zE&list=WL&index=2
