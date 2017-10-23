@@ -33,13 +33,13 @@
 
 --Core:
 -DS
-arrayList
+arrayList !
 Hash Table
-Trees(Tries)/rb AVL
+Trees(Tries)/rb AVL !
 Graphs
-Stacks/Queues
-Hepas
-LINKED LIST
+Stacks/Queues !
+Heaps
+LINKED LIST !
 -Algorithms
 Merge Sort
 Quick Sort
