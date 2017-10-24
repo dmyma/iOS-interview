@@ -60,7 +60,12 @@ process, thread, concurancy
 -SD/OOP
 patterns
 
--Testing/Analyzing
+-Testing/Analyzing:
+
+-Code:
+Gesture Recognising
+Networking
+-Questions:
 
 Interview:
 1. Difference between frame and bounds
