@@ -681,9 +681,10 @@ D wraps ano object with another object to change original behavior.
 Iheritance allows modification of the parent class only at compile time, while decorations are applied dynamically at run time
 
 1. MVC
-2. Vapor
+2. Viper
 3. MVP
 4. MVVC
+http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
 
 https://www.youtube.com/watch?v=vNHpsC5ng_E&list=WL
 
