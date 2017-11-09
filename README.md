@@ -637,11 +637,15 @@ You’d want to see that some Core Data update is a performance problem in Instr
 <img src="designpatterns1.jpg" width="301" height="400">
 <img src="designpatterns2.jpg" width="301" height="400">
 
-1. Singleton
-2. Factory
-2.1 ABF
+https://sourcemaking.com/design_patterns
+
+1 Singleton - ensures a class has only one instance and provides global point of access to it 
+2 Factory Method - define an interface for creating an object, but let the subclass decide which class to instantiate
+3 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes
+4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations
+5 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype
+
 3. Decorator
-4. Builder
 4.1 Observer, Iterator
 5. Proxy
 6. Template
