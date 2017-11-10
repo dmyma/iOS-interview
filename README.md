@@ -645,9 +645,11 @@ https://sourcemaking.com/design_patterns
 4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations
 5 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype
 
+6 Proxy
+7 Façade
+
 3. Decorator
 4.1 Observer, Iterator
-5. Proxy
 6. Template
 7. Adapter
 8. Chain of Responsibility
