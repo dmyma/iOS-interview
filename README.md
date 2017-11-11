@@ -1047,6 +1047,32 @@ Eternal.object(forKey: "Bishop")
 ## Swift
 [[⬆]](#contents)
 
+<details><summary>Fundamental types of collections</summary>Array, Dictionary, Set</details>
+<details><summary>what is @UIApplicationMain ?</summary>
+The @UIApplicationMain attribute in Swift replaces the trivial main.m file found in Objective-C projects (whose purpose is to implement the main function that's the entry point for all C programs and call UIApplicationMain to kick off the Cocoa Touch run loop and app infrastructure). https://stackoverflow.com/questions/24516250/what-does-uiapplicationmain-mean</details>
+<details><summary>what is Bridge Header? How to use Objective-C code in Swift project?</summary>A Swift bridging header allows you to communicate with your old Objective-C classes from your Swift classes. http://www.ios-blog.co.uk/tutorials/objective-c/how-to-use-objective-c-classes-in-swift/</details>
+<details><summary>What is guard?</summary>A guard statement is used to transfer program control out of a scope if one or more conditions aren't met. A guard statement has the following form: guard condition else { statements. }</details>
+	<details><summary>Интерполяция vs конкатенация строк?</summary></details>
+<details><summary>let vs var?</summary>
+Constants and variables associate a name (such as maximumNumberOfLoginAttempts or welcomeMessage) with a value of a particular type (such as the number 10 or the string "Hello"). The value of a constant can’t be changed once it’s set, whereas a variable can be set to a different value in the future.</details>
+	<details><summary>typealias? Создание своего собственного типа?</summary></details>
+<details><summary>nil in Swift vs nil in Objective-C? Difference?</summary>
+In defintion terms:
+
+Swift optional variable is an enum, which can have nil as a value, where as objective variable is a pointer, where nil represents, it is pointing no where.
+
+In Usage terms:
+
+Both are somewhat similar in the sense,
+
+that both variables having nil value on messaging any method returns nil
+
+Optional chaining in Swift is similar to messaging nil in Objective-C, but in a way that works for any type, and that can be checked for success or failure.
+But in Safety Checking, Swift optional is the winner
+
+As compiler does many type checking for you already, Ex. non optional parameter can't accept optional, thus you will need to unwrap it by first checking it for nil Or when you you cast any variable, it always returns an optional, thus again a safety feature at compiler level</details>
+	<details><summary>Оператор ???</summary></details>
+
 <details><summary>What is Class?</summary></details>
 <details><summary>What is Object?</summary></details>
 <details><summary>What is Interface?</summary></details>
