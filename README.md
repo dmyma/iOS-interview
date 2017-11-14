@@ -1,7 +1,7 @@
 # iOS-interview
 
 ## <a name='contents'>Table of Contents</a>
-
+* [TOP QUESTIONS](*top-questions)
 * [Cocoa touch](#cocoa-touch)
 -----------
 * [Memory Management](#memory-management)
@@ -199,6 +199,8 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 - what is ard, GCD?
 
 4. SYSTEM DESIGN, OOD
+## Top questions
+[[⬆]](#contents)
 
 ## Cocoa touch 
 [[⬆]](#contents)
@@ -644,6 +646,28 @@ https://sourcemaking.com/design_patterns
 3 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes
 4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations
 5 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype
+
+6 Adapter - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.
+7 Bridge - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.
+Facade - define a simplified interface to a more complex system(API)
+Flyweight - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects.
+Proxy - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access)
+Template Method - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  )
+Observer - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.
+Decorator - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)
+
+Chain of Responsibility -  processes varied requests, each of which may be dealt with by a different handler.
+Strategy - creates an interchangeable family of algorithms from which the required process is chosen at run-time.
+State
+Memento (Originator, caretaker) captures the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
+
+
+18  Visitor
+19 Command
+20 Composite
+21 Mediator reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.
+22 Interpreter
+23 Iterator
 
 6 Proxy
 7 Façade
