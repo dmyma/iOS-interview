@@ -1,7 +1,7 @@
 # iOS-interview
 
 ## <a name='contents'>Table of Contents</a>
-* [TOP QUESTIONS](*top-questions)
+* [TOP QUESTIONS](#top-questions)
 * [Cocoa touch](#cocoa-touch)
 -----------
 * [Memory Management](#memory-management)
