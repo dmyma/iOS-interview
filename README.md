@@ -207,6 +207,7 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 4. MVVM vs MVC
 5. ARC
 6. App LifeCycle, View LifeCycle
+7. delegate vs notification center
 
 ## Cocoa touch 
 [[⬆]](#contents)
