@@ -201,6 +201,12 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 4. SYSTEM DESIGN, OOD
 ## Top questions
 [[⬆]](#contents)
+1. class vs struct
+2. frame vs bounds
+3. GCD vs NSOperationQueue
+4. MVVM vs MVC
+5. ARC
+6. App LifeCycle, View LifeCycle
 
 ## Cocoa touch 
 [[⬆]](#contents)
