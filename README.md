@@ -209,6 +209,12 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 6. App LifeCycle, View LifeCycle
 7. delegate vs notification center
 
+
+1. Linked-List
+2. Trees
+
+1. Merge sort
+2. BFS, DFS
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
