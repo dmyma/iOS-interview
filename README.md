@@ -675,7 +675,9 @@ State
 Memento (Originator, caretaker) captures the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
 
 
-18  Visitor
+18  Visitor - separates a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold.
+
+
 19 Command
 20 Composite
 21 Mediator reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.
