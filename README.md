@@ -678,8 +678,9 @@ Memento (Originator, caretaker) captures the current state of an object and stor
 18  Visitor - separates a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold.
 
 
-19 Command
-20 Composite
+19 Command - expresses a request, including the call to be made and all of its required parameters, in a command object. The command may then be executed immediately or held for later use.
+20 Composite - creates hierarchical, recursive tree structures of related objects where any element of the structure may be accessed and utilised in a standard manner.
+
 21 Mediator reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.
 22 Interpreter
 23 Iterator
