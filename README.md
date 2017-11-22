@@ -208,7 +208,8 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 5. ARC
 6. App LifeCycle, View LifeCycle
 7. delegate vs notification center
-
+8. Gesture recogniser
+9. URL session request
 
 1. Linked-List
 2. Trees
