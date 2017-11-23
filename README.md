@@ -175,7 +175,7 @@ ReverseLinkedList
 -swiftbook
 -optional biding 
 -general expression
--question E, A, B, 50
+-question E, A, B, 50, 5zero
 -UIViewController
 -notification center
 -gcd, queues, operations, threades
@@ -196,7 +196,7 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 - e,2,
 -What is collection?
 -what is Protocol?
-- what is ard, GCD?
+- what is arc, GCD?
 
 4. SYSTEM DESIGN, OOD
 ## Top questions
