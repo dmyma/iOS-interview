@@ -454,37 +454,39 @@ If your app does not need to do any of these things, your app can use the system
 </details>
 
   <details> 
-  <summary>What is HTTP?
+  <summary>What is HTTP?</summary></details>
   <details> 
-  <summary>What is REST?
+  <summary>What is REST?</summary></details>
   <details> 
-  <summary>How do you typically implement networking on iOS?
+  <summary>How do you typically implement networking on iOS?</summary></details>
   <details> 
-  <summary>What are the concerns and limitations of networking on iOS?
+  <summary>What are the concerns and limitations of networking on iOS?</summary></details>
   <details> 
-  <summary>What should go into the networking/service layer?
+  <summary>What should go into the networking/service layer?</summary></details>
   <details> 
-  <summary>What is NSURLSession? How is it used?
+  <summary>What is NSURLSession? How is it used?</summary></details>
   <details> 
-  <summary>What is AFNetworking/Alamofire? How do you use it?
+  <summary>What is AFNetworking/Alamofire? How do you use it?</summary></details>
   <details> 
-  <summary>How do you handle multi-threading with networking on iOS?
+  <summary>How do you handle multi-threading with networking on iOS?</summary></details>
   <details> 
-  <summary>How do you serialize and map JSON data coming from the backend?
+  <summary>How do you serialize and map JSON data coming from the backend?</summary></details>
   <details> 
-  <summary>How do you download images on iOS?
+  <summary>How do you download images on iOS?</summary></details>
   <details> 
-  <summary>How would you cache images?
+  <summary>How would you cache images?</summary></details>
   <details> 
-  <summary>How do you download files on iOS?
+  <summary>How do you download files on iOS?</summary></details>
   <details> 
-  <summary>Have you used sockets and/or pubsub systems?
+  <summary>Have you used sockets and/or pubsub systems?</summary></details>
   <details> 
-  <summary>What is RestKit? What is it used for? What are the advantages and disadvantages?
+  <summary>What is RestKit? What is it used for? What are the advantages and disadvantages?</summary></details>
   <details> 
-  <summary>What could you use instead of RestKit?
+  <summary>What could you use instead of RestKit?</summary></details>
   <details> 
-  <summary>How do you test network requests?
+  <summary>How do you test network requests?</summary></details>
+  timeout
+  promiseKit
 
 
 ## Multithreading 
