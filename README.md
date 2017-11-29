@@ -218,6 +218,9 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 
 1. Merge sort
 2. BFS, DFS
+
+Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
+
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
