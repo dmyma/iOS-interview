@@ -221,6 +221,7 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 
 Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
 
+REFACTOR, PAY, CHAT, 5ZERO
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
