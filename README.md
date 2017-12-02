@@ -222,6 +222,8 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
 
 REFACTOR, PAY, CHAT, 5ZERO
+
+if a binary tree is a sum tree
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
@@ -2335,7 +2337,6 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
 ### APPS
 1.  iOS Interview
-2. sideProjects(Django/Angular/React/Node/Vue/Rails - iOS) - (iOS app to Android app)
 ### SITES
 1. raywenderlich.com
 2. Indie iOS Focus Weekly
