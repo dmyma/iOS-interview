@@ -381,6 +381,8 @@ examples
 GCD
 MULTIthreading 
 GENERICS
+ARC
+NSOPERATIONQUEUE
 
 
 http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
