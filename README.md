@@ -523,11 +523,11 @@ The UIKit infrastructure takes care of delivering events to custom objects. As a
 </details>
 LOOK
 
-Queues
-Main Queue
-Global Queues 
-DispatchQueue.global/main
-queue.sync(async)
+<details><summary>Queues</details></summary>
+<details><summary>Main Queue</details></summary>
+<details><summary>Global Queues </details></summary>
+<details><summary>DispatchQueue.global/main</details></summary>
+<details><summary>queue.sync(async)</details></summary>
 
  a: if let url = URL(string: “http://stanford.edu/...”) {
  }
