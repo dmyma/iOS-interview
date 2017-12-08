@@ -390,9 +390,12 @@ http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dis
 ## Networking
 [[⬆]](#contents)
 
-Latency - time takes a given bit of information to get from one point to another on the network.
-Bandwidth - to the rate at which data moves through the network once communication is established.
-Bandwidth - 
+<details> 
+  <summary> Latency - time takes a given bit of information to get from one point to another on the network.</summary></details>
+<details> 
+  <summary> Bandwidth - to the rate at which data moves through the network once communication is established.</summary></details>
+<details> 
+  <summary> Bandwidth - </summary></details>
 <details> 
   <summary> Which JSON framework is supported by iOS?  </summary>
 SBJson framework is supported by iOS.  It is a JSON parser and generator for Objective-C. SBJson provides flexible APIs and additional control that makes JSON handling easier.
@@ -2311,6 +2314,7 @@ arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-
 
 1. Alamofire
 2. HUD
+3. 
 
 ## HomeWork 
 [[⬆]](#contents)
