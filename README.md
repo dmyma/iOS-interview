@@ -32,14 +32,14 @@
 * [Credits](#credits)
 
 2018
-SITES
-TOP 5-20-100
-ANGEL
-CV-SITE-APPS(IPHONE X)
-ALG(L,H)
-5ZERO
-CODE
-git, stack, os, libs
+-SITES
+-TOP 5-20-100
+-ANGEL
+-CV-SITE-APPS(IPHONE X)
+-ALG(L,H)
+-5ZERO
+-CODE
+-git, stack, os, libs
 
 
 --Core:
