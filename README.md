@@ -1957,38 +1957,12 @@ Only one instance of that class is created in the application.
 ### Data structures
 1. Linked Lists
 2. Trees, Tries, Graphs
-<details><summary>Given two linked lists, find the node at which they merge.</summary></details> 
-<details><summary>Given an n x n grid, find the number of ways to get from the bottom left to the top right given that you can only move up or right each time and you cannot move to any node on the bottom diagonal half of the grid, i.e. row less than col.  </summary></details>
 3. Stacks & Queues 
 4. Heaps
 5. Vectors / ArrayLists
 6. Hash Tables 
 7. LOGICAL
-<details><summary>
-“Suppose you are in a hallway lined with 100 closed lockers. You begin by opening all 100 lockers. Next, you close every second locker. Then you go to every third locker and close it if it is open or open it if it’s closed — call this toggling the lockers. You continue toggling every nth locker on pass number n. After your hundredth pass of the hallway, in which you toggle only locker number 100, how many lockers are open?”</summary></details>
-<details><summary>
-Domino's 64-2 </summary></details>
-<details><summary>
-5 boxes and a black cat</summary></details>
-how many gas station are there in the usa
-- three switches 
--five philosophers 
-- heavy marble
-- to draw a 8th of ht circle
-- 2 rec overlap
-- unordered binary tree to heap (balanced binary tree)
-- binary search tee find a common ancestor, swift alg, leetcode
-- preorder traversal on a binary search tree
--inserting data in a big data, algorithm?
 
-binary search on an array
-
-combination of the string
-123 - 1 2 3 12 13 23
-
-Find the top K elements of a list that is J long, simple parsing. 
-	
-Two strings are given. And a dictionary of similar words. The task is to have a function that compares two strings and gives you an answer if they're similar or not. They are similar if the words are identical or have the same meaning based on the given array.
 
 func compareString(st1: String, st2: String, s: [String: String]) -> Bool 
 { let st1Array = st1.components(separatedBy: " “)
@@ -2003,20 +1977,9 @@ else { for (key, value) in s { if value == word || key == word { if st2Array[i] 
 else { return false } } } } similar = false break } 
 return similar }
 
-find first none repeated character algor
-
-Linked List - list traversal, sorting, inserting and reovind 
-BFS - queue
-Bidirectional Search
-
-reverse work problem
 
 binary heaps min/max pre/post/in order traversal
 balanced not balanced not binary search
-binary trees traversal
-binary tree
-ternary tree
-binaries trees vs binary search trees
 
 ### Algorythms
 1. Breadth-First Search
