@@ -41,46 +41,6 @@
 -CODE
 -git, stack, os, libs
 
-
---Core:
--DS
-arrayList !
-Hash Table
-Trees(Tries)/rb AVL !
-Graphs
-Stacks/Queues !
-Heaps
-LINKED LIST !
--Algorithms
-Merge Sort
-Quick Sort
-Binary search
-BFS, DIJKSTAR, Bellman-Ford(Q)
-DFS(s)
-Astar
-FLOYD-Warshall
-FF
-JOHNSON
--Concepts
-1
-Big O Time
-Big O Space
-Recursion
-Memoization/Dynamic Programming
-probability, combinatorica 
-process, thread, concurancy
--SD/OOP
-patterns
-
--Testing/Analyzing:
-
--Code:
-Gesture Recognising
-Networking
--Questions:
-
-What is property? Retain, assign, nonatomic, readonly, copy? Atomic? Initializers ? Designated initializer ? How runtime works? Sending massages? How to implement setter for property with retain  Why delegate weak or assign ? Is it possible different classes implement same delegate ? Why do we need @dynamic, @synthesize ? What the difference between class.method vs [class [method]].   
-
 Senior/Architect/Lead
 QUESTIONS
 -arc?
@@ -1587,63 +1547,47 @@ golden rule arc?
 <details><summary> How we can execute some code when app is in background?</summary></details>
 <details><summary> How we can wait for some thread to finish before starting another?</summary></details>
 <details><summary> How you will store user info (username, password or token) securely in iOS?</summary></details>
-
-
 <details><summary> initializers</summary>1. Designated initializers are the primary initializers for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain. 2. Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type. 3. required https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203</details>
-
-
 <details> 
   <summary> Name the framework that is used to construct application’s user interface for iOS</summary>
 In addition to the core app behaviors, UIKit provides support for the following features
 </details>
- <details> 
+<details> 
   <summary>Whats a struct? </summary>
 A struct is a special C data type that encapsulates other pieces of data into a single cohesive unit. Like an object, but built into C. </details>
-
 <details> 
   <summary>
 What are the different ways to specify layout of elements in UIView?</summary>
 Here are a few common ways to specify the layout of elements in UIView:
 • Using InterfaceBuilder, you can add a XIB file to your project, layout elements within it, and then load the XIB in your application code (either automatically, based on naming conventions, or manually). Also, using InterfaceBuilder you can create a storyboard for your application.
 </details>
-
 <details> 
   <summary>Can outlet be static?</summary>
   </details>
-
 <details> 
   <summary>How would you implement static blur effect to the UIView subclass to make it work fast (as of iOS 6-7 it was a problem)  </summary>
   </details>
-
-
-
 <details> 
   <summary>What is the difference between atomic and non-atomic properties? Which is the default for synthesized properties? When would you use one over the other?</summary>
   </details>
-
 <details> 
   <summary>Does Objective-C contain private methods?</summary>
 NO, there is nothing called a private method in Object-C programming. If a method is defined in .m only then it becomes protected. If in .h,it is public.
 If you really want a private method then you need to add a local category/ unnamed category/ class extension in the class and add the method in the category and define it in the class.m</details>
-
 <details> 
   <summary>What is plist?</summary>
 Plist refers to Property lists that organize data into named values and lists of values using several object types. These types provide you the means to produce data that is meaningfully structured, transportable, storable, and accessible, but still as efficient as possible. Property lists are frequently used by applications running on both Mac OS X and iOS. The property-list programming interfaces for Cocoa and Core Foundation allow you to convert hierarchically structured combinations of these basic types of objects to and from standard XML. You can save the XML data to disk and later use it to reconstruct the original objects.
 The user defaults system, which you programmatically access through the NSUserDefaults class, uses property lists to store objects representing user preferences. This limitation would seem to exclude many kinds of objects like as NSColor and NSFont objects, from the user default system. But if objects conform to the NSCoding protocol they can be archived to NSData objects, which are property list–compatible objects</details>
-
 <details> 
   <summary>What is the purpose of reuseIdentifier? </summary>
   </details>
-  
- <details> 
+<details> 
   <summary> What is the benefit of setting it to a non-nil value?</summary>
   </details>
-
 <details> 
   <summary>What is the difference between an “app ID” and a “bundle ID” and what is each used for?</summary>
 Since most users consider the App ID as string, they think it is interchangeable with Bundle ID. Once the App ID is created in the Member Center, you can only use the App ID Prefix that matches the Bundle ID of the Application Bundle.
 The bundle ID uniquely defines each App. It is specified in Xcode. A single Xcode project can have multiple targets and therefore, output multiple apps. A common use case for this – An app having both lite/free and pro/full versions or branded multiple ways.</details>
-
 <details> 
   <summary>What is Abstract class in Cocoa?</summary>
 Cocoa doesn’t provide anything called abstract. We can create a class abstract that gets checked only at runtime while it is not checked at compile time.
@@ -1656,7 +1600,6 @@ Cocoa doesn’t provide anything called abstract. We can create a class abstract
     }
     return [super alloc];
 @end</details>
-
 <details> 
   <summary>What is NSURLConnection class? Define its types and use case.</summary>
 There are two ways of using NSURLConnection class. One is asynchronous and the other is synchronous.
@@ -1668,7 +1611,6 @@ In order to create an asynchronous connection, we need to do the following:
 2. Convert our string to an instance of NSURL
 3. Place our URL in a URL Request of type NSURLRequest, or in the case of mutable URLs, in an instance of NSMutableURLRequest.
 4. Create an instance of NSURLConnection and pass the URL request to it.</details>
-
 <details> 
   <summary>What is the relation between iVar and @property?</summary>
 iVar is an instance variables. It cannot be accessed unless we create accessors, which are generated by @property. iVar and its counterpart @property can be of different names.
@@ -1941,7 +1883,23 @@ Only one instance of that class is created in the application.
     });
     return sharedMyManager;</details>
     
-    
+<details> 
+  <summary>What is property?</summary></details>
+<details> 
+  <summary>Retain, assign, nonatomic, readonly, copy? Atomic? </summary></details>
+<details> 
+  <summary>Initializers ? Designated initializer ?</summary></details>
+<details> 
+  <summary>How runtime works? Sending massages? </summary></details>
+<details> 
+  <summary>How to implement setter for property with retain .Why delegate weak or assign ? </summary></details>
+<details> 
+  <summary>Is it possible different classes implement same delegate ?</summary></details>
+<details> 
+  <summary>Why do we need @dynamic, @synthesize ? </summary></details>
+<details> 
+  <summary>What the difference between class.method vs [class [method]]? </summary></details>  
+
 
 
 ## Code Puzzels 
