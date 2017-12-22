@@ -2274,6 +2274,12 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 3. Design Patterns
 4. Algorithms
 5. Cracking Code interview
+## Pods
+- Alamofire
+- SwiftyJSON
+- HUB
+- RXSwift
+- Realm
 
 ## Job websites 
 [[⬆]](#contents)
