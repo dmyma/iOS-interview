@@ -112,7 +112,8 @@ ReverseLinkedList
 -arc, memory leaks, retain cycles
 -Delegation and Observer/Notification
 -view lifecycle
--filter, map, reduce
+-filter, map, reduce, flatMAP
+for,forEACH, merging dict, sets
 -Testing
 -3D party libraries
 -Gesture recogniser
