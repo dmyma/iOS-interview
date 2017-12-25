@@ -699,6 +699,9 @@ Iheritance allows modification of the parent class only at compile time, while d
 2. Viper
 3. MVP
 4. MVVC
+5. MVVM-C
+6. MVVM-A
+
 http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
 
 https://www.youtube.com/watch?v=vNHpsC5ng_E&list=WL
@@ -2210,7 +2213,7 @@ Braces and names camelCase
 ## LearningSomethingNew
 [[⬆]](#contents)
 
-- MVVM - https://github.com/auth0-tutorials/mvvm_viper/
+- https://github.com/auth0-tutorials/mvvm_viper/
 - POP - https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming
 - FPR - ReactiveKit + Bond - https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6
 - Networking: Alamofire + ObjectMapper
@@ -2227,12 +2230,15 @@ Braces and names camelCase
 - CA, CG
 arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-in-closures-48207214cba
 
+
+
 ## Pods&libraries
 [[⬆]](#contents)
 
 1. Alamofire
 2. HUD
-3. 
+3. RxSwift
+5. Nimble
 
 ## HomeWork 
 [[⬆]](#contents)
