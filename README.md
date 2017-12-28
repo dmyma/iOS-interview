@@ -511,6 +511,7 @@ process vs thread swift Concurrency and Threading
 ## Data persistance 
 [[⬆]](#contents)
 ### (CoreData)
+Realm
 <details> 
   <summary>core data and different threads</summary>
 
