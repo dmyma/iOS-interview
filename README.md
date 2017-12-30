@@ -91,6 +91,7 @@ ANDROID-JS
 -inter
 -RAY
 - code/algorythms/knowledge
+- rxSWIFT 
 
 2. iOS code
 
