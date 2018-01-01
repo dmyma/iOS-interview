@@ -157,6 +157,8 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 - what is arc, GCD?
 
 4. SYSTEM DESIGN, OOD
+
+HAPPY NEW 2018 YEAR 
 ## Top questions
 [[⬆]](#contents)
 1. class vs struct
