@@ -2286,6 +2286,8 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 3. Design Patterns
 4. Algorithms
 5. Cracking Code interview
+6. ADVANCED Swift
+7. GOOGLE RESUME
 ## Pods
 - Alamofire
 - SwiftyJSON
@@ -2310,7 +2312,7 @@ italki.com
 EPAM.com
 amazon.com
 lyft.com
-
+bank
 google.com
 -
 apple.com
