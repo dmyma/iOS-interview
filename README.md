@@ -2286,10 +2286,15 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 1. Objective-C
 2. Swift from apple
 3. Design Patterns
+
 4. Algorithms
 5. Cracking Code interview
+
 6. ADVANCED Swift
+- Collections
 7. GOOGLE RESUME
+8. RxSwift
+
 ## Pods
 - Alamofire
 - SwiftyJSON
