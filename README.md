@@ -71,6 +71,7 @@ Quick to test, Jenkis, Fastlane
 
 
 ANDROID-JS
+
 # Topics
 1. Algorightms
 
@@ -92,6 +93,7 @@ ANDROID-JS
 -RAY
 - code/algorythms/knowledge
 - rxSWIFT 
+- POP
 
 2. iOS code
 
