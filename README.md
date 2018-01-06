@@ -327,6 +327,9 @@ awakeFromNib
 strong, weak, unowned
 
 Closures
+
+Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType
+Pop: 
 ## Memory Management 
 [[⬆]](#contents)
 
