@@ -465,6 +465,18 @@ If your app does not need to do any of these things, your app can use the system
   timeout
   promiseKit
 
+FP:
+reduce
+map
+filter
+flatmap
+joined
+reversed
+sort
+
+prefic
+containes
+
 
 ## Multithreading 
 [[⬆]](#contents)
