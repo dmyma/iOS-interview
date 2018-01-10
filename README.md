@@ -2403,13 +2403,20 @@ d, Mac, app, sf
 
 </details> 
 
-
 <details> 
-  <summary>Step 2.5: technical phone screen.</summary>
+  <summary>Step 2.5: Home work </summary>
+  1. https://www.interviewbit.com/
+  2. https://www.hackerrank.com/
+  3. https://www.topcoder.com/
+  4. www.codingame.com
 </details> 
 
 <details> 
-  <summary>Step 3: Technical interview/whiteboard</summary>
+  <summary>Step 3: technical phone screen.</summary>
+</details> 
+
+<details> 
+  <summary>Step 3.5: Technical interview/whiteboard</summary>
   -whiteboard code
   -iOS frameworks OOP DesignP DataStrcu Algorithm
   -patterns
@@ -2420,15 +2427,7 @@ d, Mac, app, sf
 </details> 
 
 <details> 
-  <summary>Step 4: Home work </summary>
-  1. https://www.interviewbit.com/
-  2. https://www.hackerrank.com/
-  3. https://www.topcoder.com/
-  4. www.codingame.com
-</details> 
-
-<details> 
-  <summary>Step 5: on site 4-8 hours with 4-8 people</summary>
+  <summary>Step 4: on site 4-8 hours with 4-8 people</summary>
 </details> 
 
 ## Credits 
