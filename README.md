@@ -72,6 +72,10 @@ Quick to test, Jenkis, Fastlane
 
 ANDROID-JS
 
+Solid
+Kis
+Dry
+
 # Topics
 1. Algorightms
 
