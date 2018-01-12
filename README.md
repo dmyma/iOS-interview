@@ -31,32 +31,28 @@
 * [Process](#process)
 * [Credits](#credits)
 
-2018
--SITES
--TOP 5-20-100
--ANGEL
--CV-SITE-APPS(IPHONE X)
--ALG(L,H)
--5ZERO
--CODE
--git, stack, os, libs
+## Top questions
+[[⬆]](#contents)
+### Theory
+1. class vs struct
+2. frame vs bounds
+3. GCD vs NSOperationQueue
+4. MVVM vs MVC
+5. ARC
+6. App LifeCycle, View LifeCycle
+7. delegate vs notification center
+8. Gesture recogniser
+9. URL session request
 
-Senior/Architect/Lead
-QUESTIONS
--arc?
--NSNotificationCenter vs delegate: have not answered
--in which thread observers receive notification
--nsoperation and nsoperation queue
--core data
-Code
--gesture recogniser
--jp
--cd
--t
--p
--multithreading
-Algorithms/White board
--string
+### OnSite
+1. Linked-List
+2. Trees
+2.1 if a binary tree is a sum tree
+
+1. Merge sort
+2. BFS, DFS
+
+
 Software design
 -design google docs
 -online shop
@@ -65,33 +61,28 @@ Design
 https://www.hiredintech.com/courses/system-design
 http://highscalability.com/
 
-Stitch Fix
-Continues Integration
-Quick to test, Jenkis, Fastlane
+Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
 
 
-ANDROID-JS
 
-Solid
-Kis
-Dry
+
 
 # Topics
 1. Algorightms
 
-1. Logical
-2. Linked list
-3. Arrays
-4. Trees
-5. Stacks
-6. Recursion and dynamic programming
-7. Bit manipulation
-8. OoD
-9. System design and scalability
-10. Searching and Sorting
-11. Testing
-12. Threads
-13. Databases
+2. Logical
+3. Linked list
+4. Arrays
+5. Trees
+6. Stacks
+7. Recursion and dynamic programming
+8. Bit manipulation
+9. OoD
+10. System design and scalability
+11. Searching and Sorting
+12. Testing
+13. Threads
+14. Databases
 -leetcode, 2 alg books
 -inter
 -RAY
@@ -165,29 +156,11 @@ singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
 4. SYSTEM DESIGN, OOD
 
 HAPPY NEW 2018 YEAR 
-## Top questions
-[[⬆]](#contents)
-1. class vs struct
-2. frame vs bounds
-3. GCD vs NSOperationQueue
-4. MVVM vs MVC
-5. ARC
-6. App LifeCycle, View LifeCycle
-7. delegate vs notification center
-8. Gesture recogniser
-9. URL session request
+Solid
+Kis
+Dry
 
-1. Linked-List
-2. Trees
 
-1. Merge sort
-2. BFS, DFS
-
-Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
-
-REFACTOR, PAY, CHAT, 5ZERO
-
-if a binary tree is a sum tree
 ## Cocoa touch 
 [[⬆]](#contents)
 autolayout
@@ -2451,4 +2424,14 @@ d, Mac, app, sf
 16. http://martiancraft.com/blog/2016/10/interview-tips/
 17. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
 
+## 2018
+- SITES
+- TOP 5-20-100
+- ANGEL
+- CV-SITE-APPS(IPHONE X)
+- ALG(L,H)
+- SD, MM, DFS, DFS, DP
+- 5ZERO
+- CODE
+- git, stack, os, libs
 
