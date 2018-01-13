@@ -31,7 +31,7 @@
 * [Process](#process)
 * [Credits](#credits)
 
-## Top questions
+# Top questions
 [[⬆]](#contents)
 ### Theory
 1. class vs struct
@@ -61,7 +61,7 @@ Design
 https://www.hiredintech.com/courses/system-design
 http://highscalability.com/
 
-Hash table, Array, D, Set, LL(s), LL/DLL(u), {search, insert, delete} 
+[DS link](https://github.com/dmyma/Core-Interview/tree/master/Data%20Structure)
 
 
 
@@ -169,7 +169,7 @@ priorities
 <details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
 The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
 </details>
-<details><summary>What is the diference between struct and class?</summary></details>
+<details><summary>What is the diference between struct and class?</summary>
 An  enum  is an object type whose instances represent  distinct  predefined  alternative values. Think of it as a list of known possibilities. An enum is the Swift way to express a set of constants that are alternatives to one another. An enum declaration includes case statements. Each case is the name of one of the alternatives. An instance of an enum will represent exactly one alternative — one case.
 
 Methods A  method  is a function — one that happens to be declared at the top level of an object type declaration. This means that everything said about functions in  Chapter 2 applies. By default, a metho
@@ -181,7 +181,7 @@ Structs A  struct  is the Swift object type  par excellence. An enum, with its f
 Classes A  class  is similar to a struct, with the following key differences: Reference type Classes are reference types. This means, among other things, that a class instance has two remarkable features that are not true of struct instances or enum instances: Mutability A class instance is mutable in place. Even if your reference to an instance of a class is a constant (let), you can change the value of an instance property through that reference. An instance method of a class never has to be marked  mutating  (and cannot be). Multiple references When a given instance of a class is assigned to multiple variables or passed as argument to a function, you get multiple references to  one and the same object. Inheritance A class can have a superclass. A class that has a superclass is a  subclass  of that superclass. Class types can thus form a hierarchical tree. In Objective-C, classes are the only object type. Some built-in Swift struct types are magically bridged to Objective-C class types, but your custom struct types don’t have that magic. Thus, when programming iOS with Swift, a primary reason for declaring a class, rather than a struct, is as a form of interchange with Objective-C and Cocoa.
 
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
-
+</details>
 <details><summary>What is let and var in Swift?</summary></details>
 <details><summary>What is Optional in Swift and nil in Swift and Objective-C?</summary></details>
 <details><summary>What are properties and instance variables in Objective-C and Swift?</summary></details>
@@ -195,34 +195,34 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>What does iOS application lifecycle consist of?</summary></details>
 <details><summary>What is View Controller? What is its lifecycle?</summary></details>
 
-What are the challenges in working with UI on iOS?
-What do you use to lay out your views correctly on iOS?
-What are CGRect Frames? When and where would you use them?
-What is AutoLayout? When and where would you use it?
-What are compression resistance and content hugging priorities for?
-How does AutoLayout work with multi-threading?
-What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?
-How do you work with storyboards in a large team?
-How do you mix AutoLayout with Frames?
-What options do you have with animation on iOS?
-How do you do animation with Frames and AutoLayout?
-How do you work with UITableView?
-How do you optimize table views performance for smooth, fast scrolling?
-How do you work with UICollectionView?
-How do you work with UIScrollView?
-What is UIStackView? When would you use it and why?
-What alternative ways of working with UI do you know?
-How do you make a pixel-perfect UI according to a designer’s specs?
-How do you unit and integration test UI?
-Step Seven: Beyond MVC. Design Pattens, Architecture, FRP, and Dependencies Management.
-What design patterns are commonly used in iOS apps?
-What is MVC?
-What is MVVM?
-What are the common layers of responsibility that an iOS application has?
-What are SOLID principles? Can you give an example of each in iOS/Swift?
-How do you manage dependencies in iOS applications?
-What is Functional Programming and Functional Reactive Programming?
-What are the design patterns besides common Cocoa patterns that you know of?
+<details><summary>What are the challenges in working with UI on iOS?</summary></details>
+<details><summary>What do you use to lay out your views correctly on iOS?</summary></details>
+<details><summary>What are CGRect Frames? When and where would you use them?</summary></details>
+<details><summary>What is AutoLayout? When and where would you use it?</summary></details>
+<details><summary>What are compression resistance and content hugging priorities for?</summary></details>
+<details><summary>How does AutoLayout work with multi-threading?</summary></details>
+<details><summary>What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?</summary></details>
+<details><summary>How do you work with storyboards in a large team?</summary></details>
+<details><summary>How do you mix AutoLayout with Frames?</summary></details>
+<details><summary>What options do you have with animation on iOS?</summary></details>
+<details><summary>How do you do animation with Frames and AutoLayout?</summary></details>
+<details><summary>How do you work with UITableView?</summary></details>
+<details><summary>How do you optimize table views performance for smooth, fast scrolling?</summary></details>
+<details><summary>How do you work with UICollectionView?</summary></details>
+<details><summary>How do you work with UIScrollView?</summary></details>
+<details><summary>What is UIStackView? When would you use it and why?</summary></details>
+<details><summary>What alternative ways of working with UI do you know?</summary></details>
+<details><summary>How do you make a pixel-perfect UI according to a designer’s specs?</summary></details>
+<details><summary>How do you unit and integration test UI?</summary></details>
+<details><summary>Beyond MVC. Design Pattens, Architecture, FRP, and Dependencies Management.</summary></details>
+<details><summary>What design patterns are commonly used in iOS apps?</summary></details>
+<details><summary>What is MVC?</summary></details>
+<details><summary>What is MVVM?</summary></details>
+<details><summary>What are the common layers of responsibility that an iOS application has?</summary></details>
+<details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
+<details><summary>How do you manage dependencies in iOS applications?</summary></details>
+<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
+<details><summary>What are the design patterns besides common Cocoa patterns that you know of?</summary></details>
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
 
