@@ -49,19 +49,16 @@
 2. Trees
 2.1 if a binary tree is a sum tree
 
-1. Merge sort
-2. BFS, DFS
+3. Merge sort
+4. BFS, DFS
 
 
-Software design
--design google docs
--online shop
--lead/architect/manager
-Design
-https://www.hiredintech.com/courses/system-design
-http://highscalability.com/
+5. Software design
+5.1 design google docs
+5.2 online shop
+5.3 lead/architect/manager
 
-[DS link](https://github.com/dmyma/Core-Interview/tree/master/Data%20Structure)
+6. Design [SD link](https://www.hiredintech.com/courses/system-design), [DS link](http://highscalability.com/), [DS link](https://github.com/dmyma/Core-Interview/tree/master/Data%20Structure)
 
 
 
@@ -83,57 +80,46 @@ http://highscalability.com/
 12. Testing
 13. Threads
 14. Databases
--leetcode, 2 alg books
--inter
--RAY
+- leetcode, 2 alg books
+- inter
+- RAY
 - code/algorythms/knowledge
 - rxSWIFT 
 - POP
 
 2. iOS code
 
-Login system
-Multithreading
-CoreData
+- Login system
+- Multithreading
+- CoreData
 
-FizzBuzz
-BinarySearch
-ReverseLinkedList
+- FizzBuzz
+- BinarySearch
+- ReverseLinkedList
 
--homeworks
+- homeworks
 
 3. iOS theory
--Class vs Struct
+- Class vs Struct
+- networking
+- testing
+- filter, map, reduce, flatMAP
+- for,forEACH, merging dict, sets
+- Testing
+- 3D party libraries
+- Gesture recogniser
+- networking(Rest, Oauth2)
+- debugging
+- modulo 
+- autolayout/sizeclasses
+- nsnotification center
 
--networking
--testing
--arc, memory leaks, retain cycles
--Delegation and Observer/Notification
--view lifecycle
--filter, map, reduce, flatMAP
-for,forEACH, merging dict, sets
--Testing
--3D party libraries
--Gesture recogniser
--networking(Rest, Oauth2)
--debugging
--modulo 
--take home
--kvo 
--nsoperation vs multithreading
--Gcd 
--autolayout/sizeclasses
--nsnotification center
--UiView
--patterns of design
--github
--swiftbook
--optional biding 
--general expression
--question E, A, B, 50, 5zero
--UIViewController
--notification center
--gcd, queues, operations, threades
+- optional biding 
+- general expression
+- question E, A, B, 50, 5zero
+- UIViewController
+- notification center
+- gcd, queues, operations, threades
 
 - Decorator vs Inheritance
 - alg hash table
