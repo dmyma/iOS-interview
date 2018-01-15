@@ -65,6 +65,17 @@
 
 
 # Topics
+
+| Data Structure  | Algorithms    | Concepts      | SD/OOP        | Testing/Analysing |
+| -------------   | ------------- | ------------- | ------------- | -------------     | 
+| Array           | MS            | Big O time    | Inter         |                   | 
+| Linked List     | QS            | Big O space   | Patterns      |                   | 
+| Trees           | Bs            | Recrsion      |               |                   |
+| HashTable       | BFS/DFS       | Dynamic Pr/MM |               |                   | 
+| Graphs  	  | Astar         | prob/comb     |               | 	              |
+| Heaps    	  | FW, FF, J     | process/thread|               | 		      |
+| Queues, Stacks  |               | concuracny    |               | 		      |
+
 1. Algorightms
 
 2. Logical
