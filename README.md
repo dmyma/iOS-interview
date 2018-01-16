@@ -136,32 +136,25 @@
 - alg hash table
 - ood/scalability
 
-Networking rest
-test
-Google map kit
-anotation
-reverse geocoding
-Location Manager
-Algorithm design
-singleton, MvC,MVVM, VIPER, VAPOR, abc, fm
+- Networking rest
+- test
+- anotation
+- reverse geocoding
+- Location Manager
+- Algorithm design
+
 
 - e,2,
--What is collection?
--what is Protocol?
+- What is collection?
+- what is Protocol?
 - what is arc, GCD?
 
 4. SYSTEM DESIGN, OOD
 
 HAPPY NEW 2018 YEAR 
-Solid
-Kis
-Dry
-
 
 ## Cocoa touch 
 [[⬆]](#contents)
-autolayout
-priorities
 -
 <details><summary>Name the framework that is used to construct application’s user interface for iOS. </summary>
 The UIKit framework is used to develop application’s user interface for iOS. UIKit framework provides event handling, drawing model, windows, views, and controls specifically designed for a touch screen interface.
@@ -304,6 +297,8 @@ Closures
 
 Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType
 Pop: 
+autolayout
+priorities
 ## Memory Management 
 [[⬆]](#contents)
 
