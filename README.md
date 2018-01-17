@@ -215,14 +215,15 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>What are the design patterns besides common Cocoa patterns that you know of?</summary></details>
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
-
+<details><summary>App Delegate Methods</summary>
 -UIApplicationDidFinishLaunching
 -UIApplicationWillResignActive
 -UIApplicationDidBecomeActive
 -UIApplicationWillEnterForeground
 -UIApplicationDidEnterBackground
 -UIApplicationwillterminate
-
+	</details>
+<details><summary>App States</summary>
 ### States
 
 Apps developed for early iOS versions (before iOS 4.0) supported three states: non-running, inactive, and active. An application delegate for pre-iOS 4.0 apps received two important method calls: applicationDidFinishLaunching and applicationWillTerminate. When an app received an applicationDidFinishLaunching message, it was an opportunity for information to be retrieved from the previous launch to restore the app to its last used state. The status, applicationWillTerminate, was used to notify the app when the app was preparing to shut down. This gave the developer an opportunity to save any unsaved data or specific state information.
@@ -278,27 +279,22 @@ On occasion, the iOS app will need to respond to interruptions. An alert-based i
 ### Switching to the background
 
 The iOS devices make it simple to quickly switch from app to app; when a user switches to a different app, the current app moves to the background. The app can be in one of two states: background or suspended. In either case, and before switching to the background, the app delegate receives an applicationWillResignActive method call, followed by an applicationDidEnterBackground message. If in a suspended state, the app sleeps. A background state - meaning that the app is allowed to continue executing code - requires the app to monitor and handle events. Developers need to be aware that the operating system may terminate the app at any time.#
+</details>
 
+<details><summary>UIViewController lifecycle</summary>
 viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
 viewWillApear - changing over display, geometry set, optimise performance,
+viewWillLAyoutSubviews - called when frames changed
+viewDidlayoutSubviews
 viewDidApear - 
 viewWillDisapear - remember whats going on and clean up, no time consuming
 viewDidDisapear
 
-viewWillLAyoutSubviews - called when frames changed
-viewDidAyoutSubviews
-viewWillTransition
-didRecieveMemoryWarning
-awakeFromNib
 
-strong, weak, unowned
 
-Closures
+</details>
 
-Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType
-Pop: 
-autolayout
-priorities
+
 ## Memory Management 
 [[⬆]](#contents)
 
@@ -316,7 +312,14 @@ MULTIthreading
 GENERICS
 ARC
 NSOPERATIONQUEUE
+strong, weak, unowned
 
+Closures
+
+Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType
+Pop: 
+autolayout
+priorities
 
 http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
 
