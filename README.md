@@ -2419,6 +2419,7 @@ d, Mac, app, sf
 16. http://martiancraft.com/blog/2016/10/interview-tips/
 17. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
 18. https://sourcemaking.com/
+19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 
 ## 2018
 - SITES
