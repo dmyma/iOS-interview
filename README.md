@@ -353,7 +353,6 @@ Like most networking APIs, the NSURLSession API is highly asynchronous. If you u
 
 Note: Completion callbacks are primarily intended as an alternative to using a custom delegate. If you create a task using a method that takes a completion callback, the delegate methods for response and data delivery are not called.
 The NSURLSession API provides status and progress properties, in addition to delivering this information to delegates. It supports canceling, restarting (resuming), and suspending tasks, and it provides the ability to resume suspended, canceled, or failed downloads where they left off.</details>
-  
   <details> 
   <summary> Explain types of NSURLSession?</summary>
   The NSURLSession API supports three types of sessions, as determined by the type of configuration object used to create the session:
@@ -366,7 +365,7 @@ The NSURLSession API provides status and progress properties, in addition to del
 </details>
   
   <details> 
-  <summary> Explain life cecle of URL Session?</summary>
+  <summary> Explain life cycle of URL Session?</summary>
   You can use the NSURLSession API in two ways: with a system-provided delegate or with your own delegate. In general, you must use your own delegate if your app does any of the following:
 
 - Uses background sessions to download or upload content while your app is not running.
@@ -418,22 +417,9 @@ If your app does not need to do any of these things, your app can use the system
   <summary>What could you use instead of RestKit?</summary></details>
   <details> 
   <summary>How do you test network requests?</summary></details>
-  timeout
-  promiseKit
-
-FP:
-reduce
-map
-filter
-flatmap
-joined
-reversed
-sort
-
-prefic
-containes
-
-
+   <details> 
+  <summary> timeout
+  promiseKit</summary></details>
 ## Multithreading 
 [[⬆]](#contents)
 <details> 
@@ -487,7 +473,17 @@ Monitor -
 Semaphore - protects a shared resource
 
 process vs thread swift Concurrency and Threading
+FP:
+reduce
+map
+filter
+flatmap
+joined
+reversed
+sort
 
+prefic
+containes
 
 ## Data persistance 
 [[⬆]](#contents)
