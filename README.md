@@ -305,23 +305,7 @@ viewDidDisapear
 <details><summary>Atomic vs nonatomic. What is the difference? How to change atomic/nonatomic setter in non ARC environment?</summary></details>
 <details><summary>Why all properties reference to strong/retain?</summary></details>
 <details><summary>What is NSCoder?</summary></details>
-Concurancy, Thread, Task, queue
-examples
-GCD
-MULTIthreading 
-GENERICS
-ARC
-NSOPERATIONQUEUE
-strong, weak, unowned
 
-Closures
-
-Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType
-Pop: 
-autolayout
-priorities
-
-http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/
 
 ## Networking
 [[⬆]](#contents)
@@ -456,7 +440,12 @@ containes
   <summary> Does iOS support multitasking? </summary>
 iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
 </details>
-
+<details><summary>Concurancy, Thread, Task, queue</summary></details>
+<details><summary>GCD</summary></details>
+<details><summary>MULTIthreading </summary></details>
+<details><summary>NSOPERATIONQUEUE</summary></details>
+<details><summary>Closures</summary></details>
+[GCD vs Q](http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/)
 
 <details> 
   <summary> Why an app on iOS device behaves differently when running in foreground than in background? </summary>
@@ -1506,7 +1495,12 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 
 what third party libraries did you work with?
 golden rule arc?
-
+<details><summary>GENERICS</summary></details>
+<details><summary>ARC</summary></details>
+<details><summary>Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType</summary></details>
+<details><summary>Pop: </summary></details>
+<details><summary>autolayout</summary></details>
+<details><summary>priorities</summary></details>
 
 ------
 
