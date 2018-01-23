@@ -420,8 +420,10 @@ If your app does not need to do any of these things, your app can use the system
    <details> 
   <summary> timeout
   promiseKit</summary></details>
+  
 ## Multithreading 
 [[⬆]](#contents)
+
 <details> 
   <summary> Does iOS support multitasking? </summary>
 iOS 4 and above supports multi-tasking and allows apps to remain in the background until they are launched again or until they are terminated.  
