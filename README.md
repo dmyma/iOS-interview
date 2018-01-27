@@ -2422,6 +2422,6 @@ d, Mac, app, sf
 - SD, MM, DFS, DFS, DP
 - 5ZERO
 - CODE
-- git, stack, libs
+- git, stack, libs, os, projects
 - OS(Fork, Clone, Branch, Change, Push) [link](https://www.natashatherobot.com/beginners-contributing-to-open-source/)
 
