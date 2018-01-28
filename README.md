@@ -2222,9 +2222,11 @@ arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-
 [[⬆]](#contents)
 
 1. Alamofire
-2. HUD
+2. HUB
 3. RxSwift
+4. SwiftyJSON
 5. Nimble
+6. REALM
 
 ## HomeWork 
 [[⬆]](#contents)
@@ -2273,13 +2275,6 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 - Collections
 7. GOOGLE RESUME
 8. RxSwift
-
-## Pods
-- Alamofire
-- SwiftyJSON
-- HUB
-- RXSwift
-- Realm
 
 ## Job websites 
 [[⬆]](#contents)
