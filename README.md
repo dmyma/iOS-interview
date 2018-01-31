@@ -2255,6 +2255,8 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 8. https://itunes.apple.com/hk/podcast/under-the-radar/id1055685246?mt=2
 ### APPS
 1.  iOS Interview
+### MEETUPS
+http://sf-beverage.wtf/
 ### SITES
 1. raywenderlich.com
 2. Indie iOS Focus Weekly
@@ -2418,5 +2420,5 @@ d, Mac, app, sf
 - 5ZERO
 - CODE
 - git, stack, libs, os, projects
-- OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github)
+- OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github) [link3](https://github.com/topics/swift?l=swift)[link4](https://github.com/trending/swift)
 
