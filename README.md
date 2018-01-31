@@ -2418,5 +2418,5 @@ d, Mac, app, sf
 - 5ZERO
 - CODE
 - git, stack, libs, os, projects
-- OS(Fork, Clone, Branch, Change, Push) [link](https://www.natashatherobot.com/beginners-contributing-to-open-source/)
+- OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github)
 
