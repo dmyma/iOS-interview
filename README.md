@@ -2426,11 +2426,11 @@ OS Table
 
 | 1  | 2   | 3     | 
 | -------------   | ------------- | ------------- |  
-| youtube  | [check](https://github.com/JohnSundell/ImagineEngine/issues)  | [3] (https://github.com/efremidze/Cluster/issues/61)    |
+| youtube  | [check](https://github.com/JohnSundell/ImagineEngine/issues)  | [3](https://github.com/efremidze/Cluster/issues/61)    |
 |  [IB](https://github.com/IBAnimatable/IBAnimatable/issues/434)    | [check](https://github.com/Khan/SwiftTweaks)            | [3](https://github.com/zvonicek/ImageSlideshow/issues/200)   |
 | [skeleton](https://github.com/Juanpe/SkeletonView/issues/13)           |[check](https://github.com/richardtop/CalendarKit/issues)      | [4](https://github.com/marmelroy/PhoneNumberKit/issues/192)   | 
-| [LEEGO](https://github.com/wangshengjia/LeeGo/issues)       |        |  |          
+| [LEEGO](https://github.com/wangshengjia/LeeGo/issues)       |   [6](https://github.com/CVCalendar/CVCalendar/issues)            | 	[7](https://github.com/Orderella/PopupDialog/issues/204)	      |         
 | [Hero](https://github.com/lkzhao/Hero/issues)  	  | [4](https://github.com/SwifterSwift/SwifterSwift/issues/186)        | [3](https://github.com/CosmicMind/Material/issues)    |              
-| [5](https://github.com/radex/SwiftyUserDefaults/issues)    |   [6](https://github.com/CVCalendar/CVCalendar/issues)            | 	[7](https://github.com/Orderella/PopupDialog/issues/204)	      |
+| [5](https://github.com/radex/SwiftyUserDefaults/issues)    |   | |
 
 
