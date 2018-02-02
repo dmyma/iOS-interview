@@ -592,8 +592,8 @@ You’d want to see that some Core Data update is a performance problem in Instr
 <details><summary>Black or white box?</summary></details>
 <details><summary>Who will use it and why?</summary></details>
 <details><summary>What are the use cases?</summary></details>
-<details><summary>What are the the bounds of use?</</summary></details>summary></details>
-<details><summary>What are the failure conditions?
+<details><summary>What are the the bounds of use?</summary></details>
+<details><summary>What are the failure conditions?</summary></details>
 
 ## CoreAnimation CoreGraphics CoreText 
 [[⬆]](#contents)
@@ -606,7 +606,7 @@ You’d want to see that some Core Data update is a performance problem in Instr
 
 https://sourcemaking.com/design_patterns
 
-1 Singleton - ensures a class has only one instance and provides global point of access to it 
+<details><summary>1 Singleton</summary> - ensures a class has only one instance and provides global point of access to it </details>
 2 Factory Method - define an interface for creating an object, but let the subclass decide which class to instantiate
 3 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes
 4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations
