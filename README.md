@@ -2287,6 +2287,8 @@ http://sf-beverage.wtf/
 4. upwork.com
 5. international hr
 6. quip list
+7, indeed
+8. Linkedin
 
 ## Companies
 [[⬆]](#contents)
