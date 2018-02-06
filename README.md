@@ -1898,9 +1898,7 @@ Only one instance of that class is created in the application.
 1. https://www.hackerrank.com/
 2. https://leetcode.com/
 3. https://mathfights.com/
-4. https://coderpad.io/
-5. www.codingame.com
-6. https://www.topcoder.com/
+
 
 ### Data structures
 1. Linked Lists
@@ -1909,8 +1907,9 @@ Only one instance of that class is created in the application.
 4. Heaps
 5. Vectors / ArrayLists
 6. Hash Tables 
-7. LOGICAL
 
+7. LOGICAL
+8. SD, Tests, DP
 
 func compareString(st1: String, st2: String, s: [String: String]) -> Bool 
 { let st1Array = st1.components(separatedBy: " “)
