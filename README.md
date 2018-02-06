@@ -607,10 +607,10 @@ You’d want to see that some Core Data update is a performance problem in Instr
 https://sourcemaking.com/design_patterns
 
 <details><summary>1 Singleton</summary> - ensures a class has only one instance and provides global point of access to it </details>
-2 Factory Method - define an interface for creating an object, but let the subclass decide which class to instantiate
-3 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes
-4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations
-5 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype
+<details><summary>2 Factory Method</summary> - define an interface for creating an object, but let the subclass decide which class to instantiate</details>
+<details><summary>3 ABS</summary> - provides an interface for creating families of related or depended objects without specifying heir concrete classes</details>
+<details><summary>4 Builder</summary> - separates the construction of a complex object from its representation so the same construction process can create different representations</details>
+<details><summary>5 Prototype</summary> - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype</details>
 
 6 Adapter - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.
 7 Bridge - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.
