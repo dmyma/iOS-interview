@@ -612,14 +612,14 @@ https://sourcemaking.com/design_patterns
 <details><summary>4 Builder</summary> - separates the construction of a complex object from its representation so the same construction process can create different representations</details>
 <details><summary>5 Prototype</summary> - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype</details>
 
-6 Adapter - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.
-7 Bridge - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.
-Facade - define a simplified interface to a more complex system(API)
-Flyweight - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects.
-Proxy - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access)
-Template Method - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  )
-Observer - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.
-Decorator - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)
+<details><summary>6 Adapter</summary>  - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.</details>
+<details><summary>7 Bridge</summary>  - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.</details>
+<details><summary>Facade</summary>  - define a simplified interface to a more complex system(API)
+<details><summary>Flyweight</summary>  - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects.</details>
+<details><summary>Proxy</summary>  - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access)</details>
+<details><summary>Template Method</summary>  - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  )</details>
+<details><summary>Observer</summary>  - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.</details>
+<details><summary>Decorator</summary>  - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)</details>
 
 Chain of Responsibility -  processes varied requests, each of which may be dealt with by a different handler.
 Strategy - creates an interchangeable family of algorithms from which the required process is chosen at run-time.
