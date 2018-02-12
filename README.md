@@ -2266,6 +2266,9 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 1.  iOS Interview
 ### MEETUPS
 http://sf-beverage.wtf/
+nsmeetup
+jobhunt
+solving interview questions
 ### SITES
 1. raywenderlich.com
 2. Indie iOS Focus Weekly
