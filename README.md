@@ -1276,7 +1276,9 @@ What is delegate
 Protocol, extension, category 
 Informal protocol
 
-Nsstring 
+Nsstring
+NSInteger
+When to you use NSNUMBER, NSINteger
 Nsarray 
 Nsdictionary
 Nsset +
