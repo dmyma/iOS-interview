@@ -2313,6 +2313,7 @@ amazon.com
 lyft.com
 bank
 google.com
+asana
 -
 apple.com
 
@@ -2427,7 +2428,7 @@ d, Mac, app, sf
 18. https://sourcemaking.com/
 19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 
-## 2018
+## 2018 - goal
 -  ?-2-8-2-?-?-?
 - SITES
 - TOP 5-20-100
@@ -2438,6 +2439,7 @@ d, Mac, app, sf
 - 5ZERO
 - CODE
 - git, stack, libs, os, projects
+- internship
 - OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github) [link3](https://github.com/topics/swift?l=swift) [link4](https://github.com/trending/swift)
 
 OS Table
