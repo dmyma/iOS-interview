@@ -2430,7 +2430,8 @@ d, Mac, app, sf
 
 ## 2018 - goal
 -  ?-2-8-2-?-?-?
-- SITES
+- SITES, full
+- hackathon , people
 - TOP 5-20-100
 - ANGEL
 - CV-SITE-APPS(IPHONE X)
