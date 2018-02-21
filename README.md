@@ -1037,7 +1037,7 @@ Eternal.object(forKey: "Bishop")
   <summary>How to implement uimapkit in the app?</summary></details>
 
 
-
+HOW TO USE GOOGLE MAP
 
 
 
