@@ -17,6 +17,8 @@
 -----------
 * [Code Puzzels](#code-puzzels)
 * [Code](#code) 
+* [Algorithm](#algorithm)
+* [SD](#sd)
 -----------
 * [General](#general)
 -----------
@@ -1992,6 +1994,11 @@ work with console:
 - p expression
 - po print object
 
+## Algorithm
+[[⬆]](#contents)
+
+## SD
+[[⬆]](#contents)
 
 
 ## General
