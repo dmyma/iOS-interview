@@ -1998,8 +1998,16 @@ work with console:
 
 ## SD
 [[⬆]](#contents)
-
-
+- low balancer
+- casandra vs cash
+- redis
+- websocket, bosh
+- fainting
+- searching
+- zookeaper
+- agregators
+- applied
+ 
 ## General
 [[⬆]](#contents)
 
@@ -2201,7 +2209,7 @@ I've been usigng... software for ... years, and I'm really impresed at how .. ma
 
 glassdoor interview tips
 
-### Question(my)
+### Question(mine)
 What is normal day look like?
 Why did you choose this company?
 
