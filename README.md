@@ -2007,6 +2007,7 @@ work with console:
 - zookeaper
 - agregators
 - applied
+- blob storage
  
 ## General
 [[⬆]](#contents)
