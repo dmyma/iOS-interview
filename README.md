@@ -2008,6 +2008,7 @@ work with console:
 - agregators
 - applied
 - blob storage
+- avaiability, api, scalability, robust, cost, security
  
 ## General
 [[⬆]](#contents)
