@@ -2166,20 +2166,7 @@ Why do you want to change your job?
 -Change
 -being a part of a great team
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Drag and drop
 <details> 
 	<summary>what is your salary history? </summary>
 I expect compensation appropriate for the new job and responsibilities and that the compensation that i received for a different set of tasks is not relevant
