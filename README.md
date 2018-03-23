@@ -13,6 +13,7 @@
 * [Patterns(2,5,10)](#patterns)
 * [Maps](#maps)
 * [Swift](#swift)
+* [Advanced Swift](#advancedswift)
 * [Objective-C](#objective-c)
 -----------
 * [Code Puzzels](#code-puzzels)
@@ -1514,10 +1515,17 @@ golden rule arc?
 <details><summary>priorities</summary></details>
 
 ------
+## AdvancedSwift
+[[⬆]](#contents)
+<details><summary>FP</summary></details>
+<details><summary>POP</summary></details>
+<details><summary>Optionals</summary></details>
+------
+
 
 ## Objective-C 
 [[⬆]](#contents)
-
+<details><summary>initialisers?</summary>membervise, designated, optional</details>
 <details><summary> What is the difference between underscore and self (i.e self.xx and _xx) ?</summary></details>
 <details><summary> What is property?</summary></details>
 <details><summary> What is the difference between weak and strong?</summary></details>
