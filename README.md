@@ -1520,6 +1520,10 @@ golden rule arc?
 <details><summary>FP</summary></details>
 <details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
+collections
+error hadling
+protocols
+functions
 ------
 
 
