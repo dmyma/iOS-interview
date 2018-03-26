@@ -1524,6 +1524,8 @@ collections
 error hadling
 protocols
 functions
+Generics
+
 ------
 
 
