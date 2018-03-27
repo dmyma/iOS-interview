@@ -1040,6 +1040,8 @@ Eternal.object(forKey: "Bishop")
 
 
 HOW TO USE GOOGLE MAP
+zoom
+lovation
 
 
 
