@@ -2216,6 +2216,7 @@ glassdoor interview tips
 
 ### Question(mine)
 What is normal day look like?
+How do you decide if someone is doing a good job or vice-verca?
 Why did you choose this company?
 
 
