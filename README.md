@@ -1519,7 +1519,7 @@ golden rule arc?
 ------
 ## AdvancedSwift
 [[⬆]](#contents)
-<details><summary>FP</summary></details>
+<details><summary>FPR</summary></details>
 <details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
 collections
@@ -1527,6 +1527,17 @@ error hadling
 protocols
 functions
 Generics
+Values vs References
+Closures
+Pattern matching
+Array vs Sets
+Lazy loading
+Operator overloading
+Tupels
+Guard
+Labeled statements
+Nil coalescing
+
 
 ------
 
