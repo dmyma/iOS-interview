@@ -2036,6 +2036,7 @@ work with console:
 - applied
 - blob storage
 - avaiability, api, scalability, robust, cost, security
+- kafka
  
 ## General
 [[⬆]](#contents)
