@@ -2306,12 +2306,13 @@ nsmeetup
 jobhunt
 solving interview questions
 ### SITES
-1. raywenderlich.com
-2. Indie iOS Focus Weekly
-3. iosGoodies
-4. ios Cookies
-5. CocoaControl
-6. appcode
+1. talk.objc.io/
+2. raywenderlich.com
+3. Indie iOS Focus Weekly
+4. iosGoodies
+5. ios Cookies
+6. CocoaControl
+7. appcode
 ## Books
 [[⬆]](#contents)
 1. Objective-C
