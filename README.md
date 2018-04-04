@@ -2375,6 +2375,8 @@ apple.com
 1.1 https://www.youtube.com/watch?v=mk827ZWrby0&list=WL&t=16s&index=14
 
 ## Interview:
+<details> 
+  <summary>Call Interview</summary>
 1. Difference between frame and bounds
 gcd v/s NSThread
 difference between dispatch_async and dispatch_sync
@@ -2382,15 +2384,28 @@ difference between dispatch_async and dispatch_sync
 1.5 on collabedit. 
 Given two sorted arrays, find the common elements. 
 Create a UIButton programmatically and animate it between top left and bottom right when the button is tapped.
+</details>
 
+<details> 
+  <summary>Algorithm Interview</summary>
 2.1.1 find all permutations of a string.
 2.1.2 find the largest palindrome in a string of odd length.
+</details>
 
+<details> 
+  <summary>~SD Interview</summary>
 2.2.1 on OOD. design classes for furniture, starting with Table and Chair, wood table, metal table, wood chair and metal chair. design it in a way that it will be extensible in the future. emphasized that material is very important. Then about various design patterns. IMDb app, how ads are intrusive and how we can improve the user experience. describe a situation where I took charge of something and convinced the team to implement it and describe how the results turned out.
+</details>
 
+<details> 
+  <summary>CV+DS Interview</summary>
 2.3.1talking about the resume, what I did at my previous position and went deeper into why I made some choices during the development of the product I was working on. Then we moved on to algorithm questions which consisted of questions about Binary Search Tree. It's running time for insertion, deletion, searching. Then how hash maps work. Running time of inserting, deleting and searching in a hash map. why would we prefer to use BST over HashMap. find out the largest item in a Binary Tree.
+</details>
 
+<details> 
+  <summary>iOS Interview</summary>
 2.4.1 This interview for the most part was very iOS specific. How will you implement a particular view which has lots of elements for various screen sizes. imagine a view has lots of elements where it scrolls for pages and pages. How will you retrieve the data? Will you retrieve it all at once or not? If not then how will you retrieve it? imagine a view has a UIImageView as it's subview. How will you query the server to send the image in a particular size? since you will have millions of requests going to the server and if each of the requests asks for the same size, then how will you make sure that the resizing on the server happens just once? imagine we had a view with lots of images and each image below it had name of the image. How will you implement it? How and when will you retrieve the images? What would you do if you had to make sure that at any given time, there are at max 4 requests that goes out? NP-complete "Partition Problem". Given an array of positive integers, divide it into two arrays A1 and A2 such that the sum of elements of A1 is equal to sum to elements of A2.
+</details>
 
 ## Process 
 -  -1-6-2-
