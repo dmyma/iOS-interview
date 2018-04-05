@@ -2037,9 +2037,19 @@ work with console:
 - agregators
 - applied
 - blob storage
-- avaiability, api, scalability, robust, cost, security
+- avaiability, api, scalability, robust, cost, security, cost
 - kafka
+
+- Features, DEfine APIs, Availability, Performance, Scalability, Durability, 
  
+- ACID vs BASE
+- CAP Theorem(Consistency! Availability(noSQL) Partician Tolerance)
+- TCP/IP
+- HTTP/HTTPS
+- IPV4/IPV6
+- TCP vs UDP
+- CDN vs EDGE
+
 ## General
 [[⬆]](#contents)
 
