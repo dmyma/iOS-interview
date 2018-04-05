@@ -2330,14 +2330,16 @@ solving interview questions
 ## Job websites 
 [[⬆]](#contents)
 
-1. www.dice.com
-2. www.glassdoor.com
-3. angel.co 
-4. upwork.com
-5. international hr
-6. quip list
-7, indeed
-8. Linkedin
+1. indeed/prime
+2. Linkedin
+3. hired
+4. www.glassdoor.com
+6. www.dice.com
+5. angel.co 
+7. upwork.com
+8. international hr
+9. quip list
+ 
 
 ## Companies
 [[⬆]](#contents)
