@@ -46,6 +46,7 @@
 7. delegate vs notification center
 8. Gesture recogniser
 9. URL session request
+10. init
 
 ### OnSite
 1. Linked-List
