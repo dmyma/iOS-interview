@@ -2492,6 +2492,7 @@ d, Mac, app, sf
 19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 
 ## 2018 - goal
+- hacka, os, bank
 -  ?-2-8-2-?-?-?
 - SITES, full
 - hackathon , people
