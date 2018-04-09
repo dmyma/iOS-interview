@@ -47,6 +47,7 @@
 8. Gesture recogniser
 9. URL session request
 10. init
+11. How protocols interact with generics?
 
 ### OnSite
 1. Linked-List
