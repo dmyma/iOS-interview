@@ -1526,6 +1526,7 @@ golden rule arc?
 <details><summary>FPR</summary></details>
 <details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
+<details><summary>Generics</summary></details>
 collections
 error hadling
 protocols
