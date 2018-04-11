@@ -1523,15 +1523,129 @@ golden rule arc?
 ------
 ## AdvancedSwift
 [[⬆]](#contents)
+<details><summary>Class vs Struct</summary></details>
+<details><summary>Properties</summary></details>
 <details><summary>FPR</summary></details>
 <details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
-<details><summary>Generics</summary></details>
+<details><summary>Generics</summary>
+1. Generic Functions
+	
+```swift
+func swapTwoValues<T>(_ a: inout T, _ b: inout T)
+
+swapTwoValues(&someInt, &anotherInt)
+```
+
+2. Type Parameters
+
+```swift
+struct Stack<Element> {
+    var items = [Element]()
+    mutating func push(_ item: Element) {
+        items.append(item)
+    }
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+}
+	var stackOfStrings = Stack<String>()
+```
+	
+Type Constraints
+
+```swift
+	func findIndex<T: Equatable>(of valueToFind: T, in array:[T]) -> Int? {
+    for (index, value) in array.enumerated() {
+        if value == valueToFind {
+            return index
+        }
+    }
+    return nil
+
+```
+
+3. Protocols 
+
+```swift
+protocol Container {
+    associatedtype Item
+    mutating func append(_ item: Item)
+    var count: Int { get }
+    subscript(i: Int) -> Item { get }
+}
+
+struct IntStack: Container {
+    // original IntStack implementation
+    var items = [Int]()
+    mutating func push(_ item: Int) {
+        items.append(item)
+    }
+    mutating func pop() -> Int {
+        return items.removeLast()
+    }
+    // conformance to the Container protocol
+    typealias Item = Int
+    mutating func append(_ item: Int) {
+        self.push(item)
+    }
+    var count: Int {
+        return items.count
+    }
+    subscript(i: Int) -> Int {
+        return items[i]
+    }
+}
+
+struct Stack<Element>: Container {
+    // original Stack<Element> implementation
+    var items = [Element]()
+    mutating func push(_ item: Element) {
+        items.append(item)
+    }
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+    // conformance to the Container protocol
+    mutating func append(_ item: Element) {
+        self.push(item)
+    }
+    var count: Int {
+        return items.count
+    }
+    subscript(i: Int) -> Element {
+        return items[i]
+    }
+}
+```
+	Constraints
+
+```swift
+	protocol SuffixableContainer: Container {
+    associatedtype Suffix: SuffixableContainer where Suffix.Item == Item
+    func suffix(_ size: Int) -> Suffix
+}
+	
+	protocol Container {
+    associatedtype Item
+    mutating func append(_ item: Item)
+    var count: Int { get }
+    subscript(i: Int) -> Item { get }
+    
+    associatedtype Iterator: IteratorProtocol where Iterator.Element == Item
+    func makeIterator() -> Iterator
+}
+```
+
+Generic Subscripts?
+</details>
+
+<details><summary>Subscripts</summary></details>
 collections
 error hadling
 protocols
 functions
-Generics
+
 Values vs References
 Closures
 Pattern matching
