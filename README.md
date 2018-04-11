@@ -1523,13 +1523,15 @@ golden rule arc?
 ------
 ## AdvancedSwift
 [[⬆]](#contents)
+<details><summary>FPR</summary>+MAth</details>
+<details><summary>POP</summary></details>
 
 <details><summary>Class vs Struct</summary></details>
-<details><summary>Properties</summary></details>
-<details><summary>FPR</summary>+MAth</details>
 <details><summary>Collections</summary></details>
-<details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
+<details><summary>Properties</summary></details>
+
+
 <details><summary>Generics</summary>
 1. Generic Functions
 	
