@@ -1527,7 +1527,36 @@ golden rule arc?
 <details><summary>POP</summary></details>
 
 <details><summary>Class vs Struct</summary></details>
+use struct unless use class only features or class semantics
+
 <details><summary>Collections</summary></details>
+```swift
+someArray.withUnsafeBufferPointer{ p in 
+	retyrn p
+}
+```
+copy-on-write
+
+```swift
+array.map { $0 * 2 }.filter { $0 > 100 }.reduce(0, +)
+```
+
+```swift
+bigs.flatMap { big in
+    smals.map{ smal in (big, smal)
+        
+    }
+}
+```
+
+merge dictionaries
+
+Set
+$0.substracting($1)
+  .intersection
+  .union
+
+
 <details><summary>Optionals</summary></details>
 <details><summary>Properties</summary></details>
 
@@ -1661,6 +1690,7 @@ Tupels
 Guard
 Labeled statements
 Nil coalescing
+dynamic dyspatch - compiler doesn't know at compile time which function will run.
 
 
 ------
