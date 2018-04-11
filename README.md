@@ -1523,9 +1523,11 @@ golden rule arc?
 ------
 ## AdvancedSwift
 [[⬆]](#contents)
+
 <details><summary>Class vs Struct</summary></details>
 <details><summary>Properties</summary></details>
-<details><summary>FPR</summary></details>
+<details><summary>FPR</summary>+MAth</details>
+<details><summary>Collections</summary></details>
 <details><summary>POP</summary></details>
 <details><summary>Optionals</summary></details>
 <details><summary>Generics</summary>
@@ -1638,10 +1640,11 @@ struct Stack<Element>: Container {
 ```
 
 Generic Subscripts?
+How Generics Work - book - https://developer.apple.com/videos/play/wwdc2015/409/?time=992
 </details>
 
 <details><summary>Subscripts</summary></details>
-collections
+
 error hadling
 protocols
 functions
