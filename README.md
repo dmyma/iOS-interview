@@ -1595,6 +1595,7 @@ let standardIn = AnySequence {
 Ranges
 Slicing
 Equatable
+Comparable
 Hashable
 Has functions
 closure expression
