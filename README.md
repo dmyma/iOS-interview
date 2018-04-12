@@ -1526,10 +1526,10 @@ golden rule arc?
 <details><summary>FPR</summary>+MAth</details>
 <details><summary>POP</summary></details>
 
-<details><summary>Class vs Struct</summary></details>
+<details><summary>Class vs Struct</summary>
 use struct unless use class only features or class semantics
-
-<details><summary>Collections</summary></details>
+</details>
+<details><summary>Collections</summary>
 ```swift
 someArray.withUnsafeBufferPointer{ p in 
 	retyrn p
@@ -1555,9 +1555,47 @@ Set
 $0.substracting($1)
   .intersection
   .union
+  
+  flatMap vs map
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID105
+sequence - serious of values that allows to iterate over
+collection - stable sequence allows iterate over times non destructively
+var iterator = string.makeIterator()
+
+```swift
+while let char = iterator.next() {
+    print(char)
+}
+```
+</details>
+<details><summary>Optionals</summary>
+```swift
+let urlString = "https://img.img.jpg"
+if let url = URL(string: urlString), url.pathExtension == "jpg",
+    let data = try? Data(contentsOf: url),
+    let image = UIImage(data: data) {
+    let view = UIImageView(image: image)
+    PlaygroundPage.current.liveView = view
+}
+```
+if let
+
+while let
+
+force unwrapping
+
+optional chaining
 
 
-<details><summary>Optionals</summary></details>
+```swift
+guard let name = nameField.text where name.characters.count > 3 && name.characters.count <= 16, let range = name.rangeOfCharacterFromSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()) where range.startIndex == range.endIndex else {
+    show("name failed validation")
+    return
+}
+```
+
+submit(name)
+</details>
 <details><summary>Properties</summary></details>
 
 
