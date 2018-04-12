@@ -1558,15 +1558,51 @@ $0.substracting($1)
   
   flatMap vs map
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID105
+Iterator: IteratorProtocol signle pass constructor next() - mutating (value semantic, but)
 sequence - serious of values that allows to iterate over
 collection - stable sequence allows iterate over times non destructively
+```swift
 var iterator = string.makeIterator()
 
-```swift
 while let char = iterator.next() {
     print(char)
 }
 ```
+
+forEach
+enumarate
+AnyIterator - hides the itertor concreate type
+AnySequence
+UnfoldSequence
+SubSequence - AnySequence<Iterator.Element>
+
+
+```swift
+associatedtype SubSequence: Sequence
+	where Iterator.Element == SubSequence.Iterator.Element,
+	SubSequence.SubSequence == SubSequence
+```
+
+```swift
+let standardIn = AnySequence {
+	retyrn AnyIterator {
+		readLine()
+	}
+}
+```
+
+"closing over", free function, dynamic/staticly dispatch
+Ranges
+Slicing
+Equatable
+Hashable
+Has functions
+closure expression
+Array functions
+
+Queue book p.63,65
+Stack documentation
+Indexable, Subscript
 </details>
 <details><summary>Optionals</summary>
 ```swift
