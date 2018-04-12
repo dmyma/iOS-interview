@@ -1594,9 +1594,11 @@ let standardIn = AnySequence {
 "closing over", free function, dynamic/staticly dispatch
 Ranges
 Slicing
+
 Equatable
 Comparable
-Hashable
+Hashable - https://useyourloaf.com/blog/swift-hashable/
+
 Has functions
 closure expression
 Array functions
