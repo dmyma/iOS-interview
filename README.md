@@ -34,6 +34,10 @@
 * [Process](#process)
 * [Credits](#credits)
 
+
+
+Assertions and Preconditions, Subscript
+
 # Top questions
 [[⬆]](#contents)
 ### Theory
