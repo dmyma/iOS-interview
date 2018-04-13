@@ -1560,7 +1560,8 @@ $0.substracting($1)
   .intersection
   .union
   
-  flatMap vs map
+  flatMap vs map -> optional
+  only !nil  optionals
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID105
 Iterator: IteratorProtocol signle pass constructor next() - mutating (value semantic, but)
 sequence - serious of values that allows to iterate over
@@ -1589,7 +1590,7 @@ associatedtype SubSequence: Sequence
 
 ```swift
 let standardIn = AnySequence {
-	retyrn AnyIterator {
+	return AnyIterator {
 		readLine()
 	}
 }
@@ -1603,6 +1604,14 @@ Equatable
 Comparable
 Hashable - https://useyourloaf.com/blog/swift-hashable/
 
+IteratorProtocol
+Sequence
+Collection
+
+BidirectionCollection
+RandomAccesCollection
+MutableCollection
+RangeReplcaceableCollection
 Has functions
 closure expression
 Array functions
@@ -1610,8 +1619,28 @@ Array functions
 Queue book p.63,65
 Stack documentation
 Indexable, Subscript
+
+
+```swift
+extension List: IteratorProtocol, Sequnce 
+    where Self: Iterator.Element: COmparable{
+	mutating function func next() -> Element? {
+		return pop()
+	}
+}
+```
+
+
 </details>
 <details><summary>Optionals</summary>
+	
+```swift
+enum Optional<T>{
+	case none
+	case some(T)
+}
+```	
+	
 ```swift
 let urlString = "https://img.img.jpg"
 if let url = URL(string: urlString), url.pathExtension == "jpg",
@@ -1621,15 +1650,15 @@ if let url = URL(string: urlString), url.pathExtension == "jpg",
     PlaygroundPage.current.liveView = view
 }
 ```
-if let
+if let/var
 
-while let
+while let/var
 
 force unwrapping
 
 optional chaining
 
-
+nill-Coolescing ??
 ```swift
 guard let name = nameField.text where name.characters.count > 3 && name.characters.count <= 16, let range = name.rangeOfCharacterFromSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()) where range.startIndex == range.endIndex else {
     show("name failed validation")
@@ -1638,6 +1667,20 @@ guard let name = nameField.text where name.characters.count > 3 && name.characte
 ```
 
 submit(name)
+
+
+```swift
+for i in 0...10 where i%2 == 0{
+
+}
+```
+
+```swift
+for case let i? in maybeInts {
+
+}
+```
+
 </details>
 <details><summary>Properties</summary></details>
 
