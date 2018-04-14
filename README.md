@@ -34,7 +34,10 @@
 * [Process](#process)
 * [Credits](#credits)
 
-
+tomorrow
+one week
+no interview preparing
+looking around
 
 Assertions and Preconditions, Subscript
 
