@@ -1686,8 +1686,212 @@ for case let i? in maybeInts {
 
 </details>
 <details><summary>Properties</summary></details>
+1. Stored properties store constant and variable values as part of an instance(C, S)
+ - Instances of a struct with let will not allow change the properties eventhough there are var, which is not true for class
+2. Computed properties calculate (rather than store) a value(C, S, E). Instead, they provide a getter and an optional setter to retrieve and set other properties and values indirectly.
+ - A lazy stored property is a property whose initial value is not calculated until the first time it is used
+
+3. Type properties - properties can also be associated with the type itsel.
+
+```swift
+var center: Point {
+        get {
+            let centerX = origin.x + (size.width / 2)
+            let centerY = origin.y + (size.height / 2)
+            return Point(x: centerX, y: centerY)
+        }
+        set(newCenter) {
+	set {
+            origin.x = newCenter.x - (size.width / 2)
+            origin.y = newCenter.y - (size.height / 2)
+        }
+    }
+```
+
+You must declare computed properties—including read-only computed properties—as variable properties with the var keyword, because their value is not fixed. The let keyword is only used for constant properties, to indicate that their values cannot be changed once they are set as part of instance initialization.
+
+4. Property observers can be added to stored properties you define
+
+```swift 
+class StepCounter {
+    var totalSteps: Int = 0 {
+        willSet(newTotalSteps) {
+            print("About to set totalSteps to \(newTotalSteps)")
+        }
+        didSet {
+            if totalSteps > oldValue  {
+                print("Added \(totalSteps - oldValue) steps")
+            }
+        }
+    }
+}
+```
+If you pass a property that has observers to a function as an in-out parameter, the willSet and didSet observers are always called. This is because of the copy-in copy-out memory model for in-out parameters: The value is always written back to the property at the end of the function. 
+<details><summary>Initializers</summary>
+	Memberwise, Default, Convinience, Designated, Faileable, Required, 
+	
+	
+	Classes and structures must set all of their stored properties to an appropriate initial value by the time an instance of that class or structure is created. Stored properties cannot be left in an indeterminate state.
+
+You can set an initial value for a stored property within an initializer, or by assigning a default property value as part of the property’s definition. 
+deinitializer
+```swift
+struct Fahrenheit {
+    var temperature: Double
+    init() {
+        temperature = 32.0
+    }
+}
+var f = Fahrenheit()
+print("The default temperature is \(f.temperature)° Fahrenheit")
+```
+or
+```swift
+struct Fahrenheit {
+    var temperature = 32.0
+}
+```
+
+Initialization Parameters
+
+You can assign a value to a constant property at any point during initialization, as long as it is set to a definite value by the time initialization finishes. Once a constant property is assigned a value, it can’t be further modified.
+
+Swift provides a default initializer for any structure or class that provides default values for all of its properties and does not provide at least one initializer itself. The default initializer simply creates a new instance with all of its properties set to their default values.
+
+Structure types automatically receive a memberwise initializer if they do not define any of their own custom initializers. Unlike a default initializer, the structure receives a memberwise initializer even if it has stored properties that do not have default values.
+
+Initializers can call other initializers to perform part of an instance’s initialization. This process, known as initializer delegation, avoids duplicating code across multiple initializers.
+
+Note that if you define a custom initializer for a value type, you will no longer have access to the default initializer (or the memberwise initializer, if it is a structure) for that type.
+
+ --Classes vs Struct initializers
+
+You can initialize the Rect structure below in one of three ways—by using its default zero-initialized origin and size property values, by providing a specific origin point and size, or by providing a specific center point and size. These initialization options are represented by three custom initializers that are part of the Rect structure’s definition
+
+```swift
+struct Rect {
+    var origin = Point()
+    var size = Size()
+    init() {}
+    init(origin: Point, size: Size) {
+        self.origin = origin
+        self.size = size
+    }
+    init(center: Point, size: Size) {
+        let originX = center.x - (size.width / 2)
+        let originY = center.y - (size.height / 2)
+        self.init(origin: Point(x: originX, y: originY), size: size)
+    }
+}
+```
+
+All of a class’s stored properties—including any properties the class inherits from its superclass—must be assigned an initial value during initialization.
+
+Swift defines two kinds of initializers for class types to help ensure all stored properties receive an initial value. These are known as designated initializers and convenience initializers.
 
 
+Designated initializers are the primary initializers for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain.
+
+Classes tend to have very few designated initializers, and it is quite common for a class to have only one. Designated initializers are “funnel” points through which initialization takes place, and through which the initialization process continues up the superclass chain.
+
+Every class must have at least one designated initializer. In some cases, this requirement is satisfied by inheriting one or more designated initializers from a superclass, as described in Automatic Initializer Inheritance below.
+
+Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
+
+You do not have to provide convenience initializers if your class does not require them. Create convenience initializers whenever a shortcut to a common initialization pattern will save time or make initialization of the class clearer in intent.
+```swift
+ init() {
+ }
+ 
+convenience init() {
+ }
+```
+
+To simplify the relationships between designated and convenience initializers, Swift applies the following three rules for delegation calls between initializers:
+
+Rule 1
+A designated initializer must call a designated initializer from its immediate superclass.
+
+Rule 2
+A convenience initializer must call another initializer from the same class.
+
+Rule 3
+A convenience initializer must ultimately call a designated initializer.
+
+A simple way to remember this is:
+
+Designated initializers must always delegate up.
+
+Convenience initializers must always delegate across.
+
+
+
+Two-Phase Initialization
+Class initialization in Swift is a two-phase process. In the first phase, each stored property is assigned an initial value by the class that introduced it. Once the initial state for every stored property has been determined, the second phase begins, and each class is given the opportunity to customize its stored properties further before the new instance is considered ready for use.
+
+The use of a two-phase initialization process makes initialization safe, while still giving complete flexibility to each class in a class hierarchy. Two-phase initialization prevents property values from being accessed before they are initialized, and prevents property values from being set to a different value by another initializer unexpectedly.
+
+Swift’s compiler performs four helpful safety-checks to make sure that two-phase initialization is completed without error:
+
+Safety check 1
+A designated initializer must ensure that all of the properties introduced by its class are initialized before it delegates up to a superclass initializer.
+
+As mentioned above, the memory for an object is only considered fully initialized once the initial state of all of its stored properties is known. In order for this rule to be satisfied, a designated initializer must make sure that all of its own properties are initialized before it hands off up the chain.
+
+Safety check 2
+A designated initializer must delegate up to a superclass initializer before assigning a value to an inherited property. If it doesn’t, the new value the designated initializer assigns will be overwritten by the superclass as part of its own initialization.
+
+Safety check 3
+A convenience initializer must delegate to another initializer before assigning a value to any property (including properties defined by the same class). If it doesn’t, the new value the convenience initializer assigns will be overwritten by its own class’s designated initializer.
+
+Safety check 4
+An initializer cannot call any instance methods, read the values of any instance properties, or refer to self as a value until after the first phase of initialization is complete.
+
+The class instance is not fully valid until the first phase ends. Properties can only be accessed, and methods can only be called, once the class instance is known to be valid at the end of the first phase.
+
+Here’s how two-phase initialization plays out, based on the four safety checks above:
+
+Phase 1
+
+A designated or convenience initializer is called on a class.
+
+Memory for a new instance of that class is allocated. The memory is not yet initialized.
+
+A designated initializer for that class confirms that all stored properties introduced by that class have a value. The memory for these stored properties is now initialized.
+
+The designated initializer hands off to a superclass initializer to perform the same task for its own stored properties.
+
+This continues up the class inheritance chain until the top of the chain is reached.
+
+Once the top of the chain is reached, and the final class in the chain has ensured that all of its stored properties have a value, the instance’s memory is considered to be fully initialized, and phase 1 is complete.
+
+Phase 2
+
+Working back down from the top of the chain, each designated initializer in the chain has the option to customize the instance further. Initializers are now able to access self and can modify its properties, call its instance methods, and so on.
+
+Finally, any convenience initializers in the chain have the option to customize the instance and to work with self.
+
+
+Conversely, if you write a subclass initializer that matches a superclass convenience initializer, that superclass convenience initializer can never be called directly by your subclass, as per the rules
+
+
+Automatic Initializer Inheritance
+As mentioned above, subclasses do not inherit their superclass initializers by default. However, superclass initializers are automatically inherited if certain conditions are met. In practice, this means that you do not need to write initializer overrides in many common scenarios, and can inherit your superclass initializers with minimal effort whenever it is safe to do so.
+
+Assuming that you provide default values for any new properties you introduce in a subclass, the following two rules apply:
+
+Rule 1
+If your subclass doesn’t define any designated initializers, it automatically inherits all of its superclass designated initializers.
+
+Rule 2
+If your subclass provides an implementation of all of its superclass designated initializers—either by inheriting them as per rule 1, or by providing a custom implementation as part of its definition—then it automatically inherits all of the superclass convenience initializers.
+
+Failable Initializers
+It is sometimes useful to define a class, structure, or enumeration for which initialization can fail. This failure might be triggered by invalid initialization parameter values, the absence of a required external resource, or some other condition that prevents initialization from succeeding.
+
+To cope with initialization conditions that can fail, define one or more failable initializers as part of a class, structure, or enumeration definition. You write a failable initializer by placing a question mark after the init keyword (init?).
+
+- Required Initializers
 <details><summary>Generics</summary>
 1. Generic Functions
 	
