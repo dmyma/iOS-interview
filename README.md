@@ -1685,7 +1685,7 @@ for case let i? in maybeInts {
 ```
 
 </details>
-<details><summary>Properties</summary></details>
+<details><summary>Properties</summary>
 1. Stored properties store constant and variable values as part of an instance(C, S)
  - Instances of a struct with let will not allow change the properties eventhough there are var, which is not true for class
 2. Computed properties calculate (rather than store) a value(C, S, E). Instead, they provide a getter and an optional setter to retrieve and set other properties and values indirectly.
@@ -1727,6 +1727,8 @@ class StepCounter {
 }
 ```
 If you pass a property that has observers to a function as an in-out parameter, the willSet and didSet observers are always called. This is because of the copy-in copy-out memory model for in-out parameters: The value is always written back to the property at the end of the function. 
+</details>
+
 <details><summary>Initializers</summary>
 	Memberwise, Default, Convinience, Designated, Faileable, Required, 
 	
@@ -1892,6 +1894,7 @@ It is sometimes useful to define a class, structure, or enumeration for which in
 To cope with initialization conditions that can fail, define one or more failable initializers as part of a class, structure, or enumeration definition. You write a failable initializer by placing a question mark after the init keyword (init?).
 
 - Required Initializers
+</details>
 <details><summary>Generics</summary>
 1. Generic Functions
 	
