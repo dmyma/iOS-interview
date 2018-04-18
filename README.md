@@ -1534,8 +1534,44 @@ golden rule arc?
 <details><summary>POP</summary></details>
 
 <details><summary>Class vs Struct</summary>
-use struct unless use class only features or class semantics
+use struct unless need to use class only features or class semantics
+	ref vs value
+	reference cycle
+	initialisers
+	inheritance
 </details>
+
+<details><summary>frame vs bounds</summary>
+	
+The frame of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
+The bounds of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
+
+scroll view
+Gesture recogniser + underhood
+</details>
+
+<details><summary>ARC</summary>
+
+what is Auto release pool?
+Weak vs assign, strong vs copy, weak?
+tomic vs nonatomic. What is the difference? How to change atomic/nonatomic setter in non ARC environment?
+Why all properties reference to strong/retain?
+
+	
+</details>
+
+<details><summary>GCD vs NSOperationQueue</summary>
+
+gcd, queues, operations, threades
+secure lock
+threads
+async
+</details>
+
+
+<details><summary>delegate vs notification center</summary>
+	</details>
+
 <details><summary>Collections</summary>
 ```swift
 someArray.withUnsafeBufferPointer{ p in 
@@ -1622,6 +1658,11 @@ Array functions
 Queue book p.63,65
 Stack documentation
 Indexable, Subscript
+
+JavaScript Object Notation
+Representational state transfer
+Alg
+Hasmap
 
 
 ```swift
