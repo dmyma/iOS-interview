@@ -1530,8 +1530,18 @@ golden rule arc?
 ------
 ## AdvancedSwift
 [[⬆]](#contents)
+
+Behaviour
+Alg
 <details><summary>FPR</summary>+MAth</details>
-<details><summary>POP</summary></details>
+<details><summary>POP</summary>
+A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
+	Protocol Extension
+	Protoxcol Composition
+	
+	
+	An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
+</details>
 
 <details><summary>Class vs Struct</summary>
 use struct unless need to use class only features or class semantics
@@ -1539,6 +1549,51 @@ use struct unless need to use class only features or class semantics
 	reference cycle
 	initialisers
 	inheritance
+	Classes and structures in Swift have many things in common. Both can:
+
+Define properties to store values
+
+Define methods to provide functionality
+
+Define subscripts to provide access to their values using subscript syntax
+
+Define initializers to set up their initial state
+
+Be extended to expand their functionality beyond a default implementation
+
+Conform to protocols to provide standard functionality of a certain kind
+
+For more information, see Properties, Methods, Subscripts, Initialization, Extensions, and Protocols.
+
+Classes have additional capabilities that structures do not:
+
+Inheritance enables one class to inherit the characteristics of another.
+
+Type casting enables you to check and interpret the type of a class instance at runtime.
+
+Deinitializers enable an instance of a class to free up any resources it has assigned.
+
+Reference counting allows more than one reference to a class instance.
+
+For more information, see Inheritance, Type Casting, Deinitialization, and Automatic Reference Counting.
+
+As a general guideline, consider creating a structure when one or more of these conditions apply:
+
+The structure’s primary purpose is to encapsulate a few relatively simple data values.
+
+It is reasonable to expect that the encapsulated values will be copied rather than referenced when you assign or pass around an instance of that structure.
+
+Any properties stored by the structure are themselves value types, which would also be expected to be copied rather than referenced.
+
+The structure does not need to inherit properties or behavior from another existing type.
+
+Examples of good candidates for structures include:
+
+The size of a geometric shape, perhaps encapsulating a width property and a height property, both of type Double.
+
+A way to refer to ranges within a series, perhaps encapsulating a start property and a length property, both of type Int.
+
+A point in a 3D coordinate system, perhaps encapsulating x, y and z properties, each of type Double.
 </details>
 
 <details><summary>frame vs bounds</summary>
@@ -2051,7 +2106,16 @@ How Generics Work - book - https://developer.apple.com/videos/play/wwdc2015/409/
 
 <details><summary>Subscripts</summary></details>
 
-error hadling
+<details><summary>error hadling</summary>
+```swift
+	do {
+    y = try someThrowingFunction()
+} catch {
+    y = nil
+}
+	defer
+```
+</details>
 protocols
 functions
 
