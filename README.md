@@ -2015,7 +2015,42 @@ protocols
 functions
 
 Values vs References
-Closures
+<details><summary>Closures</summary>
+Global and nested functions, as introduced in Functions, are actually special cases of closures. Closures take one of three forms:
+
+Global functions are closures that have a name and do not capture any values.
+
+Nested functions are closures that have a name and can capture values from their enclosing function.
+
+Closure expressions are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.
+
+Swift’s closure expressions have a clean, clear style, with optimizations that encourage brief, clutter-free syntax in common scenarios. These optimizations include:
+
+Inferring parameter and return value types from context
+
+Implicit returns from single-expression closures
+
+Shorthand argument names
+
+Trailing closure syntax
+
+@escaping 
+A closure is said to escape a function when the closure is passed as an argument to the function, but is called after the function returns. When you declare a function that takes a closure as one of its parameters, you can write @escaping before the parameter’s type to indicate that the closure is allowed to escape.
+Marking a closure with @escaping means you have to refer to self explicitly within the closure. For example, in the code below, the closure passed to someFunctionWithEscapingClosure(_:) is an escaping closure, which means it needs to refer to self explicitly. In contrast, the closure passed to someFunctionWithNonescapingClosure(_:) is a nonescaping closure, which means it can refer to self implicitly.
+
+@autoclosure
+An autoclosure is a closure that is automatically created to wrap an expression that’s being passed as an argument to a function. It doesn’t take any arguments, and when it’s called, it returns the value of the expression that’s wrapped inside of it. This syntactic convenience lets you omit braces around a function’s parameter by writing a normal expression instead of an explicit closure.
+</details>
+
+
+<details><summary>Methods</summary>
+mutating
+	Structures and enumerations are value types. By default, the properties of a value type cannot be modified from within its instance methods.
+Assigning to self Within a Mutating Method
+Instance Methods	
+Type Methods
+
+</details>
 Pattern matching
 Array vs Sets
 Lazy loading
@@ -2025,7 +2060,12 @@ Guard
 Labeled statements
 Nil coalescing
 dynamic dyspatch - compiler doesn't know at compile time which function will run.
+Subscripts enable you to query instances of a type by writing one or more values in square brackets after the instance name. Their syntax is similar to both instance method syntax and computed property syntax. You write subscript definitions with the subscript
+assert
+precondition
 
+>>>
+Operator overload
 
 ------
 
