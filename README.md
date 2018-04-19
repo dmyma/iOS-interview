@@ -3155,6 +3155,9 @@ d, Mac, app, sf
 
 ## Credits 
 [[⬆]](#contents)
+1. https://developer.apple.com/library/content/navigation/index.html#section=Platforms&topic=iOS
+2.https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
+3. https://developer.apple.com/documentation/
 
 1. http://www.geekinterview.com/Interview-Questions/iOS
 2. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
