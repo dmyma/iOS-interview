@@ -1535,6 +1535,7 @@ Behaviour
 Alg
 <details><summary>FPR</summary>+MAth</details>
 <details><summary>POP</summary>
+	Abstraction, encapsulation, iheritance(composition), polymorphism
 A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
 	Protocol Extension
 	Protoxcol Composition
