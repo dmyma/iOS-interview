@@ -1708,6 +1708,9 @@ async
 	</details>
 
 <details><summary>Collections</summary>
+	ContiguousArray
+	ArraySlice
+	
 ```swift
 someArray.withUnsafeBufferPointer{ p in 
 	retyrn p
@@ -2072,6 +2075,14 @@ To cope with initialization conditions that can fail, define one or more failabl
 - Required Initializers
 </details>
 <details><summary>Generics</summary>
+	Compiler bases its decision of which overload to call on the static types  and not on values dynamic types at runtime.
+	Compile-once-and-dispatch-dynamically
+
+	
+	Can not be accros module boundaries
+	
+	Swift boxes the value in a container with fixed size to store the value, if too big swift allocates it on the heap with ref. Witness table, value witness table(vtable), protocol witness table DynamicD
+	
 	Genaric protocols - they serve a very important purpose in the swift world—defining type relationships.
 1. Generic Functions
 	
@@ -2231,6 +2242,9 @@ An autoclosure is a closure that is automatically created to wrap an expression 
 
 <details><summary>Methods</summary>
 mutating
+	If you need runtime Polymorphism - that is, you want the function to be picked based on what a variable points to and not what the type of the variable is - you should be using methods not functions.
+	
+	
 	Structures and enumerations are value types. By default, the properties of a value type cannot be modified from within its instance methods.
 Assigning to self Within a Mutating Method
 Instance Methods	
@@ -2259,7 +2273,20 @@ This combination of inequalities, equalities, and priorities gives you a great a
 
 >>>
 Operator overload
+```swift
 
+precedencegroup ExponentiationPrecedence {
+associativity: left
+higherThan: MultiplicationPrecedence
+}
+
+infix operator **: ExponentiaionPrecedence
+
+func **<T>(lhs: T, rhs: T) -> T {
+	return pow(lhs, rhs)
+}
+
+```
 ------
 
 
