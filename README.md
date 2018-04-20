@@ -1664,8 +1664,40 @@ lazy var someClosure: () -> String = {
 </details>
 
 <details><summary>GCD vs NSOperationQueue</summary>
+<img src="dispatch.png" width="301" height="400">
 
-gcd, queues, operations, threades
+What is convcurency?
+Main thread
+api on top of GCD
+queue of task to give GCD
+queue
+1 main and 4 concurent
+
+
+
+FIFO
+- Serial queue
+predicted order
+prevent race conditions
+
+- Concurent queue
+Faster
+Unpredicted order
+
+Dependencies
+The NSOperation API provides support for dependencies. This is a powerful concept that enables developers to execute tasks in a specific order. An operation is ready when every dependency has finished executing.
+
+Observable
+The NSOperation and NSOperationQueue classes have a number of properties that can be observed, using KVO (Key Value Observing). This is another important benefit if you want to monitor the state of an operation or operation queue.
+
+Pause, Cancel, Resume
+Operations can be paused, resumed, and cancelled. Once you dispatch a task using Grand Central Dispatch, you no longer have control or insight into the execution of that task. The NSOperation API is more flexible in that respect, giving the developer control over the operation's life cycle.
+
+Control
+The NSOperationQueue also adds a number of benefits to the mix. For example, you can specify the maximum number of queued operations that can run simultaneously. This makes it easy to control how many operations run at the same time or to create a serial operation queue.
+
+Grand Central Dispatch is ideal if you just need to dispatch a block of code to a serial or concurrent queue. If you don't want to go through the hassle of creating an NSOperation subclass for a trivial task, then Grand Central Dispatch is a great alternative. Another benefit of Grand Central Dispatch is that you can keep related code together. Take a look at the following example.
+
 secure lock
 threads
 async
