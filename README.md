@@ -55,6 +55,7 @@ Assertions and Preconditions, Subscript
 9. URL session request
 10. init
 11. How protocols interact with generics?
+12. Generics
 
 ### OnSite
 1. Linked-List
