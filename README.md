@@ -56,6 +56,7 @@ Assertions and Preconditions, Subscript
 10. init
 11. How protocols interact with generics?
 12. Generics
+12. Protocols: Hashable, HashFunctions
 
 ### OnSite
 1. Linked-List
