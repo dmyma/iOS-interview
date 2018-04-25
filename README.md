@@ -57,6 +57,7 @@ Assertions and Preconditions, Subscript
 11. How protocols interact with generics?
 12. Generics
 12. Protocols: Hashable, HashFunctions
+14. objC NULL, inter
 
 ### OnSite
 1. Linked-List
