@@ -1603,6 +1603,9 @@ The size of a geometric shape, perhaps encapsulating a width property and a heig
 A way to refer to ranges within a series, perhaps encapsulating a start property and a length property, both of type Int.
 
 A point in a 3D coordinate system, perhaps encapsulating x, y and z properties, each of type Double.
+
+Extensions can add a new continuance initializer but can not add a new designated Initializer or deinit. 
+
 </details>
 
 <details><summary>frame vs bounds</summary>
