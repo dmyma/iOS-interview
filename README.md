@@ -2244,6 +2244,14 @@ Marking a closure with @escaping means you have to refer to self explicitly with
 
 @autoclosure
 An autoclosure is a closure that is automatically created to wrap an expression that’s being passed as an argument to a function. It doesn’t take any arguments, and when it’s called, it returns the value of the expression that’s wrapped inside of it. This syntactic convenience lets you omit braces around a function’s parameter by writing a normal expression instead of an explicit closure.
+
+Global function is a closure that have a name and does not capture any values
+Nested function is a closure that has a name and can capture the value from their enclosed function
+Closure expressions are unnamed closures written in lightweight syntax that can capture values from their surrounding context
+
+(Closure: ()-> void) {}
+(Closure:{})
+(){}
 </details>
 
 
