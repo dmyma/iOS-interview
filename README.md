@@ -2249,6 +2249,12 @@ Global function is a closure that have a name and does not capture any values
 Nested function is a closure that has a name and can capture the value from their enclosed function
 Closure expressions are unnamed closures written in lightweight syntax that can capture values from their surrounding context
 
+Inferring parameter and return value types from context
+Implicit returns from single-expression closures
+Shorthand argument names
+Trailing closure syntax
+
+
 (Closure: ()-> void) {}
 (Closure:{})
 (){}
