@@ -1872,6 +1872,7 @@ for case let i? in maybeInts {
 
 </details>
 <details><summary>Properties</summary>
+	
 1. Stored properties store constant and variable values as part of an instance(C, S)
  - Instances of a struct with let will not allow change the properties eventhough there are var, which is not true for class
 2. Computed properties calculate (rather than store) a value(C, S, E). Instead, they provide a getter and an optional setter to retrieve and set other properties and values indirectly.
@@ -2206,6 +2207,10 @@ How Generics Work - book - https://developer.apple.com/videos/play/wwdc2015/409/
 <details><summary>Subscripts</summary></details>
 
 <details><summary>error hadling</summary>
+	
+	throw
+	throws
+	rethrows
 ```swift
 	do {
     y = try someThrowingFunction()
