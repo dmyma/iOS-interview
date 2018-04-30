@@ -2211,6 +2211,20 @@ How Generics Work - book - https://developer.apple.com/videos/play/wwdc2015/409/
 	throw
 	throws
 	rethrows
+	
+```swift
+func anyThrows() throws {
+	throw SomeError.error
+}
+
+func any(callback: () throws -> Void) rethrows {
+	do {
+		try callback()
+		try anyThrows() // Invalid
+	} catch {
+	throw AnotherError.error
+}
+```
 ```swift
 	do {
     y = try someThrowingFunction()
