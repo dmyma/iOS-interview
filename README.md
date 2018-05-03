@@ -1535,9 +1535,6 @@ golden rule arc?
 ## AdvancedSwift
 [[⬆]](#contents)
 
-Functions can be assigned to variables and passed in and out of other functions as argument, just as an int or a string can be
-Functions can capture variables that exist outside of their local scope
-There are two ways of creating functions - either with the func word , or with {} - closure expression.
 
 Behaviour
 Alg
@@ -2281,7 +2278,13 @@ Trailing closure syntax
 (Closure: ()-> void) {}
 (Closure:{})
 (){}
+
+Functions can be assigned to variables and passed in and out of other functions as argument, just as an int or a string can be
+Functions can capture variables that exist outside of their local scope
+There are two ways of creating functions - either with the func word , or with {} - closure expression.
+
 </details>
+
 
 
 <details><summary>Methods</summary>
