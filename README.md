@@ -2320,6 +2320,7 @@ After solving for the required constraints, Auto Layout tries to solve all the o
 This combination of inequalities, equalities, and priorities gives you a great amount of flexibility and power. By combining multiple constraints, you can define layouts that dynamically adapt as the size and location of the elements in your user interface change.
 
 >>>
+throw vs optional
 Operator overload
 ```swift
 
