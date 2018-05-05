@@ -39,6 +39,9 @@ one week
 no interview preparing
 looking around
 
+applying
+preparing
+
 Assertions and Preconditions, Subscript
 
 # Top questions
