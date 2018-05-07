@@ -62,7 +62,7 @@ Assertions and Preconditions, Subscript
 12. Protocols: Hashable, HashFunctions
 14. objC NULL, inter
 React, Android
-
+callback KVO BOX
 ### OnSite
 1. Linked-List
 2. Trees
