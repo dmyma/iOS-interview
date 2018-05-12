@@ -45,6 +45,8 @@ CI/CD
 Assertions and Preconditions, Subscript
 
 gitlab/asana+onboard
+zepli-visual studio code
+
 # Top questions
 [[⬆]](#contents)
 ### Theory
