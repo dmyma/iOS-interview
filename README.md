@@ -83,7 +83,7 @@ callback KVO BOX
 5.3 lead/architect/manager
 
 6. Design [SD link](https://www.hiredintech.com/courses/system-design), [DS link](http://highscalability.com/), [DS link](https://github.com/dmyma/Core-Interview/tree/master/Data%20Structure)
-
+ ### HW
 
 
 
