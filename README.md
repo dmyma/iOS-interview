@@ -1550,12 +1550,16 @@ Alg
 <details><summary>POP</summary>
 	Abstraction, encapsulation, iheritance(composition), polymorphism
 A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
-	Protocol Extension
+	Protocol dynamicly dispatch methods
+	Protocol Extension staticly dispatch methods
 	Protoxcol Composition
 	
 	
 	An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
 	reversedrandomacesscollection<Array<int>
+	
+	
+	
 </details>
 
 <details><summary>Class vs Struct</summary>
