@@ -49,6 +49,9 @@ zepli-visual studio code
 
 apply-fix
 
+git flow
+senior dev
+
 # Top questions
 [[⬆]](#contents)
 ### Theory
