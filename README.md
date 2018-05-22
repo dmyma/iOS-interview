@@ -3427,6 +3427,7 @@ Goal table
 - internship
 - OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github) [link3](https://github.com/topics/swift?l=swift) [link4](https://github.com/trending/swift)
 - MVVM/pop/Rx/Kotlin/Python/React/Unity/Rails?/Node?/Firebase/Mongo
+- python+React-> iOS/A
 
 
 
