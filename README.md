@@ -34,23 +34,20 @@
 * [Process](#process)
 * [Credits](#credits)
 
-tomorrow
-one week
-no interview preparing
-looking around
+- tomorrow
+- one week
+- no interview preparing
+- looking around
 
-applying
-preparing
-CI/CD
-Assertions and Preconditions, Subscript
+- applying
+- preparing
+- CI/CD
+- Assertions and Preconditions, Subscript
 
-gitlab/asana+onboard
-zepli-visual studio code
+- gitlab/asana+onboard
+- zeplin-visual studio code
 
-apply-fix
-
-git flow
-senior dev
+- apply-fix
 
 # Top questions
 [[⬆]](#contents)
@@ -2988,27 +2985,24 @@ examples from work “Long loading, where did I implement creativity”
   <summary>What is your record of job-hopping?</summary></details>
   
 <details> 
-  <summary> Name 3 of your favorite mobile apps</summary>
+  <summary>Name 3 of your favorite mobile apps</summary>
 
 If you’ve chosen App Developing as a career, chances are you’re always in the know of the latest apps. The recruiting manager will expect you are always trying out and testing different apps and you have a solid criteria about what’s well done and what should improve. Be sure you take some of your favorite apps on your smartphone, be prepared to talk about them from functionality and developing context.
 </details>
 
-<details> 
-  <summary>How do you handle security issues?</summary>
+<details><summary>How do you handle security issues?</summary>
 
 Security is always a very delicate subject especially when talking about mobile devices.  Show your knowledge about security and expose your ideas about how to minimize security issues in the app they are creating. Get informed, was there a recent attack to a specific type of software? Mention it and be prepared to explain how you would have solved it.</details>
 
-<details> 
-  <summary>What’s the importance of user interface/user experience (UI/UX) in mobile application development?</summary>
+<details><summary>What’s the importance of user interface/user experience (UI/UX) in mobile application development</summary>
 
 User interface and user experience are key to successful mobile applications, so expect a lot of UI/UX questions. State your opinions and tips on getting the most out of the mobile’s interface. You may point out which apps you think have a great UI and which ones don’t. Also, some recruiters may ask you to quickly draw a scheme of an interface –be prepared to do it.</details>
 
-<details> 
-  <summary>Do you have any experience migrating an app from one platform to another?</summary>
+<details><summary>Do you have any experience migrating an app from one platform to another?</summary>
 
 Most apps must be available on more than one OS, so experience reconfiguring or migrating an app from one platform to another is a very valuable treat. Tell about your experience in this field and detail the apps you have reconfigured and the solutions you have found to do it. If you don’t have any experience, expose the reasons why you think you are technically prepared to do it.</details>
 
-tell me about your last projects?
+<details><summary>tell me about your last projects?</summary></details>
 
 <details> 
   <summary>What is you main disadvantage?</summary>
@@ -3023,7 +3017,8 @@ but! We are fighting
 Preodalival in the past and what are the disadvantages of today, when I know that there is a defect I'm working on
 Details and says no and priorities and took it to the end</details>
 
- -Sometimes, I do not have a very good attention to detail. While that's good because it lets me execute quickly, it also means that I sometimes make careless mistakes. Because of that, I make sure to always have someone else double check my work.
+ - Sometimes, I do not have a very good attention to detail. While that's good because it lets me execute quickly, it also means that I sometimes make careless mistakes. Because of that, I make sure to always have someone else double check my work.
+ </details>
  
 <details> 
   <summary>How would you describe your perfect day</summary></details>
@@ -3117,17 +3112,17 @@ I've been usigng... software for ... years, and I'm really impresed at how .. ma
 glassdoor interview tips
 
 ### Question(mine)
-What is normal day look like?
-How do you decide if someone is doing a good job or vice-verca?
-Why did you choose this company?
+- What is normal day look like?
+- How do you decide if someone is doing a good job or vice-verca?
+- Why did you choose this company?
 
 
-###Good code practices
-Variables names Long method  
-Cellid rav value create constant  
-Less print statements   
-Apple convention 
-Braces and names camelCase  
+### Good code practices
+- Variables names Long method  
+- Cellid rav value create constant  
+- Less print statements   
+- Apple convention 
+- Braces and names camelCase  
 
 ## LearningSomethingNew
 [[⬆]](#contents)
@@ -3169,8 +3164,8 @@ arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-
 - LittleGram
 
 MiniProjects
-url - https://www.youtube.com/watch?v=aTj0ZLha1zE&list=WL&index=2
-tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA&index=8
+- url - https://www.youtube.com/watch?v=aTj0ZLha1zE&list=WL&index=2
+- tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA&index=8
 
 ## Podcasts 
 [[⬆]](#contents)
@@ -3191,10 +3186,11 @@ tap - https://www.youtube.com/watch?v=rnJxpuPyLNA&list=PL8seg1JPkqgF5wazzCKSq3EE
 ### SOCIALIZE
 
 ### MEETUPS
-http://sf-beverage.wtf/
-nsmeetup
-jobhunt
-solving interview questions
+- http://sf-beverage.wtf/
+- nsmeetup
+- jobhunt
+- solving interview questions
+
 ### SITES
 1. talk.objc.io/
 2. raywenderlich.com
@@ -3204,17 +3200,15 @@ solving interview questions
 6. CocoaControl
 7. appcode
 8. https://www.pointfree.co/
+
 ## Books
 [[⬆]](#contents)
 1. Objective-C
 2. Swift from apple
 3. Design Patterns
-
 4. Algorithms
 5. Cracking Code interview
-
-6. ADVANCED Swift
-- Collections
+6. ADVANCED Swift - Collections
 7. GOOGLE RESUME
 8. RxSwift
 
@@ -3235,15 +3229,14 @@ solving interview questions
 ## Companies
 [[⬆]](#contents)
 
-italki.com
-EPAM.com
-amazon.com
-lyft.com
-bank
-google.com
-asana
--
-apple.com
+- italki.com
+- EPAM.com
+- amazon.com
+- lyft.com
+- bank
+- google.com
+- asana
+- apple.com
 
 ## Cities
 1. San Francisco 14
@@ -3301,14 +3294,15 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 </details>
 
 ## Process 
--  -1-6-2-
-meate project - OS -Freelance
 [[⬆]](#contents)
-192-17-5-6-3-1(6 weeks)0.52%
-26-15-6-5-2-  (8 weeks)
-2500h-70p-1500c-20000l
-2h-2ti
-d, Mac, app, sf
+
+-  -1-6-2-
+- meate project - OS -Freelance
+- 192-17-5-6-3-1(6 weeks)0.52%
+- 26-15-6-5-2-  (8 weeks)
+- 2500h-70p-1500c-20000l
+- 2h-2ti
+- d, Mac, app, sf
 
 <details> 
   <summary>Step 1: send CV</summary>
@@ -3348,6 +3342,38 @@ d, Mac, app, sf
   <summary>Step 4: on site 4-8 hours with 4-8 people</summary>
 </details> 
 
+<details> 
+  <summary>OS Table</summary>
+
+
+| 1  | 2   | 3     | 
+| -------------   | ------------- | ------------- |  
+| youtube  | [check](https://github.com/JohnSundell/ImagineEngine/issues)  | [3](https://github.com/efremidze/Cluster/issues/61)    |
+|  [IB](https://github.com/IBAnimatable/IBAnimatable/issues/434)    | [check](https://github.com/Khan/SwiftTweaks)            | [3](https://github.com/zvonicek/ImageSlideshow/issues/200)   |
+| [skeleton](https://github.com/Juanpe/SkeletonView/issues/13)           |[check](https://github.com/richardtop/CalendarKit/issues)      | [4](https://github.com/marmelroy/PhoneNumberKit/issues/192)   | 
+| [LEEGO](https://github.com/wangshengjia/LeeGo/issues)       |   [6](https://github.com/CVCalendar/CVCalendar/issues)            | 	[7](https://github.com/Orderella/PopupDialog/issues/204)	      |         
+| [Hero](https://github.com/lkzhao/Hero/issues)  	  | [4](https://github.com/SwifterSwift/SwifterSwift/issues/186)        | [3](https://github.com/CosmicMind/Material/issues)    |              
+| [5](https://github.com/radex/SwiftyUserDefaults/issues)    | test  | |
+
+
+- git clone -b <BRANCH NAME> <REPO NAME>
+
+- git checkout -b “<BRANCH NAME>” — specific feature
+- git checkout <branch name>
+
+- git checkout <BRANCH NAME>
+- git pull origin <BRANCH NAME>
+- git checkout  <BRANCH NAME>
+- git rebase <BRANCH NAME>
+
+- git push origin <branch name>
+- git push  <REMOTENAME> <BRANCH NAME>
+
+- git push <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME> 
+
+- merge request
+
+</details> 
 ## Credits 
 [[⬆]](#contents)
 41818
@@ -3376,58 +3402,12 @@ swift
 18. https://sourcemaking.com/
 19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 
-OS Table
-
-| 1  | 2   | 3     | 
-| -------------   | ------------- | ------------- |  
-| youtube  | [check](https://github.com/JohnSundell/ImagineEngine/issues)  | [3](https://github.com/efremidze/Cluster/issues/61)    |
-|  [IB](https://github.com/IBAnimatable/IBAnimatable/issues/434)    | [check](https://github.com/Khan/SwiftTweaks)            | [3](https://github.com/zvonicek/ImageSlideshow/issues/200)   |
-| [skeleton](https://github.com/Juanpe/SkeletonView/issues/13)           |[check](https://github.com/richardtop/CalendarKit/issues)      | [4](https://github.com/marmelroy/PhoneNumberKit/issues/192)   | 
-| [LEEGO](https://github.com/wangshengjia/LeeGo/issues)       |   [6](https://github.com/CVCalendar/CVCalendar/issues)            | 	[7](https://github.com/Orderella/PopupDialog/issues/204)	      |         
-| [Hero](https://github.com/lkzhao/Hero/issues)  	  | [4](https://github.com/SwifterSwift/SwifterSwift/issues/186)        | [3](https://github.com/CosmicMind/Material/issues)    |              
-| [5](https://github.com/radex/SwiftyUserDefaults/issues)    | test  | |
-
-
-git clone -b <BRANCH NAME> <REPO NAME>
-
-git checkout -b “<BRANCH NAME>” — specific feature
-git checkout <branch name>
-
-git checkout <BRANCH NAME>
-git pull origin <BRANCH NAME>
-git checkout  <BRANCH NAME>
-git rebase <BRANCH NAME>
-
-git push origin <branch name>
-git push  <REMOTENAME> <BRANCH NAME>
-
-git push <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME> 
-
-merge request
-
-
-Hackathon
-
-Goal table
-
-## 2018 - goal
-- hacka, os, bank
--  ?-2-8-2-?-?-?
-- SITES, full
-- hackathon , people
-- i+, M, V
-- TOP 5-20-100
+## 2018 - goals
+- FullStack(python+React)
 - ANGEL
-- CV-SITE-APPS(IPHONE X)
-- ALG(L,H)
-- SD, MM, DFS, DFS, DP
-- 5ZERO
-- CODE
-- git, stack, libs, os, projects
-- internship
-- OS(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github) [link3](https://github.com/topics/swift?l=swift) [link4](https://github.com/trending/swift)
-- MVVM/pop/Rx/Kotlin/Python/React/Unity/Rails?/Node?/Firebase/Mongo
-- python+React-> iOS/A
+- git, stack, libs
+- Open Source  commits(Fork, Clone, Branch, Change, Push) [link1](https://www.natashatherobot.com/beginners-contributing-to-open-source/) [link2](https://www.raywenderlich.com/179717/open-source-collaboration-using-git-and-github) [link3](https://github.com/topics/swift?l=swift) [link4](https://github.com/trending/swift)
+- MVVM+Rx/Kotlin
 
-
+- Unity/Rails?/Node?/Firebase/Mongo
 
