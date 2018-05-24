@@ -1461,7 +1461,7 @@ To have a closure capture variables as weak or unowned, you can give the closure
 <details> 
   <summary>- What is autorelease pool?</summary></details>
 <details> 
-  <summary>- DispatchGroup vs. OperationQueue in Swift</summary></details>
+  <summary>- DispatchGroup vs. OperationQueue in Swift</summary>
 You probably found yourself in a situation where you had to do a bunch of asynchronous tasks and you just wanted to get notified when all of them finish.
  If you’re working on a project that’s not using Operations and you don’t want to refactor any of the existing code, DispatchGroups is probably the easiest way for you to know when a bunch of asynchronous calls is finished. What’s really important here is the enter-leave pairs. You have to be very careful and make sure that you leave the group. It would be easy to introduce a bug in the code above. Let’s say that we didn’t leave the group in that guard statement above, just before the return. If the API called failed, or the JSON was malformed, the number of group entries would not match the number of leaves. So the group completion handler would never get called. If you’re calling this method from the UI and displaying an activity indicator while your networking requests are running, you would never get a callback from the method, and you would keep on spinning
  Operation queues are great and all, but if you just want to know when your queue is finished you won’t find a ready-made API waiting for you. This is actually totally fine, because, operation queue is designed around a different concept, but let’s not get side tracked.There is a simple trick you can use to get notified when your async tasks are finished. The trick is to use dependencies. You have two options here. If you need your operations to execute one after another, you can set the next operation to be dependent on the previous. So when your last operation is finished, your queue is finished as well. This is easy to do. But what if you have a bunch of concurrent operations? You want to execute as many of them as possible at the same time and you want to get notified when all of them finish? Well, just create another operation. Operations can have dependencies on multiple operations. So when you create your operations you add them as a dependency to that operation. When all dependent operation finish, your operation will get executed. And this way you can tell that your ‘queue’ is finished. If you think about this from a logical perspective, it makes perfect sense. Anyone can add a bunch of operations in the operation queue, and if you don’t own it completely, you don’t know who added what. So having a callback that will tell you that the queue is empty would not be very useful. Dependencies are baked into the Operations, so why not use them
@@ -1475,7 +1475,7 @@ Operation is an abstract class and represents a logical unit of work. For exampl
 https://developer.apple.com/documentation/dispatch/dispatchgroup
 https://developer.apple.com/documentation/foundation/operationqueue
 https://developer.apple.com/documentation/foundation/operation
-
+</details>
 
 <details> 
   <summary>-Multithreading async vs sync?CGD</summary></details>
