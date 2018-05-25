@@ -1397,6 +1397,8 @@ IMplent the protocol in the Controller
 </details>
 
 
+<details> 
+  <summary>Extra Class vs Struct</summary>
 Arrays and linkedlists
 	Tuples
 Array set Dictionary
@@ -1443,9 +1445,7 @@ It's important to remember that closures are reference types in Swift and can ca
 In this case, the SomeObject class has a strong reference to aClosure and aClosure has captured self (the SomeObject instance) strongly as well. This is why Swift always makes you add self. explicitly while in a closure to help prevent programmers from accidentally capturing self without realizing it, and therefore most likely causing a retain cycle.
 To have a closure capture variables as weak or unowned, you can give the closure instructions on how to capture certain variables.
 
-
-!
-
+</details>
 
 
 <details> 
