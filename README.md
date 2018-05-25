@@ -34,6 +34,8 @@
 * [Process](#process)
 * [Credits](#credits)
 
+-----------
+
 - tomorrow
 - one week
 - no interview preparing
@@ -176,7 +178,7 @@ Header types
 
 4. SYSTEM DESIGN, OOD
 
-HAPPY NEW 2018 YEAR 
+
 
 ## Cocoa touch 
 [[⬆]](#contents)
@@ -367,9 +369,7 @@ SBJson framework is supported by iOS.  It is a JSON parser and generator for Obj
    <details> 
   <summary>What's the difference between synchronous and asynchronous connections?</summary>
   Do not freeze the app, canceletion, authentication, it's impossible to parse data on the fly</details>
-  
-   <details> 
-  <summary> Explain NSURLSession?</summary>
+  <details><summary> Explain NSURLSession?</summary>
   The NSURLSession class and related classes provide an API for downloading content via HTTP. This API provides a rich set of delegate methods for supporting authentication and gives your app the ability to perform background downloads when your app is not running or, in iOS, while your app is suspended.
 
 To use the NSURLSession API, your app creates a series of sessions, each of which coordinates a group of related data transfer tasks. For example, if you are writing a web browser, your app might create one session per tab or window. Within each session, your app adds a series of tasks, each of which represents a request for a specific URL (and for any follow-on URLs if the original URL returned an HTTP redirect).
@@ -547,10 +547,10 @@ Step 3  —  We have a simple for loop that loops through each result in our
 	
 https://www.codementor.io/codementorteam/core-data-tutorial-saving-and-fetching-pdphdmh50
 https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/CreatingObjects.html
-</details>
+
 
 Application-(Managed Object Contex(Manage Object))- Persistance storage Coordinator(PS Model) - PS
-<img src="CoreData.jpg" width="301" height="400">
+
 
 What is the storage layer for in iOS applications?
 What can you use to store data on iOS?
@@ -603,6 +603,8 @@ try? context.save() // don’t forget this (and catch errors if needed)
 }
 This would generally only be needed if you’re doing a big update.
 You’d want to see that some Core Data update is a performance problem in Instruments first. For small queries and small updates, doing it on the main queue is fine.
+</details>
+<img src="CoreData.jpg" width="301" height="400">
 
 ## Testing
 [[⬆]](#contents)
