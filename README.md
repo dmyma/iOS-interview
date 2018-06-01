@@ -40,16 +40,8 @@
 - one week
 - no interview preparing
 - looking around
-
 - applying
 - preparing
-- CI/CD
-- Assertions and Preconditions, Subscript
-
-- gitlab/asana+onboard
-- zeplin-visual studio code
-
-- apply-fix
 
 # Top questions
 [[⬆]](#contents)
@@ -1527,7 +1519,9 @@ To implement this technique, your observer object needs to have instance variabl
 <details><summary>class vs struck?</summary></details>
 <details><summary>What blog/3rd party/Library/Framework do you like? and why?</summary></details>
 
-Task: a simple, single piece of work that needs to be done.
+<details><summary> GCD vs NSOperation</summary>
+	
+	Task: a simple, single piece of work that needs to be done.
 
 Thread: a mechanism provided by the operating system that allows multiple sets of instructions to operate at the same time within a single application.
 
@@ -1536,7 +1530,7 @@ Process: an executable chunk of code, which can be made up of multiple threads.
 GCD is a lightweight way to represent units of work that are going to be executed concurrently. You don’t schedule these units of work; the system takes care of scheduling for you. Adding dependency among blocks can be a headache. Canceling or suspending a block creates extra work for you as a developer! :]
 
 NSOperation adds a little extra overhead compared to GCD, but you can add dependency among various operations and re-use, cancel or suspend them.
-
+</details>
 
 <details><summary>what third party libraries did you work with?</summary></details>
 <details><summary>golden rule arc?</summary></details>
@@ -3265,6 +3259,14 @@ MiniProjects
 9. Sacramento
 9.1 Orlando/Porttland
 10. Cleveland -22
+
+--------------
+- CI/CD
+- Assertions and Preconditions, Subscript
+- gitlab/asana+onboard
+- zeplin-visual studio code
+- fastlane/CircleCI
+- apply-fix
 
 ## Stories 
 [[⬆]](#contents)
