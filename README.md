@@ -1449,21 +1449,21 @@ To have a closure capture variables as weak or unowned, you can give the closure
 
 
 <details> 
-  <summary>- What kind of collections do you know in swift? How to insert an object?</summary></details>
+  <summary>What kind of collections do you know in swift? How to insert an object?</summary></details>
 <details> 
-  <summary>- What is Protocol?</summary></details>
+  <summary>What is Protocol?</summary></details>
 <details> 
-  <summary>- What is Hashtable?</summary></details>
+  <summary>What is Hashtable?</summary></details>
 <details> 
-  <summary>- What is ARC?</summary></details>
+  <summary>What is ARC?</summary></details>
 <details> 
-  <summary>- What is sizeclasses?</summary></details>
+  <summary>What is sizeclasses?</summary></details>
 <details> 
-  <summary>- What is autolayout?</summary></details>
+  <summary>What is autolayout?</summary></details>
 <details> 
-  <summary>- What is autorelease pool?</summary></details>
+  <summary>What is autorelease pool?</summary></details>
 <details> 
-  <summary>- DispatchGroup vs. OperationQueue in Swift</summary>
+  <summary>DispatchGroup vs. OperationQueue in Swift</summary>
 You probably found yourself in a situation where you had to do a bunch of asynchronous tasks and you just wanted to get notified when all of them finish.
  If you’re working on a project that’s not using Operations and you don’t want to refactor any of the existing code, DispatchGroups is probably the easiest way for you to know when a bunch of asynchronous calls is finished. What’s really important here is the enter-leave pairs. You have to be very careful and make sure that you leave the group. It would be easy to introduce a bug in the code above. Let’s say that we didn’t leave the group in that guard statement above, just before the return. If the API called failed, or the JSON was malformed, the number of group entries would not match the number of leaves. So the group completion handler would never get called. If you’re calling this method from the UI and displaying an activity indicator while your networking requests are running, you would never get a callback from the method, and you would keep on spinning
  Operation queues are great and all, but if you just want to know when your queue is finished you won’t find a ready-made API waiting for you. This is actually totally fine, because, operation queue is designed around a different concept, but let’s not get side tracked.There is a simple trick you can use to get notified when your async tasks are finished. The trick is to use dependencies. You have two options here. If you need your operations to execute one after another, you can set the next operation to be dependent on the previous. So when your last operation is finished, your queue is finished as well. This is easy to do. But what if you have a bunch of concurrent operations? You want to execute as many of them as possible at the same time and you want to get notified when all of them finish? Well, just create another operation. Operations can have dependencies on multiple operations. So when you create your operations you add them as a dependency to that operation. When all dependent operation finish, your operation will get executed. And this way you can tell that your ‘queue’ is finished. If you think about this from a logical perspective, it makes perfect sense. Anyone can add a bunch of operations in the operation queue, and if you don’t own it completely, you don’t know who added what. So having a callback that will tell you that the queue is empty would not be very useful. Dependencies are baked into the Operations, so why not use them
@@ -1471,7 +1471,7 @@ You probably found yourself in a situation where you had to do a bunch of asynch
 <img src="dispatch.png" width="301" height="400">
 </details>
 <details> 
-  <summary>- Operation and OperationQueue(FIFO)</summary>
+  <summary>Operation and OperationQueue(FIFO)</summary>
 OperationQueue is a great tool to use if you have complex logic in your app and if you have to manage dependencies between the operations. It’s very elegant at that. Passing data between operations is a bit messy. When your operation is finished you store the data in an instance variable which you read from the dependent operation. That’s not very elegant at all. There are much neater solutions out there like, for example, PromiseKit.
 Operation is an abstract class and represents a logical unit of work. For example, in your code you probably have a method that fetches data from the API. If you want to use OperationQueue you would have to create your class that subclasses Operation and move that method in your new class. Doing this has an added benefit of forcing you to use the single responsibility principle. Once you have your class you add it to your OperationQueue and wait for it to finish executing. If you just want to execute a small piece of code or call a method you can use BlockOperation and NSInvocationOperation instead of subclassing Operation. You can set the priority of your operations by setting your queuePriority property of the operation. You can also control how much of the system resources will be given to your operation by setting qualityOfService property. OperationQueue can execute multiple operations at the same time. You can set the number of maxConcurrentOperationCount or you can let the system set this property to the default value which is different for each device. A beautiful thing about operations is that they can be cancelled which is something you can’t do with blocks. Let’s say you have three operations: networking call, parsing of data and saving in the database. If your networking call fails, there’s little sense in executing the remaining two operations so you can simply cancel them. GCD stands for Grand Central Dispatch. You might think that with OperationQueues and Operations there’s no need for GCD but they actually work together. Fun fact: Operations are built on top of GCD.
 https://developer.apple.com/documentation/dispatch/dispatchgroup
@@ -1480,16 +1480,16 @@ https://developer.apple.com/documentation/foundation/operation
 </details>
 
 <details> 
-  <summary>-Multithreading async vs sync?CGD</summary></details>
+  <summary>Multithreading async vs sync?CGD</summary></details>
 
 <details> 
-  <summary>-How to lock an object?</summary></details>
+  <summary>How to lock an object?</summary></details>
 
 <details> 
-  <summary>-What should beginners know?</summary></details>
+  <summary>What should beginners know?</summary></details>
 
 <details> 
-  <summary>-NS operation?</summary></details>
+  <summary>NS operation?</summary></details>
 <details> 
   <summary>How to call a task only after certain task?</summary></details>
 <details> 
@@ -1520,18 +1520,12 @@ One way to redirect notifications is to use a custom notification queue (not an 
 
 To implement this technique, your observer object needs to have instance variables for the following values: a mutable array to hold the notifications, a communication port for signaling the correct thread (a Mach port), a lock to prevent multithreading conflicts with the notification array, and a value that identifies the correct thread (an NSThread object). You also need methods to setup the variables, to process the notifications, and to receive the Mach messages. Here are the necessary definitions to add to the class of your observer object.</details>
 
--For discrete gestures
-G is recognized-> consumes the gesture or failed-> forwards back touch event to responder chain
--For continues gestures
-G is began->consume(calls the delegate method specified) and changed until Ended/if not match Canceled or failed->Responder chain
+<details><summary>to draw, just create UIView subclass and override drawRect never call drawrect if you need to be redrawn setNeedsDisplay
 
--UIResponderChain?
--to draw, just create UIView subclass and override drawRect never call drawrect if you need to be redrawn setNeedsDisplay
-
--What is polymorphism?
--What is Protocol
--class vs struck?
--What blog/3rd party/Library/Framework do you like? and why?
+<details><summary>What is polymorphism?</summary></details>
+<details><summary>What is Protocol</summary></details>
+<details><summary>class vs struck?</summary></details>
+<details><summary>What blog/3rd party/Library/Framework do you like? and why?</summary></details>
 
 Task: a simple, single piece of work that needs to be done.
 
@@ -1544,8 +1538,8 @@ GCD is a lightweight way to represent units of work that are going to be execute
 NSOperation adds a little extra overhead compared to GCD, but you can add dependency among various operations and re-use, cancel or suspend them.
 
 
-what third party libraries did you work with?
-golden rule arc?
+<details><summary>what third party libraries did you work with?</summary></details>
+<details><summary>golden rule arc?</summary></details>
 <details><summary>GENERICS</summary></details>
 <details><summary>ARC</summary></details>
 <details><summary>Protocols: Hashable, Equatable, Comparable, CollectionType, IntegerType</summary></details>
@@ -1764,6 +1758,14 @@ lazy var someClosure: () -> String = {
 
 	
 </details>
+
+<details><summary>UIResponderChain?</summary>
+For discrete gestures
+G is recognized-> consumes the gesture or failed-> forwards back touch event to responder chain
+-For continues gestures
+G is began->consume(calls the delegate method specified) and changed until Ended/if not match Canceled or failed->Responder chain</details>
+
+
 
 <details><summary>GCD vs NSOperationQueue</summary>
 <img src="dispatch.png" width="301" height="400">
