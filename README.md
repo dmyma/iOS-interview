@@ -2425,7 +2425,7 @@ func **<T>(lhs: T, rhs: T) -> T {
 }
 
 ```
-<details><summary>Swift Style Guide</summary
+<details><summary>Swift Style Guide</summary>
 Swift API Design Guidline
 mark final class
 properties fileprivate
