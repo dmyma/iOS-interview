@@ -2426,15 +2426,14 @@ func **<T>(lhs: T, rhs: T) -> T {
 
 ```
 <details><summary>Swift Style Guide</summary>
-Swift API Design Guidline
-mark final class
-properties fileprivate
-class public but not open
-trailing closure syntax, except closure following immediately followed by another opening brace
-Leave self
-extensions instead of free functions
-
+- Swift API Design Guidline 
 https://swift.org/documentation/api-design-guidelines/
+- mark final class
+- properties fileprivate
+- class public but not open
+- trailing closure syntax, except closure following immediately followed by another opening brace
+- Leave self
+- extensions instead of free functions
 </details>
 
 ------
