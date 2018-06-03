@@ -2388,6 +2388,8 @@ Instance Methods
 Type Methods
 
 </details>
+
+<details><summary>other</summary>
 dynamic dispatch swift , polymorphism
 Pattern matching
 Array vs Sets
@@ -2425,6 +2427,7 @@ func **<T>(lhs: T, rhs: T) -> T {
 }
 
 ```
+</details>
 <details><summary>Swift Style Guide</summary>
 - Swift API Design Guidline 
 https://swift.org/documentation/api-design-guidelines/
