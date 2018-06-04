@@ -2325,10 +2325,10 @@ func any(callback: () throws -> Void) rethrows {
 	defer
 ```
 </details>
-protocols
-functions
+<details><summary>protocols
+functions</summary></details>
 
-Values vs References
+<details><summary>Values vs References</summary></details>
 <details><summary>Closures</summary>
 Global and nested functions, as introduced in Functions, are actually special cases of closures. Closures take one of three forms:
 
