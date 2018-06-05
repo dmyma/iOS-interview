@@ -2850,6 +2850,7 @@ Only one instance of that class is created in the application.
 
 7. LOGICAL
 8. SD, Tests, DP
+```swift
 
 func compareString(st1: String, st2: String, s: [String: String]) -> Bool 
 { let st1Array = st1.components(separatedBy: " “)
@@ -2863,7 +2864,7 @@ if word == st2Array[i] { similar = true i += 1 continue outer }
 else { for (key, value) in s { if value == word || key == word { if st2Array[i] == value || st2Array[i] == key { i += 1 continue outer } 
 else { return false } } } } similar = false break } 
 return similar }
-
+```
 
 binary heaps min/max pre/post/in order traversal
 balanced not balanced not binary search
