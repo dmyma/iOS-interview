@@ -3077,24 +3077,34 @@ Braces and names camelCase
 The Routine is the enemy of time it is flying by
 </details>
 
-Tell me about your previous Job?
+<details> 
+  <summary>Tell me about your previous Job?</summary>
 STAR technique
 What was the main advanteges
 problem
 how did you solve it
+	</details>
 
-What do you want to do?
-Tell me about the time when you failed/succeeded?
-Tell me something what is not on your CV?
-What do you do for fun?
-Tell me about your leadership example?
-Tell me about the time you worked on a team?
-Tell me about your favourite project?
-Tell me about a time you had to persuade a group of people to make a big change?
+<details> 
+  <summary>What do you want to do?</summary></details>
+<details> 
+  <summary>Tell me about the time when you failed/succeeded?</summary></details>
+<details> 
+  <summary>Tell me something what is not on your CV?</summary></details>
+<details> 
+  <summary>What do you do for fun?</summary></details>
+<details> 
+  <summary>Tell me about your leadership example?</summary></details>
+<details> 
+  <summary>Tell me about the time you worked on a team?</summary></details>
+<details> 
+  <summary>Tell me about your favourite project?</summary></details>
+<details> 
+  <summary>Tell me about a time you had to persuade a group of people to make a big change?</summary>
 -Story-Nugget-Situation-Action-Result-What is says
 -by examing the common user behavior and applying the Rabin-Karp alg, I designed a new algorithm to reduca search from O(n) to O(logN) in 90% of cases. I can go into more details if you'd like
 -what interview might cover and get feedback politely
-
+</details>
 <details><summary>What has been most challenging for you?</summary>
 I'm very interesting in scalability, and would like to learn more about it. What opportunities are there at this company to learn about this?
 	</details>
