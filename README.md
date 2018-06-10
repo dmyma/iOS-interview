@@ -3175,12 +3175,12 @@ glassdoor interview tips
 - Apple convention 
 - Braces and names camelCase  
 
-## LearningSomethingNew
+## Stack
 [[⬆]](#contents)
+<details><summary>MVVM</summary>https://github.com/auth0-tutorials/mvvm_viper/</details>    
+<details><summary>POP</summary>https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming</details> 
+<details><summary>FPR</summary> ReactiveKit + Bond - https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6</details>
 
-- https://github.com/auth0-tutorials/mvvm_viper/
-- POP - https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming
-- FPR - ReactiveKit + Bond - https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6
 - Networking: Alamofire + ObjectMapper
 - Testing: Quick, Nimble, Mockingjay - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble , -https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble
 - CA, CD 
