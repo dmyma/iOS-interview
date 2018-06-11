@@ -3245,6 +3245,7 @@ MiniProjects
 ### SITES
 1. talk.objc.io/
 2. raywenderlich.com
+3. https://agostini.tech/
 3. Indie iOS Focus Weekly
 4. iosGoodies
 5. ios Cookies
