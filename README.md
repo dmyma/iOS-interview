@@ -3181,19 +3181,18 @@ glassdoor interview tips
 <details><summary>POP</summary>https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming</details> 
 <details><summary>FPR</summary> ReactiveKit + Bond - https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6</details>
 
-- Networking: Alamofire + ObjectMapper
-- Testing: Quick, Nimble, Mockingjay - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble , -https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble
-- CA, CD 
-- Alamofire and Mockingjay.
-- General - https://www.youtube.com/watch?v=56ZO6Gg68tw&index=10&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA
-- MVVM+(ReactiveKIt+Bond)+(Alamofire+ObjectMapper)+Quick,Nimble, Mockingjay+CD+CA ?? POP
-- CI and testings
-- CGD and networking
-- profiling with instruments
-- patterns
-- Analytics
-- CA, CG
-arc, alamofire, rxswift - https://medium.com/@streem/understanding-memory-leaks-in-closures-48207214cba
+<details><summary>Networking</summary>Alamofire + ObjectMapper/Mockingjay/Rx</details> 
+<details><summary>Testing</summary> Quick, Nimble, Mockingjay - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble , - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble</details> 
+<details><summary>CA, CD</summary> </details> 
+<details><summary>General</summary>https://www.youtube.com/watch?v=56ZO6Gg68tw&index=10&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA</details> 
+<details><summary>MVVM</summary>+(ReactiveKIt+Bond)+(Alamofire+ObjectMapper)+Quick,Nimble, Mockingjay+CD+CA ?? POP</details> 
+<details><summary>CI and testings</summary>fastlane+CircleCI, Travis, Jenkis</details> 
+<details><summary>CGD and networking</summary></details> 
+<details><summary>profiling with instruments</summary></details> 
+<details><summary>patterns</summary></details> 
+<details><summary>Analytics</summary></details> 
+<details><summary>CA, CG</summary></details> 
+<details><summary>arc, alamofire, rxswift</summary>https://medium.com/@streem/understanding-memory-leaks-in-closures-48207214cba</details> 
 
 
 
