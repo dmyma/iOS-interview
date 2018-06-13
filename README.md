@@ -23,12 +23,12 @@
 -----------
 * [General](#general)
 -----------
-* [LearningSomethingNew](#learningsomethingnew)
-* [Pods&libraries](#pods&libraries)
+* [Learning](#learning)
+* [Libraries](#libraries)
 * [HomeWork](#homework)
 * [Podcasts](#podcasts)
 * [Books](#books)
-* [Job websites](#jobwebsites)
+* [Websites](#websites)
 * [Companies](#companies)
 * [Stories](#stories)
 * [Process](#process)
@@ -3175,7 +3175,7 @@ glassdoor interview tips
 - Apple convention 
 - Braces and names camelCase  
 
-## Stack
+## Learning
 [[⬆]](#contents)
 <details><summary>MVVM</summary>https://github.com/auth0-tutorials/mvvm_viper/</details>    
 <details><summary>POP</summary>https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming</details> 
@@ -3196,7 +3196,7 @@ glassdoor interview tips
 
 
 
-## Pods&libraries
+## Libraries   
 [[⬆]](#contents)
 
 1. Alamofire
@@ -3263,7 +3263,7 @@ MiniProjects
 7. GOOGLE RESUME
 8. RxSwift
 
-## Job websites 
+## Websites  
 [[⬆]](#contents)
 
 1. indeed/prime
@@ -3433,6 +3433,7 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 - merge request
 
 </details> 
+
 ## Credits 
 [[⬆]](#contents)
 41818
