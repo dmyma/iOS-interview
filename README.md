@@ -47,12 +47,12 @@
 [[⬆]](#contents)
 ### Theory
 1. class vs struct
-2. frame vs bounds
+2. frame vs bounds + scroll view
 3. GCD vs NSOperationQueue
-4. MVVM vs MVC
-5. ARC
+4. MVVM vs MVC vs MVP
+5. ARC + ObjC
 6. App LifeCycle, View LifeCycle
-7. delegate vs notification center
+7. delegate vs notification center vs callback
 8. Gesture recogniser
 9. URL session request
 10. init
