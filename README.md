@@ -2943,6 +2943,9 @@ work with console:
 
 ## Algorithm
 [[⬆]](#contents)
+1. # of islands
+2. unique string
+3. two numbers
 
 ## SD
 [[⬆]](#contents)
