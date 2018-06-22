@@ -74,7 +74,7 @@ callback KVO BOX
 5. Software design
 5.1 design google docs
 5.2 online shop
-5.3 lead/architect/manager
+5.3 senior-lead/architect/manager
 
 6. Design [SD link](https://www.hiredintech.com/courses/system-design), [DS link](http://highscalability.com/), [DS link](https://github.com/dmyma/Core-Interview/tree/master/Data%20Structure)
  ### HW
