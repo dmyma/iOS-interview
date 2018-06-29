@@ -43,6 +43,8 @@
 - applying
 - preparing
 - (lvl)[https://github.com/bohdanorlov/ios-skills-matrix]
+- clear code!
+
 
 # Top questions
 [[⬆]](#contents)
