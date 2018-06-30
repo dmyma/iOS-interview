@@ -42,7 +42,7 @@
 - looking around
 - applying
 - preparing
-- (lvl)[https://github.com/bohdanorlov/ios-skills-matrix]
+- [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
 - clear code!
 
 
@@ -3482,4 +3482,5 @@ swift
 
 ## 2019
 - Unity
-
+- Solidity
+- AR, ML, AI
