@@ -1553,8 +1553,8 @@ Operations, init
 Behaviour
 Alg
 <details><summary>FPR</summary>+MAth
+	
 ```swift
-
 func incr(_ x: Int) -> Int {
   return x + 1
 }
@@ -1616,10 +1616,11 @@ func >>> <A, B, C>(_ f: @escaping (A) -> B, _ g: @escaping (B) -> C) -> ((A) -> 
 
 [1, 2, 3]
   .map(square >>> incr)
-
 ```
 
+
 </details>
+
 <details><summary>POP</summary>
 	Abstraction, encapsulation, iheritance(composition), polymorphism
 A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
