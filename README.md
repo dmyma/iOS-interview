@@ -1548,6 +1548,7 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 ## AdvancedSwift
 [[⬆]](#contents)
 
+Operations, init
 
 Behaviour
 Alg
@@ -1636,6 +1637,8 @@ A protocol defines a blueprint of methods, properties, and other requirements th
 
 <details><summary>Class vs Struct</summary>
 	
+	- Class: CALayer, CGImage, UIView
+	- Struck: CGRect, CGPoint, 
 	Since struct instances are allocated on stack, and class instances are allocated on heap, structs can sometimes be drastically faster.
 
 
