@@ -2956,6 +2956,33 @@ work with console:
 2. unique string
 3. two numbers
 
+### Snippets
+
+```swift
+var word = "12345"
+print(word)
+var array = word.characters.map { String($0)}
+print(array)
+var arr = array.map { Int($0)! }
+print(arr)
+var str = array.flatMap({$0}).joined()
+print(str)
+
+if minSoFar > prices[i] {
+    minSoFar = prices[i]  
+}
+//
+ minSoFar = min(minSoFar,prices[i] )
+
+guard prices.count > 1 else {
+    return 0
+} 
+
+for i in 1..<prices.count {
+}
+
+```
+
 ## SD
 [[⬆]](#contents)
 - low balancer
