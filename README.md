@@ -2943,6 +2943,76 @@ Tries(Prefix trees)
 
 <details> 
   <summary>UIPanGestureRegogniser</summary></details>
+  <details> 
+  <summary>SuperInt</summary></details>
+  <details> 
+  <summary>Iterator</summary>
+	```swift
+	struct Countdown: Sequence {
+    let start: Int
+
+    func makeIterator() -> CountdownIterator {
+        return CountdownIterator(self)
+    }
+}
+
+struct CountdownIterator: IteratorProtocol {
+    let countdown: Countdown
+    var times = 0
+
+    init(_ countdown: Countdown) {
+        self.countdown = countdown
+    }
+
+    mutating func next() -> Int? {
+        let nextNumber = countdown.start - times
+        guard nextNumber > 0
+            else { return nil }
+
+        times += 1
+        return nextNumber
+    }
+}
+
+
+
+let threeTwoOne = Countdown(start: 3)
+for count in threeTwoOne {
+    print("\(count)...")
+}
+// Prints "3..."
+// Prints "2..."
+// Prints "1..."
+	```
+	
+	```swift
+	// Person.swift
+  class Person {
+    var parents: Parents?
+    // ...
+  }
+
+  // Parents.swift. Only a collection of parents with some helper methods.
+  class Parents{
+    var parents = [Person]()
+    // ...
+  }
+
+  // conform to Sequence Protocol
+  extension Parents: Sequence {
+    func makeIterator() -> Array<Person>.Iterator {
+      return parents.makeIterator()
+    }
+  }
+
+  let myself = Person()
+  if let myParents = myself.parents {
+    for person in myParents {
+
+    }
+  }
+	```
+</details>
   
 work with console:
 
