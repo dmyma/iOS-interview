@@ -48,6 +48,7 @@
 - [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
 - [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
 - hig, M
+- [example+](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
 
 # Top questions
 [[⬆]](#contents)
@@ -2944,6 +2945,8 @@ Tries(Prefix trees)
 <details> 
   <summary>UIPanGestureRegogniser</summary></details>
   <details> 
+  <summary>Thread safe array</summary></details>
+  <details> 
   <summary>SuperInt</summary></details>
   <details> 
   <summary>Iterator</summary>
@@ -3052,6 +3055,7 @@ guard prices.count > 1 else {
 for i in 1..<prices.count {
 }
 
++
 ```
 
 ## SD
