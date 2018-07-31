@@ -13,6 +13,7 @@
 * [Patterns(2,5,10)](#patterns)
 * [Maps](#maps)
 * [Swift](#swift)
+* [Intermediate Swift](#intermediateswift)
 * [Advanced Swift](#advancedswift)
 * [Objective-C](#objective-c)
 -----------
@@ -1548,6 +1549,36 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 <details><summary>Pop: </summary></details>
 <details><summary>autolayout</summary></details>
 <details><summary>priorities</summary></details>
+
+
+
+------
+## IntermediateSwift
+[[⬆]](#contents)
+
+1. <details><summary>let vs var</summary></details>
+2. <details><summary>Collection in Swift</summary>
+Array, Set, Dictionary</details>
+3. <details><summary>raw Value vs associated</summary></details>
+4. <details><summary>If the app crashes what would you do?</summary></details>
+5. <details><summary>Singleton</summary></details>
+6. <details><summary>Ex. states of the app</summary></details>
+7. <details><summary>Swift vs ObjC</summary></details>
+8. <details><summary>Codable</summary></details>
+9. <details><summary>typles</summary></details>
+10. <details><summary>map, filter, reduce</summary></details>let vs var
+11. <details><summary>guard</summary></details>
+12. <details><summary>class vs struct</summary></details>
+13. <details><summary>error handling</summary>do, try, catch</details>
+14. <details><summary>closure vs delegate vs notification</summary>
+	* closure only on method
+	* delegate foe an object
+	* notification many to many
+</details>
+15. <details><summary>Inheritance vs Composition</summary></details>
+16. <details><summary>Bridge header and @objC</summary></details>
+17. <details><summary>Documentation</summary></details>
+
 
 ------
 ## AdvancedSwift
