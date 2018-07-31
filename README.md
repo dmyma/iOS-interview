@@ -1557,8 +1557,7 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 [[⬆]](#contents)
 
 1. <details><summary>let vs var</summary></details>
-2. <details><summary>Collection in Swift</summary>
-Array, Set, Dictionary</details>
+2. <details><summary>Collection in Swift</summary></details>
 3. <details><summary>raw Value vs associated</summary></details>
 4. <details><summary>If the app crashes what would you do?</summary></details>
 5. <details><summary>Singleton</summary></details>
@@ -1566,7 +1565,7 @@ Array, Set, Dictionary</details>
 7. <details><summary>Swift vs ObjC</summary></details>
 8. <details><summary>Codable</summary></details>
 9. <details><summary>typles</summary></details>
-10. <details><summary>map, filter, reduce</summary></details>let vs var
+10. <details><summary>map, filter, reduce</summary></details>
 11. <details><summary>guard</summary></details>
 12. <details><summary>class vs struct</summary></details>
 13. <details><summary>error handling</summary>do, try, catch</details>
@@ -1575,6 +1574,7 @@ Array, Set, Dictionary</details>
 	* delegate foe an object
 	* notification many to many
 </details>
+
 15. <details><summary>Inheritance vs Composition</summary></details>
 16. <details><summary>Bridge header and @objC</summary></details>
 17. <details><summary>Documentation</summary></details>
