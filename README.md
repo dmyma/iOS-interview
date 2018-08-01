@@ -1,6 +1,7 @@
 # iOS-interview
 
 ## <a name='contents'>Table of Contents</a>
+* [ON SITE](#on-site)
 * [TOP QUESTIONS](#top-questions)
 * [Cocoa touch](#cocoa-touch)
 -----------
@@ -52,8 +53,19 @@
 - [example+](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
 - [interview](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
 
+
+# On site
+[[⬆]](#contents)
+-----------
+1. Do your homework. Research recent news about the comapny and look over http://www.Compan_name.com/about. Be sure you know about the company and product, and try to form an opinion about what you like about it and what you don’t. “if you could add any feature to our product, what would it be?”, with follow-up questions about how the implementation might be done.
+2. Why here? (“I like building high-performance user-facing services that interact with a lot of other systems, and love being on-call”), but you might not want to be too specific (“The only thing I have ever wanted to do is convolutional neural networks for image recognition”), or too vague (“Something with Java.. or maybe iOS mobile development, I don’t really care”) or too mercenary (“I just need to get some Hadoop experience to fill up a gap in my resume”).
+3. Practice your whiteboard skills. Try to find a middle ground between talking too much and too little. CTCI. Also,  https://www.glassdoor.com, http://www.careercup.com, and http://codekata.pragprog.com that will help you get up to speed.
+4. 
+
 # Top questions
 [[⬆]](#contents)
+-----------
+
 ### Theory
 1. class vs struct
 2. frame vs bounds + scroll view
@@ -3612,6 +3624,7 @@ swift
 17. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
 18. https://sourcemaking.com/
 19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
+20. https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0
 
 ## 2018 - goals
 - FullStack(python+React)
