@@ -2995,7 +2995,99 @@ Tries(Prefix trees)
 [[⬆]](#contents)
 
 <details> 
-  <summary>UIPanGestureRegogniser</summary></details>
+  <summary>UIPanGestureRegogniser</summary>
+```swift
+	let pan = UIPanGestureRecognizer(target: self, action: #selector(handlePan(sender:)))
+        topRed.addGestureRecognizer(pan)
+	
+	 func handlePan(sender: UIPanGestureRecognizer) {
+        let redView = sender.view!
+        
+        switch sender.state {
+            
+        case .began, .changed:
+            let translation = sender.translation(in: view)
+            
+            view.center = CGPoint(x: view.center.x + translation.x, y: view.center.y + translation.y)
+            sender.setTranslation(CGPoint.zero, in: view)
+	case .ended:
+        default:
+            break
+        }
+    }
+	```
+</details>
+<details> 
+  <summary>Networking</summary>
+```swift
+import UIKit
+import Alamofire
+import SwiftyJSON
+
+class ViewController: UIViewController {
+    
+    let URL = "https://api.xxx.com/3/cs/start_session"
+    let URL1 = "https://api.xxx.com"
+    let API = "/3/cs/timeline?Rv_session_key="
+    let KEY = "sdfscdsdf"
+    
+    let parameters: Parameters = [
+        "user_identifier": "xxx@xxx.com",
+        "response": "sdfsdfsdfsdcsdc",
+        "system_name": "ios",
+        "client_version": "3.0"
+    ]
+    
+    func callJSONforParams() {
+        
+
+        Alamofire.request(URL, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseData { response in
+
+            
+            if let dataFromNetworking = response.result.value {
+                do {
+                    let json = try JSON(data: dataFromNetworking )
+                    let session = json["Rv_session_key"].string
+                    let address = json["home_router"]["address"].string
+                    //print(session, address)
+                    if let session = session, let address = address {
+                        self.getMsg(address, session)
+                    }
+                } catch {
+                    
+                }
+                
+            }
+        }
+    }
+    
+    func getMsg(_ URL1: String, _ KEY: String) {
+        let URL2 = "https://" + URL1 + API + KEY
+        Alamofire.request(URL2, method: .get).responseString { response in
+            print(response)
+            if let dataFromNetworking = response.result.value {
+                do {
+                    
+                  
+                    print(dataFromNetworking)
+                    
+                } catch {
+                    
+                }
+                
+            }
+        }
+        
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        callJSONforParams()
+    }
+}
+
+	```
+</details>
   <details> 
   <summary>Thread safe array</summary></details>
   <details> 
