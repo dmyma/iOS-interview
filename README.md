@@ -1690,6 +1690,7 @@ A protocol defines a blueprint of methods, properties, and other requirements th
 	
 	
 	
+	Conditional Conformance in protocols
 </details>
 
 <details><summary>Class vs Struct</summary>
