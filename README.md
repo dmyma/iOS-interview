@@ -647,6 +647,8 @@ You’d want to see that some Core Data update is a performance problem in Instr
 [[⬆]](#contents)
 storyboard
 
+- UIView vs CALayer
+
 arkit: 
 - ads
 - movie
@@ -1699,6 +1701,7 @@ A protocol defines a blueprint of methods, properties, and other requirements th
 	
 	
 	Conditional Conformance in protocols
+	- Protocols: https://useyourloaf.com/blog/swift-equatable-and-comparable/
 </details>
 
 <details><summary>Class vs Struct</summary>
