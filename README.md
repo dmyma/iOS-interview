@@ -3180,6 +3180,26 @@ work with console:
 - p expression
 - po print object
 
+
+### Quiz
+
+Which of the following types can be declared as a weak property?
+- internal class Bull
+- protocol Machine
+- private struct Shovel
+- enum Tool
+- public protocol BUilder: class
+- NSInteger
+- none
+
+Which of the following variables declarations or code snippets poses a memory access safety risk?
+- weak var name: NSString!
+- var person: Person?
+- weak var person: Person?
+- URLSEssion.shared.dataTask(with: url) {[unowned self] (data, response, err) in self.handleResponse(data, response, error)}
+- none
+
+ 
 ## Algorithm
 [[⬆]](#contents)
 1. # of islands
