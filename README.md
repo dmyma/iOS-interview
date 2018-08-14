@@ -2916,6 +2916,8 @@ Only one instance of that class is created in the application.
 2. https://leetcode.com/
 3. https://mathfights.com/
 4. https://www.pramp.com/
+5. geekforgeeks
+6. briliant
 
 
 ### Data structures
