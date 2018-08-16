@@ -3267,6 +3267,15 @@ for i in 1..<prices.count {
 
 ## SD
 [[⬆]](#contents)
+<details> 
+  <summary>Twitter</summary>https://www.youtube.com/watch?v=KmAyPUv9gOY</details>
+  <details> 
+  <summary>Lyft</summary>https://www.youtube.com/watch?v=J3DY3Te3A_A</details>
+  <details> 
+  <summary>Whatsup</summary>https://www.youtube.com/watch?v=5m0L0k8ZtEs</details>
+
+
+
 - low balancer
 - casandra vs cash
 - redis
