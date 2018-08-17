@@ -3037,6 +3037,50 @@ Tries(Prefix trees)
 ## Code 
 [[⬆]](#contents)
 
+
+<details> 
+  <summary>ObjC</summary>
+
+```swift
+
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSNumber *time;
+
+
+#import "AFNetworking.h"
+#import <AFNetworking/AFImageDownloader.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+@property  (strong, nonatomic) NSMutableArray<Course *>  *courses;
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+
+
+prepare
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Create a detailed view controller instance
+    DetailedViewController *detailedViewController = [[DetailedViewController alloc] initWithObject:[array objectAtIndex:indexPath.row]];
+    
+    // Push the view controller onto the navigation stack
+    [self.navigationController pushViewController:detailedViewController animated:true];
+    
+    // Deselect table view cell
+    [tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:true];
+}
+ -> 
+
+- (instancetype) initWithObject:(Employee *)selectedEmployee
+{
+    employee = selectedEmployee;
+    return self;
+}
+
+custom cell
+
+
+```
+
+</details>
+
 <details> 
   <summary>UIPanGestureRegogniser</summary>
 ```swift
