@@ -51,8 +51,8 @@
 - [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
 - hig, M
 - [example+](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
-- [interview](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
-
+- [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
+- [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
 
 # On site
 [[⬆]](#contents)
