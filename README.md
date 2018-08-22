@@ -3316,7 +3316,11 @@ for i in 1..<prices.count {
 ## SD
 [[⬆]](#contents)
 <details> 
-  <summary>Twitter</summary>https://www.youtube.com/watch?v=KmAyPUv9gOY</details>
+  <summary>Twitter</summary> 
+	- https://www.youtube.com/watch?v=KmAyPUv9gOY
+- https://github.com/donnemartin/system-design-primer/tree/master/solutions/system_design/twitter#design-the-twitter-timeline-and-search
+- https://blog.pramp.com/the-complete-system-design-interviewer-guide-e5d273724db8
+</details>
   <details> 
   <summary>Lyft</summary>https://www.youtube.com/watch?v=J3DY3Te3A_A</details>
   <details> 
