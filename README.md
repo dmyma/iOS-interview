@@ -3337,7 +3337,12 @@ for i in 1..<prices.count {
   
 
 
-
+- [link](https://www.susanjfowler.com/blog/2016/10/7/the-architecture-interview)
+- Fan-out
+- kind of databases
+- timestamp
+- how to improve database performance
+- how cash works, hit miss
 - low balancer
 - casandra vs cash
 - redis
