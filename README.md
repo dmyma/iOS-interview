@@ -3865,6 +3865,7 @@ swift
 18. https://sourcemaking.com/
 19. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
 20. https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0
+21. https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
 
 ## 2018 - goals
 - FullStack(python+React)
