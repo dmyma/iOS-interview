@@ -351,6 +351,26 @@ viewDidDisapear
 ## Memory Management 
 [[⬆]](#contents)
 
+
+<details><summary>NSThread vs NSOperation</summary>
+NSThread:
+
+1. iOS developers have to write code for the work/process he want to perform along with for the creation and management of the threads themselves.
+2. iOS developers have to be careful about a plan of action for using threads.
+3. iOS developer have to manage posiable problems like reuseability of thread, lockings etc. by them self.
+4. Thread will consume more memory too.
+
+NSOperation:
+
+1. The NSOperation class is an abstract class which encapsulates the code and data associated with a single task.
+2. Developer needs to use subclass or one of the system-defined subclasses of NSOperation to perform the task.
+3. Add operations into NSOperationQueue to execute them.
+4. The NSOperationQueue creates a new thread for each operation and runs them in the order they are added.
+5. Operation queues handle all of the thread management, ensuring that operations are executed as quickly and efficiently as possible.
+6. An operation queue executes operations either directly by running them on secondary threads or indirectly using GCD (Grand Central Dispatch).
+7. It takes care of all of the memory management and greatly simplifies the process.
+8. If you don’t want to use an operation queue, you can also execute an operation by calling its start method. It may make your code too complex.
+</details> 
 <details><summary>what is 'golden rule of memory management'? </summary></details> 
 <details><summary>what is Arc?</summary></details>
 <details><summary>what is Auto release pool?</summary></details>
