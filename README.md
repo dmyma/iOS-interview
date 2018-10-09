@@ -1108,6 +1108,13 @@ lovation
 
 ## Swift
 [[⬆]](#contents)
+<details><summary>Swift futures</summary>
+Fast and concise iteration over a range or collection
+Structs that support methods, extensions, and protocols
+Functional programming patterns, e.g., map and filter
+Powerful error handling built-in
+Advanced control flow with do, guard, defer, and repeat keywords
+</details>
 
 <details><summary>Fundamental types of collections</summary>Array, Dictionary, Set</details>
 <details><summary>what is @UIApplicationMain ?</summary>
