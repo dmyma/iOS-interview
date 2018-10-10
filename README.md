@@ -3747,6 +3747,8 @@ MiniProjects
 3. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
 
 1.1 https://www.youtube.com/watch?v=mk827ZWrby0&list=WL&t=16s&index=14
+1.2 https://youtu.be/kXpWLv2o7hs
+
 
 ## Interview:
 <details> 
