@@ -40,6 +40,7 @@
 - 6, R, DP, BFS, DFS -> file
 - permutation, palindrom, 1.5, 1.6, 1.7, 1.8, 1.9,2->16.1
 - api, touch, coredata, url
+- 
 
 - tomorrow
 - one week
