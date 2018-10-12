@@ -3908,3 +3908,14 @@ swift
 - Unity
 - Solidity
 - AR, ML, AI
+
+## 2020
+
+Mobile
+
+1. iOS(Swift, Objective-C, C++)
+2. Android(Kotlin, Java)
+3. ReactNative(js)
+4. Xamarin(C#)
+
+5. GO, Python, Rails
