@@ -208,6 +208,25 @@ Header types
 
 
 
+## Extra:
+
+### Alg
+
+1. Two numbers
+2. Add two numbers iterative approach 
+3. Longest substring without repeating
+4. Tasks scheduler
+5. Median of two sorted arrays
+
+### Swift 
+- MRC and ARC
+
+###
+
+###
+
+
+
 ## Cocoa touch 
 [[⬆]](#contents)
 -
