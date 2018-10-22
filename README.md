@@ -57,6 +57,8 @@
 - [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
 
 
+```swift
+
 a = [(1,2),(2,3),(100,5)]
 b = [(0,5),(1,1),(100,6)]
 
@@ -73,6 +75,7 @@ while i < len(a) and j < len(b):
         j += 1
 print(result)
 
+```
 
 ### [quiz](https://www.hackingwithswift.com/test)
 
