@@ -3950,7 +3950,8 @@ swift
 - AR, ML, AI
 
 ## 2020
-
+- Alg, SD, OOP, C++
+- PD
 Mobile
 
 1. iOS(Swift, Objective-C, C++)
