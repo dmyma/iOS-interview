@@ -3853,7 +3853,10 @@ Create a UIButton programmatically and animate it between top left and bottom ri
   2. https://www.hackerrank.com/
   3. https://www.topcoder.com/
   4. www.codingame.com
-	5. https://interviewing.io/
+  5. https://interviewing.io/
+  6. Hacker Cup
+  7. ACM
+  8. Code Jam
 </details> 
 
 <details> 
