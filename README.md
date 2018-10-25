@@ -100,6 +100,8 @@ print(result)
 4. Encription
 5. Animation
 6. RxSwift
+7. UIFoundation
+8. Animation
 
 ### Theory
 1. class vs struct
