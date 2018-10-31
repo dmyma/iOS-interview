@@ -127,7 +127,7 @@ callback KVO BOX
 
 3. Merge sort
 4. BFS, DFS
-
+4.1 top down, bottom up
 
 5. Software design
 5.1 design google docs
