@@ -43,7 +43,7 @@
 - permutation, palindrom, 1.5, 1.6, 1.7, 1.8, 1.9,2->16.1, 17
 - api, touch, coredata, url
 - Task Scheduler, Knap Sack, Intervals, LRU
-
+- Max/Min Heap, PriorityQ, AVL Tree/ RB Tree
 - tomorrow
 - one week
 - no interview preparing
