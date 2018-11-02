@@ -45,6 +45,8 @@
 - Task Scheduler, Knap Sack, Intervals, LRU
 - Max/Min Heap, PriorityQ, AVL Tree/ RB Tree
 - Splay tree, ABTree
+- Minimum spamming tree
+- Topological sort
 
 - tomorrow
 - one week
