@@ -48,6 +48,16 @@
 - Minimum spamming tree
 - Topological sort
 
+- Union-Find [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Union-Find)
+- trie [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Trie)
+- thread binary tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Threaded%20Binary%20Tree)
+- segmented tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Segment%20Tree)
+- radix tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Radix%20Tree)
+- minimum spaning tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
+- red black tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
+- b tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/B-Tree)
+avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
+
 - tomorrow
 - one week
 - no interview preparing
@@ -84,6 +94,16 @@ print(result)
 
 ### [quiz](https://www.hackingwithswift.com/test)
 
+1. leet
+2. pramp
+3. interviewcake
+4. sd
+5. oop
+6. ctci
+7. daily
+8. kaggle + ml [link](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
+9. pd
+10. ps
 
 # On site
 [[⬆]](#contents)
