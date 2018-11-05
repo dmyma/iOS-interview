@@ -56,7 +56,8 @@
 - minimum spaning tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
 - red black tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
 - b tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/B-Tree)
-avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
+- avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
+- priority Q
 
 - tomorrow
 - one week
