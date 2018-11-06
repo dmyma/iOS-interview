@@ -3918,6 +3918,7 @@ Create a UIButton programmatically and animate it between top left and bottom ri
 | [Hero](https://github.com/lkzhao/Hero/issues)  	  | [4](https://github.com/SwifterSwift/SwifterSwift/issues/186)        | [3](https://github.com/CosmicMind/Material/issues)    |              
 | [5](https://github.com/radex/SwiftyUserDefaults/issues)    | test  | |
 
+</details> 
 
 - git clone -b <BRANCH NAME> <REPO NAME>
 
@@ -3950,6 +3951,13 @@ Variance is error due to too much complexity in the learning algorithm you’re 
 The bias-variance decomposition essentially decomposes the learning error from any algorithm by adding the bias, the variance and a bit of irreducible error due to noise in the underlying dataset. Essentially, if you make the model more complex and add more variables, you’ll lose bias but gain some variance — in order to get the optimally reduced amount of error, you’ll have to tradeoff bias and variance. You don’t want either high bias or high variance in your model.
 </details> 
 
+<details> 
+  <summary>What is the difference between supervised and unsupervised machine learning?</summary>
+
+More reading: What is the difference between supervised and unsupervised machine learning? (Quora)
+
+Supervised learning requires training labeled data. For example, in order to do classification (a supervised learning task), you’ll need to first label the data you’ll use to train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not require labeling data explicitly.
+</details> 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions/)
 
 ## Credits 
