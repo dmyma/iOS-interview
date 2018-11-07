@@ -3958,7 +3958,16 @@ More reading: What is the difference between supervised and unsupervised machine
 
 Supervised learning requires training labeled data. For example, in order to do classification (a supervised learning task), you’ll need to first label the data you’ll use to train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not require labeling data explicitly.
 </details> 
-[more](https://www.springboard.com/blog/machine-learning-interview-questions/)
+
+
+<details> 
+  <summary>How is KNN different from k-means clustering?</summary>
+
+K-Nearest Neighbors is a supervised classification algorithm, while k-means clustering is an unsupervised clustering algorithm. While the mechanisms may seem similar at first, what this really means is that in order for K-Nearest Neighbors to work, you need labeled data you want to classify an unlabeled point into (thus the nearest neighbor part). K-means clustering requires only a set of unlabeled points and a threshold: the algorithm will take unlabeled points and gradually learn how to cluster them into groups by computing the mean of the distance between different points.
+
+The critical difference here is that KNN needs labeled points and is thus supervised learning, while k-means doesn’t — and is thus unsupervised learning.
+</details> 
+[more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 ## Credits 
 [[⬆]](#contents)
