@@ -3967,6 +3967,13 @@ K-Nearest Neighbors is a supervised classification algorithm, while k-means clus
 
 The critical difference here is that KNN needs labeled points and is thus supervised learning, while k-means doesn’t — and is thus unsupervised learning.
 </details> 
+
+<details> 
+  <summary>Explain how a ROC curve works.</summary>
+
+The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 ## Credits 
