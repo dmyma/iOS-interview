@@ -59,6 +59,7 @@
 - b tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/B-Tree)
 - avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
 - priority Q
+- Dijkstra, BFS from two ends
 
 - tomorrow
 - one week
