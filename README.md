@@ -47,6 +47,7 @@
 - Splay tree, ABTree
 - Minimum spamming tree
 - Topological sort
+- bomberman, grid, tree, dp, 2 bfs, merging
 
 - Union-Find [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Union-Find)
 - trie [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Trie)
