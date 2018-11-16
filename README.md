@@ -3660,6 +3660,8 @@ I've been usigng... software for ... years, and I'm really impresed at how .. ma
 
 glassdoor interview tips
 
+STAR about the project and people
+
 ### Question(mine)
 - What is normal day look like?
 - How do you decide if someone is doing a good job or vice-verca?
@@ -3991,6 +3993,13 @@ Mathematically, it’s expressed as the true positive rate of a condition sample
 Bayes’ Theorem says no. It says that you have a (.6 * 0.05) (True Positive Rate of a Condition Sample) / (.6*0.05)(True Positive Rate of a Condition Sample) + (.5*0.95) (False Positive Rate of a Population)  = 0.0594 or 5.94% chance of getting a flu.
 
 Bayes’ Theorem is the basis behind a branch of machine learning that most notably includes the Naive Bayes classifier. That’s something important to consider when you’re faced with machine learning interview questions.
+</details> 
+
+<details> 
+  <summary>Why is “Naive” Bayes naive?</summary>
+Despite its practical applications, especially in text mining, Naive Bayes is considered “Naive” because it makes an assumption that is virtually impossible to see in real-life data: the conditional probability is calculated as the pure product of the individual probabilities of components. This implies the absolute independence of features — a condition probably never met in real life.
+
+As a Quora commenter put it whimsically, a Naive Bayes classifier that figured out that you liked pickles and ice cream would probably naively recommend you a pickle ice cream.
 </details> 
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
