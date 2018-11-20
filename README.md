@@ -4007,6 +4007,9 @@ As a Quora commenter put it whimsically, a Naive Bayes classifier that figured o
 L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.
 </details> 
 
+  <summary>This type of question tests your understanding of how to communicate complex and technical nuances with poise and the ability to summarize quickly and efficiently. Make sure you have a choice and make sure you can explain different algorithms so simply and effectively that a five-year-old could grasp the basics!
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 ## Credits 
