@@ -4007,8 +4007,22 @@ As a Quora commenter put it whimsically, a Naive Bayes classifier that figured o
 L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.
 </details> 
 
-  <summary>This type of question tests your understanding of how to communicate complex and technical nuances with poise and the ability to summarize quickly and efficiently. Make sure you have a choice and make sure you can explain different algorithms so simply and effectively that a five-year-old could grasp the basics!
+<details> 
+  <summary>What’s your favorite algorithm, and can you explain it to me in less than a minute?</summary>
+	This type of question tests your understanding of how to communicate complex and technical nuances with poise and the ability to summarize quickly and efficiently. Make sure you have a choice and make sure you can explain different algorithms so simply and effectively that a five-year-old could grasp the basics!
 </details> 
+
+<details> 
+ <summary>What’s the difference between Type I and Type II error?</summary>
+Don’t think that this is a trick question! Many machine learning interview questions will be an attempt to lob basic questions at you just to make sure you’re on top of your game and you’ve prepared all of your bases.
+
+Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn’t, while Type II error means that you claim nothing is happening when in fact something is.
+
+A clever way to think about this is to think of Type I error as telling a man he is pregnant, while Type II error means you tell a pregnant woman she isn’t carrying a baby.
+</details> 
+
+
+
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
