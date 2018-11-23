@@ -4021,7 +4021,10 @@ Type I error is a false positive, while Type II error is a false negative. Brief
 A clever way to think about this is to think of Type I error as telling a man he is pregnant, while Type II error means you tell a pregnant woman she isn’t carrying a baby.
 </details> 
 
-
+<details> 
+ <summary>What’s a Fourier transform?</summary>
+A Fourier transform is a generic method to decompose generic functions into a superposition of symmetric functions. Or as this more intuitive tutorial puts it, given a smoothie, it’s how we find the recipe. The Fourier transform finds the set of cycle speeds, amplitudes and phases to match any time signal. A Fourier transform converts a signal from time to frequency domain — it’s a very common way to extract features from audio signals or other time series such as sensor data.
+</details> 
 
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
