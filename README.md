@@ -4026,6 +4026,30 @@ A clever way to think about this is to think of Type I error as telling a man he
 A Fourier transform is a generic method to decompose generic functions into a superposition of symmetric functions. Or as this more intuitive tutorial puts it, given a smoothie, it’s how we find the recipe. The Fourier transform finds the set of cycle speeds, amplitudes and phases to match any time signal. A Fourier transform converts a signal from time to frequency domain — it’s a very common way to extract features from audio signals or other time series such as sensor data.
 </details> 
 
+<details> 
+ <summary>What’s the difference between probability and likelihood?</summary>
+The answer depends on whether you are dealing with discrete or continuous random variables. So, I will split my answer accordingly. I will assume that you want some technical details and not necessarily an explanation in plain English. If my assumption is not correct please let me know and I will revise my answer.
+
+Discrete Random Variables
+
+Suppose that you have a stochastic process that takes discrete values (e.g., outcomes of tossing a coin 10 times, number of customers who arrive at a store in 10 minutes etc). In such cases, we can calculate the probability of observing a particular set of outcomes by making suitable assumptions about the underlying stochastic process (e.g., probability of coin landing heads is p and that coin tosses are independent).
+
+Denote the observed outcomes by O and the set of parameters that describe the stochastic process as θ. Thus, when we speak of probability we want to calculate P(O|θ). In other words, given specific values for θ, P(O|θ) is the probability that we would observe the outcomes represented by O.
+
+However, when we model a real life stochastic process, we often do not know θ. We simply observe O and the goal then is to arrive at an estimate for θ that would be a plausible choice given the observed outcomes O. We know that given a value of θ the probability of observing O is P(O|θ). Thus, a 'natural' estimation process is to choose that value of θ that would maximize the probability that we would actually observe O. In other words, we find the parameter values θ that maximize the following function:
+
+L(θ|O)=P(O|θ)
+L(θ|O) is called the likelihood function. Notice that by definition the likelihood function is conditioned on the observed O and that it is a function of the unknown parameters θ.
+
+Continuous Random Variables
+
+In the continuous case the situation is similar with one important difference. We can no longer talk about the probability that we observed O given θ because in the continuous case P(O|θ)=0. Without getting into technicalities, the basic idea is as follows:
+
+Denote the probability density function (pdf) associated with the outcomes O as: f(O|θ). Thus, in the continuous case we estimate θ given observed outcomes O by maximizing the following function:
+
+L(θ|O)=f(O|θ)
+In this situation, we cannot technically assert that we are finding the parameter value that maximizes the probability that we observe O as we maximize the PDF associated with the observed outcomes O.
+</details> 
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
