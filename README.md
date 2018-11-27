@@ -4056,6 +4056,10 @@ In this situation, we cannot technically assert that we are finding the paramete
 Deep learning is a subset of machine learning that is concerned with neural networks: how to use backpropagation and certain principles from neuroscience to more accurately model large sets of unlabelled or semi-structured data. In that sense, deep learning represents an unsupervised learning algorithm that learns representations of data through the use of neural nets.
 </details> 
 
+<details> 
+ <summary>What’s the difference between a generative and discriminative model?</summary>
+A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
+</details> 
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
