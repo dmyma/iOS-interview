@@ -4057,8 +4057,16 @@ Deep learning is a subset of machine learning that is concerned with neural netw
 </details> 
 
 <details> 
- <summary>What’s the difference between a generative and discriminative model?</summary>
-A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
+ <summary>What cross-validation technique would you use on a time series dataset?</summary>
+Instead of using standard k-folds cross-validation, you have to pay attention to the fact that a time series is not randomly distributed data — it is inherently ordered by chronological order. If a pattern emerges in later time periods for example, your model may still pick up on it even if that effect doesn’t hold in earlier years!
+
+You’ll want to do something like forward chaining where you’ll be able to model on past data then look at forward-facing data.
+
+- fold 1 : training [1], test [2]
+- fold 2 : training [1 2], test [3]
+- fold 3 : training [1 2 3], test [4]
+- fold 4 : training [1 2 3 4], test [5]
+- fold 5 : training [1 2 3 4 5], test [6]
 </details> 
 
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
