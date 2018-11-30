@@ -4069,6 +4069,14 @@ You’ll want to do something like forward chaining where you’ll be able to mo
 - fold 5 : training [1 2 3 4 5], test [6]
 </details> 
 
+
+<details> 
+ <summary>How is a decision tree pruned?</summary>
+Pruning is what happens in decision trees when branches that have weak predictive power are removed in order to reduce the complexity of the model and increase the predictive accuracy of a decision tree model. Pruning can happen bottom-up and top-down, with approaches such as reduced error pruning and cost complexity pruning.
+
+Reduced error pruning is perhaps the simplest version: replace each node. If it doesn’t decrease predictive accuracy, keep it pruned. While simple, this heuristic actually comes pretty close to an approach that would optimize for maximum accuracy.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 ## Credits 
