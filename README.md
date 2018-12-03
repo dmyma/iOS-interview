@@ -4077,6 +4077,13 @@ Pruning is what happens in decision trees when branches that have weak predictiv
 Reduced error pruning is perhaps the simplest version: replace each node. If it doesn’t decrease predictive accuracy, keep it pruned. While simple, this heuristic actually comes pretty close to an approach that would optimize for maximum accuracy.
 </details> 
 
+<details> 
+ <summary>Which is more important to you– model accuracy, or model performance?</summary>
+This question tests your grasp of the nuances of machine learning model performance! Machine learning interview questions often look towards the details. There are models with higher accuracy that can perform worse in predictive power — how does that make sense?
+
+Well, it has everything to do with how model accuracy is only a subset of model performance, and at that, a sometimes misleading one. For example, if you wanted to detect fraud in a massive dataset with a sample of millions, a more accurate model would most likely predict no fraud at all if only a vast minority of cases were fraud. However, this would be useless for a predictive model — a model designed to find fraud that asserted there was no fraud at all! Questions like this help you demonstrate that you understand model accuracy isn’t the be-all and end-all of model performance.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 ## Credits 
