@@ -4094,7 +4094,7 @@ The F1 score is a measure of a model’s performance. It is a weighted average o
 
 
 
-- setNeedsLayout vs layoutIfNeeded vs layoutSubviews()
+- setNeedsLayout vs layoutIfNeeded vs layoutSubviews() [link](http://tech.gc.com/demystifying-ios-layout/)
 - Layer vs View
 
 ## Credits 
