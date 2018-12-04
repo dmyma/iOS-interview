@@ -4084,7 +4084,18 @@ This question tests your grasp of the nuances of machine learning model performa
 Well, it has everything to do with how model accuracy is only a subset of model performance, and at that, a sometimes misleading one. For example, if you wanted to detect fraud in a massive dataset with a sample of millions, a more accurate model would most likely predict no fraud at all if only a vast minority of cases were fraud. However, this would be useless for a predictive model — a model designed to find fraud that asserted there was no fraud at all! Questions like this help you demonstrate that you understand model accuracy isn’t the be-all and end-all of model performance.
 </details> 
 
+
+<details> 
+ <summary>What’s the F1 score? How would you use it?</summary>
+The F1 score is a measure of a model’s performance. It is a weighted average of the precision and recall of a model, with results tending to 1 being the best, and those tending to 0 being the worst. You would use it in classification tests where true negatives don’t matter much.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
+
+
+
+- setNeedsLayout vs layoutIfNeeded vs layoutSubviews()
+- Layer vs View
 
 ## Credits 
 [[⬆]](#contents)
