@@ -4090,6 +4090,19 @@ Well, it has everything to do with how model accuracy is only a subset of model 
 The F1 score is a measure of a model’s performance. It is a weighted average of the precision and recall of a model, with results tending to 1 being the best, and those tending to 0 being the worst. You would use it in classification tests where true negatives don’t matter much.
 </details> 
 
+<details> 
+ <summary>How would you handle an imbalanced dataset?</summary>
+An imbalanced dataset is when you have, for example, a classification test and 90% of the data is in one class. That leads to problems: an accuracy of 90% can be skewed if you have no predictive power on the other category of data! Here are a few tactics to get over the hump:
+
+1- Collect more data to even the imbalances in the dataset.
+
+2- Resample the dataset to correct for imbalances.
+
+3- Try a different algorithm altogether on your dataset.
+
+What’s important here is that you have a keen sense for what damage an unbalanced dataset can cause, and how to balance that.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
