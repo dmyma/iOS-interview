@@ -4103,6 +4103,12 @@ An imbalanced dataset is when you have, for example, a classification test and 9
 What’s important here is that you have a keen sense for what damage an unbalanced dataset can cause, and how to balance that.
 </details> 
 
+
+<details> 
+ <summary> When should you use classification over regression?</summary>
+Classification produces discrete values and dataset to strict categories, while regression gives you continuous results that allow you to better distinguish differences between individual points. You would use classification over regression if you wanted your results to reflect the belongingness of data points in your dataset to certain explicit categories (ex: If you wanted to know whether a name was male or female rather than just how correlated they were with male and female names.)
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
