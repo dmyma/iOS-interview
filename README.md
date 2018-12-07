@@ -192,7 +192,8 @@ Header types
 9. OoD
 10. System design and scalability
 11. Searching and Sorting
-12. Testing
+12. 
+
 13. Threads
 14. Databases
 15. BFS, DFS
@@ -738,6 +739,17 @@ You’d want to see that some Core Data update is a performance problem in Instr
 <details><summary>What are the use cases?</summary></details>
 <details><summary>What are the the bounds of use?</summary></details>
 <details><summary>What are the failure conditions?</summary></details>
+
+<details><summary>What to test</summary>
+
+- data user represenation
+- init of the object + fail
+- api call
+- transition
+- each function?
+
+</details>
+
 
 ## CoreAnimation CoreGraphics CoreText 
 [[⬆]](#contents)
