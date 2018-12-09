@@ -4121,6 +4121,14 @@ What’s important here is that you have a keen sense for what damage an unbalan
 Classification produces discrete values and dataset to strict categories, while regression gives you continuous results that allow you to better distinguish differences between individual points. You would use classification over regression if you wanted your results to reflect the belongingness of data points in your dataset to certain explicit categories (ex: If you wanted to know whether a name was male or female rather than just how correlated they were with male and female names.)
 </details> 
 
+
+<details> 
+ <summary>Name an example where ensemble techniques might be useful.</summary>
+Ensemble techniques use a combination of learning algorithms to optimize better predictive performance. They typically reduce overfitting in models and make the model more robust (unlikely to be influenced by small changes in the training data). 
+
+You could list some examples of ensemble methods, from bagging to boosting to a “bucket of models” method and demonstrate how they could increase predictive power.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
