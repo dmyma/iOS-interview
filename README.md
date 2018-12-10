@@ -4131,6 +4131,24 @@ Ensemble techniques use a combination of learning algorithms to optimize better 
 You could list some examples of ensemble methods, from bagging to boosting to a “bucket of models” method and demonstrate how they could increase predictive power.
 </details> 
 
+
+<details> 
+ <summary>How do you ensure you’re not overfitting with a model?</summary>
+
+
+More reading: How can I avoid overfitting? (Quora)
+
+This is a simple restatement of a fundamental problem in machine learning: the possibility of overfitting training data and carrying the noise of that data through to the test set, thereby providing inaccurate generalizations.
+
+There are three main methods to avoid overfitting:
+
+1- Keep the model simpler: reduce variance by taking into account fewer variables and parameters, thereby removing some of the noise in the training data.
+
+2- Use cross-validation techniques such as k-folds cross-validation.
+
+3- Use regularization techniques such as LASSO that penalize certain model parameters if they’re likely to cause overfitting.
+</details> 
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
