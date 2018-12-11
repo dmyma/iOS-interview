@@ -4149,6 +4149,11 @@ There are three main methods to avoid overfitting:
 3- Use regularization techniques such as LASSO that penalize certain model parameters if they’re likely to cause overfitting.
 </details> 
 
+<details>
+<summary>What evaluation approaches would you work to gauge the effectiveness of a machine learning model?</summary>
+You would first split the dataset into training and test sets, or perhaps use cross-validation techniques to further segment the dataset into composite sets of training and test sets within the data. You should then implement a choice selection of performance metrics: here is a fairly comprehensive list. You could use measures such as the F1 score, the accuracy, and the confusion matrix. What’s important here is to demonstrate that you understand the nuances of how a model is measured and how to choose the right performance measures for the right situations.
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
