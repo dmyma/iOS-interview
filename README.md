@@ -4159,6 +4159,11 @@ You would first split the dataset into training and test sets, or perhaps use cr
 A subsection of the question above. You have to demonstrate an understanding of what the typical goals of a logistic regression are (classification, prediction etc.) and bring up a few examples and use cases.
 </details>
 
+<details>
+<summary>What’s the “kernel trick” and how is it useful?</summary>
+The Kernel trick involves kernel functions that can enable in higher-dimension spaces without explicitly calculating the coordinates of points within that dimension: instead, kernel functions compute the inner products between the images of all pairs of data in a feature space. This allows them the very useful attribute of calculating the coordinates of higher dimensions while being computationally cheaper than the explicit calculation of said coordinates. Many algorithms can be expressed in terms of inner products. Using the kernel trick enables us effectively run  algorithms in a high-dimensional space with lower-dimensional data.
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
