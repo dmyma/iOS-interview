@@ -4171,6 +4171,11 @@ You could find missing/corrupted data in a dataset and either drop those rows or
 In Pandas, there are two very useful methods: isnull() and dropna() that will help you find columns of data with missing or corrupted data and drop those values. If you want to fill the invalid values with a placeholder value (for example, 0), you could use the fillna() method.
 </details>
 
+<details>
+<summary>Do you have experience with Spark or big data tools for machine learning?</summary>
+You’ll want to get familiar with the meaning of big data for different companies and the different tools they’ll want. Spark is the big data tool most in demand now, able to handle immense datasets with speed. Be honest if you don’t have experience with the tools demanded, but also take a look at job descriptions and see what tools pop up: you’ll want to invest in familiarizing yourself with them.
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
