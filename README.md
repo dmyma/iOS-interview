@@ -4181,6 +4181,12 @@ You’ll want to get familiar with the meaning of big data for different compani
 This kind of question demonstrates your ability to think in parallelism and how you could handle concurrency in programming implementations dealing with big data. Take a look at pseudocode frameworks such as Peril-L and visualization tools such as Web Sequence Diagrams to help you demonstrate your ability to write code that reflects parallelism.
 </details>
 
+
+<details>
+<summary>What are some differences between a linked list and an array?</summary>
+An array is an ordered collection of objects. A linked list is a series of objects with pointers that direct how to process them sequentially. An array assumes that every element has the same size, unlike the linked list. A linked list can more easily grow organically: an array has to be pre-defined or re-defined for organic growth. Shuffling a linked list involves changing which points direct where — meanwhile, shuffling an array is more complex and takes more memory.
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
