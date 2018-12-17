@@ -4176,6 +4176,11 @@ In Pandas, there are two very useful methods: isnull() and dropna() that will he
 You’ll want to get familiar with the meaning of big data for different companies and the different tools they’ll want. Spark is the big data tool most in demand now, able to handle immense datasets with speed. Be honest if you don’t have experience with the tools demanded, but also take a look at job descriptions and see what tools pop up: you’ll want to invest in familiarizing yourself with them.
 </details>
 
+<details>
+<summary>Pick an algorithm. Write the psuedo-code for a parallel implementation.</summary>
+This kind of question demonstrates your ability to think in parallelism and how you could handle concurrency in programming implementations dealing with big data. Take a look at pseudocode frameworks such as Peril-L and visualization tools such as Web Sequence Diagrams to help you demonstrate your ability to write code that reflects parallelism.
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
