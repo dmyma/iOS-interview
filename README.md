@@ -4187,6 +4187,13 @@ This kind of question demonstrates your ability to think in parallelism and how 
 An array is an ordered collection of objects. A linked list is a series of objects with pointers that direct how to process them sequentially. An array assumes that every element has the same size, unlike the linked list. A linked list can more easily grow organically: an array has to be pre-defined or re-defined for organic growth. Shuffling a linked list involves changing which points direct where — meanwhile, shuffling an array is more complex and takes more memory.
 </details>
 
+<details>
+<summary>Describe a hash table.</summary>
+A hash table is a data structure that produces an associative array. A key is mapped to certain values through the use of a hash function. They are often used for tasks such as database indexing.
+
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
