@@ -4194,6 +4194,14 @@ A hash table is a data structure that produces an associative array. A key is ma
 
 </details>
 
+
+<details>
+<summary>Which data visualization libraries do you use? What are your thoughts on the best data visualization tools?</summary>
+What’s important here is to define your views on how to properly visualize data and your personal preferences when it comes to tools. Popular tools include R’s ggplot, Python’s seaborn and matplotlib, and tools such as Plot.ly and Tableau.
+
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
