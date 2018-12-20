@@ -4202,6 +4202,13 @@ What’s important here is to define your views on how to properly visualize dat
 
 </details>
 
+
+<details>
+<summary>How would you implement a recommendation system for our company’s users?</summary>
+A lot of machine learning interview questions of this type will involve implementation of machine learning models to a company’s problems. You’ll have to research the company and its industry in-depth, especially the revenue drivers the company has, and the types of users the company takes on in the context of the industry it’s in.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
