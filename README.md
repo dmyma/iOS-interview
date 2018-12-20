@@ -1712,7 +1712,46 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 7. <details><summary>Swift vs ObjC</summary></details>
 8. <details><summary>Codable</summary></details>
 9. <details><summary>typles</summary></details>
-10. <details><summary>map, filter, reduce</summary></details>
+10. <details><summary>map, filter, reduce</summary>
+```swift
+	extension Array {
+    func map<T>(_ transform: (Element) -> T) -> [T] {
+        var result: [T] = []
+        for element in self {
+            result.append(transform(element))
+        }
+        return result
+    }
+}
+```
+
+
+```swift
+extension Array {
+    func filter(_ includeElement: (Element) -> Bool) -> [Element] {
+        var result: [Element] = []
+        for element in self where includeElement(element) {
+            result.append(element)
+        }
+        return result
+    }
+}
+```
+
+
+```swift
+extension Array {
+    func reduce<T>(_ initialResult: T, combiner: (T, Element) -> T) -> T {
+        var result: T = initialResult
+        for element in self {
+            result = combiner(result, element)
+        }
+        return result
+    }
+}
+```
+
+</details>
 11. <details><summary>guard</summary></details>
 12. <details><summary>class vs struct</summary></details>
 13. <details><summary>error handling</summary>do, try, catch</details>
