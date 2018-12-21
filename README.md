@@ -4248,6 +4248,14 @@ A lot of machine learning interview questions of this type will involve implemen
 
 </details>
 
+<details>
+<summary>How can we use your machine learning skills to generate revenue?</summary>
+This is a tricky question. The ideal answer would demonstrate knowledge of what drives the business and how your skills could relate. For example, if you were interviewing for music-streaming startup Spotify, you could remark that your skills at developing a better recommendation model would increase user retention, which would then increase revenue in the long run.
+
+The startup metrics Slideshare linked above will help you understand exactly what performance indicators are important for startups and tech companies as they think about revenue and growth.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
