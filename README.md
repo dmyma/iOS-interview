@@ -4256,6 +4256,13 @@ The startup metrics Slideshare linked above will help you understand exactly wha
 
 </details>
 
+
+<details>
+<summary>What do you think of our current data process?</summary>
+This kind of question requires you to listen carefully and impart feedback in a manner that is constructive and insightful. Your interviewer is trying to gauge if you’d be a valuable member of their team and whether you grasp the nuances of why certain things are set the way they are in the company’s data process based on company- or industry-specific conditions. They’re trying to see if you can be an intellectual peer. Act accordingly.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
