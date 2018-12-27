@@ -4263,6 +4263,12 @@ This kind of question requires you to listen carefully and impart feedback in a 
 
 </details>
 
+<details>
+<summary>What are the last machine learning papers you’ve read?</summary>
+Keeping up with the latest scientific literature on machine learning is a must if you want to demonstrate interest in a machine learning position. This overview of deep learning in Nature by the scions of deep learning themselves (from Hinton to Bengio to LeCun) can be a good reference paper and an overview of what’s happening in deep learning — and the kind of paper you might want to cite.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 
 
