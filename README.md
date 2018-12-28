@@ -4269,6 +4269,12 @@ Keeping up with the latest scientific literature on machine learning is a must i
 
 </details>
 
+<details>
+<summary>Do you have research experience in machine learning?</summary>
+Related to the last point, most organizations hiring for machine learning positions will look for your formal experience in the field. Research papers, co-authored or supervised by leaders in the field, can make the difference between you being hired and not. Make sure you have a summary of your research experience and papers ready — and an explanation for your background and lack of formal research experience if you don’t.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 [link](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
