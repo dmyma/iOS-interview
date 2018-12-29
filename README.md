@@ -4275,6 +4275,12 @@ Related to the last point, most organizations hiring for machine learning positi
 
 </details>
 
+<details>
+<summary>What are your favorite use cases of machine learning models?</summary>
+The Quora thread above contains some examples, such as decision trees that categorize people into different tiers of intelligence based on IQ scores. Make sure that you have a few examples in mind and describe what resonated with you. It’s important that you demonstrate an interest in how machine learning is implemented.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 [link](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
