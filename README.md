@@ -4333,9 +4333,10 @@ swift
 - MVVM+Rx/Kotlin
 
 ## 2019
-- Unity
-- Solidity
-- AR, ML, AI
+- 
+- ObjC/Kotlin/jsRN/python
+- RX+MVVM
+- ML
 
 ## 2020
 - Alg, SD, OOP, C++
