@@ -4281,6 +4281,12 @@ The Quora thread above contains some examples, such as decision trees that categ
 
 </details>
 
+<details>
+<summary>How would you approach the “Netflix Prize” competition?</summary>
+The Netflix Prize was a famed competition where Netflix offered $1,000,000 for a better collaborative filtering algorithm. The team that won called BellKor had a 10% improvement and used an ensemble of different methods to win. Some familiarity with the case and its solution will help demonstrate you’ve paid attention to machine learning for a while.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 [link](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
