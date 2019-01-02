@@ -4334,14 +4334,14 @@ swift
 
 ## 2019
 - 
-- ObjC/Kotlin/jsRN/python
+- ObjC/Kotlin/Java
+- Go/jsRN/python
 - RX+MVVM
 - ML
+- Alg/OOP/SD/PD
+- MESM
 
 ## 2020
-- Alg, SD, OOP, C++
-- PD
-Mobile
 
 1. iOS(Swift, Objective-C, C++)
 2. Android(Kotlin, Java)
