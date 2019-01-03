@@ -4340,6 +4340,7 @@ swift
 - ML
 - Alg/OOP/SD/PD
 - MESM
+- Lambda&Dynamo, AWS
 
 ## 2020
 
