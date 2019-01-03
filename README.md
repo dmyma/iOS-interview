@@ -4342,6 +4342,7 @@ swift
 - MESM
 - Lambda&Dynamo, AWS
 - map, ARCamerCoreML
+- pop, test
 
 ## 2020
 
