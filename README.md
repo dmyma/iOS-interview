@@ -4342,7 +4342,7 @@ swift
 - MESM
 - Lambda&Dynamo, AWS
 - map, ARCamerCoreML
-- pop, test
+- pop, test [lint](https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941)
 
 ## 2020
 
