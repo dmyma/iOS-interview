@@ -4341,6 +4341,7 @@ swift
 - Alg/OOP/SD/PD
 - MESM
 - Lambda&Dynamo, AWS
+- map, ARCamerCoreML
 
 ## 2020
 
