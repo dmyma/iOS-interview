@@ -4287,6 +4287,12 @@ The Netflix Prize was a famed competition where Netflix offered $1,000,000 for a
 
 </details>
 
+<details>
+<summary>Where do you usually source datasets?</summary>
+Machine learning interview questions like these try to get at the heart of your machine learning interest. Somebody who is truly passionate about machine learning will have gone off and done side projects on their own, and have a good idea of what great datasets are out there. If you’re missing any, check out Quandl for economic and financial data, and Kaggle’s Datasets collection for another great list.
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 [link](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
