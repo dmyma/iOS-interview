@@ -4348,7 +4348,7 @@ swift
 - MESM
 - Lambda&Dynamo, AWS
 - map, ARCamerCoreML
-- pop, test [lint](https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941)
+- pop, test [lint](https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941), [link2](https://www.marisibrothers.com/2017/03/common-unit-testing-techniques-on-ios.html)
 - extension
 - m screens
 - CI/CD
