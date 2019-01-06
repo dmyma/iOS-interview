@@ -1703,6 +1703,11 @@ NSOperation adds a little extra overhead compared to GCD, but you can add depend
 ## IntermediateSwift
 [[⬆]](#contents)
 
+<details><summary>Cell lifecycle</summary>
+- You should put the code needed to style and configure a cell inside the actual cell. If it’s something that’s going to be there during the whole lifecycle of the cell, like a label’s font, put it in the awakeFromNib method.
+- You can create a cell-specific model which you will initialize with your model object, and it will compute titles, images and other properties for the cell.
+</details>
+
 1. <details><summary>let vs var</summary></details>
 2. <details><summary>Collection in Swift</summary></details>
 3. <details><summary>raw Value vs associated</summary></details>
