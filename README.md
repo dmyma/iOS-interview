@@ -4298,6 +4298,13 @@ Machine learning interview questions like these try to get at the heart of your 
 
 </details>
 
+
+<details>
+<summary>How do you think Google is training data for self-driving cars?</summary>
+Machine learning interview questions like this one really test your knowledge of different machine learning methods, and your inventiveness if you don’t know the answer. Google is currently using recaptcha to source labelled data on storefronts and traffic signs. They are also building on training data collected by Sebastian Thrun at GoogleX — some of which was obtained by his grad students driving buggies on desert dunes!
+
+</details>
+
 [more](https://www.springboard.com/blog/machine-learning-interview-questions)
 [link](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
