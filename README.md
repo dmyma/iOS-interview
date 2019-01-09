@@ -4364,7 +4364,8 @@ swift
 - ObjC/Kotlin/Java
 - Go/jsRN/python
 - RX+MVVM
-- ML
+- SQL, REALM
+- ML(WsT+Tw)
 - Alg/OOP/SD/PD
 - MESM
 - Lambda&Dynamo, AWS
