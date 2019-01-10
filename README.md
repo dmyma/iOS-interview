@@ -3526,6 +3526,17 @@ for i in 1..<prices.count {
 [[⬆]](#contents)
 
 <img src="interview.png" width="301" height="100">
+
+<details> 
+  <summary>For Start up</summary>
+- “What kind of people—who are otherwise successful—don't work out here?” 
+- “What is the policy on remote work?” 
+- “What progression do you envision for someone in this role?”
+- “Will I be able to learn new skills and technologies in this role?”
+</details>
+[more](https://angel.co/blog/30-questions-to-ask-before-joining-a-startup)
+
+
 <details> 
   <summary>
 Why should we hire you?</summary>
