@@ -4360,11 +4360,11 @@ swift
 - MVVM+Rx/Kotlin
 
 ## 2019
-- 
+- libs: Realm, Bit, MessageKit
 - ObjC/Kotlin/Java
 - Go/jsRN/python
 - RX+MVVM
-- SQL, REALM
+- SQL
 - ML(WsT+Tw)
 - Alg/OOP/SD/PD
 - MESM
