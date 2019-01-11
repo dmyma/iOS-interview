@@ -4379,12 +4379,14 @@ swift
 - ML(WsT+Tw)
 - Alg/OOP/SD/PD
 - MESM
-- Lambda&Dynamo, AWS
+- Lambda&Dynamo, AWS(SD(cache, redis, casandra))
 - map, ARCamerCoreML
 - pop, test [lint](https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941), [link2](https://www.marisibrothers.com/2017/03/common-unit-testing-techniques-on-ios.html)
 - extension
 - m screens
 - CI/CD
+
+- SM(TM, L, C)
 
 ## 2020
 
