@@ -4380,7 +4380,7 @@ swift
 - Alg/OOP/SD/PD
 - MESM
 - Lambda&Dynamo, AWS(SD(cache, redis, casandra))
-- map, ARCamerCoreML
+- map, ARCamera, CoreML
 - pop, test [lint](https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941), [link2](https://www.marisibrothers.com/2017/03/common-unit-testing-techniques-on-ios.html)
 - extension
 - m screens
@@ -4388,7 +4388,7 @@ swift
 
 - SM(TM, L, C)
 
-- OS:Animation
+- OS: Animation, UI/UX
 
 ## 2020
 
