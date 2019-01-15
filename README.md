@@ -4375,7 +4375,7 @@ swift
 - ObjC/Kotlin/Java
 - Go/jsRN/python
 - RX+MVVM
-- SQL
+- SQL/REALM/COREDATA/AWS/Firebase
 - ML(WsT+Tw)
 - Alg/OOP/SD/PD
 - MESM
@@ -4387,6 +4387,7 @@ swift
 - CI/CD
 
 - SM(TM, L, C)
+
 
 - OS: Animation, UI/UX
 - M,ML,A,D,T
