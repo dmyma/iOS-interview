@@ -727,7 +727,7 @@ You’d want to see that some Core Data update is a performance problem in Instr
 ## Testing
 [[⬆]](#contents)
 
-
+<details><summary>Working with crash logs</summary></details>
 <details><summary> Do you write unit tests? how you write in iOS?</summary></details>
 <details><summary> What is TDD?</summary></details>
 <details><summary> How TDD is good, and What problem does it solve?</summary></details>
