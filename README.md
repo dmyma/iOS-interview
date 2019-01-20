@@ -206,6 +206,8 @@ Header types
 
 2. iOS code
 
+- MErge two sorted arrays of intervals 
+
 - Login system
 - Multithreading
 - CoreData
