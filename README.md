@@ -457,6 +457,8 @@ NSOperation:
 ## Networking
 [[⬆]](#contents)
 
+
+
 <details> 
   <summary> Latency - time takes a given bit of information to get from one point to another on the network.</summary></details>
 <details> 
@@ -3895,6 +3897,8 @@ MiniProjects
 
 
 ## Interview:
+<details> 
+  <summary> YCList</summary></details>
 <details> 
   <summary>Call Interview</summary>
 1. Difference between frame and bounds
