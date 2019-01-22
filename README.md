@@ -4398,7 +4398,7 @@ swift
 - SM(TM, L, C)
 
 
-- OS: Animation, UI/UX
+- OS: Animation, UI/UX, CoreData
 - M,ML,A,D,T
 
 ### Good side project
