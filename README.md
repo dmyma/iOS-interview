@@ -3774,12 +3774,13 @@ STAR about the project and people
 ## Libraries   
 [[⬆]](#contents)
 
-1. Alamofire
-2. HUB
-3. RxSwift
-4. SwiftyJSON
-5. Nimble
-6. REALM
+1. Alamofire - Networking
+2. HUB - state
+3. RxSwift - FP
+4. SwiftyJSON - Parcing
+5. Nimble - Test
+6. REALM - DB
+7. Lottie - Animation
 
 ## HomeWork 
 [[⬆]](#contents)
