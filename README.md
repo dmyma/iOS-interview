@@ -772,7 +772,7 @@ arkit:
 constraints[link](https://stackoverflow.com/questions/26180822/how-to-add-constraints-programmatically-using-swift)
 
 <details><summary>point(inside:with:) vs hitTest(_:with:)</summary></details>
-
+<details><summary>NSAttributedString</summary></details>
 ## Patterns 
 [[⬆]](#contents)
 
