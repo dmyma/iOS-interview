@@ -4404,6 +4404,8 @@ swift
 - OS: Animation, UI/UX, CoreData
 - M,ML,A,D,T
 
+Project: Animation, RxSwift, MVVM, AWS, Alamofire, Realm, CoreMap, Test
+
 ### Good side project
 
 ## 2020
