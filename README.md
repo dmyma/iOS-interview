@@ -4383,7 +4383,7 @@ swift
 
 ## 2019
 
-Rx->MVVM->MVVM-C->
+Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 
 - Design VideoWIki
 - libs: Realm, Bit, MessageKit
