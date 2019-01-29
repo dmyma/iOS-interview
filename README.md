@@ -4382,6 +4382,9 @@ swift
 -- Chatbot
 
 ## 2019
+
+Rx->MVVM->MVVM-C->
+
 - Design VideoWIki
 - libs: Realm, Bit, MessageKit
 - ObjC/Kotlin/Java
