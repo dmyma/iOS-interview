@@ -4383,6 +4383,9 @@ swift
 
 ## 2019
 
+1. o,s,p,MRRTASA
+2. 
+
 Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 
 - Design VideoWIki
