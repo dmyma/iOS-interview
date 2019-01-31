@@ -4386,6 +4386,7 @@ swift
 1. o,s,p,MRRTASA
 2. 
 
+CA,CG,CD,CT
 Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 
 - Design VideoWIki
