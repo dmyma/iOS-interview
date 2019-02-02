@@ -4384,7 +4384,7 @@ swift
 ## 2019
 
 1. o,s,p,MRRTASA
-2. 
+2. alg
 
 CA,CG,CD,CT
 Rx->MVVM->MVVM-C->Realm->Kotlin->RN
