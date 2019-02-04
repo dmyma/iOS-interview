@@ -425,6 +425,12 @@ viewDidDisapear
 ## Memory Management 
 [[⬆]](#contents)
 
+<details><summary>Memory Management</summary>
+- Core Data
+	- SQL
+	
+- Realm
+</details>
 
 <details><summary>NSThread vs NSOperation</summary>
 NSThread:
