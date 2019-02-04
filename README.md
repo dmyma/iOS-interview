@@ -427,8 +427,7 @@ viewDidDisapear
 
 <details><summary>Memory Management</summary>
 - Core Data
-	- SQL
-	
+- SQL
 - Realm
 </details>
 
