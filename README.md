@@ -4417,7 +4417,8 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 - M,ML,A,D,T
 
 Project: Animation, RxSwift, MVVM, AWS, Alamofire, Realm, CoreMap, Test
-Preparation grid:
+Preparation grid: Leet->
+
 ### Good side project
 
 ## 2020
