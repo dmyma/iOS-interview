@@ -4417,8 +4417,8 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 - M,ML,A,D,T
 
 - Project: Animation, RxSwift, MVVM, AWS, Alamofire, Realm, CoreMap, Test
-- Preparation grid: Leet(T,DP, R, BFS)->Rx(Drivers)->Animation->FullStack(MERN,A,RN,i)->ML->SD/OOP/PD->S
-- New:
+- Preparation grid: Leet(T,DP, R, BFS)->Rx(Drivers)->Animation->FullStack(MERN,A,RN,i)->ML->SD/OOP/PD->S->
+- New:BDT->GWT
 
 ### Good side project
 
