@@ -4419,6 +4419,9 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 - Project: Animation, RxSwift, MVVM, AWS, Alamofire, Realm, CoreMap, Test
 - Preparation grid: DS->Alg->Leet(T,DP, R, BFS, BC)->Rx(Drivers)->Animation->FullStack(MERN,A,RN,i)->ML->SD/OOP/PD->SOLID->MVVMC->VIPER
 - New:BDT->GWT->DRY, SOLID, MVVM, FIRST
+- IP/v6, TCP, HTTP, REST, JSON RPC, HTTP/S, etc.
+-  Web Servers, Application Servers, Caches, CDNs, Cloud Storage Services and Databases.
+- DNS, Load Balancers, Firewalls, Routers, Switches, DMZs.
 
 ### Good side project
 
