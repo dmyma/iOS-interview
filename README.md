@@ -4425,7 +4425,7 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 
 ### Good side project
 
-## 2020
+## 2020(300)
 
 1. iOS(Swift, Objective-C, C++)
 2. Android(Kotlin, Java)
