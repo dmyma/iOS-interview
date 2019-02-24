@@ -2720,7 +2720,7 @@ Weak
 weak is similar to strong except that it won't increase the reference count by 1. It does not become an owner of that object but just holds a reference to it. If the object's reference count drops to 0, even though you may still be pointing to it here, it will be deallocated from memory.
 </details>
 
-<details><summary>initialisers?</summary>membervise, designated, optional</details>
+<details><summary>initialisers?</summary>Memberwise, failable, Default, designated, Convenience, Required, Override, optional</details>
 <details><summary> What is the difference between underscore and self (i.e self.xx and _xx) ?</summary></details>
 <details><summary> What is property?</summary></details>
 <details><summary> What is the difference between weak and strong?</summary></details>
