@@ -4389,6 +4389,8 @@ swift
 ## 2019
 
 0. 300
+0.5 Leet
+
 1. o,s,p,MRRTASA
 2. alg
 
