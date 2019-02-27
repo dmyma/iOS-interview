@@ -4389,11 +4389,10 @@ swift
 ## 2019
 
 0. 300
-0.5 Leet
+1. Leet
+2. o,s,p,MRRTASA
+3. contribution open source, talks, posts
 
-1. o,s,p,MRRTASA
-2. alg
-3. contribution open source
 
 - Rx: variadic DisposeBeg(inset)
 
