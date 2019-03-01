@@ -4388,7 +4388,7 @@ swift
 
 ## 2019
 
-0. 300
+0. 42->300
 1. Leet
 2. o,s,p,MRRTASA
 3. contribution open source, talks, posts
