@@ -833,7 +833,9 @@ You’d want to see that some Core Data update is a performance problem in Instr
 - each function?
 
 </details>
-
+<details><summary>More</summary>
+	https://medium.com/@londeix/swift-weak-reference-assertion-cf04fef6c334
+	</details>
 
 ## CoreAnimation CoreGraphics CoreText 
 [[⬆]](#contents)
