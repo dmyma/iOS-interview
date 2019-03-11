@@ -338,7 +338,82 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>What are the common layers of responsibility that an iOS application has?</summary></details>
 <details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
 <details><summary>How do you manage dependencies in iOS applications?</summary></details>
-<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
+<details><summary>What is Functional Programming and Functional Reactive Programming?</summary>
+
+Operators:
+
+. filter{}
+.map{}
+.flatMap{}
+
+.unwrap()
+
+.withLatestFrom()
+
+.combine
+.merge()
+
+.AsDriverErrorLog()
+.drive()
+.onNext()
+.subscribe()
+
+
+ignoreElement
+elementAt
+skip
+skipWhile
+take
+skipUntil
+takeWhileWithIndex
+takeUntil
+disctinctUntilChanged
+distinctUntilChanged
+
+takeLast
+share()
+shareReplay
+shareReplayConnected
+just
+
+throttle
+
+toArray
+flatMapLAtest
+
+
+merge
+combine
+contact
+combineLatest
+zipwithLatestFrom
+sample
+amb
+switchLatest
+reduce
+scan
+
+.throttle(0.5, scheduler: MainScheduler.instance) - for instantiating the grid
+observ but not refetch
+
+
+replay(_:)
+replayAll()
+multicast(_:)
+publish()
+
+debug
+-D TRACE_RESOURCES
+
+
+catchErrorJustReturn
+catchError
+
+Schedulers 
+Subject
+Driver
+Variable
+</details>
 <details><summary>What are the design patterns besides common Cocoa patterns that you know of?</summary></details>
 
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
