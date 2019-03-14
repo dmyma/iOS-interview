@@ -1286,6 +1286,13 @@ Eternal.object(forKey: "Bishop")
 ```
 
 
+State/memento
+Strategy/command
+Single/ABS/FM
+Lightweight/
+Builder/
+
+
 ## Maps 
 [[⬆]](#contents)
 
