@@ -37,76 +37,6 @@
 * [Credits](#credits)
 
 -----------
-- Stack, Queue, Tree, LinkedList, Graph directed(n*(n-1)/2) undirected(n*(n-1))
-- backtracing, 
-- 6, R, DP, BFS, DFS -> file
-- permutation, palindrom, 1.5, 1.6, 1.7, 1.8, 1.9,2->16.1, 17
-- api, touch, coredata, url
-- Task Scheduler, Knap Sack, Intervals, LRU
-- Max/Min Heap, PriorityQ, AVL Tree/ RB Tree
-- Splay tree, ABTree
-- Minimum spamming tree
-- Topological sort
-- bomberman, grid, tree, dp, 2 bfs, merging
-
-- Union-Find [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Union-Find)
-- trie [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Trie)
-- thread binary tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Threaded%20Binary%20Tree)
-- segmented tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Segment%20Tree)
-- radix tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Radix%20Tree)
-- minimum spaning tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
-- red black tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
-- b tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/B-Tree)
-- avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
-- priority Q
-- Dijkstra, BFS from two ends
-
-- tomorrow
-- one week
-- no interview preparing
-- looking around
-- applying
-- preparing
-- [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
-- [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
-- hig, M
-- [example+](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
-- [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
-- [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
-
-
-```swift
-
-a = [(1,2),(2,3),(100,5)]
-b = [(0,5),(1,1),(100,6)]
-
-i = 0; j = 0
-result = 0
-while i < len(a) and j < len(b):
-    if a[i][0] == b[j][0]:
-        result += a[i][1] * b[j][1]
-        i += 1
-        j += 1
-    elif a[i][0] < b[j][0]:
-        i += 1
-    else:
-        j += 1
-print(result)
-
-```
-
-### [quiz](https://www.hackingwithswift.com/test)
-
-1. leet
-2. pramp
-3. interviewcake
-4. sd
-5. oop
-6. ctci
-7. daily
-8. kaggle + ml [link](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
-9. pd
-10. ps
 
 # On site
 [[⬆]](#contents)
@@ -4515,6 +4445,77 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 
 - [Company](https://github.com/algerrnon/noway)
 - [Company2](https://people.neilon.software/?fbclid=IwAR0XnIe8AhIE4pmeyjyYf5AnKYrPdAXf5SGwHhslZhg0-Euktu6fdvfytXc)
+
+- Stack, Queue, Tree, LinkedList, Graph directed(n*(n-1)/2) undirected(n*(n-1))
+- backtracing, 
+- 6, R, DP, BFS, DFS -> file
+- permutation, palindrom, 1.5, 1.6, 1.7, 1.8, 1.9,2->16.1, 17
+- api, touch, coredata, url
+- Task Scheduler, Knap Sack, Intervals, LRU
+- Max/Min Heap, PriorityQ, AVL Tree/ RB Tree
+- Splay tree, ABTree
+- Minimum spamming tree
+- Topological sort
+- bomberman, grid, tree, dp, 2 bfs, merging
+
+- Union-Find [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Union-Find)
+- trie [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Trie)
+- thread binary tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Threaded%20Binary%20Tree)
+- segmented tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Segment%20Tree)
+- radix tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Radix%20Tree)
+- minimum spaning tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
+- red black tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Minimum%20Spanning%20Tree%20(Unweighted))
+- b tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/B-Tree)
+- avl tree [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/AVL%20Tree)
+- priority Q
+- Dijkstra, BFS from two ends
+
+- tomorrow
+- one week
+- no interview preparing
+- looking around
+- applying
+- preparing
+- [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
+- [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
+- hig, M
+- [example+](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
+- [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
+- [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
+
+
+```swift
+
+a = [(1,2),(2,3),(100,5)]
+b = [(0,5),(1,1),(100,6)]
+
+i = 0; j = 0
+result = 0
+while i < len(a) and j < len(b):
+    if a[i][0] == b[j][0]:
+        result += a[i][1] * b[j][1]
+        i += 1
+        j += 1
+    elif a[i][0] < b[j][0]:
+        i += 1
+    else:
+        j += 1
+print(result)
+
+```
+
+### [quiz](https://www.hackingwithswift.com/test)
+
+1. leet
+2. pramp
+3. interviewcake
+4. sd
+5. oop
+6. ctci
+7. daily
+8. kaggle + ml [link](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
+9. pd
+10. ps
 ### Good side project
 1. CS
 2. SCPHDML
