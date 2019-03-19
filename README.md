@@ -4442,6 +4442,7 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 - IP/v6, TCP, HTTP, REST, JSON RPC, HTTP/S, etc.
 -  Web Servers, Application Servers, Caches, CDNs, Cloud Storage Services and Databases.
 - DNS, Load Balancers, Firewalls, Routers, Switches, DMZs. [link](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
+- Kafka, CAsandra, Redis, ElasticSearch
 
 - [Company](https://github.com/algerrnon/noway)
 - [Company2](https://people.neilon.software/?fbclid=IwAR0XnIe8AhIE4pmeyjyYf5AnKYrPdAXf5SGwHhslZhg0-Euktu6fdvfytXc)
