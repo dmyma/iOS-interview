@@ -738,6 +738,8 @@ You’d want to see that some Core Data update is a performance problem in Instr
 </details>
 <img src="CoreData.jpg" width="301" height="400">
 
+- Outsource UITableViewDataSource
+
 ## Testing
 [[⬆]](#contents)
 
