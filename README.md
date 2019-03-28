@@ -10,7 +10,7 @@
 * [Multithreading](#multithreading)
 * [Data persistance](#data-persistance)
 * [Testing](#testing)
-* [CoreAnimation, CoreGraphics, CoreText](#coreanimation-coregraphics-coretext)
+* [CoreAnimation, CoreGraphics, CoreText, CoreImage](#coreanimation-coregraphics-coretext)
 * [Patterns(2,5,10)](#patterns)
 * [Maps](#maps)
 * [Swift](#swift)
