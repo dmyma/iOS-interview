@@ -795,6 +795,28 @@ constraints[link](https://stackoverflow.com/questions/26180822/how-to-add-constr
 
 https://sourcemaking.com/design_patterns
 
+
+<details><summary>Patterns</summary>
+
+Abstract Factory
+-Builder vs Composite vs Factory
+
+-Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
+-Builder often builds a Composite.
+-Often, designs start out using Factory Method (less complicated, more customizable, subclasses proliferate) and evolve toward Abstract Factory, Prototype, or Builder (more flexible, more complex) as the designer discovers where more flexibility is needed.
+
+-Builder and Abstract Factory
+-The Builder design pattern is very similar, at some extent, to the Abstract Factory pattern. That's why it is important to be able to make the difference between the situations when one or the other is used. In the case of the Abstract Factory, the client uses the factory's methods to create its own objects. In the Builder's case, the Builder class is instructed on how to create the object and then it is asked for it, but the way that the class is put together is up to the Builder class, this detail making the difference between the two patterns.
+Common interface for products
+-In practice the products created by the concrete builders have a structure significantly different, so if there is not a reason to derive different products a common parent class. This also distinguishes the Builder pattern from the Abstract Factory pattern which creates objects derived from a common type.
+Factory: Consider a restaurant. The creation of "today's meal" is a factory pattern, because you tell the kitchen "get me today's meal" and the kitchen (factory) decides what object to generate, based on hidden criteria.
+-Builder: The builder appears if you order a custom pizza. In this case, the waiter tells the chef (builder) "I need a pizza; add cheese, onions and bacon to it!" Thus, the builder exposes the attributes the generated object should have, but hides how to set them.
+
+-strategy
+
+
+</details>
+
 <details><summary>1 Singleton</summary> - ensures a class has only one instance and provides global point of access to it </details>
 <details><summary>2 Factory Method</summary> - define an interface for creating an object, but let the subclass decide which class to instantiate</details>
 <details><summary>3 ABS</summary> - provides an interface for creating families of related or depended objects without specifying heir concrete classes</details>
@@ -826,7 +848,13 @@ https://sourcemaking.com/design_patterns
 <details><summary>22 Interpreter</summary></details>
 <details><summary>23 Iterator</summary></details>
 
-<details><summary>Patterns:</summary> 1 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype  2 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes  3 Factory Method - define an interface for creating an object, but let the subclass decide which class to instantiate  4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations (init)  5 Singleton - ensures a class has only one instance and provides global point of access to it (static)   -------- 6 Adapter - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client. 7 Bridge - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction. Facade - define a simplified interface to a more complex system(API) Flyweight - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects. Proxy - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access) Template Method - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  ) Observer - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes. Decorator - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)  Chain of Responsibility -  processes varied requests, each of which may be dealt with by a different handler. Strategy - creates an interchangeable family of algorithms from which the required process is chosen at run-time. State -  Memento (Originator, caretaker) captures the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.   18  Visitor - separates a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold. 19 Command - expresses a request, including the call to be made and all of its required parameters, in a command object. The command may then be executed immediately or held for later use. 20 Composite - creates hierarchical, recursive tree structures of related objects where any element of the structure may be accessed and utilised in a standard manner. 21 Mediator reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object. 22 Interpreter 23 Iterator  Singleton  FM Builder  Bridge Facade Proxy  Command  Strategy Observer    Mediator Observer Composite   Adapter S Abs C Bridge S Builder C Composite S Command  Chainofres  Decorator S Facade S Factory method Flyweight S  Iterator  Interpreter  Memento  Mediator  Observer Proxy S Prototype Singleton  State Strategy Template Method Visitor</details>
+<details><summary>Patterns:</summary> 1 Prototype - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype  2 ABS - provides an interface for creating families of related or depended objects without specifying heir concrete classes  3 Factory Method - define an interface for creating an object, but let the subclass decide which class to instantiate  4 Builder - separates the construction of a complex object from its representation so the same construction process can create different representations (init)  5 Singleton - ensures a class has only one instance and provides global point of access to it (static)   -------- 6 Adapter - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client. 7 Bridge - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction. Facade - define a simplified interface to a more complex system(API) Flyweight - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects. Proxy - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access) Template Method - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  ) Observer - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes. Decorator - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)  Chain of Responsibility -  processes varied requests, each of which may be dealt with by a different handler. Strategy - creates an interchangeable family of algorithms from which the required process is chosen at run-time. State -  Memento (Originator, caretaker) captures the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.   18  Visitor - separates a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold. 19 Command - expresses a request, including the call to be made and all of its required parameters, in a command object. The command may then be executed immediately or held for later use. 20 Composite - creates hierarchical, recursive tree structures of related objects where any element of the structure may be accessed and utilised in a standard manner. 21 Mediator reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object. 22 Interpreter 23 Iterator  Singleton  FM Builder  Bridge Facade Proxy  Command  Strategy Observer    Mediator Observer Composite   Adapter S Abs C Bridge S Builder C Composite S Command  Chainofres  Decorator S Facade S Factory method Flyweight S  Iterator  Interpreter  Memento  Mediator  Observer Proxy S Prototype Singleton  State Strategy Template Method Visitor
+
+
+RxKotlin , Facade, Strategy, Composite, TM, Decorator
+
+
+</details>
 6 Proxy
 7 Façade
 
@@ -4526,7 +4554,37 @@ print(result)
 4. OS
 
 
-- Project 1:
+<details><summary>Project 1:</summary>
+
+DevConnector
+Side project(Adv Swift+RxKotlin+ML+MERN+RN) Go/Scala
+Ruby/C++/Java/typing/C#
+Oop/sd/pd/solid
+GraphQL
+https://github.com/NirantK/awesome-project-ideas
+Advanced iOS
+
+(spriteKit)Unity+VR
+
+musician/blockchain app
+
+Robotics combat hardware(hacker space)
+
+web security
+</details>
+
+<details><summary>Certificates</summary>
+	
+- OOP - https://courses.edx.org/courses/course-v1:IITBombayX+CS101.2x+1T2019/course/
+- DS - https://courses.edx.org/courses/course-v1:IITBombayX+CS213.1x+1T2019/course/
+- PD - https://github.com/kingreza/Swift-Builder
+- Alg - https://repl.it/@dmyma/PutridDeterminedComputergraphics
+- ML - https://www.coursera.org/learn/machine-learning/home/welcome
+
+- C, Java
+- Equivalent experience to a Bachelor's degree based on 3 years of work experience for every 1 year of education. 4+ years professional experience in software development 
+	
+	</details>
 
 ## 2020(300)
 
