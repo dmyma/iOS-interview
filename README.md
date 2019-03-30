@@ -3827,7 +3827,7 @@ STAR about the project and people
 2. HUB - state
 3. RxSwift - FP
 4. SwiftyJSON - Parcing
-5. Nimble - Test
+5. Nimble, Quick - Test
 6. REALM - DB
 7. Lottie - Animation
 
