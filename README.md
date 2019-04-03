@@ -4547,6 +4547,7 @@ print(result)
 8. kaggle + ml [link](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
 9. pd
 10. ps
+11. 
 ### Good side project
 1. CS
 2. SCPHDML
@@ -4584,6 +4585,7 @@ web security
 - C, Java
 - Equivalent experience to a Bachelor's degree based on 3 years of work experience for every 1 year of education. 4+ years professional experience in software development 
 	
+- Talks, blog 
 	</details>
 
 ## 2020(300)
