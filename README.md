@@ -853,7 +853,7 @@ Factory: Consider a restaurant. The creation of "today's meal" is a factory pat
 
 RxKotlin , Facade, Strategy, Composite, TM, Decorator
 
-
+- [link Structural](https://javarevisited.blogspot.com/2015/01/adapter-vs-decorator-vs-facade-vs-proxy-pattern-java.html?m=1)
 </details>
 6 Proxy
 7 Façade
