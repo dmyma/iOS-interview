@@ -814,6 +814,8 @@ Factory: Consider a restaurant. The creation of "today's meal" is a factory pat
 
 -strategy
 
+- Adapter vs Bridge
+- Template Method vs Strategy
 
 </details>
 
