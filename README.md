@@ -136,7 +136,7 @@ Header types
 
 2. iOS code
 
-- MErge two sorted arrays of intervals 
+- Merge two sorted arrays of intervals 
 
 - Login system
 - Multithreading
@@ -188,7 +188,8 @@ Header types
 - what is arc, GCD?
 
 4. SYSTEM DESIGN, OOD
-
+- [oop](https://www.educative.io/collection/page/5668639101419520/5692201761767424/5770234338213888)
+- [pd](https://github.com/ochococo/Design-Patterns-In-Swift)
 
 
 ## Extra:
