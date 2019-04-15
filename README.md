@@ -591,6 +591,7 @@ iOS 4 and above supports multi-tasking and allows apps to remain in the backgrou
 <details><summary>MULTIthreading </summary></details>
 <details><summary>NSOPERATIONQUEUE</summary></details>
 <details><summary>Closures</summary></details>
+<details><summary>async vs sync</summary></details>
 [GCD vs Q](http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/)
 
 <details> 
