@@ -533,7 +533,42 @@ js
 
 </details>
 
+<details><summary>Portfolio</summary>
 
+http://www.inheritx.com/((e-mail))
+http://100grams.nl/
+http://ios-developer.fr/
+scalsys.com(e-mail)
+
+
+
+https://itunes.apple.com/ua/app/testosterone/id992821027?mt=8
+
+1111111111111
+http://www.aichtechnologies.com/portfolio.php
+
+Following are the apps that we have developed on the iPhone/iPad and Android platform:
+ 
+ipad Applications - 
+ 
+1) Scar cinematic Novel v1 (iPad) 
+http://itunes.apple.com/us/app/scar-cinematic-graphic-novel/id371619790?mt=8
+ 
+2) Le Menu 
+http://itunes.apple.com/ae/app/le-menu/id399788793?mt=8
+ 
+3) Count your Peas
+http://itunes.apple.com/us/app/count-your-peas/id409399255?mt=8&ls=1
+ 
+4) Chisenbop
+http://itunes.apple.com/us/app/chisenbop/id429339367?mt=8&ign-mpt=uo%3D2
+ 
+5) Dance Formations Plus!
+http://itunes.apple.com/in/app/dance-formations-plus!/id383821712?mt=8
+ 
+
+
+</details>
 
 ## Memory Management 
 [[⬆]](#contents)
