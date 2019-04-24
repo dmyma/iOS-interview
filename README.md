@@ -504,7 +504,33 @@ talk less make sense?
 3. ARC(strong, wear, unowned) vs MRC(strong, wear, assign, copy)
 4. class vs struct,enum, typles(array)
 5. What kind of initializers do we have in swift? Designated Initializers and Convenience Initializers in Swift and Required Initializers
-6. 
+
+
+
+
+
+iOS SDK
+- [ ] CoreData
+- [ ] Push Notification
+- [ ] iOS Design Patterns
+- [ ] Swift
+- [ ] Networking
+- [ ] Memory Management
+- [ ] Development Process
+- [ ] Team Management
+- [ ]  Leetcode
+patterns of design
+
+Internship-interview
+
+typing
+ML
+
+C++
+js
+
+
+
 </details>
 
 
