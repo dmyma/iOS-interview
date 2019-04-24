@@ -4395,6 +4395,110 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 - setNeedsLayout vs layoutIfNeeded vs layoutSubviews() [link](http://tech.gc.com/demystifying-ios-layout/)
 - Layer vs View
 
+<details><summary>
+	
+	
+	
+	Git 
+</summary>
+1. Semaphore — allows up to N threads to access a given region of code at a time.
+2. Mutex — ensures that only one thread is active in a given region of code at a time. You can think of it as a semaphore with a maximum count of 1.
+3. Spinlock — causes a thread trying to acquire a lock to wait in a loop while checking if the lock is available. It is efficient if waiting is rare, but wasteful if waiting is common.
+4. Read-write lock — provides concurrent access for read-only operations, but exclusive access for write operations. Efficient when reading is common and writing is rare.
+5. Recursive lock — a mutex that can be acquired by the same thread many times.
+
+
+Swift properties
+
+Login to the server and return token
+
+Add core data to Brian’s mvvm for Robin and clear infrastructure
+
+Medium init 
+Making a numeric type in swift 
+LazyFilteredBidirectionalCollection, LazyMapRandomAccessCollection
+
+RandomAccessCollection, ReversedRandomAccessCollection protocols: Indexable, Sequence, Hashanle, Set Algebra, Equatable, Element, Hashable, Comparable, collection, iterable, what would happen if you tried to go back one from the start of a doubly linked list? Sequence where Iterator.Element: Comparable, MutableCollection where Self: RandomAccessCollection, Self.Iterator.Element: Comparable
+
+mapping a closure expression over an array compiles to the same assembly code as looping over a contiguous block of memory does
+
+crashlytics
+fabric
+https://agostini.tech
+
+from steepen website
+
+https://github.com/pointfreeco/episode-code-samples/blob/master/0001-functions/Functions.playground/Contents.swift
+
+
+fastlane lanes
+fastlane codeSign
+
+git clone -b <BRANCH NAME> <REPO NAME>
+
+git checkout -b “<BRANCH NAME>” — specific feature
+git checkout <branch name>
+
+git checkout <BRANCH NAME>
+git pull origin <BRANCH NAME> :wq
+https://apple.stackexchange.com/questions/252541/how-do-i-escape-the-git-commit-window-from-os-x-terminal
+
+git checkout  <BRANCH NAME>
+git rebase <BRANCH NAME>
+
+git push origin <branch name>
+git push  <REMOTENAME> <BRANCH NAME>
+
+git push <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME> 
+
+merge request
+
+git checkout master
+git merge origin/master --allow-unrelated-histories
+
+git add -A .
+git commit -m "Upload"
+git push
+
+git reset --hard <commit>
+git push --force
+
+git tag v1.1.1
+====
+git fetch
+git checkout -b temp origin/bugfix
+git checkout dm_branch
+git log -1
+
+git stash
+
+git show
+git reset —hard “commit hash”
+merge toolmaster?
+
+git mergetool -t opendiff
+
+BTAPIClient
+
+vim
+
+ open -a "Visual Studio Code" .
+
+leopard error web inhale frost useful clarify town year tobacco exclude void
+
+SOLID
+
+Rx
+
+Side efect:
+- do, onNext, onError, onCompleted, Subscribe, observable, disposeBag, onDisposed
+subject
+-behavioral(point), publish(+1), replay(cache), variable
+Driver
+Variable
+	
+	</details>
+
 ## Credits 
 [[⬆]](#contents)
 41818
