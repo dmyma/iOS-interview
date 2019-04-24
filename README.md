@@ -427,6 +427,87 @@ viewDidDisapear
 
 </details>
 
+<details><summary>EPAM</summary>
+  
+Thanks for your time on the interview. Unfortunately, according to the feedback, your current technical level doesn’t meet the requirement of the position(we currently are seeking a Senior ios Developer).  So we will not proceed now. Pls. check the detailed feedback as below. I will get back to you when we have suitable position for you. Thanks.
+ 
+Summary
+The candidate has a very good communication skill. Also he has a production experience but in a small team. Interview was in positive manner. He has superficial knowledge in areas we have asked about. He has a couple of gaps in a few areas. I think he will be a good team player. His answers were not so detailed and exact like we expect from D3 candidates but despite that he had a positive mood.
+Red Flags (optional)
+CoreData
+NSOperation/NSOperationQueue
+List of skills checked (hard and soft)
+ 
+----Collections: worked with collections but answered that checking existence of object is faster in array in comparison with dicitionary which is not true.
+
+----GCD: has experience with GCD. General pricinple of UI updates and synchronization in multithred environment.
+----NSOperation/NSOperationQueue: -
+----CoreData: -
+----Auto layout: understands such things like resistance of constraint, etc. but have not used constraints priority.
+----ARC: understands ARC and how we can use autorelease pool.
+
+----NSNotificationCenter vs delegate: have not answered in which thread observers receive notification.
+----UIView: drawRect: +. setNeedsDisplay -
+----Touches: gesture recognizers +. How uiview handles touch events -.
+----Patterns: he have worked only with MVC but heared about MVP and VIPER.
+Communication: with customer and designer as usual.
+ 
+Suggestions for a candidate (optional)
+He needs more experience in team with more than 2 devs and need person who can help him in the beginning in some technologies stack but it depends on project.
+
+
+-networking
+-testing
+-arc, memory leaks, retain cycles
+-Delegation and Observer/Notification
+-view lifecycle
+-classes vs Struckt
+-filter, map, reduce
+-Testing
+-3D party libraries
+-Gesture recogniser
+-networking
+-debugging
+-modulo 
+-take home
+-kvo 
+
+￼
+French
+Sport
+Europe(phd, un)
+
+
+---Memory Managment 
+1. MRC vs ARC? What is it? How does it work? What is the main principle?
+2. Autorelease pool, when? Next drain 
+3. Objective-C properties(strong, weak, copy(which: nscopy protocol to support the , assign ) copy vs assigned
+---UIKit 
+1. Origin of bounds equals zero(rotate the view or move inside of the super view) like scroll view, frame the same bound change
+2. Problem: small button(put a view on top with Gesture recogniser, bigger button, on set of the button, responderchain(hitTest, property Animator) if the touch inside of the view or outside
+3. What are the ways to animate view(animate, core animation)property animate 
+4. GCD vs NSOperationQueue, dispatch queue which is concurant(, dispatch after do?, where it can be useful , dispatchgroup, dispatch barrier async (only one at a time) , dispatch queue how to synchronize ? Locks
+
+5. what is deadlock? How to avoid deadlocks 
+iOS
+1. App states?
+2. Difference active and inactive ?
+3. Can we excite code from background ? what do we need? what task we can do? Do we have to wake up an app without user running an app? Notification and Core Location
+4. value types and reference types
+
+Obj-C question
+1. How to store an array of weak references ?
+2. How does run times knows which method to call? Static dinamic dispatching , massage sending selector 
+talk less make sense? 
+1. GCD vs NSOPeration
+2. frame vs bounds
+3. ARC(strong, wear, unowned) vs MRC(strong, wear, assign, copy)
+4. class vs struct,enum, typles(array)
+5. What kind of initializers do we have in swift? Designated Initializers and Convenience Initializers in Swift and Required Initializers
+6. 
+</details>
+
+
 
 ## Memory Management 
 [[⬆]](#contents)
