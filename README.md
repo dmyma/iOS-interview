@@ -22,6 +22,8 @@
 * [Code](#code) 
 * [Algorithm](#algorithm)
 * [SD](#sd)
+* [js](#js)
+* [Kotlin](#kotlin)
 -----------
 * [General](#general)
 -----------
@@ -3723,6 +3725,17 @@ for i in 1..<prices.count {
 - TCP vs UDP
 - CDN vs EDGE
 
+## js
+[[⬆]](#contents)
+  <details><summary>js</summary></details>
+  <details><summary>RN</summary></details>
+	
+## kotlin
+[[⬆]](#contents)
+  <details><summary>Kotlin</summary></details>
+  <details><summary>Android</summary></details>
+  <details><summary>Java</summary></details>
+ 
 ## General
 [[⬆]](#contents)
 
