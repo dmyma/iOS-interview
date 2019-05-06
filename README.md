@@ -4551,7 +4551,12 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 - Layer vs View
 
 <details><summary>
-	:
+	
+	
+	
+	vim 
+</summary>
+:
 	:q
 	:w
 	:wq
@@ -4565,10 +4570,6 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 	esc
 	:%s/ls/cd/gc
 	ci)
-	
-	
-	vim 
-</summary>
 </details>
 
 <details><summary>
