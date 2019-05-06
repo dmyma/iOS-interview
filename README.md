@@ -4551,6 +4551,27 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 - Layer vs View
 
 <details><summary>
+	:
+	:q
+	:w
+	:wq
+	:q!
+	/
+	i
+	dd
+	3d
+	u
+	ctr+r
+	esc
+	:%s/ls/cd/gc
+	ci)
+	
+	
+	vim 
+</summary>
+</details>
+
+<details><summary>
 	
 	
 	
