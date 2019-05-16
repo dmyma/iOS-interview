@@ -4559,10 +4559,26 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 :
 	:q
 	:w
-	:wq
+	:wq -> Shift + zz
 	:q!
+	
+	h j k l(10 + Shift + G) w b
+	syntax on
+	set number
+	Shift + 4 
+	Shift + 6
+	
+	ctrl + z -> fg
+	
+	u
+	dd -> p or P
+	yy
+	
+	4yy
+	
+	mark: m + letter -> ` + letter
 	/
-	i
+	i or a
 	dd
 	3d
 	u
@@ -4570,6 +4586,8 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 	esc
 	:%s/ls/cd/gc
 	ci)
+	
+	https://vim.rtorr.com/
 </details>
 
 <details><summary>
