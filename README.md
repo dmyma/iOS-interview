@@ -60,7 +60,8 @@
 5. Animation
 6. RxSwift
 7. UIFoundation
-8. Animation
+8. RxTest
+9. Real
 
 ### Theory
 1. class vs struct
