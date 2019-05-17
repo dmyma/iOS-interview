@@ -4563,14 +4563,45 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 	:wq -> Shift + zz
 	:q!
 	
+        - Navigation:
 	h j k l(10 + Shift + G) w b
+	0 $
+	w b
+	G gg
+	`.
+	
+	- Editing:
+	d starts the delete operation.
+	dw will delete a word.
+	d0 will delete to the beginning of a line.
+	d$ will delete to the end of a line.
+	dgg will delete to the beginning of the file.
+	dG will delete to the end of the file.
+	u will undo the last operation.
+	Ctrl-r will redo the last undo.
+	
+	- Searching:
+	/text search for text in the document, going forward.
+	n move the cursor to the next instance of the text from the last search. This will wrap to the beginning of the document.
+	N move the cursor to the previous instance of the text from the last search.
+	?text search for text in the document, going backwards.
+	:%s/text/replacement text/g search through the entire document for text and replace it with replacement text.
+	:%s/text/replacement text/gc search through the entire document and confirm before replacing text.
+	
+	- Copy/Past:
+	v highlight one character at a time.
+	V highlight one line at a time.
+	Ctrl-v highlight by columns.
+	p paste text after the current line.
+	P paste text on the current line.
+	y yank text into the copy buffer.
+	
 	syntax on
 	set number
 	Shift + 4 
 	Shift + 6
 	
 	ctrl + z -> fg
-	
 	u
 	dd -> p or P
 	yy
