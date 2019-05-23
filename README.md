@@ -4725,6 +4725,26 @@ Driver
 Variable
 	
 	</details>
+	
+	
+<details><summary>info</summary>
+- 1:2, Rn, Vim, sc, ev, l, Y, gr, fsg
+- 0/12
+- 12/50
+- 1/1M
+- 1/1W
+- N
+- E
+- 1/4: J.P  89/301 51/522 9/222 <3 tr ph b
+- S Rx: Test, Coordinator, SK
+- j RN: rncreate - Props, atoms
+- .K.R
+- L: FS.G
+- D: S.T
+- oop, sd
+- P app: KSRx->RailsR
+
+</details>
 
 ## Credits 
 [[⬆]](#contents)
