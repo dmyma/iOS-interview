@@ -208,7 +208,10 @@ Header types
 ### Swift 
 - MRC and ARC
 
-###
+### Code tips
+- watch dog
+- splash screen loader
+- Debug screen
 
 ###
 
@@ -475,10 +478,7 @@ He needs more experience in team with more than 2 devs and need person who can h
 -take home
 -kvo 
 
-￼
-French
-Sport
-Europe(phd, un)
+
 
 
 ---Memory Managment 
