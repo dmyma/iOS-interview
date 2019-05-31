@@ -3729,7 +3729,7 @@ for i in 1..<prices.count {
 ## js
 [[⬆]](#contents)
   <details><summary>js</summary></details>
-  <details><summary>RN</summary></details>
+  <details><summary>RN</summary>[link](https://medium.com/bb-tutorials-and-thoughts/learn-enough-react-for-the-interview-f460a2fa3aeb)</details>
 	
 ## kotlin
 [[⬆]](#contents)
