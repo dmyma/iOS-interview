@@ -4574,7 +4574,7 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 	d starts the delete operation.
 	dw will delete a word.
 	d0 will delete to the beginning of a line.
-	d$ will delete to the end of a line.
+	d$(shitf + d) will delete to the end of a line.
 	dgg will delete to the beginning of the file.
 	dG will delete to the end of the file.
 	u will undo the last operation.
