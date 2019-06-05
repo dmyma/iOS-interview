@@ -4613,11 +4613,14 @@ AlphaGo beating Lee Sidol, the best human player at Go, in a best-of-five series
 	i or a
 	dd
 	3d
-	u
-	ctr+r
+	u - ctr+r
 	esc
 	:%s/ls/cd/gc
 	ci)
+	
+	BOSS:
+	- control+v c esc esc
+	- qbq qb “cdi’ 4w Di’ h “cp _ p _ j 3 @b
 	
 	https://vim.rtorr.com/
 </details>
