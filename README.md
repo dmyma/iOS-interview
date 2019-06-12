@@ -194,6 +194,22 @@ Header types
 - [oop](https://www.educative.io/collection/page/5668639101419520/5692201761767424/5770234338213888)
 - [pd](https://github.com/ochococo/Design-Patterns-In-Swift)
 
+5. Patterns
+- sliding Window
+- 2 Pointers or Iterators
+- Fast and Slow Pointers or Iterators
+- Merge Intervals
+- Cyclic sort
+- In-place reversal of linked list
+- Tree BFS
+- Tree DFS
+- Two heaps
+- Subsets
+- Modified binary search
+- Top K elements
+- K-way merge
+- Topological sort
+
 
 ## Extra:
 
