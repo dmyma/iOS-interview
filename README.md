@@ -583,6 +583,11 @@ http://itunes.apple.com/in/app/dance-formations-plus!/id383821712?mt=8
 </details>
 
 <details><summary>Advanced Threading</summary>
+	[mutex](http://www.lukeparham.com/blog/2018/6/3/comparing-synchronization-strategies)
+	[fairness](https://www.mikeash.com/pyblog/friday-qa-2017-10-27-locks-thread-safety-and-swift-2017-edition.html)
+	- thread vs queue[link](https://stackoverflow.com/questions/23166246/what-is-the-difference-between-thread-and-queue-in-ios-development)
+	- load vs initialize[link](https://www.mikeash.com/pyblog/friday-qa-2009-05-22-objective-c-class-loading-and-initialization.html)
+	</details>
 <details><summary>NSThread vs NSOperation</summary>
 NSThread:
 
