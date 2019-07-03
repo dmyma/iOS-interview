@@ -51,6 +51,14 @@
 # Top questions
 [[⬆]](#contents)
 -----------
+### Update
+== ios
+1. MEMORY
+2. GCD
+3. MULTITHREADING
+== Alg
+==SD/oop
+==
 
 ### iOS
 1. UIKit
