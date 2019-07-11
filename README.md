@@ -54,8 +54,8 @@
 ### Update
 == ios
 1. MEMORY
-2. GCD
-3. MULTITHREADING
+2. GCD, MULTITHREADING, nsoperationQ
+3. uitvc
 == Alg
 ==SD/oop
 ==
