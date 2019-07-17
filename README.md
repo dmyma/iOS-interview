@@ -224,7 +224,7 @@ Header types
 
 ### Alg
 
-1. Two numbers
+1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Kaddan
 2. Add two numbers iterative approach 
 3. Longest substring without repeating
 4. Tasks scheduler
