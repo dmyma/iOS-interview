@@ -59,7 +59,7 @@
 == Alg
 ==SD/oop
 ==
-[top1](https://leetcode.com/)[top2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)[top3](https://github.com/donnemartin/system-design-primer)[top4](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_2?gclid=CjwKCAjwsIbpBRBNEiwAZF8-z4ZBzLJdmlX3gZnhch0GnwJGQMEfHq5GbpAx8Swzol7jepPr7GM_khoC_T8QAvD_BwE&hvadid=241871313066&hvdev=c&hvlocphy=9032040&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=31244938628313589&hvtargid=kwd-45531460717&hydadcr=16435_10305567&keywords=elements+of+programming+interviews&qid=1562540501&s=gateway&sr=8-2)
+[top1](https://leetcode.com/)[top2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)[top3](https://github.com/donnemartin/system-design-primer)[top4](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_2?gclid=CjwKCAjwsIbpBRBNEiwAZF8-z4ZBzLJdmlX3gZnhch0GnwJGQMEfHq5GbpAx8Swzol7jepPr7GM_khoC_T8QAvD_BwE&hvadid=241871313066&hvdev=c&hvlocphy=9032040&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=31244938628313589&hvtargid=kwd-45531460717&hydadcr=16435_10305567&keywords=elements+of+programming+interviews&qid=1562540501&s=gateway&sr=8-2)[top5](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
 
 ### iOS
 1. UIKit
