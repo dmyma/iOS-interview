@@ -226,6 +226,7 @@ Header types
 
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
 1.1 Kaddan
+1.2 Dijkstra, Floyd Warshall, Union Find, Prim, Kruskal 
 2. Add two numbers iterative approach 
 3. Longest substring without repeating
 4. Tasks scheduler
