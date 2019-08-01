@@ -225,6 +225,7 @@ Header types
 ### Alg
 
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
+1.01 Manacher's Algorithm(LPS)
 1.1 Kaddan
 1.2 Dijkstra, Floyd Warshall, Union Find, Prim, Kruskal 
 1.3 Reverse Morris In-order Traversal
