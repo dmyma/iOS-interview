@@ -229,6 +229,7 @@ Header types
 1.1 Kaddan
 1.2 Dijkstra, Floyd Warshall, Union Find, Prim, Kruskal 
 1.3 Reverse Morris In-order Traversal
+1.4 A* star search
 2. Add two numbers iterative approach 
 3. Longest substring without repeating
 4. Tasks scheduler
