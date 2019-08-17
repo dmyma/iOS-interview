@@ -224,6 +224,10 @@ Header types
 
 ### Alg
 
+Recursion:
+1. gcd euclidean algorithm
+
+String:
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
 1.01 Manacher's Algorithm(LPS)
 1.1 Kaddan
