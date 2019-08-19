@@ -62,6 +62,7 @@
 - [PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
 
 ### SD:
+- [101](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
 - [pramp](https://github.com/donnemartin/system-design-primer)
 - [GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
 - [youtube](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
