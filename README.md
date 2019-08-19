@@ -44,10 +44,10 @@
 [[⬆]](#contents)
 -----------
 ### Alg:
-[Leetcode](https://leetcode.com/)
-[G4G](https://www.geeksforgeeks.org)
-[CTCI](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
-[EPI](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
+- [Leetcode](https://leetcode.com/)
+- [G4G](https://www.geeksforgeeks.org)
+- [CTCI](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+- [EPI](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
 
 ### DS:
 - [Alg 4th](https://www.amazon.com/gp/product/032157351X)
@@ -72,6 +72,9 @@
 ### Swift:
 - [doc](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 - [guide](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
+- MEMORY
+- GCD, MULTITHREADING, nsoperationQ
+- uitvc
 
 ### More:
 - [blind](teamblind.com)
@@ -81,14 +84,6 @@
 # Top questions
 [[⬆]](#contents)
 -----------
-### Update
-== ios
-1. MEMORY
-2. GCD, MULTITHREADING, nsoperationQ
-3. uitvc
-== Alg
-== SD/oop
-
 
 ### iOS
 1. UIKit
@@ -118,6 +113,7 @@
 14. objC NULL, inter
 React, Android
 callback KVO BOX
+
 ### OnSite
 1. Linked-List
 2. Trees
@@ -5020,6 +5016,7 @@ web security
 - Talks, blog 
 	</details>
 </details>
+
 ## 2020(300)
 
 1. iOS(Swift, Objective-C, C++)
