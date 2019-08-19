@@ -11,7 +11,7 @@
 * [Data persistance](#data-persistance)
 * [Testing](#testing)
 * [CoreAnimation, CoreGraphics, CoreText, CoreImage](#coreanimation-coregraphics-coretext)
-* [Patterns(2,5,10)](#patterns)
+* [Patterns](#patterns)
 * [Maps](#maps)
 * [Swift](#swift)
 * [Intermediate Swift](#intermediateswift)
@@ -43,10 +43,38 @@
 # On site
 [[⬆]](#contents)
 -----------
-1. Do your homework. Research recent news about the comapny and look over http://www.Compan_name.com/about. Be sure you know about the company and product, and try to form an opinion about what you like about it and what you don’t. “if you could add any feature to our product, what would it be?”, with follow-up questions about how the implementation might be done.
-2. Why here? (“I like building high-performance user-facing services that interact with a lot of other systems, and love being on-call”), but you might not want to be too specific (“The only thing I have ever wanted to do is convolutional neural networks for image recognition”), or too vague (“Something with Java.. or maybe iOS mobile development, I don’t really care”) or too mercenary (“I just need to get some Hadoop experience to fill up a gap in my resume”).
-3. Practice your whiteboard skills. Try to find a middle ground between talking too much and too little. CTCI. Also,  https://www.glassdoor.com, http://www.careercup.com, and http://codekata.pragprog.com that will help you get up to speed.
-4. 
+### Alg:
+[Leetcode](https://leetcode.com/)
+[G4G](https://www.geeksforgeeks.org)
+[CTCI](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+[EPI](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
+
+### DS:
+[Alg 4th](https://www.amazon.com/gp/product/032157351X)
+[Alg Design](https://www.amazon.com/gp/product/1849967202)
+[class SU](https://www.coursera.org/specializations/algorithms)
+[Google](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
+[mycodeschool]https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
+[MIT](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+
+### OOP:
+[GOOPI](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
+[PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
+
+### SD:
+[pramp](https://github.com/donnemartin/system-design-primer)
+[GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
+[youtube](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
+[youtube2](https://www.youtube.com/watch?v=jItLuOTsCX4)
+
+### Swift:
+[doc](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+[guide](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
+
+### More:
+[blind](teamblind.com)
+[lvls](levels.fyi)
+
 
 # Top questions
 [[⬆]](#contents)
@@ -57,9 +85,8 @@
 2. GCD, MULTITHREADING, nsoperationQ
 3. uitvc
 == Alg
-==SD/oop
-==
-[top1](https://leetcode.com/)[top2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)[top3](https://github.com/donnemartin/system-design-primer)[top4](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_2?gclid=CjwKCAjwsIbpBRBNEiwAZF8-z4ZBzLJdmlX3gZnhch0GnwJGQMEfHq5GbpAx8Swzol7jepPr7GM_khoC_T8QAvD_BwE&hvadid=241871313066&hvdev=c&hvlocphy=9032040&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=31244938628313589&hvtargid=kwd-45531460717&hydadcr=16435_10305567&keywords=elements+of+programming+interviews&qid=1562540501&s=gateway&sr=8-2)[top5](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
+== SD/oop
+
 
 ### iOS
 1. UIKit
@@ -975,6 +1002,7 @@ constraints[link](https://stackoverflow.com/questions/26180822/how-to-add-constr
 
 <details><summary>point(inside:with:) vs hitTest(_:with:)</summary></details>
 <details><summary>NSAttributedString</summary></details>
+
 ## Patterns 
 [[⬆]](#contents)
 
