@@ -264,6 +264,11 @@ String:
 3. Longest substring without repeating
 4. Tasks scheduler
 5. Median of two sorted arrays
+6. TSP
+7. KS
+8. Topological sort
+9. MST
+10. RB/AB Trees
 
 ### Swift 
 - MRC and ARC
@@ -4912,7 +4917,7 @@ Rx->MVVM->MVVM-C->Realm->Kotlin->RN
 - Max/Min Heap, PriorityQ, AVL Tree/ RB Tree
 - Splay tree, ABTree
 - Minimum spamming tree
-- Topological sort
+- Topological sort, MST, RB/AB Trees
 - bomberman, grid, tree, dp, 2 bfs, merging
 
 - Union-Find [link](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Union-Find)
