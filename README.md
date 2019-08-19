@@ -50,30 +50,32 @@
 [EPI](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
 
 ### DS:
-[Alg 4th](https://www.amazon.com/gp/product/032157351X)
-[Alg Design](https://www.amazon.com/gp/product/1849967202)
-[class SU](https://www.coursera.org/specializations/algorithms)
-[Google](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
-[mycodeschool]https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-[MIT](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [Alg 4th](https://www.amazon.com/gp/product/032157351X)
+- [Alg Design](https://www.amazon.com/gp/product/1849967202)
+- [class SU](https://www.coursera.org/specializations/algorithms)
+- [Google](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
+- [mycodeschool](https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+- [MIT](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
 ### OOP:
-[GOOPI](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
-[PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
+- [GOOPI](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
+- [PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
 
 ### SD:
-[pramp](https://github.com/donnemartin/system-design-primer)
-[GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
-[youtube](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
-[youtube2](https://www.youtube.com/watch?v=jItLuOTsCX4)
+- [pramp](https://github.com/donnemartin/system-design-primer)
+- [GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
+- [youtube](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
+- [youtube2](https://www.youtube.com/watch?v=jItLuOTsCX4)
+- [HT](https://www.hiredintech.com/courses/system-design)
+- [HS](http://highscalability.com/)
 
 ### Swift:
-[doc](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-[guide](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
+- [doc](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+- [guide](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
 
 ### More:
-[blind](teamblind.com)
-[lvls](levels.fyi)
+- [blind](teamblind.com)
+- [lvls](levels.fyi)
 
 
 # Top questions
@@ -4849,7 +4851,7 @@ swift
 21. https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
 22. https://docs.google.com/document/d/1tIyrbbTAzeiwMO0Fshfh2PQNPDZ7cuunCPiu1vnc8Ic/edit
 
-## 2018 - goals
+<details><summary>2018</summary>
 - FullStack(python+React)
 - ANGEL
 - git, stack, libs
@@ -4857,8 +4859,8 @@ swift
 - MVVM+Rx/Kotlin
 
 -- Chatbot
-
-## 2019
+</details>
+<details><summary>2019</summary>
 
 0. 42->300
 1. Leet
@@ -5017,7 +5019,7 @@ web security
 	
 - Talks, blog 
 	</details>
-
+</details>
 ## 2020(300)
 
 1. iOS(Swift, Objective-C, C++)
