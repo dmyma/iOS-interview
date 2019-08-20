@@ -52,6 +52,7 @@
 ### DS:
 - [Alg 4th](https://www.amazon.com/gp/product/032157351X)
 - [Alg Design](https://www.amazon.com/gp/product/1849967202)
+- [Intro](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp)
 - [class SU](https://www.coursera.org/specializations/algorithms)
 - [Google](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
 - [mycodeschool](https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
