@@ -48,6 +48,8 @@
 - [G4G](https://www.geeksforgeeks.org)
 - [CTCI](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 - [EPI](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
+- [CF](http://codeforces.com)
+- [CC](codechef.com)
 
 ### DS:
 - [Alg 4th](https://www.amazon.com/gp/product/032157351X)
