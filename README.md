@@ -271,6 +271,7 @@ String:
 8. Topological sort
 9. MST
 10. RB/AB Trees
+11. Segment Tree
 
 ### Swift 
 - MRC and ARC
