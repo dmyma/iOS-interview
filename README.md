@@ -260,7 +260,8 @@ Strings:
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
 
 Graphs:
-1. Topological sort: MST, Dijkstra, Floyd Warshall, Prim, Kruskal
+1. Topological sort: MST, Prim, Kruskal
+2. Shortest Path: Dijkstra, Floyd Warshall, Bellman Ford
 2. Union Find
 
 Other:
