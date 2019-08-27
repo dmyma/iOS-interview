@@ -256,13 +256,14 @@ Header types
 Recursion:
 1. gcd euclidean algorithm
 
-String:
+Strings:
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
-1.01 Manacher's Algorithm(LPS)
-1.1 Kaddan
-1.2 Dijkstra, Floyd Warshall, Union Find, Prim, Kruskal 
-1.3 Reverse Morris In-order Traversal
-1.4 A* star search
+
+Graphs:
+1. Topological sort: MST, Dijkstra, Floyd Warshall, Prim, Kruskal
+2. Union Find
+
+Other:
 1. Hadlock's Algorithm
 2. Add two numbers iterative approach 
 3. Longest substring without repeating
@@ -270,10 +271,12 @@ String:
 5. Median of two sorted arrays
 6. TSP
 7. KS
-8. Topological sort
-9. MST
+8. Kaddan
+9. Manacher's Algorithm(LPS)
 10. RB/AB Trees
 11. Segment Tree
+12.  Reverse Morris In-order Traversal
+13. A* star search
 
 ### Swift 
 - MRC and ARC
