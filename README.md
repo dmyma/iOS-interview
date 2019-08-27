@@ -260,8 +260,8 @@ Strings:
 1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
 
 Graphs:
-1. Topological sort: MST, Prim, Kruskal
-2. Shortest Path: Dijkstra, Floyd Warshall, Bellman Ford
+1. Topological sort: MST, Prim(min), Kruskal(connected)
+2. Shortest Path: Dijkstra, Bellman Ford(n-1), Floyd Warshall(all)
 2. Union Find
 
 Other:
@@ -276,7 +276,7 @@ Other:
 9. Manacher's Algorithm(LPS)
 10. RB/AB Trees
 11. Segment Tree
-12.  Reverse Morris In-order Traversal
+12. Reverse Morris In-order Traversal
 13. A* star search
 
 ### Swift 
