@@ -262,7 +262,8 @@ Strings:
 Graphs:
 1. Topological sort: MST, Prim(min), Kruskal(connected)
 2. Shortest Path: Dijkstra, Bellman Ford(n-1), Floyd Warshall(all)
-2. Union Find
+3. Union Find
+4. Hamiltonian(V) and Euler(E) paths
 
 Other:
 1. Hadlock's Algorithm
