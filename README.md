@@ -4863,6 +4863,11 @@ swift
 21. https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
 22. https://docs.google.com/document/d/1tIyrbbTAzeiwMO0Fshfh2PQNPDZ7cuunCPiu1vnc8Ic/edit
 
+
+1. https://paulhanna1933.github.io/
+2. https://medium.com/better-programming/how-to-write-an-ios-developer-resume-that-will-land-you-an-interview-43cf66c6d4fa
+3. https://uxplanet.org/ux-design-portfolios-best-practices-8676e6a72ab
+4. https://www.raywenderlich.com/862-top-8-programmer-hobbies
 <details><summary>2018</summary>
 - FullStack(python+React)
 - ANGEL
