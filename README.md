@@ -4868,6 +4868,8 @@ swift
 2. https://medium.com/better-programming/how-to-write-an-ios-developer-resume-that-will-land-you-an-interview-43cf66c6d4fa
 3. https://uxplanet.org/ux-design-portfolios-best-practices-8676e6a72ab
 4. https://www.raywenderlich.com/862-top-8-programmer-hobbies
+5. https://resume.creddle.io/resume/5n9dp9okfvo 
+
 <details><summary>2018</summary>
 - FullStack(python+React)
 - ANGEL
