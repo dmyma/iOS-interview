@@ -280,6 +280,7 @@ Other:
 11. Segment Tree
 12. Reverse Morris In-order Traversal
 13. A* star search
+14. knuth fisher yates
 
 ### Swift 
 - MRC and ARC
