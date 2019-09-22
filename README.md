@@ -281,6 +281,8 @@ Other:
 12. Reverse Morris In-order Traversal
 13. A* star search
 14. knuth fisher yates
+15. Tarjan’s algorithm
+16. huffman coding
 
 ### Swift 
 - MRC and ARC
