@@ -265,6 +265,10 @@ Graphs:
 2. Shortest Path: Dijkstra, Bellman Ford(n-1), Floyd Warshall(all)
 3. Union Find
 4. Hamiltonian(V) and Euler(E) paths
+5. Dinic's algorithm
+6. Edmonds Karp algorithm
+7. Johnson algoritm
+8. Tarjan’s algorithm
 
 Other:
 1. Hadlock's Algorithm
@@ -281,7 +285,6 @@ Other:
 12. Reverse Morris In-order Traversal
 13. A* star search
 14. knuth fisher yates
-15. Tarjan’s algorithm
 16. huffman coding
 
 ### Swift 
