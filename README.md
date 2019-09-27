@@ -285,7 +285,9 @@ Other:
 12. Reverse Morris In-order Traversal
 13. A* star search
 14. knuth fisher yates
-16. huffman coding
+15. huffman coding
+16. Hierholzer's Algorithm
+17. Inverse Burrows-Wheeler Transform
 
 ### Swift 
 - MRC and ARC
