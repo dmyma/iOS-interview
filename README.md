@@ -288,6 +288,7 @@ Other:
 15. huffman coding
 16. Hierholzer's Algorithm
 17. Inverse Burrows-Wheeler Transform
+18. Hungarian Algorithm
 
 ### Swift 
 - MRC and ARC
