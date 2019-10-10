@@ -258,7 +258,8 @@ Recursion:
 1. gcd euclidean algorithm
 
 Strings:
-1. Rabin - Karp ; KMP ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
+1. KMP
+2. Rabin - Karp ; Z ; Boyer - Moore ; Finite Automata; Horspool; Aho–Corasick
 
 Graphs:
 1. Topological sort: MST, Prim(min), Kruskal(connected)
@@ -269,6 +270,9 @@ Graphs:
 6. Edmonds Karp algorithm
 7. Johnson algoritm
 8. Tarjan’s algorithm
+
+LL:
+1 .Floyd's Tortoise and Hare
 
 Other:
 1. Hadlock's Algorithm
