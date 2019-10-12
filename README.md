@@ -293,6 +293,7 @@ Other:
 16. Hierholzer's Algorithm
 17. Inverse Burrows-Wheeler Transform
 18. Hungarian Algorithm
+19. Fenwick Tree
 
 ### Swift 
 - MRC and ARC
