@@ -4058,7 +4058,6 @@ STAR about the project and people
 
 ## Learning
 [[⬆]](#contents)
-<details><summary>MVVM</summary>https://github.com/auth0-tutorials/mvvm_viper/</details>    
 <details><summary>POP</summary>https://www.raywenderlich.com/148448/introducing-protocol-oriented-programming</details> 
 <details><summary>FPR</summary> ReactiveKit + Bond - https://gist.github.com/JaviLorbada/4a7bd6129275ebefd5a6</details>
 
@@ -4066,7 +4065,9 @@ STAR about the project and people
 <details><summary>Testing</summary> Quick, Nimble, Mockingjay - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble , - https://www.allaboutswift.com/dev/2016/4/3/writing-tests-with-quick-nimble</details> 
 <details><summary>CA, CD</summary> </details> 
 <details><summary>General</summary>https://www.youtube.com/watch?v=56ZO6Gg68tw&index=10&list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA</details> 
-<details><summary>MVVM</summary>+(ReactiveKIt+Bond)+(Alamofire+ObjectMapper)+Quick,Nimble, Mockingjay+CD+CA ?? POP</details> 
+<details><summary>MVVM</summary>+(ReactiveKIt+Bond)+(Alamofire+ObjectMapper)+Quick,Nimble, Mockingjay+CD+CA ?? POP
+https://github.com/auth0-tutorials/mvvm_viper
+</details> 
 <details><summary>CI and testings</summary>fastlane+CircleCI, Travis, Jenkis</details> 
 <details><summary>CGD and networking</summary></details> 
 <details><summary>profiling with instruments</summary></details> 
