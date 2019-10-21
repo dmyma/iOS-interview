@@ -294,6 +294,7 @@ Other:
 17. Inverse Burrows-Wheeler Transform
 18. Hungarian Algorithm
 19. Fenwick Tree
+20. Newton's Method
 
 ### Swift 
 - MRC and ARC
