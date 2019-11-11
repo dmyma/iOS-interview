@@ -442,5 +442,32 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 <details><summary>Mediator</summary> reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.</details>
 <details><summary>Interpreter</summary></details>
 <details><summary>Iterator</summary></details>
+<details> <summary>What is OOP?</summary>
+Inheritance - allowas a class to be definde as a modified or more specialized version of another class
+Polymorphism - the capability to provide multiple implementations of an action and to select the correct implementation based on the surrounding context.override</details>
+<details> <summary>What is POP?</summary></details>
+
+interface, abstract class class/protocol
+<details> <summary>What are the pros and cons of inheritance?</summary></details>
+<details> <summary>What is polymorphism?</summary></details>
+<details> <summary>What is tight coupling?</summary></details>
+<details> <summary>What are design patterns and how they are good?</summary></details>
+<details> <summary>Tell me some important design patterns used in iOS?</summary></details>
+<details> <summary>What is singleton?</summary></details>
+<details> <summary>What challenges you have encounter implementing MVC?</summary></details>
+<details> <summary>What is MVVM and why you will use it?</summary></details>
+<details> <summary>What is dependency injection, how it is good?</summary></details>
+
+<details> <summary>Decorator vs Inheritance</summary></details>
+<details> <summary>App Architecture</summary>
+1. MVC
+2. Viper
+3. MVP
+4. MVVC
+5. MVVM-C
+6. MVVM-A
+
+http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
+</details>
 
 
