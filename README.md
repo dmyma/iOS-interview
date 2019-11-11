@@ -60,6 +60,7 @@
 - [GOOPI](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
 - [PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
 - [Patterns of Design](https://github.com/ochococo/Design-Patterns-In-Swift)
+- [Patterns](https://sourcemaking.com/design_patterns)
 
 ## Behavioral - [Amazon 14 principals](https://www.youtube.com/watch?v=RzlUQCy84rQ)
 
@@ -402,3 +403,8 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 
 
 </details> 
+
+<img src="designpatterns1.jpg" width="301" height="400">
+<img src="designpatterns2.jpg" width="301" height="400">
+
+
