@@ -1579,7 +1579,6 @@ Inheritance - allowas a class to be definde as a modified or more specialized ve
 Polymorphism - the capability to provide multiple implementations of an action and to select the correct implementation based on the surrounding context.override</details>
 <details> <summary>What is POP?</summary></details>
 
-interface, abstract class class/protocol
 <details> <summary>What are the pros and cons of inheritance?</summary></details>
 <details> <summary>What is polymorphism?</summary></details>
 <details> <summary>What is tight coupling?</summary></details>
