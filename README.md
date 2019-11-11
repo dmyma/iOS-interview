@@ -186,7 +186,7 @@ Value Types and Reference Types A major difference between enums and structs, on
 <details><summary>What design patterns are commonly used in iOS apps?</summary></details>
 <details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
 <details><summary>How do you manage dependencies in iOS applications?</summary></details>
-<details><summary>What is Functional Programming and Functional Reactive Programming?</summary>
+<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
 <img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
 <details><summary>App Delegate Methods</summary>
 -UIApplicationDidFinishLaunching
