@@ -171,82 +171,7 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 </details>
 
-<details><summary>App Delegate Methods</summary>
--UIApplicationDidFinishLaunching
--UIApplicationWillResignActive
--UIApplicationDidBecomeActive
--UIApplicationWillEnterForeground
--UIApplicationDidEnterBackground
--UIApplicationwillterminate
-	</details>
-<details><summary>App States</summary>
-### States
 
-Apps developed for early iOS versions (before iOS 4.0) supported three states: non-running, inactive, and active. An application delegate for pre-iOS 4.0 apps received two important method calls: applicationDidFinishLaunching and applicationWillTerminate. When an app received an applicationDidFinishLaunching message, it was an opportunity for information to be retrieved from the previous launch to restore the app to its last used state. The status, applicationWillTerminate, was used to notify the app when the app was preparing to shut down. This gave the developer an opportunity to save any unsaved data or specific state information.
-
-Currently, there are five possible application states that would be cause for the app to prepare for a transition - such as a shutdown or moving to the background. In certain cases, an app might need to continue processing in the background. However, there is certainly no reason for the app to process any graphics, animations, or display-specific routines. The five states of an iOS app - as listed in the iOS App Programming Guide - include the following:
-
-- Non-running - The app is not running.
-- Inactive - The app is running in the foreground, but not receiving events. An iOS app can be placed into an inactive state, for example, when a call or SMS message is received.
-- Active - The app is running in the foreground, and receiving events.
-- Background - The app is running in the background, and executing code.
-- Suspended - The app is in the background, but no code is being executed.
-- The seven most important application delegate methods
-
-The operating system calls specific methods within the application delegate to facilitate transitioning to and from various states. The seven most important application delegate methods a developer should handle are:
-
-### application:willFinishLaunchingWithOptions
-Method called when the launch process is initiated. This is the first opportunity to execute any code within the app.
-
-### application:didFinishLaunchingWithOptions
-Method called when the launch process is nearly complete. Since this method is called is before any of the app's windows are displayed, it is the last opportunity to prepare the interface and make any final adjustments.
-
-### applicationDidBecomeActive
-Once the application has become active, the application delegate will receive a callback notification message via the method applicationDidBecomeActive.
-
-This method is also called each time the app returns to an active state from a previous switch to inactive from a resulting phone call or SMS.
-
-### applicationWillResignActive
-There are several conditions that will spawn the applicationWillResignActive method. Each time a temporary event, such as a phone call, happens this method gets called. It is also important to note that "quitting" an iOS app does not terminate the processes, but rather moves the app to the background.
-
-### applicationDidEnterBackground
-This method is called when an iOS app is running, but no longer in the foreground. In other words, the user interface is not currently being displayed. According to Apple's UIApplicationDelegate Protocol Reference, the app has approximately five seconds to perform tasks and return. If the method does not return within five seconds, the application is terminated.
-
-### applicationWillEnterForeground
-This method is called as an app is preparing to move from the background to the foreground. The app, however, is not moved into an active state without the applicationDidBecomeActive method being called. This method gives a developer the opportunity to re-establish the settings of the previous running state before the app becomes active.
-
-### applicationWillTerminate
-This method notifies your application delegate when a termination event has been triggered. Hitting the home button no longer quits the application. Force quitting the iOS app, or shutting down the device triggers the applicationWillTerminate method. This is the opportunity to save the application configuration, settings, and user preferences.
-
-### Application state changes
-
-Every iOS app is always in one of the five app states. The operating system manages the app state, but the app itself is responsible for managing important tasks to ensure smooth transitions between the states. Developers are required to respond appropriately to app state transitions.
-
-With multitasking capability, the latest iOS version manages the resources available to every app. It is important to note, however, that the operating system limits what an app can do in the background. If an app needs to continue running in the background (with limited functionality), you must request permission.
-
-### Launching the app
-
-The moment a user taps the app icon, the app begins to change state. The app delegate receives an application:willFinishLaunchingWithOptions method call, and the app state changes from non-running to inactive. Once in the inactive state, the app delegate will receive an application:didFinishLaunchingWithOptions method call, giving the app an opportunity to make final adjustments before the interface is displayed. If the app has not been designed to launch in the background, the operating system will activate the app, set the app state to active, and send the applicationDidBecomeActive method call to the app delegate.
-
-### Interruptions
-
-On occasion, the iOS app will need to respond to interruptions. An alert-based interruption - such as a phone call - causes the app to move into an inactive state. The app delegate will receive an applicationWillResignActive method call, allowing the app an opportunity to prepare for a temporary inactive state. If the user chooses to ignore the interruption, or the interrupting process has terminated, the app will move back into the active state. While making the transition from inactive to active, the app delegate will receive an applicationDidBecomeActive method call.
-
-### Switching to the background
-
-The iOS devices make it simple to quickly switch from app to app; when a user switches to a different app, the current app moves to the background. The app can be in one of two states: background or suspended. In either case, and before switching to the background, the app delegate receives an applicationWillResignActive method call, followed by an applicationDidEnterBackground message. If in a suspended state, the app sleeps. A background state - meaning that the app is allowed to continue executing code - requires the app to monitor and handle events. Developers need to be aware that the operating system may terminate the app at any time.#
-</details>
-<details><summary>UIViewController lifecycle</summary>
-viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
-viewWillApear - changing over display, geometry set, optimise performance,
-viewWillLAyoutSubviews - called when frames changed
-viewDidlayoutSubviews
-viewDidApear - 
-viewWillDisapear - remember whats going on and clean up, no time consuming
-viewDidDisapear
-</details>
-<img src="Lifecycle.png" width="301" height="400"> 
-<img src="PushNotifications.png" width="301" height="400">
 <details><summary>Memory Management</summary>
 - Core Data
 - SQL
@@ -536,6 +461,981 @@ init method are not so common because properties can have their defaults set usi
 or properties can be optionals
 you can use lazy
 So you only need init when a value can’t be set in any of these ways</details>
+
+<details><summary>App Delegate Methods</summary>
+-UIApplicationDidFinishLaunching
+-UIApplicationWillResignActive
+-UIApplicationDidBecomeActive
+-UIApplicationWillEnterForeground
+-UIApplicationDidEnterBackground
+-UIApplicationwillterminate
+	</details>
+<details><summary>App States</summary>
+### States
+
+Apps developed for early iOS versions (before iOS 4.0) supported three states: non-running, inactive, and active. An application delegate for pre-iOS 4.0 apps received two important method calls: applicationDidFinishLaunching and applicationWillTerminate. When an app received an applicationDidFinishLaunching message, it was an opportunity for information to be retrieved from the previous launch to restore the app to its last used state. The status, applicationWillTerminate, was used to notify the app when the app was preparing to shut down. This gave the developer an opportunity to save any unsaved data or specific state information.
+
+Currently, there are five possible application states that would be cause for the app to prepare for a transition - such as a shutdown or moving to the background. In certain cases, an app might need to continue processing in the background. However, there is certainly no reason for the app to process any graphics, animations, or display-specific routines. The five states of an iOS app - as listed in the iOS App Programming Guide - include the following:
+
+- Non-running - The app is not running.
+- Inactive - The app is running in the foreground, but not receiving events. An iOS app can be placed into an inactive state, for example, when a call or SMS message is received.
+- Active - The app is running in the foreground, and receiving events.
+- Background - The app is running in the background, and executing code.
+- Suspended - The app is in the background, but no code is being executed.
+- The seven most important application delegate methods
+
+The operating system calls specific methods within the application delegate to facilitate transitioning to and from various states. The seven most important application delegate methods a developer should handle are:
+
+### application:willFinishLaunchingWithOptions
+Method called when the launch process is initiated. This is the first opportunity to execute any code within the app.
+
+### application:didFinishLaunchingWithOptions
+Method called when the launch process is nearly complete. Since this method is called is before any of the app's windows are displayed, it is the last opportunity to prepare the interface and make any final adjustments.
+
+### applicationDidBecomeActive
+Once the application has become active, the application delegate will receive a callback notification message via the method applicationDidBecomeActive.
+
+This method is also called each time the app returns to an active state from a previous switch to inactive from a resulting phone call or SMS.
+
+### applicationWillResignActive
+There are several conditions that will spawn the applicationWillResignActive method. Each time a temporary event, such as a phone call, happens this method gets called. It is also important to note that "quitting" an iOS app does not terminate the processes, but rather moves the app to the background.
+
+### applicationDidEnterBackground
+This method is called when an iOS app is running, but no longer in the foreground. In other words, the user interface is not currently being displayed. According to Apple's UIApplicationDelegate Protocol Reference, the app has approximately five seconds to perform tasks and return. If the method does not return within five seconds, the application is terminated.
+
+### applicationWillEnterForeground
+This method is called as an app is preparing to move from the background to the foreground. The app, however, is not moved into an active state without the applicationDidBecomeActive method being called. This method gives a developer the opportunity to re-establish the settings of the previous running state before the app becomes active.
+
+### applicationWillTerminate
+This method notifies your application delegate when a termination event has been triggered. Hitting the home button no longer quits the application. Force quitting the iOS app, or shutting down the device triggers the applicationWillTerminate method. This is the opportunity to save the application configuration, settings, and user preferences.
+
+### Application state changes
+
+Every iOS app is always in one of the five app states. The operating system manages the app state, but the app itself is responsible for managing important tasks to ensure smooth transitions between the states. Developers are required to respond appropriately to app state transitions.
+
+With multitasking capability, the latest iOS version manages the resources available to every app. It is important to note, however, that the operating system limits what an app can do in the background. If an app needs to continue running in the background (with limited functionality), you must request permission.
+
+### Launching the app
+
+The moment a user taps the app icon, the app begins to change state. The app delegate receives an application:willFinishLaunchingWithOptions method call, and the app state changes from non-running to inactive. Once in the inactive state, the app delegate will receive an application:didFinishLaunchingWithOptions method call, giving the app an opportunity to make final adjustments before the interface is displayed. If the app has not been designed to launch in the background, the operating system will activate the app, set the app state to active, and send the applicationDidBecomeActive method call to the app delegate.
+
+### Interruptions
+
+On occasion, the iOS app will need to respond to interruptions. An alert-based interruption - such as a phone call - causes the app to move into an inactive state. The app delegate will receive an applicationWillResignActive method call, allowing the app an opportunity to prepare for a temporary inactive state. If the user chooses to ignore the interruption, or the interrupting process has terminated, the app will move back into the active state. While making the transition from inactive to active, the app delegate will receive an applicationDidBecomeActive method call.
+
+### Switching to the background
+
+The iOS devices make it simple to quickly switch from app to app; when a user switches to a different app, the current app moves to the background. The app can be in one of two states: background or suspended. In either case, and before switching to the background, the app delegate receives an applicationWillResignActive method call, followed by an applicationDidEnterBackground message. If in a suspended state, the app sleeps. A background state - meaning that the app is allowed to continue executing code - requires the app to monitor and handle events. Developers need to be aware that the operating system may terminate the app at any time.#
+</details>
+<details><summary>UIViewController lifecycle</summary>
+viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
+viewWillApear - changing over display, geometry set, optimise performance,
+viewWillLAyoutSubviews - called when frames changed
+viewDidlayoutSubviews
+viewDidApear - 
+viewWillDisapear - remember whats going on and clean up, no time consuming
+viewDidDisapear
+</details>
+
+<img src="Lifecycle.png" width="301" height="400"> 
+<img src="PushNotifications.png" width="301" height="400">
+
+
+<details><summary>FPR</summary>+MAth
+	
+```swift
+func incr(_ x: Int) -> Int {
+  return x + 1
+}
+
+incr(2)
+
+func square(_ x: Int) -> Int {
+  return x * x
+}
+
+square(incr(2))
+
+extension Int {
+  func incr() -> Int {
+    return self + 1
+  }
+
+  func square() -> Int {
+    return self * self
+  }
+}
+
+2.incr()
+2.incr().square()
+
+precedencegroup ForwardApplication {
+  associativity: left
+}
+
+infix operator |>: ForwardApplication
+
+func |> <A, B>(x: A, f: (A) -> B) -> B {
+  return f(x)
+}
+
+2 |> incr |> square
+
+extension Int {
+  func incrAndSquare() -> Int {
+    return self.incr().square()
+  }
+}
+
+precedencegroup ForwardComposition {
+  higherThan: ForwardApplication
+  associativity: right
+}
+infix operator >>>: ForwardComposition
+
+func >>> <A, B, C>(_ f: @escaping (A) -> B, _ g: @escaping (B) -> C) -> ((A) -> C) {
+  return { a in g(f(a)) }
+}
+
+2 |> incr >>> square
+
+[1, 2, 3]
+  .map(square)
+  .map(incr)
+
+[1, 2, 3]
+  .map(square >>> incr)
+```
+
+
+</details>
+
+<details><summary>POP</summary>
+	Abstraction, encapsulation, iheritance(composition), polymorphism
+A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
+	Protocol dynamicly dispatch methods
+	Protocol Extension staticly dispatch methods
+	Protoxcol Composition
+	
+	
+	An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
+	reversedrandomacesscollection<Array<int>
+	
+	
+	
+	Conditional Conformance in protocols
+	- Protocols: https://useyourloaf.com/blog/swift-equatable-and-comparable/
+</details>
+
+<details><summary>Class vs Struct</summary>
+	
+	- Class: CALayer, CGImage, UIView
+	- Struck: CGRect, CGPoint, 
+	Since struct instances are allocated on stack, and class instances are allocated on heap, structs can sometimes be drastically faster.
+
+
+use struct unless need to use class only features or class semantics
+	ref vs value
+	reference cycle
+	initialisers
+	inheritance
+	Classes and structures in Swift have many things in common. Both can:
+
+Define properties to store values
+
+Define methods to provide functionality
+
+Define subscripts to provide access to their values using subscript syntax
+
+Define initializers to set up their initial state
+
+Be extended to expand their functionality beyond a default implementation
+
+Conform to protocols to provide standard functionality of a certain kind
+
+For more information, see Properties, Methods, Subscripts, Initialization, Extensions, and Protocols.
+
+Classes have additional capabilities that structures do not:
+
+Inheritance enables one class to inherit the characteristics of another.
+
+Type casting enables you to check and interpret the type of a class instance at runtime.
+
+Deinitializers enable an instance of a class to free up any resources it has assigned.
+
+Reference counting allows more than one reference to a class instance.
+
+For more information, see Inheritance, Type Casting, Deinitialization, and Automatic Reference Counting.
+
+As a general guideline, consider creating a structure when one or more of these conditions apply:
+
+The structure’s primary purpose is to encapsulate a few relatively simple data values.
+
+It is reasonable to expect that the encapsulated values will be copied rather than referenced when you assign or pass around an instance of that structure.
+
+Any properties stored by the structure are themselves value types, which would also be expected to be copied rather than referenced.
+
+The structure does not need to inherit properties or behavior from another existing type.
+
+Examples of good candidates for structures include:
+
+The size of a geometric shape, perhaps encapsulating a width property and a height property, both of type Double.
+
+A way to refer to ranges within a series, perhaps encapsulating a start property and a length property, both of type Int.
+
+A point in a 3D coordinate system, perhaps encapsulating x, y and z properties, each of type Double.
+
+Extensions can add a new continuance initializer but can not add a new designated Initializer or deinit. 
+
+</details>
+
+<details><summary>frame vs bounds</summary>
+	
+The frame of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
+The bounds of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0).
+
+scroll view
+Gesture recogniser + underhood
+</details>
+
+<details><summary>ARC</summary>
+<details><summary>BonusObj</summary>	
+	
+- Nonatomic
+
+nonatomic is used for multi threading purposes. If we have set the nonatomic attribute at the time of declaration, then any other thread wanting access to that object can access it and give results in respect to multi-threading.
+
+- Copy
+
+copy is required when the object is mutable. Use this if you need the value of the object as it is at this moment, and you don't want that value to reflect any changes made by other owners of the object. You will need to release the object when you are finished with it because you are retaining the copy.
+
+- Assign
+
+Assign is somewhat the opposite to copy. When calling the getter of an assign property, it returns a reference to the actual data. Typically you use this attribute when you have a property of primitive type (float, int, BOOL...)
+
+- Retain
+
+retain is required when the attribute is a pointer to an object. The setter generated by @synthesize will retain (aka add a retain count to) the object. You will need to release the object when you are finished with it. By using retain it will increase the retain count and occupy memory in autorelease pool.
+
+- Strong
+
+strong is a replacement for the retain attribute, as part of Objective-C Automated Reference Counting (ARC). In non-ARC code it's just a synonym for retain.
+
+- what is Auto release pool?
+The @autoreleasepool statement is doing the same job as before, instead of using the NSAutoreleasePool class. The way the NSAutoreleasePool worked was a bit weird, as creating it caused an effect throughout the whole application; @autoreleasepool creates a scoped area and makes it clearer what's within the pool and when it drains (when it goes out of scope). It's also more efficient according to Apple.
+
+- Weak
+
+weak is similar to strong except that it won't increase the reference count by 1. It does not become an owner of that object but just holds a reference to it. If the object's reference count drops to 0, even though you may still be pointing to it here, it will be deallocated from memory.
+
+- release
+- autorelease
+
+</details>
+
+Keeps track of the strong references and when this number gets to 0 release the memory
+A weak reference is a reference that does not keep a strong hold on the instance it refers to, and so does not stop ARC from disposing of the referenced instance. This behavior prevents the reference from becoming part of a strong reference cycle. You indicate a weak reference by placing the weak keyword before a property or variable declaration.
+
+Like a weak reference, an unowned reference does not keep a strong hold on the instance it refers to. Unlike a weak reference, however, an unowned reference is used when the other instance has the same lifetime or a longer lifetime. You indicate an unowned reference by placing the unowned keyword before a property or variable declaration.
+
+```swift
+lazy var someClosure: () -> String = {
+    [unowned self, weak delegate = self.delegate!] in
+    // closure body goes here
+}
+```
+
+
+
+
+	
+</details>
+
+<details><summary>UIResponderChain?</summary>
+For discrete gestures
+G is recognized-> consumes the gesture or failed-> forwards back touch event to responder chain
+-For continues gestures
+G is began->consume(calls the delegate method specified) and changed until Ended/if not match Canceled or failed->Responder chain</details>
+
+
+
+<details><summary>GCD vs NSOperationQueue</summary>
+<img src="dispatch.png" width="301" height="400">
+
+What is convcurency?
+Main thread
+api on top of GCD
+queue of task to give GCD
+queue
+1 main and 4 concurent
+
+
+
+FIFO
+- Serial queue
+predicted order
+prevent race conditions
+
+- Concurent queue
+Faster
+Unpredicted order
+
+Dependencies
+The NSOperation API provides support for dependencies. This is a powerful concept that enables developers to execute tasks in a specific order. An operation is ready when every dependency has finished executing.
+
+Observable
+The NSOperation and NSOperationQueue classes have a number of properties that can be observed, using KVO (Key Value Observing). This is another important benefit if you want to monitor the state of an operation or operation queue.
+
+Pause, Cancel, Resume
+Operations can be paused, resumed, and cancelled. Once you dispatch a task using Grand Central Dispatch, you no longer have control or insight into the execution of that task. The NSOperation API is more flexible in that respect, giving the developer control over the operation's life cycle.
+
+Control
+The NSOperationQueue also adds a number of benefits to the mix. For example, you can specify the maximum number of queued operations that can run simultaneously. This makes it easy to control how many operations run at the same time or to create a serial operation queue.
+
+Grand Central Dispatch is ideal if you just need to dispatch a block of code to a serial or concurrent queue. If you don't want to go through the hassle of creating an NSOperation subclass for a trivial task, then Grand Central Dispatch is a great alternative. Another benefit of Grand Central Dispatch is that you can keep related code together. Take a look at the following example.
+
+secure lock
+threads
+async
+</details>
+
+
+<details><summary>delegate vs notification center</summary>
+	</details>
+
+<details><summary>Collections</summary>
+	ContiguousArray
+	ArraySlice
+	
+```swift
+someArray.withUnsafeBufferPointer{ p in 
+	retyrn p
+}
+```
+copy-on-write
+
+```swift
+array.map { $0 * 2 }.filter { $0 > 100 }.reduce(0, +)
+```
+
+```swift
+bigs.flatMap { big in
+    smals.map{ smal in (big, smal)
+        
+    }
+}
+```
+
+merge dictionaries
+
+Set
+$0.substracting($1)
+  .intersection
+  .union
+  
+  flatMap vs map -> optional
+  only !nil  optionals
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID105
+Iterator: IteratorProtocol signle pass constructor next() - mutating (value semantic, but)
+sequence - serious of values that allows to iterate over
+collection - stable sequence allows iterate over times non destructively
+```swift
+var iterator = string.makeIterator()
+
+while let char = iterator.next() {
+    print(char)
+}
+```
+
+forEach
+enumarate
+AnyIterator - hides the itertor concreate type
+AnySequence
+UnfoldSequence
+SubSequence - AnySequence<Iterator.Element>
+
+
+```swift
+associatedtype SubSequence: Sequence
+	where Iterator.Element == SubSequence.Iterator.Element,
+	SubSequence.SubSequence == SubSequence
+```
+
+```swift
+let standardIn = AnySequence {
+	return AnyIterator {
+		readLine()
+	}
+}
+```
+
+"closing over", free function, dynamic/staticly dispatch
+Ranges
+Slicing
+
+Equatable
+Comparable
+Hashable - https://useyourloaf.com/blog/swift-hashable/
+
+IteratorProtocol
+Sequence
+Collection
+
+BidirectionCollection
+RandomAccesCollection
+MutableCollection
+RangeReplcaceableCollection
+Has functions
+closure expression
+Array functions
+
+Queue book p.63,65
+Stack documentation
+Indexable, Subscript
+
+JavaScript Object Notation
+Representational state transfer
+Alg
+Hasmap
+
+
+```swift
+extension List: IteratorProtocol, Sequnce 
+    where Self: Iterator.Element: COmparable{
+	mutating function func next() -> Element? {
+		return pop()
+	}
+}
+```
+
+
+</details>
+<details><summary>Optionals</summary>
+	
+```swift
+enum Optional<T>{
+	case none
+	case some(T)
+}
+```	
+	
+```swift
+let urlString = "https://img.img.jpg"
+if let url = URL(string: urlString), url.pathExtension == "jpg",
+    let data = try? Data(contentsOf: url),
+    let image = UIImage(data: data) {
+    let view = UIImageView(image: image)
+    PlaygroundPage.current.liveView = view
+}
+```
+if let/var
+
+while let/var
+
+force unwrapping
+
+optional chaining
+
+nill-Coolescing ??
+```swift
+guard let name = nameField.text where name.characters.count > 3 && name.characters.count <= 16, let range = name.rangeOfCharacterFromSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()) where range.startIndex == range.endIndex else {
+    show("name failed validation")
+    return
+}
+```
+
+submit(name)
+
+
+```swift
+for i in 0...10 where i%2 == 0{
+
+}
+```
+
+```swift
+for case let i? in maybeInts {
+
+}
+```
+
+</details>
+<details><summary>Properties</summary>
+	
+1. Stored properties store constant and variable values as part of an instance(C, S)
+ - Instances of a struct with let will not allow change the properties eventhough there are var, which is not true for class
+2. Computed properties calculate (rather than store) a value(C, S, E). Instead, they provide a getter and an optional setter to retrieve and set other properties and values indirectly.
+ - A lazy stored property is a property whose initial value is not calculated until the first time it is used
+
+3. Type properties - properties can also be associated with the type itsel.
+
+```swift
+var center: Point {
+        get {
+            let centerX = origin.x + (size.width / 2)
+            let centerY = origin.y + (size.height / 2)
+            return Point(x: centerX, y: centerY)
+        }
+        set(newCenter) {
+	set {
+            origin.x = newCenter.x - (size.width / 2)
+            origin.y = newCenter.y - (size.height / 2)
+        }
+    }
+```
+
+You must declare computed properties—including read-only computed properties—as variable properties with the var keyword, because their value is not fixed. The let keyword is only used for constant properties, to indicate that their values cannot be changed once they are set as part of instance initialization.
+
+4. Property observers can be added to stored properties you define
+
+```swift 
+class StepCounter {
+    var totalSteps: Int = 0 {
+        willSet(newTotalSteps) {
+            print("About to set totalSteps to \(newTotalSteps)")
+        }
+        didSet {
+            if totalSteps > oldValue  {
+                print("Added \(totalSteps - oldValue) steps")
+            }
+        }
+    }
+}
+```
+If you pass a property that has observers to a function as an in-out parameter, the willSet and didSet observers are always called. This is because of the copy-in copy-out memory model for in-out parameters: The value is always written back to the property at the end of the function. 
+</details>
+
+<details><summary>Initializers</summary>
+	Memberwise, Default, Convinience, Designated, Faileable, Required, 
+	
+	
+	Classes and structures must set all of their stored properties to an appropriate initial value by the time an instance of that class or structure is created. Stored properties cannot be left in an indeterminate state.
+
+You can set an initial value for a stored property within an initializer, or by assigning a default property value as part of the property’s definition. 
+deinitializer
+```swift
+struct Fahrenheit {
+    var temperature: Double
+    init() {
+        temperature = 32.0
+    }
+}
+var f = Fahrenheit()
+print("The default temperature is \(f.temperature)° Fahrenheit")
+```
+or
+```swift
+struct Fahrenheit {
+    var temperature = 32.0
+}
+```
+
+Initialization Parameters
+
+You can assign a value to a constant property at any point during initialization, as long as it is set to a definite value by the time initialization finishes. Once a constant property is assigned a value, it can’t be further modified.
+
+Swift provides a default initializer for any structure or class that provides default values for all of its properties and does not provide at least one initializer itself. The default initializer simply creates a new instance with all of its properties set to their default values.
+
+Structure types automatically receive a memberwise initializer if they do not define any of their own custom initializers. Unlike a default initializer, the structure receives a memberwise initializer even if it has stored properties that do not have default values.
+
+Initializers can call other initializers to perform part of an instance’s initialization. This process, known as initializer delegation, avoids duplicating code across multiple initializers.
+
+Note that if you define a custom initializer for a value type, you will no longer have access to the default initializer (or the memberwise initializer, if it is a structure) for that type.
+
+ --Classes vs Struct initializers
+
+You can initialize the Rect structure below in one of three ways—by using its default zero-initialized origin and size property values, by providing a specific origin point and size, or by providing a specific center point and size. These initialization options are represented by three custom initializers that are part of the Rect structure’s definition
+
+```swift
+struct Rect {
+    var origin = Point()
+    var size = Size()
+    init() {}
+    init(origin: Point, size: Size) {
+        self.origin = origin
+        self.size = size
+    }
+    init(center: Point, size: Size) {
+        let originX = center.x - (size.width / 2)
+        let originY = center.y - (size.height / 2)
+        self.init(origin: Point(x: originX, y: originY), size: size)
+    }
+}
+```
+
+All of a class’s stored properties—including any properties the class inherits from its superclass—must be assigned an initial value during initialization.
+
+Swift defines two kinds of initializers for class types to help ensure all stored properties receive an initial value. These are known as designated initializers and convenience initializers.
+
+
+Designated initializers are the primary initializers for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain.
+
+Classes tend to have very few designated initializers, and it is quite common for a class to have only one. Designated initializers are “funnel” points through which initialization takes place, and through which the initialization process continues up the superclass chain.
+
+Every class must have at least one designated initializer. In some cases, this requirement is satisfied by inheriting one or more designated initializers from a superclass, as described in Automatic Initializer Inheritance below.
+
+Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
+
+You do not have to provide convenience initializers if your class does not require them. Create convenience initializers whenever a shortcut to a common initialization pattern will save time or make initialization of the class clearer in intent.
+```swift
+ init() {
+ }
+ 
+convenience init() {
+ }
+```
+
+To simplify the relationships between designated and convenience initializers, Swift applies the following three rules for delegation calls between initializers:
+
+Rule 1
+A designated initializer must call a designated initializer from its immediate superclass.
+
+Rule 2
+A convenience initializer must call another initializer from the same class.
+
+Rule 3
+A convenience initializer must ultimately call a designated initializer.
+
+A simple way to remember this is:
+
+Designated initializers must always delegate up.
+
+Convenience initializers must always delegate across.
+
+
+
+Two-Phase Initialization
+Class initialization in Swift is a two-phase process. In the first phase, each stored property is assigned an initial value by the class that introduced it. Once the initial state for every stored property has been determined, the second phase begins, and each class is given the opportunity to customize its stored properties further before the new instance is considered ready for use.
+
+The use of a two-phase initialization process makes initialization safe, while still giving complete flexibility to each class in a class hierarchy. Two-phase initialization prevents property values from being accessed before they are initialized, and prevents property values from being set to a different value by another initializer unexpectedly.
+
+Swift’s compiler performs four helpful safety-checks to make sure that two-phase initialization is completed without error:
+
+Safety check 1
+A designated initializer must ensure that all of the properties introduced by its class are initialized before it delegates up to a superclass initializer.
+
+As mentioned above, the memory for an object is only considered fully initialized once the initial state of all of its stored properties is known. In order for this rule to be satisfied, a designated initializer must make sure that all of its own properties are initialized before it hands off up the chain.
+
+Safety check 2
+A designated initializer must delegate up to a superclass initializer before assigning a value to an inherited property. If it doesn’t, the new value the designated initializer assigns will be overwritten by the superclass as part of its own initialization.
+
+Safety check 3
+A convenience initializer must delegate to another initializer before assigning a value to any property (including properties defined by the same class). If it doesn’t, the new value the convenience initializer assigns will be overwritten by its own class’s designated initializer.
+
+Safety check 4
+An initializer cannot call any instance methods, read the values of any instance properties, or refer to self as a value until after the first phase of initialization is complete.
+
+The class instance is not fully valid until the first phase ends. Properties can only be accessed, and methods can only be called, once the class instance is known to be valid at the end of the first phase.
+
+Here’s how two-phase initialization plays out, based on the four safety checks above:
+
+Phase 1
+
+A designated or convenience initializer is called on a class.
+
+Memory for a new instance of that class is allocated. The memory is not yet initialized.
+
+A designated initializer for that class confirms that all stored properties introduced by that class have a value. The memory for these stored properties is now initialized.
+
+The designated initializer hands off to a superclass initializer to perform the same task for its own stored properties.
+
+This continues up the class inheritance chain until the top of the chain is reached.
+
+Once the top of the chain is reached, and the final class in the chain has ensured that all of its stored properties have a value, the instance’s memory is considered to be fully initialized, and phase 1 is complete.
+
+Phase 2
+
+Working back down from the top of the chain, each designated initializer in the chain has the option to customize the instance further. Initializers are now able to access self and can modify its properties, call its instance methods, and so on.
+
+Finally, any convenience initializers in the chain have the option to customize the instance and to work with self.
+
+
+Conversely, if you write a subclass initializer that matches a superclass convenience initializer, that superclass convenience initializer can never be called directly by your subclass, as per the rules
+
+
+Automatic Initializer Inheritance
+As mentioned above, subclasses do not inherit their superclass initializers by default. However, superclass initializers are automatically inherited if certain conditions are met. In practice, this means that you do not need to write initializer overrides in many common scenarios, and can inherit your superclass initializers with minimal effort whenever it is safe to do so.
+
+Assuming that you provide default values for any new properties you introduce in a subclass, the following two rules apply:
+
+Rule 1
+If your subclass doesn’t define any designated initializers, it automatically inherits all of its superclass designated initializers.
+
+Rule 2
+If your subclass provides an implementation of all of its superclass designated initializers—either by inheriting them as per rule 1, or by providing a custom implementation as part of its definition—then it automatically inherits all of the superclass convenience initializers.
+
+Failable Initializers
+It is sometimes useful to define a class, structure, or enumeration for which initialization can fail. This failure might be triggered by invalid initialization parameter values, the absence of a required external resource, or some other condition that prevents initialization from succeeding.
+
+To cope with initialization conditions that can fail, define one or more failable initializers as part of a class, structure, or enumeration definition. You write a failable initializer by placing a question mark after the init keyword (init?).
+
+- Required Initializers
+</details>
+<details><summary>Generics</summary>
+	Compiler bases its decision of which overload to call on the static types  and not on values dynamic types at runtime.
+	Compile-once-and-dispatch-dynamically
+
+	
+	Can not be accros module boundaries
+	
+	Swift boxes the value in a container with fixed size to store the value, if too big swift allocates it on the heap with ref. Witness table, value witness table(vtable), protocol witness table DynamicD
+	
+	Genaric protocols - they serve a very important purpose in the swift world—defining type relationships.
+1. Generic Functions
+	
+```swift
+func swapTwoValues<T>(_ a: inout T, _ b: inout T)
+
+swapTwoValues(&someInt, &anotherInt)
+```
+
+2. Type Parameters
+
+```swift
+struct Stack<Element> {
+    var items = [Element]()
+    mutating func push(_ item: Element) {
+        items.append(item)
+    }
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+}
+	var stackOfStrings = Stack<String>()
+```
+	
+Type Constraints
+
+```swift
+	func findIndex<T: Equatable>(of valueToFind: T, in array:[T]) -> Int? {
+    for (index, value) in array.enumerated() {
+        if value == valueToFind {
+            return index
+        }
+    }
+    return nil
+
+```
+
+3. Protocols 
+
+```swift
+protocol Container {
+    associatedtype Item
+    mutating func append(_ item: Item)
+    var count: Int { get }
+    subscript(i: Int) -> Item { get }
+}
+
+struct IntStack: Container {
+    // original IntStack implementation
+    var items = [Int]()
+    mutating func push(_ item: Int) {
+        items.append(item)
+    }
+    mutating func pop() -> Int {
+        return items.removeLast()
+    }
+    // conformance to the Container protocol
+    typealias Item = Int
+    mutating func append(_ item: Int) {
+        self.push(item)
+    }
+    var count: Int {
+        return items.count
+    }
+    subscript(i: Int) -> Int {
+        return items[i]
+    }
+}
+
+struct Stack<Element>: Container {
+    // original Stack<Element> implementation
+    var items = [Element]()
+    mutating func push(_ item: Element) {
+        items.append(item)
+    }
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+    // conformance to the Container protocol
+    mutating func append(_ item: Element) {
+        self.push(item)
+    }
+    var count: Int {
+        return items.count
+    }
+    subscript(i: Int) -> Element {
+        return items[i]
+    }
+}
+```
+	Constraints
+
+```swift
+	protocol SuffixableContainer: Container {
+    associatedtype Suffix: SuffixableContainer where Suffix.Item == Item
+    func suffix(_ size: Int) -> Suffix
+}
+	
+	protocol Container {
+    associatedtype Item
+    mutating func append(_ item: Item)
+    var count: Int { get }
+    subscript(i: Int) -> Item { get }
+    
+    associatedtype Iterator: IteratorProtocol where Iterator.Element == Item
+    func makeIterator() -> Iterator
+}
+```
+
+Generic Subscripts?
+How Generics Work - book - https://developer.apple.com/videos/play/wwdc2015/409/?time=992
+</details>
+
+<details><summary>Subscripts</summary></details>
+
+<details><summary>error hadling</summary>
+	
+	throw
+	throws
+	rethrows
+	
+```swift
+func anyThrows() throws {
+	throw SomeError.error
+}
+
+func any(callback: () throws -> Void) rethrows {
+	do {
+		try callback()
+		try anyThrows() // Invalid
+	} catch {
+	throw AnotherError.error
+}
+```
+```swift
+	do {
+    y = try someThrowingFunction()
+} catch {
+    y = nil
+}
+	defer
+```
+</details>
+<details><summary>protocols
+functions</summary></details>
+
+<details><summary>Values vs References</summary></details>
+<details><summary>Closures</summary>
+Global and nested functions, as introduced in Functions, are actually special cases of closures. Closures take one of three forms:
+
+Global functions are closures that have a name and do not capture any values.
+
+Nested functions are closures that have a name and can capture values from their enclosing function.
+
+Closure expressions are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.
+
+Swift’s closure expressions have a clean, clear style, with optimizations that encourage brief, clutter-free syntax in common scenarios. These optimizations include:
+
+Inferring parameter and return value types from context
+
+Implicit returns from single-expression closures
+
+Shorthand argument names
+
+Trailing closure syntax
+
+@escaping 
+A closure is said to escape a function when the closure is passed as an argument to the function, but is called after the function returns. When you declare a function that takes a closure as one of its parameters, you can write @escaping before the parameter’s type to indicate that the closure is allowed to escape.
+Marking a closure with @escaping means you have to refer to self explicitly within the closure. For example, in the code below, the closure passed to someFunctionWithEscapingClosure(_:) is an escaping closure, which means it needs to refer to self explicitly. In contrast, the closure passed to someFunctionWithNonescapingClosure(_:) is a nonescaping closure, which means it can refer to self implicitly.
+
+@autoclosure
+An autoclosure is a closure that is automatically created to wrap an expression that’s being passed as an argument to a function. It doesn’t take any arguments, and when it’s called, it returns the value of the expression that’s wrapped inside of it. This syntactic convenience lets you omit braces around a function’s parameter by writing a normal expression instead of an explicit closure.
+
+Global function is a closure that have a name and does not capture any values
+Nested function is a closure that has a name and can capture the value from their enclosed function
+Closure expressions are unnamed closures written in lightweight syntax that can capture values from their surrounding context
+
+Inferring parameter and return value types from context
+Implicit returns from single-expression closures
+Shorthand argument names
+Trailing closure syntax
+
+
+(Closure: ()-> void) {}
+(Closure:{})
+(){}
+
+Functions can be assigned to variables and passed in and out of other functions as argument, just as an int or a string can be
+Functions can capture variables that exist outside of their local scope
+There are two ways of creating functions - either with the func word , or with {} - closure expression.
+
+</details>
+
+
+
+<details><summary>Methods</summary>
+mutating
+	If you need runtime Polymorphism - that is, you want the function to be picked based on what a variable points to and not what the type of the variable is - you should be using methods not functions.
+	
+	
+	Structures and enumerations are value types. By default, the properties of a value type cannot be modified from within its instance methods.
+Assigning to self Within a Mutating Method
+Instance Methods	
+Type Methods
+
+</details>
+
+<details><summary>other</summary>
+dynamic dispatch swift , polymorphism
+Pattern matching
+Array vs Sets
+Lazy loading
+Operator overloading
+Tupels
+Guard
+Labeled statements
+Nil coalescing
+dynamic dyspatch - compiler doesn't know at compile time which function will run.
+Subscripts enable you to query instances of a type by writing one or more values in square brackets after the instance name. Their syntax is similar to both instance method syntax and computed property syntax. You write subscript definitions with the subscript
+assert
+precondition
+autolayout/size classes priorities - hugging/compression resistance
+Hugging => content does not want to grow
+Compression Resistance => content does not want to shrink
+After solving for the required constraints, Auto Layout tries to solve all the optional constraints in priority order from highest to lowest. If it cannot solve for an optional constraint, it tries to come as close as possible to the desired result, and then moves on to the next constraint.
+
+This combination of inequalities, equalities, and priorities gives you a great amount of flexibility and power. By combining multiple constraints, you can define layouts that dynamically adapt as the size and location of the elements in your user interface change.
+
+>>>
+throw vs optional
+Operator overload
+```swift
+
+precedencegroup ExponentiationPrecedence {
+associativity: left
+higherThan: MultiplicationPrecedence
+}
+
+infix operator **: ExponentiaionPrecedence
+
+func **<T>(lhs: T, rhs: T) -> T {
+	return pow(lhs, rhs)
+}
+
+```
+</details>
+<details><summary>Swift Style Guide</summary>
+- Swift API Design Guidline 
+https://swift.org/documentation/api-design-guidelines/
+- mark final class
+- properties fileprivate
+- class public but not open
+- trailing closure syntax, except closure following immediately followed by another opening brace
+- Leave self
+- extensions instead of free functions
+</details>
 
 ```swift
 	extension Array {
