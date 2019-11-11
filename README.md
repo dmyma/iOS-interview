@@ -1,7 +1,5 @@
 # iOS-interview
 
-# iOS-interview
-
 ## <a name='contents'>Table of Contents</a>
 * [Preparation](#preparation)
 * [Phone Screen](#phone-screen)
@@ -13,7 +11,7 @@
 # Preparation
 [[⬆]](#preparation)
 -----------
-## iOS(swift)
+## iOS(swift):
 ### Theory - [swift-book](https://docs.swift.org/swift-book/) 
 ### Practical(swift knowledge) - [swift](https://repl.it/@dmyma/Swift-knowledge) 
 ### Practical(iOS knowledge) - [raywenderlich.com/](https://www.raywenderlich.com/)
