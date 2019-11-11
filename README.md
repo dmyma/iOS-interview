@@ -537,17 +537,6 @@ or properties can be optionals
 you can use lazy
 So you only need init when a value can’t be set in any of these ways</details>
 
-
-1. <details><summary>let vs var</summary></details>
-2. <details><summary>Collection in Swift</summary></details>
-3. <details><summary>raw Value vs associated</summary></details>
-4. <details><summary>If the app crashes what would you do?</summary></details>
-5. <details><summary>Singleton</summary></details>
-6. <details><summary>Ex. states of the app</summary></details>
-7. <details><summary>Swift vs ObjC</summary></details>
-8. <details><summary>Codable</summary></details>
-9. <details><summary>typles</summary></details>
-10. <details><summary>map, filter, reduce</summary>
 ```swift
 	extension Array {
     func map<T>(_ transform: (Element) -> T) -> [T] {
@@ -585,20 +574,29 @@ extension Array {
     }
 }
 ```
-
+<details><summary>let vs var</summary></details>
+<details><summary>Collection in Swift</summary></details>
+<details><summary>raw Value vs associated</summary></details>
+<details><summary>If the app crashes what would you do?</summary></details>
+<details><summary>Singleton</summary></details>
+<details><summary>Ex. states of the app</summary></details>
+<details><summary>Swift vs ObjC</summary></details>
+<details><summary>Codable</summary></details>
+<details><summary>typles</summary></details>
+<details><summary>map, filter, reduce</summary>
 </details>
-11. <details><summary>guard</summary></details>
-12. <details><summary>class vs struct</summary></details>
-13. <details><summary>error handling</summary>do, try, catch</details>
-14. <details><summary>closure vs delegate vs notification</summary>
+<details><summary>guard</summary></details>
+<details><summary>class vs struct</summary></details>
+<details><summary>error handling</summary>do, try, catch</details>
+<details><summary>closure vs delegate vs notification</summary>
 	* closure only on method
 	* delegate foe an object
 	* notification many to many
 </details>
 
-15. <details><summary>Inheritance vs Composition</summary></details>
-16. <details><summary>Bridge header and @objC</summary></details>
-17. <details><summary>Documentation</summary></details>
+<details><summary>Inheritance vs Composition</summary></details>
+<details><summary>Bridge header and @objC</summary></details>
+<details><summary>Documentation</summary></details>
 
 
 <details><summary>More</summary>
