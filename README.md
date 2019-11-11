@@ -407,4 +407,35 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 <img src="designpatterns1.jpg" width="301" height="400">
 <img src="designpatterns2.jpg" width="301" height="400">
 
+<details><summary>Singleton</summary> - ensures a class has only one instance and provides global point of access to it </details>
+<details><summary>Factory Method</summary> - define an interface for creating an object, but let the subclass decide which class to instantiate</details>
+<details><summary>ABS</summary> - provides an interface for creating families of related or depended objects without specifying heir concrete classes</details>
+<details><summary>Builder</summary> - separates the construction of a complex object from its representation so the same construction process can create different representations</details>
+<details><summary>Prototype</summary> - specify the kinds of objects to create using a prototypical instance, and creating new object by copying this prototype</details>
+
+<details><summary>Adapter</summary>  - provides a link between two otherwise incompatible types by wrapping the "adaptee" with a class that supports the interface required by the client.</details>
+<details><summary>Bridge</summary>  - separates the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.</details>
+<details><summary>Facade</summary>  - define a simplified interface to a more complex system(API)</details>
+<details><summary>Flyweight</summary>  - minimizes memory usage or computational expenses by sharing as much as possible with other similar objects.</details>
+<details><summary>Proxy</summary>  - provide a surrogate or placeholder object, which reference an underlying object.( virtual - load objects on demand, protection - restricting access)</details>
+<details><summary>Template Method</summary>  - The Template Pattern is used when two or more implementations of an algorithm exist. The template is defined and then built upon with further variations. Use this method when most (or all) subclasses need to implement the same behavior. Traditionally, this would be accomplished with abstract classes and protected methods (as in Java). However in Swift, because abstract classes don't exist (yet - maybe someday), we need to accomplish the behavior using interface delegation.(N:  Define the skeleton of an  algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing  the algorithm's structure.  )</details>
+<details><summary>Observer</summary>  - allows an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.</details>
+<details><summary>Decorator</summary>  - extends or alters the functionality of objects at run- time by wrapping them in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.(coffee)</details>
+
+<details><summary>Chain of Responsibility</summary> -  processes varied requests, each of which may be dealt with by a different handler.</details>
+<details><summary>Strategy</summary> - creates an interchangeable family of algorithms from which the required process is chosen at run-time.</details>
+<details><summary>State</summary></details>
+<details><summary>Memento</summary> (Originator, caretaker) captures the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.</details>
+
+
+<details><summary>Visitor</summary> - separates a relatively complex set of structured data classes from the functionality that may be performed upon the data that they hold.</details>
+
+
+<details><summary>Command</summary> - expresses a request, including the call to be made and all of its required parameters, in a command object. The command may then be executed immediately or held for later use.</details>
+<details><summary>Composite</summary> - creates hierarchical, recursive tree structures of related objects where any element of the structure may be accessed and utilised in a standard manner.</details>
+
+<details><summary>Mediator</summary> reduces coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.</details>
+<details><summary>Interpreter</summary></details>
+<details><summary>Iterator</summary></details>
+
 
