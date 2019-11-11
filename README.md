@@ -156,38 +156,7 @@ Classes A  class  is similar to a struct, with the following key differences: Re
 
 Value Types and Reference Types A major difference between enums and structs, on the one hand, and classes, on the other, is that enums and structs are  value types, whereas classes are  reference types. A value type is  not mutable in place, even though it seems to be. For example, consider a struct. A struct is a value type:
 </details>
-<details><summary>What is Optional in Swift and nil in Swift and Objective-C?</summary></details>
-<details><summary>What are properties and instance variables in Objective-C and Swift?</summary></details>
-<details><summary>What is a protocol (both Obj-C and Swift)? When and how is it used?</summary></details>
-<details><summary>What is a category/extension? When is it used?</summary></details>
-<details><summary>What are closures/blocks and how are they used?</summary></details>
-<details><summary>What is MVC?</summary></details>
-<details><summary>What are Singletons? What are they used for?</summary></details>
-<details><summary>What is Delegate pattern in iOS?</summary></details>
-<details><summary>What is KVO (Key-Value Observation)?</summary></details>
-<details><summary>What does iOS application lifecycle consist of?</summary></details>
-<details><summary>What is View Controller? What is its lifecycle?</summary></details>
 
-
-<details><summary>What are CGRect Frames? When and where would you use them?</summary></details>
-<details><summary>What is AutoLayout? When and where would you use it?</summary></details>
-<details><summary>What are compression resistance and content hugging priorities for?</summary></details>
-<details><summary>How does AutoLayout work with multi-threading?</summary></details>
-<details><summary>What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?</summary></details>
-<details><summary>How do you work with storyboards in a large team?</summary></details>
-<details><summary>How do you mix AutoLayout with Frames?</summary></details>
-<details><summary>What options do you have with animation on iOS?</summary></details>
-<details><summary>How do you do animation with Frames and AutoLayout?</summary></details>
-<details><summary>How do you work with UITableView?</summary></details>
-<details><summary>How do you optimize table views performance for smooth, fast scrolling?</summary></details>
-<details><summary>How do you work with UICollectionView?</summary></details>
-<details><summary>How do you work with UIScrollView?</summary></details>
-<details><summary>What is UIStackView? When would you use it and why?</summary></details>
-<details><summary>What design patterns are commonly used in iOS apps?</summary></details>
-<details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
-<details><summary>How do you manage dependencies in iOS applications?</summary></details>
-<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
-<img src="Lifecycle.png" width="301" height="400"> <img src="PushNotifications.png" width="301" height="400">
 <details><summary>App Delegate Methods</summary>
 -UIApplicationDidFinishLaunching
 -UIApplicationWillResignActive
@@ -253,7 +222,6 @@ On occasion, the iOS app will need to respond to interruptions. An alert-based i
 
 The iOS devices make it simple to quickly switch from app to app; when a user switches to a different app, the current app moves to the background. The app can be in one of two states: background or suspended. In either case, and before switching to the background, the app delegate receives an applicationWillResignActive method call, followed by an applicationDidEnterBackground message. If in a suspended state, the app sleeps. A background state - meaning that the app is allowed to continue executing code - requires the app to monitor and handle events. Developers need to be aware that the operating system may terminate the app at any time.#
 </details>
-
 <details><summary>UIViewController lifecycle</summary>
 viewDidLoad - update UI, outlets are set, bounds not set yet(no geometry)
 viewWillApear - changing over display, geometry set, optimise performance,
@@ -263,4 +231,35 @@ viewDidApear -
 viewWillDisapear - remember whats going on and clean up, no time consuming
 viewDidDisapear
 </details>
+<img src="Lifecycle.png" width="301" height="400"> 
+<img src="PushNotifications.png" width="301" height="400">
+<details><summary>What is Optional in Swift and nil in Swift and Objective-C?</summary></details>
+<details><summary>What are properties and instance variables in Objective-C and Swift?</summary></details>
+<details><summary>What is a protocol (both Obj-C and Swift)? When and how is it used?</summary></details>
+<details><summary>What is a category/extension? When is it used?</summary></details>
+<details><summary>What are closures/blocks and how are they used?</summary></details>
+<details><summary>What is MVC?</summary></details>
+<details><summary>What are Singletons? What are they used for?</summary></details>
+<details><summary>What is Delegate pattern in iOS?</summary></details>
+<details><summary>What is KVO (Key-Value Observation)?</summary></details>
+<details><summary>What does iOS application lifecycle consist of?</summary></details>
+<details><summary>What is View Controller? What is its lifecycle?</summary></details>
+<details><summary>What are CGRect Frames? When and where would you use them?</summary></details>
+<details><summary>What is AutoLayout? When and where would you use it?</summary></details>
+<details><summary>What are compression resistance and content hugging priorities for?</summary></details>
+<details><summary>How does AutoLayout work with multi-threading?</summary></details>
+<details><summary>What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?</summary></details>
+<details><summary>How do you work with storyboards in a large team?</summary></details>
+<details><summary>How do you mix AutoLayout with Frames?</summary></details>
+<details><summary>What options do you have with animation on iOS?</summary></details>
+<details><summary>How do you do animation with Frames and AutoLayout?</summary></details>
+<details><summary>How do you work with UITableView?</summary></details>
+<details><summary>How do you optimize table views performance for smooth, fast scrolling?</summary></details>
+<details><summary>How do you work with UICollectionView?</summary></details>
+<details><summary>How do you work with UIScrollView?</summary></details>
+<details><summary>What is UIStackView? When would you use it and why?</summary></details>
+<details><summary>What design patterns are commonly used in iOS apps?</summary></details>
+<details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
+<details><summary>How do you manage dependencies in iOS applications?</summary></details>
+<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
 
