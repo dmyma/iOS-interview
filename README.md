@@ -49,7 +49,7 @@
 - [PDG4](https://www.educative.io/courses/software-design-patterns-best-practices/xVovQB3Rknq)
 - [Patterns of Design](https://github.com/ochococo/Design-Patterns-In-Swift)
 
-### Behavioral - [Amazon 14 principals](https://www.youtube.com/watch?v=RzlUQCy84rQ)
+## Behavioral - [Amazon 14 principals](https://www.youtube.com/watch?v=RzlUQCy84rQ)
 
 # Phone Screen
 [[⬆]](#phone-screen)
