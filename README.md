@@ -14,13 +14,13 @@
 
 ## Portfolio
 <details><summary>Portfolio</summary>
-- http://www.inheritx.com/
-- http://100grams.nl/
-- http://ios-developer.fr/
-- scalsys.com
-- http://www.aichtechnologies.com/portfolio.php
-- https://ekatsuta.github.io/index.html
-- [CV](https://www.careercup.com/resume)
+1. http://www.inheritx.com/
+2. http://100grams.nl/
+3. http://ios-developer.fr/
+4. scalsys.com
+5. http://www.aichtechnologies.com/portfolio.php
+6. https://ekatsuta.github.io/index.html
+7. [CV](https://www.careercup.com/resume)
 </details>
 
 ## iOS(swift):
