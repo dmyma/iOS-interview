@@ -9,8 +9,19 @@
 -----------
 
 # Preparation
-[[⬆]](#preparation)
+[[⬆]](#contents)
 -----------
+
+## Portfolio
+<details><summary>Portfolio</summary>
+http://www.inheritx.com/
+http://100grams.nl/
+http://ios-developer.fr/
+scalsys.com
+http://www.aichtechnologies.com/portfolio.php
+https://ekatsuta.github.io/index.html
+</details>
+[CV](https://www.careercup.com/resume)
 ## iOS(swift):
 ### Theory - [swift-book](https://docs.swift.org/swift-book/) 
 ### Practical(swift knowledge) - [swift](https://repl.it/@dmyma/Swift-knowledge) 
@@ -52,7 +63,7 @@
 ## Behavioral - [Amazon 14 principals](https://www.youtube.com/watch?v=RzlUQCy84rQ)
 
 # Phone Screen
-[[⬆]](#phone-screen)
+[[⬆]](#contents)
 -----------
 
 ## Theory
@@ -140,7 +151,7 @@ Usually there are two questions and each can have a follow up.
 
 
 
-## Cocoa touch 
+## iOS 
 [[⬆]](#contents)
 -----------
 <details><summary>What is the diference between struct and class?</summary>
@@ -233,31 +244,113 @@ viewDidDisapear
 </details>
 <img src="Lifecycle.png" width="301" height="400"> 
 <img src="PushNotifications.png" width="301" height="400">
-<details><summary>What is Optional in Swift and nil in Swift and Objective-C?</summary></details>
-<details><summary>What are properties and instance variables in Objective-C and Swift?</summary></details>
-<details><summary>What is a protocol (both Obj-C and Swift)? When and how is it used?</summary></details>
-<details><summary>What is a category/extension? When is it used?</summary></details>
-<details><summary>What are closures/blocks and how are they used?</summary></details>
-<details><summary>What is MVC?</summary></details>
-<details><summary>What are Singletons? What are they used for?</summary></details>
-<details><summary>What is Delegate pattern in iOS?</summary></details>
-<details><summary>What is KVO (Key-Value Observation)?</summary></details>
-<details><summary>What are CGRect Frames? When and where would you use them?</summary></details>
-<details><summary>What is AutoLayout? When and where would you use it?</summary></details>
-<details><summary>What are compression resistance and content hugging priorities for?</summary></details>
-<details><summary>How does AutoLayout work with multi-threading?</summary></details>
-<details><summary>What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?</summary></details>
-<details><summary>How do you work with storyboards in a large team?</summary></details>
-<details><summary>How do you mix AutoLayout with Frames?</summary></details>
-<details><summary>What options do you have with animation on iOS?</summary></details>
-<details><summary>How do you do animation with Frames and AutoLayout?</summary></details>
-<details><summary>How do you work with UITableView?</summary></details>
-<details><summary>How do you optimize table views performance for smooth, fast scrolling?</summary></details>
-<details><summary>How do you work with UICollectionView?</summary></details>
-<details><summary>How do you work with UIScrollView?</summary></details>
-<details><summary>What is UIStackView? When would you use it and why?</summary></details>
-<details><summary>What design patterns are commonly used in iOS apps?</summary></details>
-<details><summary>What are SOLID principles? Can you give an example of each in iOS/Swift?</summary></details>
-<details><summary>How do you manage dependencies in iOS applications?</summary></details>
-<details><summary>What is Functional Programming and Functional Reactive Programming?</summary></details>
+<details><summary>Memory Management</summary>
+- Core Data
+- SQL
+- Realm
+</details>
 
+<details><summary>Advanced Threading</summary>
+	[mutex](http://www.lukeparham.com/blog/2018/6/3/comparing-synchronization-strategies)
+	[fairness](https://www.mikeash.com/pyblog/friday-qa-2017-10-27-locks-thread-safety-and-swift-2017-edition.html)
+	- thread vs queue[link](https://stackoverflow.com/questions/23166246/what-is-the-difference-between-thread-and-queue-in-ios-development)
+	- load vs initialize[link](https://www.mikeash.com/pyblog/friday-qa-2009-05-22-objective-c-class-loading-and-initialization.html)
+	</details>
+<details><summary>NSThread vs NSOperation</summary>
+NSThread:
+
+1. iOS developers have to write code for the work/process he want to perform along with for the creation and management of the threads themselves.
+2. iOS developers have to be careful about a plan of action for using threads.
+3. iOS developer have to manage posiable problems like reuseability of thread, lockings etc. by them self.
+4. Thread will consume more memory too.
+
+NSOperation:
+
+1. The NSOperation class is an abstract class which encapsulates the code and data associated with a single task.
+2. Developer needs to use subclass or one of the system-defined subclasses of NSOperation to perform the task.
+3. Add operations into NSOperationQueue to execute them.
+4. The NSOperationQueue creates a new thread for each operation and runs them in the order they are added.
+5. Operation queues handle all of the thread management, ensuring that operations are executed as quickly and efficiently as possible.
+6. An operation queue executes operations either directly by running them on secondary threads or indirectly using GCD (Grand Central Dispatch).
+7. It takes care of all of the memory management and greatly simplifies the process.
+8. If you don’t want to use an operation queue, you can also execute an operation by calling its start method. It may make your code too complex.
+</details> 
+
+  <summary>What's the difference between synchronous and asynchronous connections?</summary>
+  Do not freeze the app, canceletion, authentication, it's impossible to parse data on the fly</details>
+  <details><summary> Explain NSURLSession?</summary>
+  The NSURLSession class and related classes provide an API for downloading content via HTTP. This API provides a rich set of delegate methods for supporting authentication and gives your app the ability to perform background downloads when your app is not running or, in iOS, while your app is suspended.
+
+To use the NSURLSession API, your app creates a series of sessions, each of which coordinates a group of related data transfer tasks. For example, if you are writing a web browser, your app might create one session per tab or window. Within each session, your app adds a series of tasks, each of which represents a request for a specific URL (and for any follow-on URLs if the original URL returned an HTTP redirect).
+
+Like most networking APIs, the NSURLSession API is highly asynchronous. If you use the default, system-provided delegate, you must provide a completion handler block that returns data to your app when a transfer finishes successfully or with an error. Alternatively, if you provide your own custom delegate objects, the task objects call those delegates' methods with data as it is received from the server (or, for file downloads, when the transfer is complete).
+
+Note: Completion callbacks are primarily intended as an alternative to using a custom delegate. If you create a task using a method that takes a completion callback, the delegate methods for response and data delivery are not called.
+The NSURLSession API provides status and progress properties, in addition to delivering this information to delegates. It supports canceling, restarting (resuming), and suspending tasks, and it provides the ability to resume suspended, canceled, or failed downloads where they left off.</details>
+  <details> 
+  <summary> Explain types of NSURLSession?</summary>
+  The NSURLSession API supports three types of sessions, as determined by the type of configuration object used to create the session:
+
+- Default sessions : behave similarly to other Foundation methods for downloading URLs. They use a persistent disk-based cache and store credentials in the user's keychain.
+
+- Ephemeral sessions : do not store any data to disk; all caches, credential stores, and so on are kept in RAM and tied to the session. Thus, when your app invalidates the session, they are purged automatically.
+
+- Background sessions : are similar to default sessions, except that a separate process handles all data transfers. Background sessions have some additional limitations.
+</details>
+  
+  <details> 
+  <summary> Explain life cycle of URL Session?</summary>
+  You can use the NSURLSession API in two ways: with a system-provided delegate or with your own delegate. In general, you must use your own delegate if your app does any of the following:
+
+- Uses background sessions to download or upload content while your app is not running.
+- Performs custom authentication.
+- Performs custom SSL certificate verification.
+- Decides whether a transfer should be downloaded to disk or displayed based on the MIME type returned by the server or other similar criteria.
+- Uploads data from a body stream (as opposed to an NSData object).
+- Limits caching programmatically.
+- Limits HTTP redirects programmatically.
+
+If your app does not need to do any of these things, your app can use the system-provided delegates. Depending on which technique you choose, you should read one of the following sections:
+
+- Life Cycle of a URL Session with System-Provided Delegates : provides a lightweight view of how your code creates and uses a URL session. You should read this section even if you intend to write your own delegate, because it gives you a complete picture of what your code must do to configure the object and use it.
+
+- Life Cycle of a URL Session with Custom Delegates : provides a complete view of every step in the operation of a URL session. You should refer to this section to help you understand how the session interacts with its delegate. In particular, this explains when each of the delegate methods is called.
+
+
+</details>
+
+
+<details><summary>async vs sync</summary></details>
+[GCD vs Q](http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/)
+
+</details>
+
+<details><summary>More</summary>
+1. What is Optional in Swift and nil in Swift and Objective-C?
+2. What are properties and instance variables in Objective-C and Swift?
+3. What is a protocol (both Obj-C and Swift)? When and how is it used?
+4. What is a category/extension? When is it used?
+5. What are closures/blocks and how are they used?
+6. What is MVC?
+7. What are Singletons? What are they used for?
+8. What is Delegate pattern in iOS?
+9. What is KVO (Key-Value Observation)?
+10. What are CGRect Frames? When and where would you use them?
+11. What is AutoLayout? When and where would you use it?
+12. What are compression resistance and content hugging priorities for?
+13. How does AutoLayout work with multi-threading?
+14. What are the advantages and disadvantages of creating AutoLayouts in code versus using storyboards?
+15. How do you work with storyboards in a large team?
+16. How do you mix AutoLayout with Frames?
+17. What options do you have with animation on iOS?
+18. How do you do animation with Frames and AutoLayout?
+19. How do you work with UITableView?
+20. How do you optimize table views performance for smooth, fast scrolling?
+21. How do you work with UICollectionView?
+22. How do you work with UIScrollView?
+23. What is UIStackView? When would you use it and why?
+24. What design patterns are commonly used in iOS apps?
+25. What are SOLID principles? Can you give an example of each in iOS/Swift?
+26. How do you manage dependencies in iOS applications?
+27. What is Functional Programming and Functional Reactive Programming?
+</details> 
