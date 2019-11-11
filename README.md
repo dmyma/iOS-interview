@@ -242,8 +242,6 @@ viewDidDisapear
 <details><summary>What are Singletons? What are they used for?</summary></details>
 <details><summary>What is Delegate pattern in iOS?</summary></details>
 <details><summary>What is KVO (Key-Value Observation)?</summary></details>
-<details><summary>What does iOS application lifecycle consist of?</summary></details>
-<details><summary>What is View Controller? What is its lifecycle?</summary></details>
 <details><summary>What are CGRect Frames? When and where would you use them?</summary></details>
 <details><summary>What is AutoLayout? When and where would you use it?</summary></details>
 <details><summary>What are compression resistance and content hugging priorities for?</summary></details>
