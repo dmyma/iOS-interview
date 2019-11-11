@@ -6,6 +6,7 @@
 * [ON SITE](#on-site)
 -----------
 * [iOS](#iOS)
+* [Patterns](#Patterns)
 -----------
 
 # Preparation
@@ -403,6 +404,10 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 
 
 </details> 
+
+## Patterns 
+[[⬆]](#contents)
+-----------
 
 <img src="designpatterns1.jpg" width="301" height="400">
 <img src="designpatterns2.jpg" width="301" height="400">
