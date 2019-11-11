@@ -353,4 +353,15 @@ If your app does not need to do any of these things, your app can use the system
 25. What are SOLID principles? Can you give an example of each in iOS/Swift?
 26. How do you manage dependencies in iOS applications?
 27. What is Functional Programming and Functional Reactive Programming?
+28. MRC vs ARC? What is it? How does it work? What is the main principle?
+29. Autorelease pool, when? Next drain 
+30. Objective-C properties(strong, weak, copy(which: nscopy protocol to support the , assign ) copy vs assigned
+31. Origin of bounds equals zero(rotate the view or move inside of the super view) like scroll view, frame the same bound change
+32. Problem: small button(put a view on top with Gesture recogniser, bigger button, on set of the button, responderchain(hitTest, property Animator) if the touch inside of the view or outside
+33. What are the ways to animate view(animate, core animation)property animate 
+34. GCD vs NSOperationQueue, dispatch queue which is concurant(, dispatch after do?, where it can be useful , dispatchgroup, dispatch barrier async (only one at a time) , dispatch queue how to synchronize ? Locks
+35. what is deadlock? How to avoid deadlocks 
+
+
+
 </details> 
