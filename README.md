@@ -324,6 +324,43 @@ If your app does not need to do any of these things, your app can use the system
 [GCD vs Q](http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/)
 
 </details>
+<details> 
+  <summary>core data and different threads</summary>
+
+Basic rules are:
+
+Use one NSPersistentStoreCoordinator per program not per thread.
+Create one NSManagedObjectContext per thread.
+Never pass an NSManagedObject on a thread to the other thread.
+Instead, get the object IDs via -objectID and pass it to the other thread.
+More rules:
+
+Make sure you save the object into the store before getting the object ID. Until saved, they're temporary, and you can't access them from another thread.
+And beware of the merge policies if you make changes to the managed objects from more than one thread.
+NSManagedObjectContext's -mergeChangesFromContextDidSaveNotification: is helpful.
+Documentation
+https://cocoacasts.com/core-data-and-concurrency/
+https://www.raywenderlich.com/145877/core-data-tutorial-multiple-managed-object-contexts-2
+</details>
+<details> 
+  <summary> What steps should be accomplish in order to save/fetch an object?  </summary>
+Step 1  —  Describes which entity we are working with. LEts say Person.
+Step 2  —  Create the our Class(PErson) NSManagedObject. The NSManagedObject will be inserted into our managed object context later when saving.
+Step 3  —  Now that we have specified our entity and created a new class(person), we need to save the person’s name. In this case, we use key value coding to set the value for our key, which is specified as “name”.
+Step 4  —  At this point, it’s time to save our managedObjectContext, which persists the data to the store. If an error should occur, we catch it at this point.
+- Fetch
+Step 1  —  Create a fetch request. A fetch request is what we use to fetch data from our Core Data store. A fetch request can be customizable to include only the results or attributes that you need. In our case, we want to fetch all objects from the Person entity.
+Step 2  —  We now try to fetch data from our Core Data store and store it in our managed object context, whose job it is to create a scratchpad of sorts when dealing with managed objects.
+Step 3  —  We have a simple for loop that loops through each result in our fetched items array. At this point, we print out the name of each saved object into the console.
+	
+https://www.codementor.io/codementorteam/core-data-tutorial-saving-and-fetching-pdphdmh50
+https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/CreatingObjects.html
+
+
+Application-(Managed Object Contex(Manage Object))- Persistance storage Coordinator(PS Model) - PS
+</details>
+<details><summary>point(inside:with:) vs hitTest(_:with:)</summary></details>
+<details><summary>NSAttributedString</summary></details>
 
 <details><summary>More</summary>
 1. What is Optional in Swift and nil in Swift and Objective-C?
