@@ -538,6 +538,69 @@ you can use lazy
 So you only need init when a value can’t be set in any of these ways</details>
 
 
+1. <details><summary>let vs var</summary></details>
+2. <details><summary>Collection in Swift</summary></details>
+3. <details><summary>raw Value vs associated</summary></details>
+4. <details><summary>If the app crashes what would you do?</summary></details>
+5. <details><summary>Singleton</summary></details>
+6. <details><summary>Ex. states of the app</summary></details>
+7. <details><summary>Swift vs ObjC</summary></details>
+8. <details><summary>Codable</summary></details>
+9. <details><summary>typles</summary></details>
+10. <details><summary>map, filter, reduce</summary>
+```swift
+	extension Array {
+    func map<T>(_ transform: (Element) -> T) -> [T] {
+        var result: [T] = []
+        for element in self {
+            result.append(transform(element))
+        }
+        return result
+    }
+}
+```
+
+
+```swift
+extension Array {
+    func filter(_ includeElement: (Element) -> Bool) -> [Element] {
+        var result: [Element] = []
+        for element in self where includeElement(element) {
+            result.append(element)
+        }
+        return result
+    }
+}
+```
+
+
+```swift
+extension Array {
+    func reduce<T>(_ initialResult: T, combiner: (T, Element) -> T) -> T {
+        var result: T = initialResult
+        for element in self {
+            result = combiner(result, element)
+        }
+        return result
+    }
+}
+```
+
+</details>
+11. <details><summary>guard</summary></details>
+12. <details><summary>class vs struct</summary></details>
+13. <details><summary>error handling</summary>do, try, catch</details>
+14. <details><summary>closure vs delegate vs notification</summary>
+	* closure only on method
+	* delegate foe an object
+	* notification many to many
+</details>
+
+15. <details><summary>Inheritance vs Composition</summary></details>
+16. <details><summary>Bridge header and @objC</summary></details>
+17. <details><summary>Documentation</summary></details>
+
+
 <details><summary>More</summary>
 1. What is Optional in Swift and nil in Swift and Objective-C?
 2. What are properties and instance variables in Objective-C and Swift?
