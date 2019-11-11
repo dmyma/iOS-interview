@@ -5,7 +5,7 @@
 * [Phone Screen](#phone-screen)
 * [ON SITE](#on-site)
 -----------
-* [Cocoa touch](#cocoa-touch)
+* [iOS](#iOS)
 -----------
 
 # Preparation
@@ -14,14 +14,15 @@
 
 ## Portfolio
 <details><summary>Portfolio</summary>
-http://www.inheritx.com/
-http://100grams.nl/
-http://ios-developer.fr/
-scalsys.com
-http://www.aichtechnologies.com/portfolio.php
-https://ekatsuta.github.io/index.html
+- http://www.inheritx.com/
+- http://100grams.nl/
+- http://ios-developer.fr/
+- scalsys.com
+- http://www.aichtechnologies.com/portfolio.php
+- https://ekatsuta.github.io/index.html
+- [CV](https://www.careercup.com/resume)
 </details>
-[CV](https://www.careercup.com/resume)
+
 ## iOS(swift):
 ### Theory - [swift-book](https://docs.swift.org/swift-book/) 
 ### Practical(swift knowledge) - [swift](https://repl.it/@dmyma/Swift-knowledge) 
@@ -276,8 +277,7 @@ NSOperation:
 8. If you don’t want to use an operation queue, you can also execute an operation by calling its start method. It may make your code too complex.
 </details> 
 
-  <summary>What's the difference between synchronous and asynchronous connections?</summary>
-  Do not freeze the app, canceletion, authentication, it's impossible to parse data on the fly</details>
+  
   <details><summary> Explain NSURLSession?</summary>
   The NSURLSession class and related classes provide an API for downloading content via HTTP. This API provides a rich set of delegate methods for supporting authentication and gives your app the ability to perform background downloads when your app is not running or, in iOS, while your app is suspended.
 
@@ -320,7 +320,7 @@ If your app does not need to do any of these things, your app can use the system
 </details>
 
 
-<details><summary>async vs sync</summary></details>
+<details><summary>async vs sync</summary>
 [GCD vs Q](http://www.knowstack.com/swift-3-1-concurrency-operation-queue-grand-central-dispatch/)
 
 </details>
