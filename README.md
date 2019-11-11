@@ -364,6 +364,180 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 <details><summary>point(inside:with:) vs hitTest(_:with:)</summary></details>
 <details><summary>NSAttributedString</summary></details>
 
+<details><summary>Swift futures</summary>
+Fast and concise iteration over a range or collection
+Structs that support methods, extensions, and protocols
+Functional programming patterns, e.g., map and filter
+Powerful error handling built-in
+Advanced control flow with do, guard, defer, and repeat keywords
+</details>
+<details><summary>nil in Swift vs nil in Objective-C? Difference?</summary>
+In defintion terms:
+
+Swift optional variable is an enum, which can have nil as a value, where as objective variable is a pointer, where nil represents, it is pointing no where.
+
+In Usage terms:
+
+Both are somewhat similar in the sense,
+
+that both variables having nil value on messaging any method returns nil
+
+Optional chaining in Swift is similar to messaging nil in Objective-C, but in a way that works for any type, and that can be checked for success or failure.
+But in Safety Checking, Swift optional is the winner
+
+As compiler does many type checking for you already, Ex. non optional parameter can't accept optional, thus you will need to unwrap it by first checking it for nil Or when you you cast any variable, it always returns an optional, thus again a safety feature at compiler level</details>
+
+<details> 
+  <summary> What’s the difference between the frame and the bounds? </summary>
+   The bounds of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to its own coordinate system (0,0). 
+The frame of an UIView is the rectangle, expressed as a location (x,y) and size (width,height) relative to the superview it is contained within.
+</details>
+
+
+<details> 
+  <summary> What is the use of controller object UIApplication?</summary>
+Controller object UIApplication is used without subclassing to manage the application event loop.
+It coordinates other high-level app behaviors. 
+It works along with the app delegate object which contains app-level logic.
+</details>
+
+<details> 
+  <summary> Which object is create by UIApplicationMain function at app launch time?</summary>
+The app delegate object is created by UIApplicationMain function at app launch time. The app delegate object's main job is to handle state transitions within the app.
+</details>
+
+<details> 
+  <summary> How is the app delegate is declared by Xcode project templates?</summary>
+App delegate is declared as a subclass of UIResponder by Xcode project templates.
+</details>
+
+<details> 
+  <summary> What happens if IApplication object does not handle an event?</summary>
+In such case the event will be dispatched to your app delegate for processing.
+</details>
+
+<details> 
+  <summary> Which app specific objects store the app's content?</summary>
+Data model objects are app specific objects and store app’s content. Apps can also use document objects to manage some or all of their data model objects.
+</details>
+
+<details> 
+  <summary> Are document objects required for an application? What does they offer?</summary>
+Document objects are not required but are very useful in grouping data that belongs in a single file or file package.
+</details>
+
+<details> 
+  <summary>  Which object manage the presentation of app's content on the screen?</summary>
+View controller objects takes care of the presentation of app's content on the screen. A view controller is used to manage a single view along with the collection of subviews. It makes its views visible by installing them in the app’s window.
+</details>
+
+<details> 
+  <summary> Which is the super class of all view controller objects?</summary>
+UIViewController class. The functionality for loading views, presenting them, rotating them in response to device rotations, and several other standard system behaviors are provided by UIViewController class.
+</details>
+
+<details> 
+  <summary> What is the purpose of UIWindow object?</summary>
+The presentation of one or more views on a screen is coordinated by UIWindow object.
+</details>
+
+
+<details> 
+  <summary>When an app is said to be in not running state? </summary>
+An app is said to be in 'not running' state when: 
+- it is not launched. 
+- it gets terminated by the system during running.
+</details>
+
+<details> 
+  <summary>Assume that your app is running in the foreground but is currently not receiving events. In which sate it would be in? </summary>
+An app will be in InActive state if it is running in the foreground but is currently not receiving events. An app stays in InActive state only briefly as it transitions to a different state.
+</details>
+
+<details> 
+  <summary>Give example scenarios when an application goes into InActive state? </summary>
+An app can get into InActive state when the user locks the screen or the system prompts the user to respond to some event e.g. SMS message, incoming call etc.
+</details>
+
+<details> 
+  <summary>When an app is said to be in active state? </summary>
+An app is said to be in active state when it is running in foreground and is receiving events.
+</details>
+
+<details> 
+  <summary> Name the app sate which it reaches briefly on its way to being suspended. </summary>
+An app enters background state briefly on its way to being suspended.
+</details>
+
+<details> 
+  <summary> Assume that an app is not in foreground but is still executing code. In which state will it be in? </summary>
+Background state.
+</details>
+
+<details> 
+  <summary>An app is loaded into memory but is not executing any code. In which state will it be in? </summary>
+An app is said to be in suspended state when it is still in memory but is not executing any code.
+</details>
+
+<details> 
+  <summary>Assume that system is running low on memory. What can system do for suspended apps? </summary>
+In case system is running low on memory, the system may purge suspended apps without notice.
+</details>
+
+<details> 
+  <summary>How can you respond to state transitions on your app? </summary>
+On state transitions can be responded to state changes in an appropriate way by calling corresponding methods on app's delegate object.
+
+applicationDidBecomeActive method can be used to prepare to run as the foreground app. 
+applicationDidEnterBackground method can be used to execute some code when app is running in the background and may be suspended at any time. 
+applicationWillEnterForeground method can be used to execute some code when your app is moving out of the background 
+applicationWillTerminate method is called when your app is being terminated.
+</details>
+
+<details> 
+  <summary>List down app's state transitions when it gets launched. </summary>
+Before the launch of an app, it is said to be in not running state.
+When an app is launched, it moves to the active or background state, after transitioning briefly through the inactive state.
+</details>
+
+<details> 
+  <summary>Who calls the main function of you app during the app launch cycle? </summary>
+During app launching, the system creates a main thread for the app and calls the app’s main function on that main thread. The Xcode project's default main function hands over control to the UIKit framework, which takes care of initializing the app before it is run.
+</details>
+
+
+
+<details> 
+  <summary> Define view object.</summary>
+Views along with controls are used to provide visual representation of the app content. View is an object that draws content in a designated rectangular area and it responds to events within that area.
+</details>
+
+
+<details> 
+  <summary> Apart from incorporating views and controls, what else an app can incorporate?</summary>
+Apart from incorporating views and controls, an app can also incorporate Core Animation layers into its view and control hierarchies.
+</details>
+
+<details> 
+  <summary> What are layer objects and what do they represent?</summary>
+Layer objects are data objects which represent visual content. Layer objects are used by views to render their content. Custom layer objects can also be added to the interface to implement complex animations and other types of sophisticated visual effects.
+</details>
+
+<details> 
+  <summary> What are the levels of privacy in swift 3?</summary>
+
+
+
+Swift 3 has five levels of privacy: internal The default rule is that declarations are  internal, meaning that they are globally visible to  all code in all  files  within the containing module.  That is why Swift files within the same module can see one another’s top-level contents  automatically, with no effort on your part. (That’s different from C and Objective-C, where files can’t see each other at all unless you explicitly show them to one another through include  or  import  statements.) fileprivate  (narrower than  internal) A thing declared  fileprivate  is visible  only within its containing  file.  For example, two object types declared in the same file can see one another’s members declared  fileprivate, but code in other files cannot see those members. private  (even narrower than  fileprivate) A thing declared  private  is visible  only within its containing curly braces. In effect, the visibility of an object type’s member declared  private  is limited to code within this class declaration. (A  private  declaration at the top level of a file is equivalent to  fileprivate.) public  (wider than  internal) A thing declared  public  is visible  even outside its containing module.  Another module must first import this module before it can see anything at all. But once another module  has  imported this module, it still won’t be able to see anything in this module that hasn’t been explicitly declared public. If you don’t write any modules, you might never need to declare anything public. If you do write a module, you  must  declare  something  public, or your module is useless. open  (even wider than  public) If a class is declared  open, code in another module can subclass it; it can’t do that if the class is declared merely  public. If an open class member is declared  open, code in another module that subclasses this class can override
+</details>
+
+<details><summary>When init method needed?</summary>
+init method are not so common because properties can have their defaults set using =
+or properties can be optionals
+you can use lazy
+So you only need init when a value can’t be set in any of these ways</details>
+
+
 <details><summary>More</summary>
 1. What is Optional in Swift and nil in Swift and Objective-C?
 2. What are properties and instance variables in Objective-C and Swift?
@@ -400,9 +574,6 @@ Application-(Managed Object Contex(Manage Object))- Persistance storage Coordina
 33. What are the ways to animate view(animate, core animation)property animate 
 34. GCD vs NSOperationQueue, dispatch queue which is concurant(, dispatch after do?, where it can be useful , dispatchgroup, dispatch barrier async (only one at a time) , dispatch queue how to synchronize ? Locks
 35. what is deadlock? How to avoid deadlocks 
-
-
-
 </details> 
 
 ## Patterns 
