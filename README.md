@@ -7,6 +7,7 @@
 -----------
 * [iOS](#iOS)
 * [Patterns](#Patterns)
+* [Extra](#Extra)
 -----------
 
 # Preparation
@@ -1601,4 +1602,81 @@ Polymorphism - the capability to provide multiple implementations of an action a
 http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
 </details>
 
+
+
+## Extra 
+[[⬆]](#contents)
+-----------
+
+
+<details><summary>
+	
+	
+	
+	Git 
+</summary>
+
+
+git clone -b <BRANCH NAME> <REPO NAME>
+
+git checkout -b “<BRANCH NAME>” — specific feature
+git checkout <branch name>
+
+git checkout <BRANCH NAME>
+git pull origin <BRANCH NAME> :wq
+https://apple.stackexchange.com/questions/252541/how-do-i-escape-the-git-commit-window-from-os-x-terminal
+
+git checkout  <BRANCH NAME>
+git rebase <BRANCH NAME>
+
+git push origin <branch name>
+git push  <REMOTENAME> <BRANCH NAME>
+
+git push <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME> 
+
+merge request
+
+git checkout master
+git merge origin/master --allow-unrelated-histories
+
+git add -A .
+git commit -m "Upload"
+git push
+
+git reset --hard <commit>
+git push --force
+
+git tag v1.1.1
+====
+git fetch
+git checkout -b temp origin/bugfix
+git checkout dm_branch
+git log -1
+
+git stash
+
+git show
+git reset —hard “commit hash”
+merge toolmaster?
+
+git mergetool -t opendiff
+
+
+- git clone -b <BRANCH NAME> <REPO NAME>
+
+- git checkout -b “<BRANCH NAME>” — specific feature
+- git checkout <branch name>
+
+- git checkout <BRANCH NAME>
+- git pull origin <BRANCH NAME>
+- git checkout  <BRANCH NAME>
+- git rebase <BRANCH NAME>
+
+- git push origin <branch name>
+- git push  <REMOTENAME> <BRANCH NAME>
+
+- git push <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME> 
+
+- merge request
+</details>
 
