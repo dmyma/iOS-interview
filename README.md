@@ -50,6 +50,7 @@
 
 ## System Design / Object Oriented Design - [premier](https://github.com/donnemartin/system-design-primer)
 ### System Design
+- [CC](https://www.careercup.com/)
 - [101](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
 - [pramp](https://github.com/donnemartin/system-design-primer)
 - [GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
