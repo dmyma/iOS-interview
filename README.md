@@ -51,14 +51,21 @@
 
 ## System Design / Object Oriented Design - [premier](https://github.com/donnemartin/system-design-primer)
 ### System Design
+- [Premier](https://github.com/donnemartin/system-design-primer)
 - [CC](https://www.careercup.com/)
 - [101](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
 - [pramp](https://github.com/donnemartin/system-design-primer)
 - [GSDI](https://www.educative.io/collection/5668639101419520/5649050225344512)
 - [youtube](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
 - [youtube2](https://www.youtube.com/watch?v=jItLuOTsCX4)
+- [youtube3](https://www.youtube.com/watch?v=iJLL-KPqBpM)
 - [HT](https://www.hiredintech.com/courses/system-design)
 - [HS](http://highscalability.com/)
+- [FB](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
+- [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+- [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+- [Am](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+
 
 ### Object Oriented Design:
 - [GOOPI](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
