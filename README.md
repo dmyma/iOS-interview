@@ -63,8 +63,14 @@
 - [HS](http://highscalability.com/)
 - [FB](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
 - [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-- [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-- [Am](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+
+| #  | #   | #     | 
+| -------------   | ------------- | ------------- |  
+| [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)  | [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)  | [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |
+|  [Consistent Hashing](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)    | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)            | [Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)   |
+| [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |[RabbitMQ]()      | [Memecache]()   | 
+| [Redis]()       |   [AWS]()            | 	[Cassandra]()	      |         
+
 
 
 ### Object Oriented Design:
