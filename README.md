@@ -65,12 +65,14 @@
 - [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
 
 | #  | #   | #     | 
-| -------------   | ------------- | ------------- |  
-| [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)  | [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)  | [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |
-|  [Consistent Hashing](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)    | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)            | [Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)   |
-| [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |[RabbitMQ]()      | [Memecache]()   | 
-| [Redis]()       |   [AWS]()            | 	[Cassandra]()	      |         
-|[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|||
+| -------------   | ------------- | ------------- | 
+|   [AWS]()            | 	[Cassandra]()	       | [Memcached]()   |
+| [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |  [RabbitMQ/Redis](https://otonomo.io/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/)  | |
+| [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)  | [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)  
+|  [Consistent Hashing](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)    | 
+|[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|[Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)  ||
+| [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)  | [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |               |
+
 
 
 ### Object Oriented Design:
