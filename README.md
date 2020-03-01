@@ -70,7 +70,7 @@
 |  [Consistent Hashing](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)    | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)            | [Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)   |
 | [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |[RabbitMQ]()      | [Memecache]()   | 
 | [Redis]()       |   [AWS]()            | 	[Cassandra]()	      |         
-
+|[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|||
 
 
 ### Object Oriented Design:
