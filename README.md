@@ -71,7 +71,7 @@
 | [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |  [RabbitMQ/Redis](https://otonomo.io/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/)  | |
 |[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|[Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)  ||
 | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)  | [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |    [Sync](http://engineering.nyu.edu/~suel/papers/recon.pdf) [Sync](https://pdos.csail.mit.edu/papers/lbfs:sosp01/lbfs.pdf)           |
-
+| ElasticSearch  | GraphQL | Docker | 
 
 
 ### Object Oriented Design:
