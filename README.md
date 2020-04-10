@@ -68,7 +68,7 @@
 | -------------   | ------------- | ------------- | 
 |   [AWS]()            | 	[Cassandra/MongoDB](https://db-engines.com/en/system/Cassandra%3BMongoDB%3BRedis)	       | [Memcached/Redis](https://www.alibabacloud.com/blog/redis-vs-memcached-in-memory-data-storage-systems_592091?gclid=EAIaIQobChMIkpK-qO-u6AIVFsJkCh03qA36EAAYASAAEgL5j_D_BwE)   |
 | [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)  | [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)  |  [Consistent Hashing](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)    | 
-| [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |  [RabbitMQ/Redis](https://otonomo.io/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/)  | |
+| [Kafka](http://notes.stephenholiday.com/Kafka.pdf)    |  [RabbitMQ/Redis](https://otonomo.io/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/)  | [Connection](https://www.smashingmagazine.com/2018/02/sse-websockets-data-flow-http2/) |
 |[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|[Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)  |Snowflake|
 | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)  | [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |    [Sync](http://engineering.nyu.edu/~suel/papers/recon.pdf) [Sync](https://pdos.csail.mit.edu/papers/lbfs:sosp01/lbfs.pdf)           |
 | ElasticSearch  | GraphQL | Docker | 
