@@ -14,6 +14,9 @@
 [[⬆]](#contents)
 -----------
 
+## Before Inteview 
+| [ALg+Repl](https://leetcode.com/) | [DP](https://www.geeksforgeeks.org/dynamic-programming/) | [SDp](https://github.com/donnemartin/system-design-primer) | [SDy](https://www.youtube.com/watch?v=iJLL-KPqBpM) | [SDg](https://www.educative.io/courses/grokking-the-system-design-interview) | [OOD](https://www.educative.io/courses/grokking-the-object-oriented-design-interview) | 
+
 ## Portfolio
 <details><summary>Portfolio</summary>
 1. http://www.inheritx.com/
