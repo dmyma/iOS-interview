@@ -1785,42 +1785,6 @@ http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
 - git rebase <BRANCH NAME>
 </details>
 
-### More  
-[[⬆]](#contents)
-1. http://www.geekinterview.com/Interview-Questions/iOS
-2. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
-3. https://www.linkedin.com/groups/121874/121874-6146133293344579586
-4. https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
-5. https://github.com/ochococo/Design-Patterns-In-Swift#creational
-6. https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
-7. https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
-8. https://github.com/durul/My-Medium-Articles
-9. https://github.com/5uper0/ios-science
-10. http://www.geekinterview.com/Interview-Questions/iOS
-11. https://www.glassdoor.com/Interview/san-francisco-ios-developer-interview-questions-SRCH_IL.0,13_IM759_KO14,27_SDRD.htm
-12. https://www.codementor.io/hajderrabiee/basic-swift-interview-questions-job-junior-developer-omuqax3ab
-13. http://martiancraft.com/blog/2016/10/interview-tips/
-14. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
-15. https://sourcemaking.com/
-16. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
-17. https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0
-18. https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
-19. https://docs.google.com/document/d/1tIyrbbTAzeiwMO0Fshfh2PQNPDZ7cuunCPiu1vnc8Ic/edit
-20. https://paulhanna1933.github.io/
-21. https://medium.com/better-programming/how-to-write-an-ios-developer-resume-that-will-land-you-an-interview-43cf66c6d4fa
-22. https://uxplanet.org/ux-design-portfolios-best-practices-8676e6a72ab
-23. https://www.raywenderlich.com/862-top-8-programmer-hobbies
-24. https://resume.creddle.io/resume/5n9dp9okfvo 
-25. https://github.com/NirantK/awesome-project-ideas
-26. https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
-27. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
-28. https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25
-29. [Company](https://github.com/algerrnon/noway)
-30. [Company2](https://people.neilon.software/?fbclid=IwAR0XnIe8AhIE4pmeyjyYf5AnKYrPdAXf5SGwHhslZhg0-Euktu6fdvfytXc)
-31. [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
-32. [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
-33. [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
-34. [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
 
 ## Libraries   
 [[⬆]](#contents)
@@ -1858,4 +1822,39 @@ Open Source  commits(Fork, Clone, Branch, Change, Push) [link1](https://www.nata
 5. Rails, Node.js, GO, Python, Scala
 6. React.js
 
-
+### More  
+[[⬆]](#contents)
+1. http://www.geekinterview.com/Interview-Questions/iOS
+2. http://way2ios.com/development/ios-development-2/ios-interview-questions-with-answers/
+3. https://www.linkedin.com/groups/121874/121874-6146133293344579586
+4. https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f
+5. https://github.com/ochococo/Design-Patterns-In-Swift#creational
+6. https://github.com/soapyigu/LeetCode_Swift/blob/master/README.md
+7. https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#general
+8. https://github.com/durul/My-Medium-Articles
+9. https://github.com/5uper0/ios-science
+10. http://www.geekinterview.com/Interview-Questions/iOS
+11. https://www.glassdoor.com/Interview/san-francisco-ios-developer-interview-questions-SRCH_IL.0,13_IM759_KO14,27_SDRD.htm
+12. https://www.codementor.io/hajderrabiee/basic-swift-interview-questions-job-junior-developer-omuqax3ab
+13. http://martiancraft.com/blog/2016/10/interview-tips/
+14. https://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html
+15. https://sourcemaking.com/
+16. https://medium.freecodecamp.org/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
+17. https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0
+18. https://medium.com/@jamesrochabrun/parsing-json-response-and-save-it-in-coredata-step-by-step-fb58fc6ce16f
+19. https://docs.google.com/document/d/1tIyrbbTAzeiwMO0Fshfh2PQNPDZ7cuunCPiu1vnc8Ic/edit
+20. https://paulhanna1933.github.io/
+21. https://medium.com/better-programming/how-to-write-an-ios-developer-resume-that-will-land-you-an-interview-43cf66c6d4fa
+22. https://uxplanet.org/ux-design-portfolios-best-practices-8676e6a72ab
+23. https://www.raywenderlich.com/862-top-8-programmer-hobbies
+24. https://resume.creddle.io/resume/5n9dp9okfvo 
+25. https://github.com/NirantK/awesome-project-ideas
+26. https://medium.freecodecamp.com/how-i-learned-to-code-and-earned-a-job-in-silicon-valley-changing-my-life-along-the-way-a3af854855fa
+27. https://medium.freecodecamp.com/how-i-left-my-consulting-career-behind-and-broke-into-tech-36ea0c1a0407
+28. https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25
+29. [Company](https://github.com/algerrnon/noway)
+30. [Company2](https://people.neilon.software/?fbclid=IwAR0XnIe8AhIE4pmeyjyYf5AnKYrPdAXf5SGwHhslZhg0-Euktu6fdvfytXc)
+31. [lvl](https://github.com/bohdanorlov/ios-skills-matrix)
+32. [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
+33. [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
+34. [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
