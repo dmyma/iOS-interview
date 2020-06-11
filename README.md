@@ -1815,14 +1815,26 @@ Open Source  commits(Fork, Clone, Branch, Change, Push) [link1](https://www.nata
 | [5](https://github.com/radex/SwiftyUserDefaults/issues)    | test  | |
 
 
-### Add to your portfolio
+### Skills
 
-1. iOS(Swift, Objective-C, C++)
-2. Android(Kotlin, Java)
-3. ReactNative(js)
-4. Xamarin(C#)
-5. Rails, Node.js, GO, Python, Scala
-6. React.js
+Mobile:
+- iOS(Swift, Objective-C, C++) RxSwift, Alamofire | ShiftUI, Combine
+- Android(Kotlin, Java) RxJava, Retrofite | Coroutines
+- ReactNative
+- Flutter
+- Xamarin
+
+FE:
+- React
+- Vue
+- Angular
+- Elm
+
+BE:
+-  Node, Java, Python, Rails, Go, Elixir, Rust, Scala
+
+DB:
+- postsql, mongoDB, AWS
 
 ### More  
 [[⬆]](#contents)
