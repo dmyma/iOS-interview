@@ -1817,6 +1817,10 @@ Open Source  commits(Fork, Clone, Branch, Change, Push) [link1](https://www.nata
 
 ### Skills
 
+Stack
+1. Swift, node, python, React, Kotlin, AWS
+2. Java, Go, Rn, Vue, typescript, Flutter
+
 Mobile:
 - iOS(Swift, Objective-C, C++) RxSwift, Alamofire | ShiftUI, Combine
 - Android(Kotlin, Java) RxJava, Retrofite | Coroutines
