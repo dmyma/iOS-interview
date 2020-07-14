@@ -66,6 +66,7 @@
 - [HS](http://highscalability.com/)
 - [FB](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
 - [Goo](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+- [Web Scalability for Startup Engineers](https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655)
 
 | #  | #   | #     | 
 | -------------   | ------------- | ------------- | 
