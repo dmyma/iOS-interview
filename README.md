@@ -76,6 +76,7 @@
 |[Gluster](https://en.wikipedia.org/wiki/Gluster#GlusterFS)|[Hadoop](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf)  |Snowflake|
 | [Gossip protocol](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)  | [ZooKeper](https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf)           |    [Sync](http://engineering.nyu.edu/~suel/papers/recon.pdf) [Sync](https://pdos.csail.mit.edu/papers/lbfs:sosp01/lbfs.pdf)           |
 | ElasticSearch  | GraphQL | Docker | 
+|nginx haproxy | | |
 
 
 ### Object Oriented Design:
