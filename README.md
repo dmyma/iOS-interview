@@ -31,7 +31,7 @@
 ## iOS(swift):
 ### Theory - [swift-book](https://docs.swift.org/swift-book/) [quiz](https://www.hackingwithswift.com/test)
 ### Practical(swift knowledge) - [swift](https://repl.it/@dmyma/Swift-knowledge) 
-### Practical(iOS knowledge) - [raywenderlich.com/](https://www.raywenderlich.com/)
+### Practical(iOS knowledge) - [raywenderlich.com/](https://www.raywenderlich.com/10625296-navigating-the-ios-interview)
 
 ## Data Structures and Algorythms - [leetcode](leetcode.com)
 ### Alg:
