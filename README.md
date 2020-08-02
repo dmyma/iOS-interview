@@ -193,6 +193,7 @@ Usually there are two questions and each can have a follow up.
 19. Huffman coding
 20. Korasaju's
 21. De Bruijn sequence
+22. Gale–Shapley
 
 ## Behavioral
 1. Tell me a project you have worked that you found out it could be much bigger after you started working on this
