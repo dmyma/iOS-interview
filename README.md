@@ -100,7 +100,7 @@
 ## Theory
 1. class vs struct
 2. frame vs bounds + scroll view
-3. GCD vs NSOperationQueue(async, sync, gcd, queues, operations, threades)
+3. GCD vs NSOperationQueue(async, sync, gcd, queues, operations, threades) [link](https://stackoverflow.com/questions/21122842/whats-the-difference-between-synchronous-and-asynchronous-calls-in-objective-c#:~:text=swift%203%2C%204%2C%204%2C,task%20to%20finish%20before%20continuing.&text=Asynchronous%20means%20that%20Completes%20a,means%20it%20will%20not%20wait.) [link](https://stackoverflow.com/questions/40764140/operationqueue-main-vs-dispatchqueue-main/40764666#:~:text=DispatchQueue%20manages%20the%20execution%20of,threads%20managed%20by%20the%20system.&text=The%20NSOperationQueue%20class%20regulates%20the%20execution%20of%20a%20set%20of%20Operation%20objects.&text=An%20application%20may%20create%20multiple,operations%20to%20any%20of%20them.) [link](https://stackoverflow.com/questions/49286984/accessing-main-queue-via-dispatchgroup-vs-dispatchqueue)
 4. MVVM vs MVC vs MVP vs Viper
 5. ARC + ObjC
 6. App LifeCycle, View LifeCycle
