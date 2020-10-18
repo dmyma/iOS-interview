@@ -198,6 +198,7 @@ Usually there are two questions and each can have a follow up.
 24. Manacher's Algorithm
 25. Moore’s Voting Algorithm)
 26. Fenwick tree
+27. Booth's
 
 ## Behavioral
 1. Tell me a project you have worked that you found out it could be much bigger after you started working on this
