@@ -186,20 +186,23 @@ Usually there are two questions and each can have a follow up.
 12. Merge Intervals
 13. In-place reversal of linked list
 14. Heaps
-15. Topological sort: MST, Prim(min), Kruskal(connected)
-16. Union Find
-17. Shortest Path: Dijkstra, Bellman Ford(n-1), Floyd Warshall(all), Johnson, A* star 
-18. Kaddan 
-19. Huffman coding
-20. Korasaju's
-21. De Bruijn sequence
-22. Gale–Shapley
-23. Fisher-Yates shuffle
-24. Manacher's Algorithm
-25. Moore’s Voting Algorithm)
-26. Fenwick tree
-27. Booth's
-28. Hungarian Algorithm
+15. Topological sort: Kahn's Algorithm
+16. MST: Prim(min), Kruskal(connected)
+17. Union Find
+18. Shortest Path: Dijkstra, Bellman Ford(n-1), Floyd Warshall(all), Johnson, A* star 
+19. Kaddan 
+20. Huffman coding
+21. Korasaju's
+22. De Bruijn sequence
+23. Gale–Shapley
+24. Fisher-Yates shuffle
+25. Manacher's Algorithm
+26. Moore’s Voting Algorithm)
+27. Fenwick tree
+28. Booth's
+29. Hungarian Algorithm
+30. Line sweep
+31. Prefix sum
 
 ## Behavioral
 1. Tell me a project you have worked that you found out it could be much bigger after you started working on this
