@@ -1806,7 +1806,7 @@ http://gexiaoguo.github.io/MVC,-MVP-and-MVVM/
 1. Alamofire - Networking
 2. HUB - state
 3. RxSwift - FP
-4. SwiftyJSON - Parcing
+4. SwiftyJSON - Parsing
 5. Nimble, Quick - Test
 6. REALM - DB
 7. Lottie - Animation
