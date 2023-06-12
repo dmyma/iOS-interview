@@ -1681,7 +1681,7 @@ extension Array {
 31. Origin of bounds equals zero(rotate the view or move inside of the super view) like scroll view, frame the same bound change
 32. Problem: small button(put a view on top with Gesture recogniser, bigger button, on set of the button, responderchain(hitTest, property Animator) if the touch inside of the view or outside
 33. What are the ways to animate view(animate, core animation)property animate 
-34. GCD vs NSOperationQueue, dispatch queue which is concurant(, dispatch after do?, where it can be useful , dispatchgroup, dispatch barrier async (only one at a time) , dispatch queue how to synchronize ? Locks
+34. GCD vs NSOperationQueue, dispatch queue which is concurrent(, dispatch after do?, where it can be useful , dispatchgroup, dispatch barrier async (only one at a time) , dispatch queue how to synchronize ? Locks
 35. what is deadlock? How to avoid deadlocks 
 </details> 
 
