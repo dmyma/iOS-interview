@@ -90,7 +90,7 @@
 - STAR about the project and people
 ### ASK [Ask](https://angel.co/blog/30-questions-to-ask-before-joining-a-startup)
 - What is normal day look like?
-- How do you decide if someone is doing a good job or vice-verca?
+- How do you decide if someone is doing a good job or vice versa?
 - Why did you choose this company?
 
 # Phone Screen
