@@ -1888,3 +1888,5 @@ DB:
 32. [clear code](https://github.com/sergdort/CleanArchitectureRxSwift)
 33. [interview prep1](https://engineering.pandora.com/engineering-interviews-at-pandora-eb339d80afc0)
 34. [interview prep2](https://blog.usejournal.com/a-complete-guide-to-getting-hired-as-an-ios-developer-in-2018-d7dcf50dc25)
+35. [Staff Eng experience](https://leetcode.com/discuss/interview-experience/906579/Staff-Eng-or-FacebookAirbnbPinterestSquareStripeByteDance-or-San-Francisco-or-Sept-2020-or-Offers)
+36. [5 top companies](https://medium.com/@XiaohanZeng/i-interviewed-at-five-top-companies-in-silicon-valley-in-five-days-and-luckily-got-five-job-offers-25178cf74e0f)
